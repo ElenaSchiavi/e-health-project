@@ -17,5 +17,5 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: a803b67a100cfbc4a8618fbd6153957f, type: 2}
   - text: adesso vado in bagno
     speaker: {fileID: 11400000, guid: a803b67a100cfbc4a8618fbd6153957f, type: 2}
-  background: {fileID: 0}
+  background: {fileID: -1115078947066085701, guid: a60aabecde20e8b45a7a33a5fa0d7705, type: 3}
   nextScene: {fileID: 0}

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AS - Coffee-machine @work_0: -6071042529173527747
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

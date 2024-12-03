@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AS - RedCross HQ_0: -6466710655360213536
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AS - Outside Workplace_0: 5007541786727837503
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
