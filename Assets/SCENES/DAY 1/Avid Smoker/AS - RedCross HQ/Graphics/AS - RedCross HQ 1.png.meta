@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4562a7c96eefebd44ac21abda0f5dc2f
+guid: 941de28092e7e2248bd9ebf013367a99
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1035732748588412111
-    second: AS - Kitchen_0
+      213: -6466710655360213536
+    second: AS - RedCross HQ_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AS - Kitchen_0
+      name: AS - RedCross HQ_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 1024
-        height: 1024
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 133162e7d8650a1f0800000000000000
-      internalID: -1035732748588412111
+      spriteID: 0ed550acbe0a146a0800000000000000
+      internalID: -6466710655360213536
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AS - Kitchen_0: -1035732748588412111
+      AS - RedCross HQ_0: -6466710655360213536
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

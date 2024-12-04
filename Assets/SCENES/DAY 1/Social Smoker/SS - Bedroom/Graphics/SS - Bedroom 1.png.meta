@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 969c2391cc2307842b2d85bb692de2da
+guid: 57a871511ec3af64399b39c3a29ec271
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8737889007329829035
-    second: AS - Home balcony_0
+      213: 7718343998813040722
+    second: SS - Bedroom_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AS - Home balcony_0
+      name: SS - Bedroom_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 1024
-        height: 1024
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba06fa0c1c7334970800000000000000
-      internalID: 8737889007329829035
+      spriteID: 250f48f29f01d1b60800000000000000
+      internalID: 7718343998813040722
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AS - Home balcony_0: 8737889007329829035
+      SS - Bedroom_0: 7718343998813040722
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

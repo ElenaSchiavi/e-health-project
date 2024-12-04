@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 647af606659f46545965a03fe7c0bfec
+guid: 10a656821d618604d9b0b72c27b32c70
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5007541786727837503
-    second: AS - Outside Workplace_0
+      213: 2630745925096206153
+    second: SS - Balcony_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AS - Outside Workplace_0
+      name: SS - Balcony_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 1024
-        height: 1024
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3f66d359bc5e7540800000000000000
-      internalID: 5007541786727837503
+      spriteID: 94f6aa70b79428420800000000000000
+      internalID: 2630745925096206153
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      AS - Outside Workplace_0: 5007541786727837503
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

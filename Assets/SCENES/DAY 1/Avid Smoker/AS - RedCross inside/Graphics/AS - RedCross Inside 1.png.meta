@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 84fa82b763e824f40bf39753fe239101
+guid: d2cd1ce7008883048ad83e10323e64ce
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6071042529173527747
-    second: AS - Coffee-machine @work_0
+      213: -95010811428457270
+    second: AS - RedCross Inside_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AS - Coffee-machine @work_0
+      name: AS - RedCross Inside_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 1024
-        height: 1024
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d33a2584cf25fbba0800000000000000
-      internalID: -6071042529173527747
+      spriteID: ac43cfe9b247eaef0800000000000000
+      internalID: -95010811428457270
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AS - Coffee-machine @work_0: -6071042529173527747
+      AS - RedCross Inside_0: -95010811428457270
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

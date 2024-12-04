@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e9ac04b9fc1b65e4193299cae4235bf4
+guid: 430ae750438ced14f9f87350e0fe1e5d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2261115959605355766
-    second: AS - Balcony_0
+      213: -7581785680770470073
+    second: AS - Ambulance_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AS - Balcony_0
+      name: AS - Ambulance_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 1024
-        height: 1024
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0b91cfb307ee90e0800000000000000
-      internalID: -2261115959605355766
+      spriteID: 74f6886e71618c690800000000000000
+      internalID: -7581785680770470073
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AS - Balcony_0: -2261115959605355766
+      AS - Ambulance_0: -7581785680770470073
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

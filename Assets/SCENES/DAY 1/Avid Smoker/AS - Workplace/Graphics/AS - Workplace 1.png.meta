@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fd6b35b9d86b48145a98cf5bc7bf3b2b
+guid: 12b36f3897ce2e04783a464129ad0ca9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7581785680770470073
-    second: AS - Ambulance_0
+      213: -8258702390102935590
+    second: AS - Workplace_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AS - Ambulance_0
+      name: AS - Workplace_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 1024
-        height: 1024
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74f6886e71618c690800000000000000
-      internalID: -7581785680770470073
+      spriteID: ad7be34cee1336d80800000000000000
+      internalID: -8258702390102935590
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AS - Ambulance_0: -7581785680770470073
+      AS - Workplace_0: -8258702390102935590
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

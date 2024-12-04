@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6da7e44c996408648aa1540d984738d6
+guid: 839822370583b1a44adf425fc86f36a9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7718343998813040722
-    second: SS - Bedroom_0
+      213: -6071042529173527747
+    second: AS - Coffee-machine @work_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SS - Bedroom_0
+      name: AS - Coffee-machine @work_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 1024
-        height: 1024
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 250f48f29f01d1b60800000000000000
-      internalID: 7718343998813040722
+      spriteID: d33a2584cf25fbba0800000000000000
+      internalID: -6071042529173527747
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SS - Bedroom_0: 7718343998813040722
+      AS - Coffee-machine @work_0: -6071042529173527747
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

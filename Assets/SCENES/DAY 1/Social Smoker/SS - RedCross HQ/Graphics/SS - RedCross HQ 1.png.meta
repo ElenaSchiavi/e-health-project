@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e0819f345e82a954e991d12f991d8b8b
+guid: 163aa7b42d136354ab6e263c7ca58cfd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -95010811428457270
-    second: AS - RedCross Inside_0
+      213: -6466710655360213536
+    second: AS - RedCross HQ_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AS - RedCross Inside_0
+      name: AS - RedCross HQ_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 1024
-        height: 1024
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac43cfe9b247eaef0800000000000000
-      internalID: -95010811428457270
+      spriteID: 0ed550acbe0a146a0800000000000000
+      internalID: -6466710655360213536
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AS - RedCross Inside_0: -95010811428457270
+      AS - RedCross HQ_0: -6466710655360213536
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
