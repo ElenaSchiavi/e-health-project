@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AS - Home balcony_0: 8737889007329829035
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
