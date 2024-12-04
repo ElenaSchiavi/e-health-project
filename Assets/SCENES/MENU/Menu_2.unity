@@ -369,7 +369,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1147866277}
   - component: {fileID: 1147866276}
-  - component: {fileID: 1147866275}
   - component: {fileID: 1147866274}
   m_Layer: 0
   m_Name: Main Camera
@@ -422,14 +421,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!81 &1147866275
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1147866273}
-  m_Enabled: 1
 --- !u!20 &1147866276
 Camera:
   m_ObjectHideFlags: 0
@@ -572,8 +563,8 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_VertexColorAlwaysGammaSpace: 1
+  m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
