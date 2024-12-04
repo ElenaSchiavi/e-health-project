@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SS - Balcony_0: 2630745925096206153
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
