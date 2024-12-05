@@ -24,9 +24,12 @@ MonoBehaviour:
     m_path: Assets/SCENES/MENU/Menu_1.unity
   - m_enabled: 1
     m_path: Assets/SCENES/MENU/Menu_2.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/MENU/Menu_3.unity
   m_ScriptingDefines:
   - Assets/SCENES/MENU/Menu_1.unity
   - Assets/SCENES/MENU/Menu_2.unity
+  - Assets/SCENES/MENU/Menu_3.unity
   m_PlayerSettingsYaml:
     m_Settings:
     - line: '| PlayerSettings:'

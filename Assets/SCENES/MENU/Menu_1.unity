@@ -571,7 +571,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -327200333161348760, guid: 6af868f166fa544d7b006b5efb7aea1e, type: 3}
+  m_Sprite: {fileID: -327200333161348760, guid: e878fb98ff754430bb95fa10a5eb01eb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -709,11 +709,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2053738896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a721776fb09d4544bf99b87548db346, type: 3}
+  m_Script: {fileID: 11500000, guid: 74de59cd2705747ac9c7c9cabe43bd66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: Menu_2
-  delay: 27
+  sceneName: Menu_2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
