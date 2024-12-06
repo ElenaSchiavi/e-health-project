@@ -248,7 +248,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -1.3620911, y: 0, z: 0, w: -39.662216}
+  m_margin: {x: -1.3620911, y: 0, z: -10.558533, w: -39.662216}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -571,7 +571,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -327200333161348760, guid: e878fb98ff754430bb95fa10a5eb01eb, type: 3}
+  m_Sprite: {fileID: -327200333161348760, guid: 4b61965e228fa4219885c23392df0fbb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -679,7 +679,7 @@ GameObject:
   - component: {fileID: 2053738898}
   - component: {fileID: 2053738899}
   m_Layer: 0
-  m_Name: SceneManager
+  m_Name: ToMenu2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

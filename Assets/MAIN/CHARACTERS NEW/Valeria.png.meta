@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e878fb98ff754430bb95fa10a5eb01eb
+guid: 1d786f5b0f45149fba21722f127e0438
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -327200333161348760
-    second: Diapositiva1_0
+      213: 5877240853127809200
+    second: Valeria_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Diapositiva1_0
+      name: Valeria_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 720
-        height: 405
+        width: 454
+        height: 454
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8614783d70d857bf0800000000000000
-      internalID: -327200333161348760
+      spriteID: 0b8c81eba67209150800000000000000
+      internalID: 5877240853127809200
       vertices: []
       indices: 
       edges: []

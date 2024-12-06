@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0082a1e4a585d437bb41f37ce3d5a9dc
+guid: eb67c77110c8742bf836b7c70be226f9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1547272102386910698
-    second: Diapositiva2_0
+      213: -1759768954984095812
+    second: Diapositiva4_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Diapositiva2_0
+      name: Diapositiva4_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61a3b5e783cf68ae0800000000000000
-      internalID: -1547272102386910698
+      spriteID: cbf9967857b0497e0800000000000000
+      internalID: -1759768954984095812
       vertices: []
       indices: 
       edges: []
