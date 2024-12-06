@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: eb67c77110c8742bf836b7c70be226f9
+guid: b8b3113c405494497ac2c77eb3589bb7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1759768954984095812
-    second: Diapositiva4_0
+      213: -1922979618149193216
+    second: Exit_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Diapositiva4_0
+      name: Exit_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 720
-        height: 405
+        width: 678
+        height: 368
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cbf9967857b0497e0800000000000000
-      internalID: -1759768954984095812
+      spriteID: 00aa6e5c9343055e0800000000000000
+      internalID: -1922979618149193216
       vertices: []
       indices: 
       edges: []
