@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour
+public class FlappyBirdManager : MonoBehaviour
 {
     public GameObject gameOverText;
     public GameObject victoryText; // Testo di vittoria

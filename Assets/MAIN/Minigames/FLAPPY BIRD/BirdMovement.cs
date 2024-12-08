@@ -30,7 +30,7 @@ public class BirdMovement : MonoBehaviour
             rb.isKinematic = true;
 
             // Mostra la scritta Game Over
-            FindObjectOfType<GameManager>().ShowGameOver();
+            FindObjectOfType<FlappyBirdManager>().ShowGameOver();
             Invoke("StopGame", 1f); // Ferma il gioco dopo 2 secondi
         }
     }
