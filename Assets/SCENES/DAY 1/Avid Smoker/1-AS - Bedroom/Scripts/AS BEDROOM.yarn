@@ -2,20 +2,45 @@
 tags:
 position: 1,10
 ---
-Davide:Another day, another long day, it's best to start with a...
+"Birds are singin"
+"an allarm goes off"
+*STUK*
+Davide: Woahhhh mhh mhh mhh
+Davide:Another day, another long day... 
+Narrathor:"Davide gets up and gets dressed"
+Davide:I'm so happy that yesterday i did my laundry, today i don't have any time for it.
+Narrathor:"He mooves to the kitchen and starts to prepare breakfast"
+Davide:What should i eat this morning?
 
--> cigarette!
-   Nothing like the taste of cigarette in the morning!
-   -> Now I'm ready to for work, let's check my schedule.
+-> /:Healthy option: Omelette 
+   Davide:I'll take my time this morning
+   "breaks 2 eggs"
+   "pours milk"
+   "pan starts cizeling"
+   -> Check the time
+   7.40
+   Davide:What? I'm going to be so late! I better eat fast.
+   "DEVOURS THE breakfast"
+   GNAM GNAM GNAM GNAM
+   Davide: The pan I'll leave it here and clean it when I get back.
+      <<jump CigaretteMorning>>
+-> /:Fast option: Biscuits and caffè latte
+   Davide: I don't have much time, let me prepare some coffè 
+   "puts the mocca on the stove"
+   FRRRSSHHHHHHHHH
+   "turns the heat of and pours milk in the coffee"
+   Davide:Which Biscuits should i eat?
+   ->Gocciole
+   ->Nascondini
+   ->Abbracci
+   "dips cookie in the caffè latte"
+   -> Check the time
+   7.40
+   Davide:What? I'm going to be so late! I better get going.
    <<jump CigaretteMorning>>
--> breakfast with pancakes!
-   Nothing beats pancakes for breakfast!
-   -> Check the hour.
-   7.37 What? I'm going to be late! Today of all days the manager is going to be here too...I'll have to drive fast.
-   <<jump OutsideWorkScene2>>
--> nice walk to work!
-   I'm a little tight on time but I could skip breakfast.
-   <<jump OutsideWorkScene3>>
+-> /:Unhealthy option : Nothing  
+   Davide:No time to eat, i'll just get going.
+   <<jump CigaretteMorning>>
 ===
 
 title: CigaretteMorning
@@ -32,4 +57,5 @@ Davide:I do have ambulance shift tonight. It's really going to be a long day.
    -> Check the hour.
     7.37 What? I'm going to be late! Today of all days the manager is going to be here too...I'll have to drive fast.
    <<jump OutsideWorkScene2>> 
+<<fade_out 1.5>>
 ===
