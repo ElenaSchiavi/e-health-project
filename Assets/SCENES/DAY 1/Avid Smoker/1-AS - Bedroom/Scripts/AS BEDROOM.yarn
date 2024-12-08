@@ -1,12 +1,14 @@
-﻿title: Start
+title: Start
 tags:
 position: 1,10
 ---
 Davide:Another day, another long day, it's best to start with a...
+<<declare $n_cigarette=0>>
 
 -> cigarette!
    Nothing like the taste of cigarette in the morning!
    -> Now I'm ready to for work, let's check my schedule.
+   <<set $n_cigarette=$n_cigarette+1>>
    <<jump CigaretteMorning>>
 -> breakfast with pancakes!
    Nothing beats pancakes for breakfast!
@@ -26,10 +28,9 @@ Davide:I do have ambulance shift tonight. It's really going to be a long day.
 
 -> Go to work
    I better get going.
-    <<jump OutsideWorkScene1>>
 -> Feed the dog.
    How cute is Puddle when he eats.
-   -> Check the hour.
-    7.37 What? I'm going to be late! Today of all days the manager is going to be here too...I'll have to drive fast.
-   <<jump OutsideWorkScene2>> 
+  -> Check the hour.
+  7.37 What? I'm going to be late! Today of all days the manager is going to be here too...I'll have to drive fast.
+  <<jump OutsideWorkScene2>> 
 ===
