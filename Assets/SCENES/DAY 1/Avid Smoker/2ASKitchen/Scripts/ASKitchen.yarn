@@ -1,0 +1,9 @@
+﻿title: Start
+tags:
+position:0,0
+---
+Davide: Nothing beats pancakes for breakfast!
+   -> Check the hour.
+   7.37 What? I'm going to be late! Today of all days the manager is going to be here too...I'll have to drive fast.
+   <<loadScene ASOutWork>>
+===

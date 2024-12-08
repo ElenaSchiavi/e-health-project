@@ -1,0 +1,22 @@
+﻿title: Start
+tags:
+position: 1,10
+---
+Davide:Right on time. Looks who's here...
+
+Fumate { getSigarette() } sigarette. Spero tu sia morto
+
+-> Tom
+   Tom: Didn't expect you to show up so early. Didn't you have an ambulance shift yesterday?
+   ->Davide:No, I've just checked, it's tonight
+    Tom:Thanks, but weren't you quitting?
+   ->Davide:Gosh, you're right, how could I have forgetten? I really need a cigarette now 
+    ->Smoke cigarette and offer one to Tom
+    Tom:Thanks, but weren't you quitting?
+    ->Sigh
+    Davide: Days like this call for it.
+
+   
+===
+
+
