@@ -5,8 +5,38 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/SCENES/DAY 1/Avid Smoker/8-AS - Ambulance/Graphics/Matteo - Ambulance.unity
-    guid: a180ed248f942c84a95e78d9299da238
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/1-AS - Bedroom/Davide1Bedroom.unity
+    guid: a19fb6d78220c3e4ab76bde648d229d7
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/2-AS - Kitchen/Davide2Kitchen.unity
+    guid: 03c4e3f8b8584f147b17ba7eb5523792
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/3-AS - Home Balcony/Davide3HomeBalcony.unity
+    guid: 6e0b3d01c32f51e4ba6f50908de92e07
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/4-AS - Outside Workplace/Davide4OutsideWorkplace.unity
+    guid: 8189bebbfac2f7940a86ee29113c7403
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/5-AS - Workplace/Davide5Workplace.unity
+    guid: c5fb578a653bf6b449244e66ea9fa527
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/6-AS - Coffee-machine @work/Davide6CoffeeMachine.unity
+    guid: 984ff99bed8364145a1aea6cb4db6b7e
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/7-AS - RedCross HQ/Davide7RedCrossHQ.unity
+    guid: 4d87ca1960882d240a21f9d792848fa8
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/8-AS - Ambulance/Davide8Ambulance.unity
+    guid: e249c997ba360204691b03f532d26d67
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/9-AS - RedCross inside/Davide9RedCrossInside.unity
+    guid: 69e9bbdea7387604cb3cbbf6387498fd
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/10-AS - RedCross HQ by night/Davide10RedCrossHQnight.unity
+    guid: aadfcc54d6904ae49b096fe7bdb7364f
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/11-AS - Home Balcony by night/Davide11HomeBalconyNight.unity
+    guid: 80a8d2477c9d0e34cacdcc552fa857ce
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
