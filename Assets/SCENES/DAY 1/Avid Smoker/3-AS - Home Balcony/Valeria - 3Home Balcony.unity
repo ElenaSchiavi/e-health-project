@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c3f106a78e1aa142b294d8d1a41114b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gif: {fileID: 11400000, guid: 8085c35571d9edc4ba7d1ff7dcc7e1ac, type: 2}
+  Gif: {fileID: 11400000, guid: baf6711908da73a459b8a7d3bd4f8efa, type: 2}
 --- !u!114 &511173529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b39f406e977f19742916a8dac9f3f951, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ee89e571abfc3e743bba46e183456551, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -404,7 +404,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -598222717213630681, guid: 16a7cda06bc46cb4faf14a2e2a30835a, type: 3}
+  m_Sprite: {fileID: 8737889007329829035, guid: 707da3a3bb812994ea433414ec76d6d9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
