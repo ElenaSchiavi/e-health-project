@@ -16,7 +16,7 @@ Narrator:Deciding not to smoke won't ensure that you won't smoke
 Narrator:To skip the cigarette you'll need to win the minigame
 Narrator:The difficulty of the minigame depends on the amount of cigarettes that you have smoked
 Narrator:And on the mental well being of your Character at the moment of the choice
-Narrator:So 
+Narrator:So...
 Narrator:What will you choose?
 <<jump Choice>>
 ===
@@ -25,13 +25,18 @@ title: Choice
 ->Smoke a cigarette
     Are you sure?
         ->Yes
-        //smoking moment
+             Takes out the cigarette
+             Lights it up
+             *FFSSSS... PFIUUUUUU*
+             Davide:Maybe i shouldn't have smoked it...
+             Davide:Anyway, I am late to work, got to get going
+             <<hideCharacter Character>>
         ->No
-        <<jump Choice>>
+             <<jump Choice>>
 ->Don't smoke a cigarette
     Are you sure?
         ->Yes
-        //play the game
+             //play the game
         ->No
-        <<jump Choice>>
+             <<jump Choice>>
 ===
