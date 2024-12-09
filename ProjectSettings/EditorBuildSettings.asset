@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/SCENES/DAY 1/Avid Smoker/8-AS - Ambulance/Graphics/Matteo - Ambulance.unity
     guid: a180ed248f942c84a95e78d9299da238
   m_configObjects: {}
