@@ -4,55 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-<<<<<<< HEAD
-  m_Scenes: []
-  m_configObjects: {}
-=======
   m_Scenes:
-  - enabled: 1
-    path: Assets/SCENES/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/1-AS - Bedroom/Graphics/Matteo - Bedroom.unity
-    guid: a19fb6d78220c3e4ab76bde648d229d7
-  - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - Kitchen/Graphics/Matteo - Kitchen.unity
-    guid: dbfebdff10f7fd342a636598840767e5
-  - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - Home Balcony/Graphics/Matteo - Home
-      Balcony.unity
-    guid: 9d70f57b28d72874d96109c4af8be9e0
-  - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - Outside Workplace/Graphics/Matteo
-      - Outside Work.unity
-    guid: 9871fb09499ddc946a893969253fc21c
-  - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - Workplace/Graphics/Matteo - Workplace.unity
-    guid: 70282fa484fcea14280bf0a77a0c9ccd
-  - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - Coffee-machine @work/Graphics/Matteo
-      - Coffee-machine @work.unity
-    guid: 4bdc0a6150f0d3443ac6a66327d66d32
-  - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - RedCross HQ/Graphics/Matteo - RedCross
-      HQ.unity
-    guid: bbb44201dca201f4f9b2423d21fdbe8c
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/AS - Ambulance/Graphics/Matteo - Ambulance.unity
     guid: a180ed248f942c84a95e78d9299da238
-  - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - RedCross inside/Graphics/Matteo -
-      RedCross Inside.unity
-    guid: 4a6afd16020f66c4fbd1457b848cb8a5
-  - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - RedCross HQ by night/Graphics/Matteo
-      - RedCross HQ byb night.unity
-    guid: 31ed30c1c80123d448a020b253373572
-  - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - Home Balcony by night/Graphics/Matteo
-      - Home Balcolny by night.unity
-    guid: cf6e231b0906db64dbcc8d9571c37499
-  m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
->>>>>>> 8cb7f3b2fd5bc881e080c7b36baf2a4f8964f7df
+  m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
