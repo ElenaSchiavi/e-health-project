@@ -7,39 +7,11 @@ An alarm goes off...
 *STUNK*
 
 Davide:Another day, another long day...
+<<hideCharacter Character>>
 Narrator:Davide get's up and prepares for the day
 Puts on his favorite clothes
 Davide:Good thing i did the laundry yesterday, today i have so much work to do!
 
 Davide proceeds to the kitchen and...
 <<loadScene Davide2Kitchen>>
-Davide:Cosa vorrei 
--> cigarette!   
-   <<addSigaretta>>
-   -> Now I'm ready to for work, let's check my schedule.
-   <<jump CigaretteMorning>>
--> breakfast with pancakes!
-   <<loadScene ASKitchen>>
--> nice walk to work!
-   I'm a little tight on time but I could skip breakfast.
-   <<loadScene ASOutWork>>
-===
-
-title: CigaretteMorning
-tags:
-position: 192,178
----
-Davide:I do have ambulance shift tonight. It's really going to be a long day.
-
--> Go to work
-   I better get going.
-   <<loadScene ASOutWork>> 
--> Feed the dog.
-  <<showCharacter Dog>>
-   How cute is Puddle when he eats.
-   <<loadScene DODGE1>>
-  -> Check the hour.
-  7.37 What? I'm going to be late! Today of all days the manager is going to be here too...I'll have to drive fast.
-  <<loadScene ASOutWork>> 
-  
 ===
