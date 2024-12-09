@@ -2,6 +2,7 @@
 tags:
 position: 1,10
 ---
+<<<<<<< HEAD:Assets/SCENES/DAY 1/Avid Smoker/1-AS - Bedroom/Scripts/AS BEDROOM.yarn
 "Birds are singin"
 "an allarm goes off"
 *STUK*
@@ -41,6 +42,19 @@ Davide:What should i eat this morning?
 -> /:Unhealthy option : Nothing  
    Davide:No time to eat, i'll just get going.
    <<jump CigaretteMorning>>
+=======
+Davide:Another day, another long day, it's best to start with a...
+
+-> cigarette!   
+   <<addSigaretta>>
+   -> Now I'm ready to for work, let's check my schedule.
+   <<jump CigaretteMorning>>
+-> breakfast with pancakes!
+   <<loadScene ASKitchen>>
+-> nice walk to work!
+   I'm a little tight on time but I could skip breakfast.
+   <<loadScene ASOutWork>>
+>>>>>>> 8cb7f3b2fd5bc881e080c7b36baf2a4f8964f7df:Assets/SCENES/DAY 1/Avid Smoker/1ASBedroom/Scripts/ASBedroom.yarn
 ===
 
 title: CigaretteMorning
@@ -51,11 +65,24 @@ Davide:I do have ambulance shift tonight. It's really going to be a long day.
 
 -> Go to work
    I better get going.
+<<<<<<< HEAD:Assets/SCENES/DAY 1/Avid Smoker/1-AS - Bedroom/Scripts/AS BEDROOM.yarn
     <<jump OutsideWorkScene1>>
+=======
+   <<loadScene ASOutWork>> 
+>>>>>>> 8cb7f3b2fd5bc881e080c7b36baf2a4f8964f7df:Assets/SCENES/DAY 1/Avid Smoker/1ASBedroom/Scripts/ASBedroom.yarn
 -> Feed the dog.
+  <<showCharacter Dog>>
    How cute is Puddle when he eats.
+<<<<<<< HEAD:Assets/SCENES/DAY 1/Avid Smoker/1-AS - Bedroom/Scripts/AS BEDROOM.yarn
    -> Check the hour.
     7.37 What? I'm going to be late! Today of all days the manager is going to be here too...I'll have to drive fast.
    <<jump OutsideWorkScene2>> 
 <<fade_out 1.5>>
+=======
+   <<loadScene DODGE1>>
+  -> Check the hour.
+  7.37 What? I'm going to be late! Today of all days the manager is going to be here too...I'll have to drive fast.
+  <<loadScene ASOutWork>> 
+  
+>>>>>>> 8cb7f3b2fd5bc881e080c7b36baf2a4f8964f7df:Assets/SCENES/DAY 1/Avid Smoker/1ASBedroom/Scripts/ASBedroom.yarn
 ===
