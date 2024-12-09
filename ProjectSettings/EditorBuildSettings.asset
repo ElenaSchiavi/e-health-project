@@ -22,29 +22,26 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/3ASOutWork/ASOutWork.unity
     guid: 9871fb09499ddc946a893969253fc21c
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/5ASWorkplace/Graphics/Matteo - Workplace.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/5ASWorkplace/ASWorkplace.unity
     guid: 70282fa484fcea14280bf0a77a0c9ccd
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/4ASCoffee/Graphics/MatteoCoffee.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/4ASCoffee/ASCoffee.unity
     guid: 4bdc0a6150f0d3443ac6a66327d66d32
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/AS - RedCross HQ/Graphics/Matteo - RedCross
       HQ.unity
     guid: bbb44201dca201f4f9b2423d21fdbe8c
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/7ASAmbulance/Graphics/Matteo - Ambulance.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/7ASAmbulance/ASAmbulance.unity
     guid: a180ed248f942c84a95e78d9299da238
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/8ASRedCross inside/Graphics/Matteo - RedCross
-      Inside.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/8ASRedCrossInside/ASRedCrossInside.unity
     guid: 4a6afd16020f66c4fbd1457b848cb8a5
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/6ASRedCrossHQnight/Graphics/Matteo - RedCross
-      HQ byb night.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/6ASRedCrossHQNight/ASRedCrossHQNight.unity
     guid: 31ed30c1c80123d448a020b253373572
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/9ASHomeBalconynight/Graphics/Matteo - Home
-      Balcolny by night.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/9ASHomeBalconyNight/ASHomeBalconyNight.unity
     guid: cf6e231b0906db64dbcc8d9571c37499
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

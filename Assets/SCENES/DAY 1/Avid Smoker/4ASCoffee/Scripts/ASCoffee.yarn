@@ -1,0 +1,33 @@
+﻿title: Start
+tags:
+position: 1,10
+---
+Davide:Tom did you get in touch with the overseas supply chain manager of ASP?
+Tom: Relax Davide, let people have their coffee break without talking about work, will you?
+-> Maybe you're right. How are things going with Janet?
+ Davide: Smooth sailing, maybe it's damn time I settle down. You should think about it too Tom, you're not getting any younger
+ ->Smoke a cigarette
+ <<addSigaretta>>
+ Davide: We've already been over it. I think I'm gonna take a long pause after Lucy.
+ Tom:...
+ Davide:...
+ Tom:...
+ Davide:...
+   ->Smokes a cigarette
+   <<addSigaretta>>
+   Tom:Look Davide, it's gonna get better.
+   <<loadScene ASWorkPlace>>
+   ->...
+   Tom:...
+     ->Smokes a cigarette
+     <<addSigaretta>>
+     Tom:Look Davide,it's gonna get better
+     <<loadScene ASWorkPlace>>
+     ->...
+     Davide:...
+     <<loadScene ASWorkPlace>>
+->Smoke cigarette
+   <<addSigaretta>>
+  Davide:What do would you know?
+  <<loadScene ASWorkPlace>>
+===

@@ -2,21 +2,43 @@
 tags:
 position: 1,10
 ---
+<<declare $sigarette=0>>
+<<set $sigarette=getSigarette()>>
 Davide:Right on time. Looks who's here...
 
-Fumate { getSigarette() } sigarette. Spero tu sia morto
-
+<<if $sigarette<1 >>
+-> the manager
+ <<showCharacter Manager>>
+ Manager: Davide, it won't reflect on our clients if you always arrive in the nick of time. Last warning!
+ -> Answer politely
+  Davide: Sure thing!
+  Davide: I do really need a cigarette now
+   -> Smoke a cigarette
+   <<addSigaretta>>
+   And here I thought I'd stat quitting today
+   <<loadScene ASCoffee>>
+<<else>>
 -> Tom
+ <<showCharacter Tom>>
    Tom: Didn't expect you to show up so early. Didn't you have an ambulance shift yesterday?
    ->Davide:No, I've just checked, it's tonight
-    Tom:Thanks, but weren't you quitting?
+    Tom:Must be tough
+    Davide: But I do enjoy it
    ->Davide:Gosh, you're right, how could I have forgetten? I really need a cigarette now 
     ->Smoke cigarette and offer one to Tom
+    <<addSigaretta>>
     Tom:Thanks, but weren't you quitting?
     ->Sigh
     Davide: Days like this call for it.
-
-   
+-> the manager
+ <<showCharacter Manager>>
+ Manager: Davide, it won't reflect on our clients if you always arrive in the nick of time. Last warning!
+ -> Answer politely
+  Davide: Sure thing!
+  Davide: I do really need a cigarette now
+   -> Smoke a cigarette
+   <<addSigaretta>>
+   Sigh....And here I thought I'd stat quitting today
+<<endif>>
+<<loadScene AsCoffee>>
 ===
-
-

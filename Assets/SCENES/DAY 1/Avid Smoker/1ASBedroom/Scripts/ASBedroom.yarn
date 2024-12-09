@@ -3,17 +3,10 @@ tags:
 position: 1,10
 ---
 Davide:Another day, another long day, it's best to start with a...
-<<declare $n_cigarette=0>>
+
 -> cigarette!   
    <<addSigaretta>>
-   Fumate { getSigarette() } sigarette. Fuma di meno!
-   <<setSigarette 666>>
-   Fumate { getSigarette() } sigarette. Sei morto
-   Nothing like the taste of cigarette in the morning!
-   <<hideCharacter Character>>
    -> Now I'm ready to for work, let's check my schedule.
-   <<showCharacter Character>>
-   <<set $n_cigarette=$n_cigarette+1>>
    <<jump CigaretteMorning>>
 -> breakfast with pancakes!
    <<loadScene ASKitchen>>
@@ -32,8 +25,11 @@ Davide:I do have ambulance shift tonight. It's really going to be a long day.
    I better get going.
    <<loadScene ASOutWork>> 
 -> Feed the dog.
+  <<showCharacter Dog>>
    How cute is Puddle when he eats.
+   <<loadScene DODGE1>>
   -> Check the hour.
   7.37 What? I'm going to be late! Today of all days the manager is going to be here too...I'll have to drive fast.
   <<loadScene ASOutWork>> 
+  
 ===
