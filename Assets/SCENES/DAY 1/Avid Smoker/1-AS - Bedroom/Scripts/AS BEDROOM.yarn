@@ -5,13 +5,14 @@ position: 1,10
 Birds are singing
 An alarm goes off...
 *STUNK*
-
+<<showCharacter Character>>
 Davide:Another day, another long day...
-<<hideCharacter Character>>
+
 Narrator:Davide get's up and prepares for the day
 Puts on his favorite clothes
 Davide:Good thing i did the laundry yesterday, today i have so much work to do!
 
 Davide proceeds to the kitchen and...
+<<hideCharacter Character>>
 <<loadScene Davide2Kitchen>>
 ===
