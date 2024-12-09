@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bfb0e5622370fd04987190165efdf120
+guid: b8a000eb251094015a0133a6201136c1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4896916284799119447
-    second: Maria_0
+      213: -5576846884695753095
+    second: Giovanna_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Maria_0
+      name: Giovanna_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
-        height: 432
+        width: 454
+        height: 454
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 750f6428a6755f340800000000000000
-      internalID: 4896916284799119447
+      spriteID: 97e37f64e4f0b92b0800000000000000
+      internalID: -5576846884695753095
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Maria_0: 4896916284799119447
+      Giovanna_0: -5576846884695753095
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
