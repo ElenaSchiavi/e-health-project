@@ -1,0 +1,42 @@
+﻿title: AS_KITCHEN
+tags:
+position:
+---
+
+Davide walks into the kitchen.
+<<showCharacter Character>>
+Davide: I'm hungry... What should I eat?
+-> Choose something healthy
+    He prepares an omelette and starts eating
+    Takes out eggs, a frying pan, and some vegetables
+    *Sound of eggs cracking into a bowl*
+    Beats the eggs and pours them into the heated pan
+    *Sizzling sound of eggs cooking in the pan*
+    After a few minutes, the omelette is ready
+    Davide: An omelette is a great choice! It’s healthy and delicious
+    Starts to eat
+    -> Check the time
+        Davide: Woahhh! I'm going to be so late!
+        Finishes the dish and leaves the appartment
+        <<hideCharacter Character>>
+        <<loadScene Davide3HomeBalcony>>
+-> Grab something quick
+    Starts to prepare some coffee
+    Davide: What biscuits should i eat?
+    ->Gocciole
+    ->Pan di Stelle
+    ->Macine
+    *FRRRUUSHHHHHH*
+    Pours the coffee in the mug and dips a biscuit in it
+    Davide: Gnammm 
+    -> Check the time
+        Davide: Woahhh! I'm going to be so late!
+        Finishes the coffee and leaves the appartment
+        <<hideCharacter Character>>
+        <<loadScene Davide3HomeBalcony>>    
+-> Skip eating
+    Davide decides not to eat.
+    Davide: Maybe I’ll just skip this meal... I’m not that hungry anyway.
+    <<hideCharacter Character>>
+    <<loadScene Davide3HomeBalcony>>
+===

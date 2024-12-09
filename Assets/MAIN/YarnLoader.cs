@@ -6,6 +6,7 @@ public class YarnCSLoader : MonoBehaviour   //YARN CUSTOM SCRIPT LOADER
 {
 
   static int sigarette_fumate = 0;
+  static int mood = 0;
 
   // note: all Yarn Functions must be static
   [YarnFunction("getSigarette")]
@@ -27,7 +28,29 @@ public class YarnCSLoader : MonoBehaviour   //YARN CUSTOM SCRIPT LOADER
     Debug.Log($"Yarn add one to sigarette_fumate in YarnCSLoader: {sigarette_fumate}");
   }
 
+ [YarnFunction("getMood")]
+  public static int getMood() { 
+      Debug.Log($"Yarn read mood from YarnCSLoader: {mood}");
+      return mood; 
+  }
 
+  [YarnCommand("setMood")]
+  public static void setMood(int newNumber) { 
+    Debug.Log($"Yarn set mood to YarnCSLoader: {newNumber}");
+    mood = newNumber;
+  }
+
+  [YarnCommand("addMood")]
+  public static void addMood() { 
+    mood++;
+    Debug.Log($"Yarn add one to mood in YarnCSLoader: {mood}");
+  }
+
+  [YarnCommand("minusMood")]
+  public static void minusMood() { 
+    mood--;
+    Debug.Log($"Yarn take one to mood in YarnCSLoader: {mood}");
+  }
 
     [YarnCommand("loadScene")]
     public static void LoadScene(string sceneName)
