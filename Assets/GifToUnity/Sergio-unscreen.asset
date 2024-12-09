@@ -201,3 +201,5 @@ MonoBehaviour:
     Sprite: {fileID: 21300000, guid: 5ad6d714fcf9a704fa54410d8d1c1d71, type: 3}
   - DelayInMs: 30
     Sprite: {fileID: 21300000, guid: 52d97779ff07cc74e920bb6c90d5ad3c, type: 3}
+  - DelayInMs: 30
+    Sprite: {fileID: 21300000, guid: 91cdaf66f7225df41a6e20a1cd2a0260, type: 3}
