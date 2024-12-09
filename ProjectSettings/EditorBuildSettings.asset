@@ -39,6 +39,30 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/11. AS - Home Balcony by night/Davide11HomeBalconyNight.unity
     guid: 80a8d2477c9d0e34cacdcc552fa857ce
   - enabled: 1
+    path: Assets/SCENES/DAY 1/Occasional Smoker/2. OS - Home Balcony/Sergio2HomeBalcony.unity
+    guid: 2edd395bbb950984b9f7f0ea8d97a7a8
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/Sergio3Bar.unity
+    guid: cae9d14241ee1df459f599202565cff3
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Occasional Smoker/4. OS - Kitchen/Sergio4Kitchen.unity
+    guid: b9e3797fd8be0d546987c1bad52706b8
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Occasional Smoker/5. OS - RedCross HQ/Sergio5RedCrossHQ.unity
+    guid: e8a64afc179fd404c953b38e057263d5
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Occasional Smoker/6. OS - Ambulance/Sergio6Ambulance.unity
+    guid: 63c7208208309924ca4fea26649b62f6
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Occasional Smoker/7. OS - RedCross inside/Sergio7RedCrossInside.unity
+    guid: 9cf0bbf04e908754593d7a85962a0732
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Occasional Smoker/8. OS - RedCross HQ by night/Sergio8redCrossHQnight.unity
+    guid: 8920dc183fd6ab4409aab0ac26b43573
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Occasional Smoker/9. OS - Kitchen by night/Sergio9KitchenNight.unity
+    guid: a273d9d7668f8b544aaf0fbad1046e3e
+  - enabled: 0
     path: Assets/MAIN/Minigames/Unity-Labirent/Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
