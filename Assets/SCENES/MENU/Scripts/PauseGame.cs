@@ -1,14 +1,12 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Necessario per il cambio scena
+using UnityEngine.SceneManagement;
 
-public class SceneSwitcher_Button : MonoBehaviour
-{
-    [SerializeField] private string sceneName; // Nome della scena da caricare
-
-    // Metodo chiamabile dal bottone
-    public void LoadScene()
+public class PauseGame: MonoBehaviour
+{   
+    public void Pause()
     {
-		SceneTracker.previousScene = SceneManager.GetActiveScene().name;
-        SceneManager.LoadScene(sceneName);
+        string currentScene = SceneManager.GetActiveScene().name;
+        PlayerPrefs.SetString("SavedScene", currentScene);
+        SceneManager.LoadScene("Menu_4");
     }
 }

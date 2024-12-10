@@ -5,15 +5,14 @@ public class ResumeGame: MonoBehaviour
 {
     public void Resume()
     {
-        
-
-        if (!string.IsNullOrEmpty(lastScene))
+        if (PlayerPrefs.HasKey("SavedScene"))
         {
-            SceneManager.LoadScene(lastScene);
+            string savedScene = PlayerPrefs.GetString("SavedScene");
+            SceneManager.LoadScene(savedScene);
         }
         else
         {
-            Debug.Log("No saved scene found.");
+            Debug.LogWarning("No saved scene found!");
         }
     }
 }
