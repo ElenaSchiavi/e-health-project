@@ -11,4 +11,3 @@ public class SceneSwitcher_Button : MonoBehaviour
             SceneManager.LoadScene(sceneName);
     }
 }
-

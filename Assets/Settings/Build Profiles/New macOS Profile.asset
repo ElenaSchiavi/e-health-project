@@ -28,11 +28,15 @@ MonoBehaviour:
     m_path: Assets/SCENES/MENU/Menu_3.unity
   - m_enabled: 1
     m_path: Assets/SCENES/MENU/Menu_4.unity
-  m_ScriptingDefines:
-  - Assets/SCENES/MENU/Menu_1.unity
-  - Assets/SCENES/MENU/Menu_2.unity
-  - Assets/SCENES/MENU/Menu_3.unity
-  - Assets/SCENES/MENU/Menu_4.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Davide1Bedroom.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Valeria1Bedroom 1.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Occasional Smoker/1. OS - Bedroom/Giovanna1Bedroom.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Occasional Smoker/1. OS - Bedroom/Sergio1Bedroom.unity
+  m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings:
     - line: '| PlayerSettings:'
