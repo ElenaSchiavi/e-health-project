@@ -435,7 +435,7 @@ GameObject:
   - component: {fileID: 1315852657}
   - component: {fileID: 1315852658}
   m_Layer: 0
-  m_Name: ToMenu2
+  m_Name: ToMenu4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -468,7 +468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a721776fb09d4544bf99b87548db346, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Menu_2
+  sceneName: Menu_4
 --- !u!1 &1335260188
 GameObject:
   m_ObjectHideFlags: 0
@@ -1070,7 +1070,7 @@ GameObject:
   - component: {fileID: 1740898942}
   - component: {fileID: 1740898941}
   m_Layer: 5
-  m_Name: Button_Home
+  m_Name: Button_Pause
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1171,7 +1171,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4433539168102762298, guid: 6ae743235f66d4026b112b3abc006f1a, type: 3}
+  m_Sprite: {fileID: -7762350047352875558, guid: d0788f839cc164b34a900466495cd7d5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
