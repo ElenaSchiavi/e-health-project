@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49817
+49915
 -job-worker-count
 3
 -background-job-worker-count
@@ -68,7 +68,7 @@ Successfully changed project path to: /Users/Elena/Desktop/e-health-project
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8180185152]  Target information:
 
-Player connection [8180185152]  * "[IP] 192.168.178.40 [Port] 0 [Flags] 2 [Guid] 3953773893 [EditorId] 3953773893 [Version] 1048832 [Id] OSXEditor(0,MacBookPro.fritz.box) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8180185152]  * "[IP] 192.168.178.40 [Port] 0 [Flags] 2 [Guid] 2120484654 [EditorId] 2120484654 [Version] 1048832 [Id] OSXEditor(0,MacBookPro.fritz.box) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8180185152] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8180185152] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -82,7 +82,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.25f1 (4859ab7b5a49)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -97,46 +97,46 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56562
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56033
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.25f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002738 seconds.
-- Loaded All Assemblies, in  0.309 seconds
+Registered in 0.000836 seconds.
+- Loaded All Assemblies, in  0.327 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.371 seconds
-Domain Reload Profiling: 680ms
-	BeginReloadAssembly (102ms)
+- Finished resetting the current domain, in  0.401 seconds
+Domain Reload Profiling: 728ms
+	BeginReloadAssembly (106ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (128ms)
-		LoadAssemblies (102ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (105ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (112ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (124ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (372ms)
+	FinalizeReload (402ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (333ms)
+		SetupLoadedEditorAssemblies (361ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (196ms)
-			ProcessInitializeOnLoadMethodAttributes (100ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -144,114 +144,676 @@ Domain Reload Profiling: 680ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.271 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.327 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.846 seconds
-Domain Reload Profiling: 2117ms
-	BeginReloadAssembly (601ms)
+- Finished resetting the current domain, in  0.850 seconds
+Domain Reload Profiling: 2177ms
+	BeginReloadAssembly (590ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (605ms)
-		LoadAssemblies (322ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (661ms)
+		LoadAssemblies (336ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (324ms)
-			TypeCache.Refresh (264ms)
-				TypeCache.ScanAssembly (239ms)
-			BuildScriptInfoCaches (49ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (846ms)
+		AnalyzeDomain (365ms)
+			TypeCache.Refresh (303ms)
+				TypeCache.ScanAssembly (272ms)
+			BuildScriptInfoCaches (51ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (850ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (676ms)
+		SetupLoadedEditorAssemblies (683ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (523ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (532ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.21 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 219 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6658 unused Assets / (4.3 MB). Loaded Objects now: 7438.
-Memory consumption went from 202.0 MB to 197.7 MB.
-Total: 12.734541 ms (FindLiveObjects: 3.582292 ms CreateObjectMapping: 0.403750 ms MarkObjects: 5.988250 ms  DeleteObjects: 2.759584 ms)
+Unloading 6658 unused Assets / (4.0 MB). Loaded Objects now: 7438.
+Memory consumption went from 201.9 MB to 197.9 MB.
+Total: 8.279667 ms (FindLiveObjects: 0.601375 ms CreateObjectMapping: 0.257084 ms MarkObjects: 5.649958 ms  DeleteObjects: 1.768459 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10853.130308 seconds.
-  path: Assets/MAIN/BrickBreaker/BrickBreaker.unity
-  artifactKey: Guid(3dfc5a389641ed14b8c70b063f0925b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/BrickBreaker/BrickBreaker.unity using Guid(3dfc5a389641ed14b8c70b063f0925b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2859b3899b19cc22c40f3b586b43b40f') in 0.005492417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.375155 seconds.
-  path: Assets/Settings/Build Profiles/New macOS Profile.asset
-  artifactKey: Guid(da5e041bc3c6d44db8fe33e3df3d5868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Build Profiles/New macOS Profile.asset using Guid(da5e041bc3c6d44db8fe33e3df3d5868) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eef3e1b202850520c88a500c991f99c8') in 0.040763917 seconds
+  Time since last request: 11220.053668 seconds.
+  path: Packages/com.unity.multiplayer.center/package.json
+  artifactKey: Guid(df0857f6a11054383be91b1f8e1b5800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.multiplayer.center/package.json using Guid(df0857f6a11054383be91b1f8e1b5800) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd48c50d4b1d27b2813b1bef20305315c') in 0.015056708 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.202872 seconds.
-  path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/Scenes/URP2DSceneTemplate.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10d8b858ca32f41967764b2ffe6cb1fa') in 0.000379625 seconds
+  Time since last request: 8.397801 seconds.
+  path: Assets/GifToUnity
+  artifactKey: Guid(3b063dd7458378e4ba470f888bf3df7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity using Guid(3b063dd7458378e4ba470f888bf3df7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '773dd1b977e865f0315482b0bb12b8e5') in 0.00073275 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.449132 seconds.
-  path: Assets/MAIN/BrickBreaker
-  artifactKey: Guid(d4cf28e386ead1e41baff84a2abff55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/BrickBreaker using Guid(d4cf28e386ead1e41baff84a2abff55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e52a4e697a5788f1a0385f3dbe6626fa') in 0.001018792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.089534 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen.asset
+  artifactKey: Guid(8085c35571d9edc4ba7d1ff7dcc7e1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen.asset using Guid(8085c35571d9edc4ba7d1ff7dcc7e1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04dc18d26516a6c10460ac52b2a62370') in 0.040126292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.549353 seconds.
-  path: Assets/MAIN/Characters
-  artifactKey: Guid(bb27b524030a84dd18cbfcd90f1e2f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Characters using Guid(bb27b524030a84dd18cbfcd90f1e2f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66f42c40b5b34c51048046447286a978') in 0.000498709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000042 seconds.
+  path: Assets/GifToUnity/Giovanna-unscreen.asset
+  artifactKey: Guid(184221a5496a7684391381f00c75f551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Giovanna-unscreen.asset using Guid(184221a5496a7684391381f00c75f551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8b21cc610926006d00e42b122dc5848') in 0.020232167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.228121 seconds.
-  path: Assets/white.jpg
-  artifactKey: Guid(7a6086ee8e8a8bb48889221efbb9c3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/white.jpg using Guid(7a6086ee8e8a8bb48889221efbb9c3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d9373d64cc7227e4e2c288778689c45') in 0.084825791 seconds
+  Time since last request: 0.000038 seconds.
+  path: Assets/GifToUnity/Giovanna-unscreen.gif
+  artifactKey: Guid(2261c597418b4384d8dc8e7216ae9491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Giovanna-unscreen.gif using Guid(2261c597418b4384d8dc8e7216ae9491) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dd3232ad605697691f4feee07f5566b') in 0.050130167 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.255022 seconds.
-  path: Assets/MAIN/Minigames_teoooo
-  artifactKey: Guid(80157d15a186b5944aafa14ee2450ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames_teoooo using Guid(80157d15a186b5944aafa14ee2450ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79cda58b3014b444f869c0a3da1744c4') in 0.001017042 seconds
+  Time since last request: 0.000032 seconds.
+  path: Assets/GifToUnity/Valeria-unscreen.asset
+  artifactKey: Guid(baf6711908da73a459b8a7d3bd4f8efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Valeria-unscreen.asset using Guid(baf6711908da73a459b8a7d3bd4f8efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faa5a5b05615d44383d196051e84812a') in 0.010947042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_1.png
+  artifactKey: Guid(b39f406e977f19742916a8dac9f3f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_1.png using Guid(b39f406e977f19742916a8dac9f3f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d0d0c860036d5a66d61538e9ff64f6e') in 0.007603625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/GifToUnity/Sergio-unscreen/Sergio-unscreen_1.png
+  artifactKey: Guid(c3fd65a6d032cf74f982cd1f72dd7ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Sergio-unscreen/Sergio-unscreen_1.png using Guid(c3fd65a6d032cf74f982cd1f72dd7ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c51ecf19dfabb883ae7408ff8f1505d0') in 0.005993541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/GifToUnity/Sergio-unscreen.gif
+  artifactKey: Guid(ec4d98f70a0eb7d47b5a5133e7e25797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Sergio-unscreen.gif using Guid(ec4d98f70a0eb7d47b5a5133e7e25797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '265e39884c3d155ab16a425915b81c65') in 0.006730958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.325765 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen
+  artifactKey: Guid(a2852faa612daa64598d838fb18734ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen using Guid(a2852faa612daa64598d838fb18734ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd823994f3cdc95cba8795035173c4d5a') in 0.000328125 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.124392 seconds.
-  path: Assets/Samples
-  artifactKey: Guid(45bd3d8c9a2719e4485dd12a00f9dbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples using Guid(45bd3d8c9a2719e4485dd12a00f9dbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13ffbb90691356bde63bacee534627a9') in 0.000325667 seconds
+  Time since last request: 0.062606 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_2.png
+  artifactKey: Guid(2088d57b9a50bc2448886c24ffb546fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_2.png using Guid(2088d57b9a50bc2448886c24ffb546fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ae71c2a0d1b4d07acc4fa7ea45b286d') in 0.009031334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_35.png
+  artifactKey: Guid(124b867431502384bb259250ccab62ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_35.png using Guid(124b867431502384bb259250ccab62ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aa0cbb39a6cb1d1b87a31633a7e616e') in 0.007494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_29.png
+  artifactKey: Guid(fe9324e349bfb1b48b3285fdc209f279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_29.png using Guid(fe9324e349bfb1b48b3285fdc209f279) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a1754f5993f13704665558a19268fe7') in 0.007363125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_33.png
+  artifactKey: Guid(63cb5c38bac443b46bda024d687e1ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_33.png using Guid(63cb5c38bac443b46bda024d687e1ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8555b85b4bddaa58c969ee6fb73161d8') in 0.007444625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_27.png
+  artifactKey: Guid(90848280e9cc91f4e90259f30c0ca653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_27.png using Guid(90848280e9cc91f4e90259f30c0ca653) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e20d8bd5c8f434053b34049215bc81dd') in 0.007438542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_17.png
+  artifactKey: Guid(446b2619e5d12f04c9295162236b0562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_17.png using Guid(446b2619e5d12f04c9295162236b0562) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31fb2cada4921955c7b609ab0da19fc9') in 0.007653625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_44.png
+  artifactKey: Guid(291daa5627e75594bac911c348e3e224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_44.png using Guid(291daa5627e75594bac911c348e3e224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e34af22d9951dfca0d3f91590b27915f') in 0.007122125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_30.png
+  artifactKey: Guid(ea0fb9a44567d814586b821ca742436f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_30.png using Guid(ea0fb9a44567d814586b821ca742436f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dd0175e770561e7c99c27aed970ff73') in 0.007174209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_19.png
+  artifactKey: Guid(5ca1fc13c602f934faf7543967c78455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_19.png using Guid(5ca1fc13c602f934faf7543967c78455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '677da95b0bba5c85661e42da8b86568e') in 0.007506375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_22.png
+  artifactKey: Guid(6fe1cc6bf5bfb77419f85556afc2e7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_22.png using Guid(6fe1cc6bf5bfb77419f85556afc2e7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '158e51036c50321e31a48c7cc4c74c27') in 0.007475333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_14.png
+  artifactKey: Guid(1a6b7c0e3bcfed64ca6a33e7ba906211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_14.png using Guid(1a6b7c0e3bcfed64ca6a33e7ba906211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df7a5433368e2c238f849dc51307a2eb') in 0.007464042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_26.png
+  artifactKey: Guid(e91b08315063aa547864c6d3996b1a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_26.png using Guid(e91b08315063aa547864c6d3996b1a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c8232d7c1edc90b9bb38a8d1f28a900') in 0.007053209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_34.png
+  artifactKey: Guid(3d3a0f11b5a26c04498dc97e67d3b1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_34.png using Guid(3d3a0f11b5a26c04498dc97e67d3b1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad0fc37ff61d5a91be14e8af0729d7a6') in 0.008066333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_20.png
+  artifactKey: Guid(d5f83841f868feb4fa9a9275f8ab9243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_20.png using Guid(d5f83841f868feb4fa9a9275f8ab9243) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6141d88e1da800c45a6112ed0c52cee3') in 0.007198291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_5.png
+  artifactKey: Guid(2b77860c0873b394ba65e61df8fdac69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_5.png using Guid(2b77860c0873b394ba65e61df8fdac69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fa2fe9e329f4afcffd192f76c0dd38a') in 0.00745375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_23.png
+  artifactKey: Guid(a4720ca974343ba42b2cfb978f371c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_23.png using Guid(a4720ca974343ba42b2cfb978f371c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '547016916a3ca41c73cd4ad51f30c03b') in 0.007223625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_38.png
+  artifactKey: Guid(3e13580d67f7b734c896121fa5c107e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_38.png using Guid(3e13580d67f7b734c896121fa5c107e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dafdbb07cf567cd0a091374bad9e92e') in 0.01036475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_28.png
+  artifactKey: Guid(945cf37483d4bd348b4455e09dcad5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_28.png using Guid(945cf37483d4bd348b4455e09dcad5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b300827530c884d1aa60b7eebf4eb8e') in 0.006077083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_8.png
+  artifactKey: Guid(c9b37d471bdd67e458d2bb8df77a06c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_8.png using Guid(c9b37d471bdd67e458d2bb8df77a06c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '547539f789fdef089820b8afbf9d8b12') in 0.0071275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_32.png
+  artifactKey: Guid(ee3e032b80905c347b6bd8fee9dd2ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_32.png using Guid(ee3e032b80905c347b6bd8fee9dd2ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c70521c9a976a937fd2da8f331aa436') in 0.007790708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_6.png
+  artifactKey: Guid(04d12155c73a94441b8c35552712f23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_6.png using Guid(04d12155c73a94441b8c35552712f23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1078f6750d5fbbba855fd140a493e1d8') in 0.006297917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_25.png
+  artifactKey: Guid(8c5b3553618d0664aad233389f139fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_25.png using Guid(8c5b3553618d0664aad233389f139fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '303a22ca3f4d89c9548a20f3c0313318') in 0.006869333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.525896 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_46.png
+  artifactKey: Guid(d588a5701edd81b418285aa61daa9123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_46.png using Guid(d588a5701edd81b418285aa61daa9123) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb929bdc662b0997e160dc085c2c94bc') in 0.007723541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_52.png
+  artifactKey: Guid(f3eed3d7a11f4e045b4d31c0158066eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_52.png using Guid(f3eed3d7a11f4e045b4d31c0158066eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f39a4f86c9102bb115c0cecc3a08ace') in 0.007641542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_48.png
+  artifactKey: Guid(56ce64dd9948c91438295b5f8f8f4381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_48.png using Guid(56ce64dd9948c91438295b5f8f8f4381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c722400748944d1300005d67e86df23') in 0.008064041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_59.png
+  artifactKey: Guid(0a836ad9bbad10e468ab975199e1af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_59.png using Guid(0a836ad9bbad10e468ab975199e1af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd13c399d3a5c4b87f9aa768640ad91f3') in 0.007402417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_62.png
+  artifactKey: Guid(056078a1418d32b4887938e9feae850c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_62.png using Guid(056078a1418d32b4887938e9feae850c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5ea12a20569610cadfc92a196e0c289') in 0.007820583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_70.png
+  artifactKey: Guid(76245bd0691669441861a233dbcc2443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_70.png using Guid(76245bd0691669441861a233dbcc2443) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfdd88664b249cdab5b6e2fa2b9bbc2d') in 0.007631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_74.png
+  artifactKey: Guid(904d95493b89ed54abb7cc51832bbd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_74.png using Guid(904d95493b89ed54abb7cc51832bbd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1121e19d77fe98acd66385ec2c7d1d74') in 0.007153334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_83.png
+  artifactKey: Guid(801ed07f9e2e7f343b87463002e445e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_83.png using Guid(801ed07f9e2e7f343b87463002e445e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '031b03a7bc9542ba42b12e3b1726b87e') in 0.00745825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_94.png
+  artifactKey: Guid(af5400ef270b10c4f928547c27d8c892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_94.png using Guid(af5400ef270b10c4f928547c27d8c892) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bbbf99ccbf94a165d5c472ebb13534d') in 0.006964292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_86.png
+  artifactKey: Guid(b3c56b7b869fa35468c17254ee7f1a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_86.png using Guid(b3c56b7b869fa35468c17254ee7f1a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa13c19c5b5b98a7acd99e43703031c1') in 0.007195542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_84.png
+  artifactKey: Guid(9a45535da131462498554fd2c0837b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_84.png using Guid(9a45535da131462498554fd2c0837b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9f16fa516825250b33ca49f11734910') in 0.007253417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_66.png
+  artifactKey: Guid(14f6882d8e9aa694eb0c5193012ce73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_66.png using Guid(14f6882d8e9aa694eb0c5193012ce73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '161cc1fd880749c520e9bd73a8de575a') in 0.007276125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_67.png
+  artifactKey: Guid(6753ecb503d4a2b478a983ef3e03f9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_67.png using Guid(6753ecb503d4a2b478a983ef3e03f9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a75184476f03a935c625fad7f94262f2') in 0.007517333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_88.png
+  artifactKey: Guid(b67467982ac702142b8decf0517a4aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_88.png using Guid(b67467982ac702142b8decf0517a4aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '880b6241e126b2cf09bb44f358dd7979') in 0.007763209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_90.png
+  artifactKey: Guid(571ab712e911e06409b287ae73340166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_90.png using Guid(571ab712e911e06409b287ae73340166) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'caaaa82ef11f66a5a1aa487e79581060') in 0.007513792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_81.png
+  artifactKey: Guid(fcb3e232b76db8d48aa4c8cee38e6470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_81.png using Guid(fcb3e232b76db8d48aa4c8cee38e6470) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e1bd75ffefe052f92c841153886ab85') in 0.007110292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_80.png
+  artifactKey: Guid(b1b01aa00c2105d4f8ba7601bb7b58be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_80.png using Guid(b1b01aa00c2105d4f8ba7601bb7b58be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7a7a493bb32c4f7fee8852a0bf0da13') in 0.007869958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_87.png
+  artifactKey: Guid(01e84b56300fafc48a8410085a6d26d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_87.png using Guid(01e84b56300fafc48a8410085a6d26d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd57949213eb748dd494e64c05e1cff27') in 0.007340708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_60.png
+  artifactKey: Guid(f8f9100fb423df1468ff89032526e144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_60.png using Guid(f8f9100fb423df1468ff89032526e144) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c7836fbe9640aeb5b6a7e6b48f42f30') in 0.006977292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_71.png
+  artifactKey: Guid(d0fdff14fc6efa040b72372639d27259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_71.png using Guid(d0fdff14fc6efa040b72372639d27259) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7a2e59ba06a337b880d6aaf4c742a13') in 0.007444958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_75.png
+  artifactKey: Guid(55f02956dec88f94b9bfadd7491e78a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_75.png using Guid(55f02956dec88f94b9bfadd7491e78a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfa77ceac8b176998168e6ff5dc9d33f') in 0.006652334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_92.png
+  artifactKey: Guid(b67c531b6203bf247a7f6dba56d88bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_92.png using Guid(b67c531b6203bf247a7f6dba56d88bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8670b96496c73dda97c170b2fd1fcf55') in 0.007138792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_64.png
+  artifactKey: Guid(c18fc29a95b734f43bbdb5c906ea6713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_64.png using Guid(c18fc29a95b734f43bbdb5c906ea6713) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84b0746592598f28747204bbda71978e') in 0.007233417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_91.png
+  artifactKey: Guid(13c32a519e9f2fb47b46a55b5a330ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_91.png using Guid(13c32a519e9f2fb47b46a55b5a330ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c043888e7471d186335188badff547d5') in 0.007550791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_51.png
+  artifactKey: Guid(b72994278f45ca84d8ff2093fc61bfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_51.png using Guid(b72994278f45ca84d8ff2093fc61bfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69518f9c085113893003e529c480a989') in 0.008202166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.559988 seconds.
+  path: Assets/GifToUnity/Demo
+  artifactKey: Guid(b0a72df1a0c6eeb41a690706c6102f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Demo using Guid(b0a72df1a0c6eeb41a690706c6102f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5824cc6e3bb8911d005c8b453d5a348b') in 0.000344458 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 7.001481 seconds.
+  path: Assets/GifToUnity/Editor
+  artifactKey: Guid(e4fa4bd5ac09409a91a956a18e81c459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Editor using Guid(e4fa4bd5ac09409a91a956a18e81c459) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3248fe65ac8d4abc939e4fbfd9cb07a0') in 0.00029225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.448218 seconds.
+  path: Assets/GifToUnity/Giovanna-unscreen
+  artifactKey: Guid(1d2289cc3b4ac2e4b8b9a2be23170d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Giovanna-unscreen using Guid(1d2289cc3b4ac2e4b8b9a2be23170d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9a08704f0b7f75e08fe34ad1120998f') in 0.0004055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.087263 seconds.
+  path: Assets/GifToUnity/Sergio-unscreen
+  artifactKey: Guid(2d49f5fa7a9df424ba26ace331f628c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Sergio-unscreen using Guid(2d49f5fa7a9df424ba26ace331f628c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '807e19a22044182d306332cc22a75801') in 0.000299666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.932198 seconds.
+  path: Assets/MAIN/Minigames
+  artifactKey: Guid(80157d15a186b5944aafa14ee2450ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAIN/Minigames using Guid(80157d15a186b5944aafa14ee2450ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f67908a28532d4b9c8f92d43573aaf3') in 0.000331625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.984627 seconds.
+  path: Assets/MAIN/Minigames/MAZE
+  artifactKey: Guid(6b46831e960509b43ae8c2931eeb9064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAIN/Minigames/MAZE using Guid(6b46831e960509b43ae8c2931eeb9064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4d87ed4b253e222b8975f59f302b88b') in 0.000280458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.658009 seconds.
+  path: Assets/Samples/Yarn Spinner/2.4.2/Space
+  artifactKey: Guid(e0bed4b9571805e40a6c8275645bd429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Yarn Spinner/2.4.2/Space using Guid(e0bed4b9571805e40a6c8275645bd429) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60d50bd78bc2b376ae5c2146fd360f46') in 0.000351042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.744177 seconds.
+  path: Assets/Samples/Yarn Spinner/2.4.2/Space/Scripts
+  artifactKey: Guid(943b9fa560c5e40f58eec52ef971f9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Yarn Spinner/2.4.2/Space/Scripts using Guid(943b9fa560c5e40f58eec52ef971f9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9463677e67ccfd33c8b28dd3e483332') in 0.000367834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.872138 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(0220aab0833d04faeb927d84ca6cc40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(0220aab0833d04faeb927d84ca6cc40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62508b3dd32630cf358da27d8a59d33e') in 0.000308084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.947258 seconds.
+  path: Assets/SCENES
+  artifactKey: Guid(2b02422da31c3492180f59f2536e585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCENES using Guid(2b02422da31c3492180f59f2536e585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b90761d769bc1f403c754726a81916ee') in 0.000311208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.371234 seconds.
+  path: Assets/SCENES/DAY 1/Occasional Smoker
+  artifactKey: Guid(c32a81f92108d4240a1ad29f1cec72b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCENES/DAY 1/Occasional Smoker using Guid(c32a81f92108d4240a1ad29f1cec72b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4693a383e9b854e8653b29471e47bce9') in 0.000591125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.037832 seconds.
+  path: Assets/Settings/Build Profiles
+  artifactKey: Guid(7d770ff6aca2a4ce18359cf56dee6e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Build Profiles using Guid(7d770ff6aca2a4ce18359cf56dee6e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0ed2f9cb0c9ca30baa56a155c1bb652') in 0.000441333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.445335 seconds.
+  path: Assets/Settings/Scenes
+  artifactKey: Guid(d574b2fb4661c408f80aa76c0182931f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Scenes using Guid(d574b2fb4661c408f80aa76c0182931f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '208d33276ab89d9e90bec41530e68a58') in 0.000306041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.178508 seconds.
+  path: Assets/YarnSpinner
+  artifactKey: Guid(d9c6e372208067746ad5703631b6a444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YarnSpinner using Guid(d9c6e372208067746ad5703631b6a444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c6116e97b6f3816ac2387f2591e49fb') in 0.000398958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.254468 seconds.
+  path: Assets/MAIN/Minigames/MAZE/MAZE.unity
+  artifactKey: Guid(d5049af0b57172c4fb8aabda6c0e0c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAIN/Minigames/MAZE/MAZE.unity using Guid(d5049af0b57172c4fb8aabda6c0e0c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf66738d9f985bcd07f841daaa66b25b') in 0.001440834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x334c87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.822 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.990 seconds
+Domain Reload Profiling: 1814ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (579ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (304ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (277ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (990ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (750ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (618ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6656 unused Assets / (3.8 MB). Loaded Objects now: 7452.
+Memory consumption went from 179.4 MB to 175.6 MB.
+Total: 7.476417 ms (FindLiveObjects: 0.635583 ms CreateObjectMapping: 0.222583 ms MarkObjects: 4.826500 ms  DeleteObjects: 1.791458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
