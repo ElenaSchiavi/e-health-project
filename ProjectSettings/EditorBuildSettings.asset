@@ -6,5 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main.unity
+    path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Davide1Bedroom.unity
+    guid: a19fb6d78220c3e4ab76bde648d229d7
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/2. AS - Kitchen/Davide2Kitchen.unity
+    guid: 03c4e3f8b8584f147b17ba7eb5523792
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3HomeBalcony.unity
+    guid: 6e0b3d01c32f51e4ba6f50908de92e07
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
