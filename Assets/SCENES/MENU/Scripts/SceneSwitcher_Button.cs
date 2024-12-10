@@ -1,12 +1,14 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement; // Necessario per il cambio scena
 
-public class SceneSwitcher_Button: MonoBehaviour
+public class SceneSwitcher_Button : MonoBehaviour
 {
-    [SerializeField] private string sceneName;
-    
+    [SerializeField] private string sceneName; // Nome della scena da caricare
+
+    // Metodo chiamabile dal bottone
     public void LoadScene()
     {
-        SceneManager.LoadScene(sceneName);
+            SceneManager.LoadScene(sceneName);
     }
 }
+

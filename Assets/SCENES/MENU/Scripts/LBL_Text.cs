@@ -2,15 +2,15 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 
-public class LBL_Text: MonoBehaviour
+public class LetterByLetterText : MonoBehaviour
 {
-    public TextMeshProUGUI textComponent;
-    public string fullText;
-    public float delay = 0.1f;
+    public TextMeshProUGUI textComponent;  // Il componente TextMeshPro
+    public string fullText;                // Il testo completo da mostrare
+    public float delay = 0.1f;             // Ritardo tra una lettera e l'altra
 
     private void Start()
     {
-        textComponent.text = "";
+        textComponent.text = "";  // Inizializza con testo vuoto
         StartCoroutine(ShowText());
     }
 

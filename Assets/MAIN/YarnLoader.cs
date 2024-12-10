@@ -4,53 +4,54 @@ using Yarn.Unity;
 
 public class YarnCSLoader : MonoBehaviour   //YARN CUSTOM SCRIPT LOADER
 {
-    static int sigarette_fumate = 0;
-    static int mood = 0;
 
-    // note: all Yarn Functions must be static
-    [YarnFunction("getSigarette")]
-    public static int getSigarette() { 
-        Debug.Log($"Yarn read sigarette_fumate from YarnCSLoader: {sigarette_fumate}");
-        return sigarette_fumate; 
-    }
+  static int sigarette_fumate = 0;
+  static int mood = 0;
 
-    // Yarb Commands can be static or non-static
-    [YarnCommand("setSigarette")]
-    public static void setSigarette(int newNumber) { 
-        Debug.Log($"Yarn set sigarette_fumate to YarnCSLoader: {newNumber}");
-        sigarette_fumate = newNumber;
-    }
-    
-    [YarnCommand("addSigaretta")]
-    public static void addSigaretta() { 
-        sigarette_fumate++;
-        Debug.Log($"Yarn add one to sigarette_fumate in YarnCSLoader: {sigarette_fumate}");
-    }
+  // note: all Yarn Functions must be static
+  [YarnFunction("getSigarette")]
+  public static int getSigarette() { 
+      Debug.Log($"Yarn read sigarette_fumate from YarnCSLoader: {sigarette_fumate}");
+      return sigarette_fumate; 
+  }
 
-    [YarnFunction("getMood")]
-    public static int getMood() { 
-        Debug.Log($"Yarn read mood from YarnCSLoader: {mood}");
-        return mood; 
-    }
+  // Yarb Commands can be static or non-static
+  [YarnCommand("setSigarette")]
+  public static void setSigarette(int newNumber) { 
+    Debug.Log($"Yarn set sigarette_fumate to YarnCSLoader: {newNumber}");
+    sigarette_fumate = newNumber;
+  }
 
-    [YarnCommand("setMood")]
-    public static void setMood(int newNumber) { 
-        Debug.Log($"Yarn set mood to YarnCSLoader: {newNumber}");
-        mood = newNumber;
-    }
+  [YarnCommand("addSigaretta")]
+  public static void addSigaretta() { 
+    sigarette_fumate++;
+    Debug.Log($"Yarn add one to sigarette_fumate in YarnCSLoader: {sigarette_fumate}");
+  }
 
-    [YarnCommand("addMood")]
-    public static void addMood() { 
-        mood++;
-        Debug.Log($"Yarn add one to mood in YarnCSLoader: {mood}");
-    }
+ [YarnFunction("getMood")]
+  public static int getMood() { 
+      Debug.Log($"Yarn read mood from YarnCSLoader: {mood}");
+      return mood; 
+  }
 
-    [YarnCommand("minusMood")]
-    public static void minusMood() { 
-        mood--;
-        Debug.Log($"Yarn take one to mood in YarnCSLoader: {mood}");
-    }
-    
+  [YarnCommand("setMood")]
+  public static void setMood(int newNumber) { 
+    Debug.Log($"Yarn set mood to YarnCSLoader: {newNumber}");
+    mood = newNumber;
+  }
+
+  [YarnCommand("addMood")]
+  public static void addMood() { 
+    mood++;
+    Debug.Log($"Yarn add one to mood in YarnCSLoader: {mood}");
+  }
+
+  [YarnCommand("minusMood")]
+  public static void minusMood() { 
+    mood--;
+    Debug.Log($"Yarn take one to mood in YarnCSLoader: {mood}");
+  }
+
     [YarnCommand("loadScene")]
     public static void LoadScene(string sceneName)
     {
@@ -81,7 +82,7 @@ public class YarnCSLoader : MonoBehaviour   //YARN CUSTOM SCRIPT LOADER
             Debug.LogError($"UI Element named '{elementName}' could not be found.");
         }
     }
-    
+
     [YarnCommand("showCharacter")]
     public static void showElement(string elementName)
     {
@@ -110,7 +111,7 @@ public class YarnCSLoader : MonoBehaviour   //YARN CUSTOM SCRIPT LOADER
         }
         return null;
     }
-    
+
     public static GameObject FindInactiveObjectByNameInScene(string name)
     {
         // GetRootGameObjects() returns GameObject[], not Transform[]
@@ -139,4 +140,5 @@ public class YarnCSLoader : MonoBehaviour   //YARN CUSTOM SCRIPT LOADER
             Destroy(gameObject); // If another instance is found, destroy it
         }
     }
+
 }

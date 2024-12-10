@@ -6,7 +6,6 @@ Narrator:With a bit of hurry Davide managed to arrive at work
 Narrator:Suprisingly he was even a bit early
 Narrator:Perfect, because right there there was his friend Tom
 
-<<showCharacter Character>>
 Davide:*Huff Puff*
 Davide:Here I am, let me see...
 ->Check the time
@@ -43,10 +42,8 @@ title: Choice
              Lights it up
              *FFSSSS... PFIUUUUUU*
              Davide:Maybe i shouldn't have smoked it...
-             Davide:Anyway, we better get going
+             Davide:Anyway, I am late to work, got to get going
              <<hideCharacter Character>>
-             Puts out the cigarette
-             <<loadScene Davide5Workplace>>
         ->No
              <<jump Choice>>
 ->Don't smoke a cigarette
