@@ -156,6 +156,9 @@ MonoBehaviour:
   - {fileID: 1038468591}
   blockPrefab: {fileID: 1000013023180490, guid: c0d17f33d311a33498aecba45e3c97cd, type: 3}
   timeBetweenWaves: 3
+  timeToSpawn: 2
+  gameManagers: {fileID: 0}
+  activeBlocks: 0
 --- !u!4 &41577873
 Transform:
   m_ObjectHideFlags: 0
@@ -719,7 +722,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1098940780
@@ -809,7 +812,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1124709945
@@ -868,6 +871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 15
   mapWidth: 5
+  rb: {fileID: 0}
 --- !u!61 &1124709948
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1046,10 +1050,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2b85479e8c9bae4999b7d617ca37253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowness: 10
-  gameOverText: {fileID: 1050364816}
-  winText: {fileID: 1708173828}
-  wavesToWin: 7
 --- !u!4 &1344155125
 Transform:
   m_ObjectHideFlags: 0
