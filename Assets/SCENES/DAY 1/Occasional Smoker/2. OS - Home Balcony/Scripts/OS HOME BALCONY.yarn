@@ -1,0 +1,17 @@
+﻿title: Start
+tags:
+position:1,10
+---
+Sergio:(slow long breath)
+Sergio:Still better than any medicine
+Sergio: ---- to add --- introduction to game 
+Sergio:Looks like rain. I better get the umbrella before going...
+Sergio:Where did I leave the umbrella?
+ ->Search for the umbrella
+ There it is. Let's get going.
+ <<addMood>>
+ <<loadScene Sergio3Bar>>
+ ->Leave without
+ Let's just go.
+ <<loadScene Sergio3Bar>>
+===
