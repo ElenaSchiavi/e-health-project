@@ -27,8 +27,6 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/SCENES/MENU/Menu_3.unity
   - m_enabled: 1
-    m_path: Assets/SCENES/MENU/Menu_4.unity
-  - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Davide1Bedroom.unity
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Valeria1Bedroom 1.unity
@@ -745,8 +743,6 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
     - rid: 886592406690201668
       type: {class: OSXStandaloneBuildProfile, ns: UnityEditor.OSXStandalone, asm: UnityEditor.OSXStandalone.Extensions}
       data:

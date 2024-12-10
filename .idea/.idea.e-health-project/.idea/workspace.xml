@@ -1,50 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/IDK.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/IDK/Circle.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/IDK/Circle.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/IDK/Isometric Diamond.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/IDK/Isometric Diamond.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/IDK/Rect.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/IDK/Rect.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/IDK/Square.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/IDK/Square.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/IDK/spaceShooter2_spritesheet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/IDK/spaceShooter2_spritesheet.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/PLANE.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/PLANE.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleSpawner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleSpawner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleSpawnerTop.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleSpawnerTop.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/PlaneGameManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/PlaneGameManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/PlaneMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/PlaneMovement.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_4.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_4.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Pause.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Pause.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Pause.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Pause.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Button.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Button.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Space.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Space.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/Yarn Spinner.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/Yarn Spinner/2.4.2.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/Yarn Spinner/2.4.2/Space.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Samples/Yarn Spinner/2.4.2/Space/Scripts.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Scenes/URP2DSceneTemplate.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Scenes/URP2DSceneTemplate.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +37,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/YarnLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/ExitGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/PauseGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Button.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Space.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -72,6 +56,10 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -101,6 +89,11 @@
       <workItem from="1733862702387" duration="50000" />
       <workItem from="1733863766514" duration="8000" />
       <workItem from="1733863949289" duration="2000" />
+      <workItem from="1733866247150" duration="526000" />
+      <workItem from="1733866786028" duration="87000" />
+      <workItem from="1733866893734" duration="92000" />
+      <workItem from="1733867104381" duration="150000" />
+      <workItem from="1733867288990" duration="61000" />
     </task>
     <servers />
   </component>
