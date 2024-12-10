@@ -4,6 +4,72 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/13. AS - Car/Davide13Car.unity
+    guid: a19fb6d78220c3e4ab76bde648d229d7
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/13. AS - Car/Valeria13Car.unity
+    guid: 444b3316312bc1f43952e71305e4e7e3
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/2. AS - Kitchen/Valeria2Kitchen.unity
+    guid: 7d7452591088e7748a0a26874beef34e
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3HomeBalcony.unity
+    guid: 6e0b3d01c32f51e4ba6f50908de92e07
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Valeria4OutsideWorkplace.unity
+    guid: bf96c491ad2345241a3027a7176fd27a
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide4OutsideWorkplace.unity
+    guid: 8189bebbfac2f7940a86ee29113c7403
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Valeria3HomeBalcony.unity
+    guid: 1880386e3eb6f094481aa6804de60ee3
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/2. AS - Kitchen/Davide2Kitchen.unity
+    guid: 03c4e3f8b8584f147b17ba7eb5523792
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/6. AS - Coffee-machine @work/Valeria6CoffeeMachine.unity
+    guid: a5697c17c13415942bf6716ea0d90f2e
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/5. AS - Workplace/Valeria5Workplace.unity
+    guid: 6330276364e91b04d9f38aeca879cd16
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/7. AS - RedCross HQ/Davide7RedCrossHQ.unity
+    guid: 4d87ca1960882d240a21f9d792848fa8
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/7. AS - RedCross HQ/Valeria7RedCrossHQ.unity
+    guid: fc25462baa250dd4bb4d36060e5ff8d7
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/11. AS - Home Balcony by night/Davide11HomeBalconyNight.unity
+    guid: 80a8d2477c9d0e34cacdcc552fa857ce
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/8. AS - Ambulance/Valeria8Ambulance.unity
+    guid: 35c601cf7ebed4f4fb0f8316fb4ec73c
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/11. AS - Home Balcony by night/Valeria11HomeBalconyNight.unity
+    guid: 3fbf82404c3c1f5479713258a59f52d4
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/9. AS - RedCross inside/Valeria9RedCrossInside.unity
+    guid: 23a1d17c86080b549bad787d4af47634
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/6. AS - Coffee-machine @work/Davide6CoffeeMachine.unity
+    guid: 984ff99bed8364145a1aea6cb4db6b7e
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Valeria10RedCrossHQnight.unity
+    guid: b773658000a848446bd825ae3dbb8cf7
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide10RedCrossHQnight.unity
+    guid: aadfcc54d6904ae49b096fe7bdb7364f
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/8. AS - Ambulance/Davide8Ambulance.unity
+    guid: e249c997ba360204691b03f532d26d67
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/9. AS - RedCross inside/Davide9RedCrossInside.unity
+    guid: 69e9bbdea7387604cb3cbbf6387498fd
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/5. AS - Workplace/Davide5Workplace.unity
+    guid: c5fb578a653bf6b449244e66ea9fa527
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
