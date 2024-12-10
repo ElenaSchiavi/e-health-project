@@ -1,0 +1,55 @@
+﻿title: ASOUTSIDEWORKPALCE
+tags:
+position: 1,10
+---
+Narrator:With a bit of hurry Davide managed to arrive at work
+Narrator:Suprisingly he was even a bit early
+Narrator:Perfect, because right there there was his friend Tom
+
+Davide:*Huff Puff*
+Davide:Here I am, let me see...
+->Check the time
+   :It's 8:15
+Davide:Woah, didn't notice that I was early.
+Davide:Looks who's here!
+Tom:Heeeeeeeeyyy!
+Tom:Didn't expect you to show up so early. Didn't you have an ambulance shift yesterd?
+Davide:Yeah but Larry covered me last week for my friend birthday 
+Davide:So he asked me if I could help him out for todays shift
+Tom:Right, I heard his sister is getting married.
+Davide:Yeah, don't remind me...
+Tom:Ups, sorry, I forgot about that.
+Tom:Still didn't get over her?
+Davide gets frustrated
+Davide:Well Tom, you are not helping...
+Tom:Upsi, did it again...
+Narrator:Davide bring his hand on his pocket and reaches for the cigarette pack
+<<jump Choice>>
+===
+
+title: Choice
+---
+<<declare $sigarette=0>>
+<<set $sigarette=getSigarette()>>
+<<if $sigarette > 0 >>
+    This is the {$sigarette} of the day
+<<endif>>
+
+->Smoke a cigarette
+    Are you sure?
+        ->Yes
+             Takes out the cigarette
+             Lights it up
+             *FFSSSS... PFIUUUUUU*
+             Davide:Maybe i shouldn't have smoked it...
+             Davide:Anyway, I am late to work, got to get going
+             <<hideCharacter Character>>
+        ->No
+             <<jump Choice>>
+->Don't smoke a cigarette
+    Are you sure?
+        ->Yes
+             //play the game
+        ->No
+             <<jump Choice>>
+===
