@@ -8,6 +8,7 @@ public class SceneSwitcher_Button : MonoBehaviour
     // Metodo chiamabile dal bottone
     public void LoadScene()
     {
-            SceneManager.LoadScene(sceneName);
+		SceneTracker.previousScene = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(sceneName);
     }
 }
