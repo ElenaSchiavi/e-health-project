@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_4.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_4.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Pause.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Pause.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Pause.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Pause.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Button.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Button.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Space.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Space.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Yarn Spinner.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Yarn Spinner/2.4.2.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Yarn Spinner/2.4.2/Space.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Samples/Yarn Spinner/2.4.2/Space/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/LBL_Text.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/LBL_Text.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/PauseGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/PauseGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/ResumeGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/ResumeGame.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
@@ -37,12 +24,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/YarnLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/ExitGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/LBL_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/PauseGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Button.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Space.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -94,6 +82,10 @@
       <workItem from="1733866893734" duration="92000" />
       <workItem from="1733867104381" duration="150000" />
       <workItem from="1733867288990" duration="61000" />
+      <workItem from="1733867489434" duration="12000" />
+      <workItem from="1733867525615" duration="31000" />
+      <workItem from="1733867574806" duration="106000" />
+      <workItem from="1733867823022" duration="29000" />
     </task>
     <servers />
   </component>

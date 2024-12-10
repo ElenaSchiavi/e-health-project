@@ -7,7 +7,6 @@ public class PauseGame : MonoBehaviour
     {
         string savedScene = SceneManager.GetActiveScene().name;
         PlayerPrefs.SetString("SavedScene", savedScene);
-        
         SceneManager.LoadScene("Menu_4");
     }
 }
