@@ -1,0 +1,17 @@
+﻿title: Start
+tags:
+position:1,10
+---
+
+
+Sergio:Hi Luca, how are you?
+Luca:Fine grandpa.
+Sergio:Here have a glass
+Luca:But, I'm 16
+Sergio:Wine makes you grow taller, especially if it's drunk behind one's parents back
+Luca:Do you have ambulance shift tonight?
+Sergio:That's right.
+Luca: I will join too when I'll be 18.
+Sergio:Maybe we'll even work together
+<<loadScene Sergio5RedCrossHQ>>
+===
