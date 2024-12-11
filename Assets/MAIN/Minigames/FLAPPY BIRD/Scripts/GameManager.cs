@@ -46,7 +46,7 @@ public class GameManager1 : MonoBehaviour
             if (attempts == maxAttempts)
             {
                 Debug.Log("You have reached the maximum number of games. Game over.");
-                SceneManager.LoadScene("Davide5Workplace");
+                SceneManager.LoadScene("Davide4Car");
                 if (gameOverText != null)
                 {
                     gameOverText.SetActive(true);
@@ -75,7 +75,7 @@ public class GameManager1 : MonoBehaviour
         if (!gameEnded)
         {
             ShowVictory();
-            SceneManager.LoadScene("Davide5Workplace");
+            SceneManager.LoadScene("Davide4Car");
         }
     }
 

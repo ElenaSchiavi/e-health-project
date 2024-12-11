@@ -24,8 +24,9 @@ Tom:Still didn't get over her?
 Davide gets frustrated
 Davide:Well Tom, you are not helping...
 Tom:Upsi, did it again...
-//aggiungi --mood
-Narrator:Davide bring his hand on his pocket and reaches for the cigarette pack
+<<minusMood>>
+Narrator:Tom didn't make Davide feel really good...
+Narrator:Davide brings his hand on his pocket and reaches for the cigarette pack
 <<jump Choice>>
 ===
 
