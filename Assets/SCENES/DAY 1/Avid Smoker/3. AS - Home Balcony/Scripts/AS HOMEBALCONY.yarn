@@ -30,14 +30,14 @@ title: Choice
 ->Smoke a cigarette
     Are you sure?
         ->Yes
-             //aggiungi ++sigaretta
+             <<addSigaretta>>
              Takes out the cigarette
              Lights it up
              *FFSSSS... PFIUUUUUU*
              Davide:Maybe i shouldn't have smoked it...
              Davide:Anyway, I am late to work, got to get going
              <<hideCharacter Character>>
-             Puts out the cigarette
+             Narrator:Puts out the cigarette and goes to his car
              <<loadScene Davide4Car>>
         ->No
              <<jump Choice>>
