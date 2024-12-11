@@ -1,7 +1,11 @@
-﻿title: Start
+title: Start
 tags:
 position:1,10
 ---
-Sergio: TEO HELP DI COSA PARLA LA GENTE IN AMBULANZA
+Sergio:*puts on gloves*
+* Ambulance siren goes off *
+Head Service: Today we are dealing with 58 year old woman with arrythmia....
+------(data was deleted for privacy reason)------
+
 <<loadScene Sergio7RedCrossInside>>
 ===
