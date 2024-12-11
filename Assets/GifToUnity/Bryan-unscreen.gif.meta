@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bryan-unscreen_0: 2160637673284196257
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -44,7 +44,8 @@ title: Choice
 ->Don't smoke a cigarette
     Are you sure?
         ->Yes
-             //play the game
+           Narrator:Good Luck!
+             <<loadScene FlappyBird>>
              //aggiungi --mood ma da fare post gioco, se no condizioni la difficoltà del gioco
         ->No
              <<jump Choice>>
