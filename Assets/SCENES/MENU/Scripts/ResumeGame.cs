@@ -10,9 +10,5 @@ public class ResumeGame : MonoBehaviour
 			string savedScene = PlayerPrefs.GetString("SavedScene");
 			SceneManager.LoadScene(savedScene);
 		}
-    	else
-		{
-			Debug.LogWarning("No saved scene found!");
-		}
 	}
 }

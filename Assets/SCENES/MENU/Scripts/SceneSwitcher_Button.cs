@@ -3,10 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher_Button : MonoBehaviour
 {
-    [SerializeField] private string sceneName;
+	[SerializeField] private string sceneName;
 
-    public void LoadScene()
-    {
-            SceneManager.LoadScene(sceneName);
-    }
+	public void LoadScene()
+	{
+		SceneManager.LoadScene(sceneName);
+	}
 }
