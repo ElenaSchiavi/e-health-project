@@ -22,21 +22,30 @@ Narrator:What will you choose?
 ===
 title: Choice
 ---
+<<declare $sigarette=0>>
+<<set $sigarette=getSigarette()>>
+<<declare $mood=0>>
+<<set $mood=getMood()>>
+
 ->Smoke a cigarette
     Are you sure?
         ->Yes
+             //aggiungi ++sigaretta
              Takes out the cigarette
              Lights it up
              *FFSSSS... PFIUUUUUU*
              Davide:Maybe i shouldn't have smoked it...
              Davide:Anyway, I am late to work, got to get going
              <<hideCharacter Character>>
+             Puts out the cigarette
+             <<loadScene Davide4Car>>
         ->No
              <<jump Choice>>
 ->Don't smoke a cigarette
     Are you sure?
         ->Yes
              //play the game
+             //aggiungi --mood ma da fare post gioco, se no condizioni la difficoltà del gioco
         ->No
              <<jump Choice>>
 ===

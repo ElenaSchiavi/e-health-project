@@ -1,12 +1,16 @@
-﻿title: AS_KITCHEN
+﻿
+title: AS_KITCHEN
 tags:
 position:
 ---
+<<declare $mood=0>>
+<<set $mood=getMood()>>
 
 Davide walks into the kitchen.
 <<showCharacter Character>>
 Davide: I'm hungry... What should I eat?
 -> Choose something healthy
+    //aggiungi ++mood
     He prepares an omelette and starts eating
     Takes out eggs, a frying pan, and some vegetables
     *Sound of eggs cracking into a bowl*
@@ -17,8 +21,8 @@ Davide: I'm hungry... What should I eat?
     Starts to eat
     -> Check the time
         Davide: Woahhh! I'm going to be so late!
-        Finishes the dish and leaves the appartment
         <<hideCharacter Character>>
+        Finishes the dish and leaves the appartment
         <<loadScene Davide3HomeBalcony>>
 -> Grab something quick
     Starts to prepare some coffee
@@ -31,12 +35,13 @@ Davide: I'm hungry... What should I eat?
     Davide: Gnammm 
     -> Check the time
         Davide: Woahhh! I'm going to be so late!
-        Finishes the coffee and leaves the appartment
         <<hideCharacter Character>>
+        Finishes the coffee and leaves the appartment
         <<loadScene Davide3HomeBalcony>>    
 -> Skip eating
-    Davide decides not to eat.
+    //aggiungi --mood
     Davide: Maybe I’ll just skip this meal... I’m not that hungry anyway.
     <<hideCharacter Character>>
+    Davide decides not to eat.
     <<loadScene Davide3HomeBalcony>>
 ===
