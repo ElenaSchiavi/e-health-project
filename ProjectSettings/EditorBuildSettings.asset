@@ -51,6 +51,9 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Occasional Smoker/4. OS - Kitchen/Sergio4Kitchen.unity
     guid: b9e3797fd8be0d546987c1bad52706b8
   - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/4 1. AS - Car/Davide4Car.unity
+    guid: b16d51e65c2dc534fb127f22eaf5c9f6
+  - enabled: 1
     path: Assets/SCENES/DAY 1/Occasional Smoker/5. OS - RedCross HQ/Sergio5RedCrossHQ.unity
     guid: e8a64afc179fd404c953b38e057263d5
   - enabled: 1
