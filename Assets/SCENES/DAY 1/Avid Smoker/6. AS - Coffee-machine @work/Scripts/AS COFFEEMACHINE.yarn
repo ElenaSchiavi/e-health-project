@@ -8,6 +8,7 @@ Puts coins in the machine
 *WRRRRUUUUUUUUUUUUUUUMMMMMMMMM*
 *FRSHSHRSHSHRSHRSHRS*
 *BLIN*
+<<hideCharacter Character>>
 Narrator:Davide takes his coffee and has allways goes outside 
-
+<<loadScene Davide8OutsideWorkplace>>
 ===

@@ -6,6 +6,7 @@ Narrator:With a bit of hurry Davide managed to arrive at work
 Narrator:Suprisingly he was even a bit early
 Narrator:Perfect, because right there there was his friend Tom
 
+<<showCharacter Character>>
 Davide:*Huff Puff*
 Davide:Here I am, let me see...
 ->Check the time
@@ -23,6 +24,7 @@ Tom:Still didn't get over her?
 Davide gets frustrated
 Davide:Well Tom, you are not helping...
 Tom:Upsi, did it again...
+//aggiungi --mood
 Narrator:Davide bring his hand on his pocket and reaches for the cigarette pack
 <<jump Choice>>
 ===
@@ -31,19 +33,24 @@ title: Choice
 ---
 <<declare $sigarette=0>>
 <<set $sigarette=getSigarette()>>
+<<declare $mood=0>>
+<<set $mood=getMood()>>
 <<if $sigarette > 0 >>
-    This is the {$sigarette} of the day
+    You have smoked {$sigarette} cigarette
 <<endif>>
 
 ->Smoke a cigarette
     Are you sure?
         ->Yes
+             <<addSigaretta>>
              Takes out the cigarette
              Lights it up
              *FFSSSS... PFIUUUUUU*
              Davide:Maybe i shouldn't have smoked it...
-             Davide:Anyway, I am late to work, got to get going
+             Davide:Anyway, we better get going
              <<hideCharacter Character>>
+             Puts out the cigarette
+             <<loadScene Davide6Workplace>>
         ->No
              <<jump Choice>>
 ->Don't smoke a cigarette

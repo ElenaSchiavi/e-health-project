@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f3c23b247381a034d969e1867dbd4c13
+guid: 1f99b6e4ed6bc5c46a7c2130a5a0a68f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5007541786727837503
-    second: AS - Outside Workplace_0
+      213: 7972194561991452189
+    second: AS - Auto_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,24 +96,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AS - Outside Workplace_0
+      name: AS - Auto_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3f66d359bc5e7540800000000000000
-      internalID: 5007541786727837503
+      spriteID: d162dc337bce2ae60800000000000000
+      internalID: 7972194561991452189
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      AS - Outside Workplace_0: 5007541786727837503
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
