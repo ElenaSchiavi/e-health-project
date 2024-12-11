@@ -1,25 +1,56 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager1 : MonoBehaviour
 {
     public GameObject gameOverText;
-    public GameObject victoryText; // Testo di vittoria
+    public GameObject Attempt1;
+    public GameObject Attempt2;
+    public GameObject Attempt3;
+    public GameObject victoryText; // Victory text
     private bool gameEnded = false;
+    private static int attempts = 0; // Number of attempts made
+    private const int maxAttempts = 3; // Maximum number of allowed games
 
     private void Start()
     {
-        Invoke("CheckVictory", 20f); // Controlla la vittoria dopo 30 secondi
+        Debug.Log("Game started!");
+        Invoke("CheckVictory", 20f); // Check for victory after 20 seconds
+        ShowAttemptText(); // Show the current attempt text
     }
 
     public void ShowGameOver()
     {
         if (!gameEnded)
         {
-            gameEnded = true;
             if (gameOverText != null)
             {
-                gameOverText.SetActive(true);
+                gameOverText.SetActive(true); // Show Game Over text
+            }
+
+            // Check if the player still has games available
+            if (attempts < maxAttempts)
+            {
+                Debug.Log("Restarting game in 2 seconds...");
+                gameEnded = true;
+                attempts++;
+                Debug.Log($"Game over. Attempts: {attempts}/{maxAttempts}");
+
+                // Show the current attempt text
+                ShowAttemptText();
+
+                // Reload the scene
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            if (attempts == maxAttempts)
+            {
+                Debug.Log("You have reached the maximum number of games. Game over.");
+                SceneManager.LoadScene("Davide5Workplace");
+                if (gameOverText != null)
+                {
+                    gameOverText.SetActive(true);
+                }
             }
         }
     }
@@ -31,17 +62,42 @@ public class GameManager1 : MonoBehaviour
             gameEnded = true;
             if (victoryText != null)
             {
-                victoryText.SetActive(true);
+                victoryText.SetActive(true); // Show victory text
             }
-            Time.timeScale = 0; // Ferma il tempo di gioco
+            Time.timeScale = 0; // Stop the game time
+            Debug.Log("Victory!");
         }
     }
 
     private void CheckVictory()
     {
+        // Example method: check victory conditions
         if (!gameEnded)
         {
-            ShowVictory(); // Mostra il messaggio di vittoria se il gioco non � terminato
+            ShowVictory();
+            SceneManager.LoadScene("Davide5Workplace");
+        }
+    }
+
+    // Method to show the correct attempt text
+    private void ShowAttemptText()
+    {
+         // Enable the correct attempt text based on the number of attempts
+        switch (attempts)
+        {
+            case 0:
+                Attempt1.SetActive(true);
+                break;
+            case 1:
+                Attempt2.SetActive(true);
+                break;
+            case 2:
+                Attempt3.SetActive(true);
+                break;
+            default:
+                // If attempts >= 3, no more attempts are shown
+                break;
         }
     }
 }
+
