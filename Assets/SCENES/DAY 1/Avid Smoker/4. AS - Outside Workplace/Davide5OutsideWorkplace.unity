@@ -468,12 +468,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877104428}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c3f106a78e1aa142b294d8d1a41114b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gif: {fileID: 11400000, guid: 8085c35571d9edc4ba7d1ff7dcc7e1ac, type: 2}
+  Gif: {fileID: 11400000, guid: a19dd770455841842bf54c5b878031af, type: 2}
 --- !u!114 &877104431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -494,7 +494,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2591493708301062746, guid: 812745977178946f8a535db283e806ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7f3a130eae5a6c94da57287514fe2f1f, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
