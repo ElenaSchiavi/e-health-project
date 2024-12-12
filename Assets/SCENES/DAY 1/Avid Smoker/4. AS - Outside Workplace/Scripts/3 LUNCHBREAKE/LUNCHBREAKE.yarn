@@ -1,0 +1,84 @@
+﻿title: LUNCHBREAKE
+tags:
+---
+<<declare $sigarette=0>>
+<<set $sigarette=getSigarette()>>
+<<declare $mood=0>>
+<<set $mood=getMood()>>
+
+Narrator: From there the three friends moved to get a coffee before going back to work.
+
+<<showCharacter Character>>
+
+Melissa:So, have you two heard about the company retreat next month?
+Tom:Ugh, don’t remind me. Team-building exercises and trust falls. Can’t wait.
+
+->Davide:Oh, come on, Tom. It might not be so bad. Free food, at least.
+->Davide:You’ll survive. Maybe you’ll actually bond with the team.
+->Davide:Trust falls aren’t so bad when someone actually catches you.
+
+Melissa:And don’t forget the location. A mountain resort! That sounds pretty nice to me.
+Tom:Alright, you’ve got a point. I could use some fresh air, I guess.
+
+->Davide:Or, you know, some actual exercise. Like hiking instead of sitting on the terrace smoking.
+->Davide:Don’t let the "fresh air" be the walk from the parking lot to the lodge.
+->Davide:Maybe you can swap your cigarette for a trekking pole. Think about it.
+
+Tom:Hey! Let me enjoy my vices in peace, will you?
+Melissa:You two are hopeless hahahaha.
+Narrator:The conversation shifted as Melissa changed the topic.
+Melissa: You know, Davide, I’m proud of you for trying to quit smoking. How’s it going?
+
+<<if $sigarette > 0 >>
+    Davide:Not realy well... today i smoked {$sigarette} cigarettes    
+<<endif>>
+
+Davide:It’s rough. Especially with Tom here waving his cigarette around.
+Tom:Hey, I’m not forcing you to smoke, am I? Besides, I only smoke outside.
+Melissa:Still, you could try to cut back, Tom. It might make it easier for Davide.
+Tom:I’ll think about it. Maybe when Davide actually quits for good, I’ll join him.
+
+->Davide:Oh, great, no pressure or anything.
+->Davide:Wow, thanks for the vote of confidence, Tom.
+->Davide:Deal. When I quit, you’re next, Tom.
+
+Melissa:What about other distractions, Davide? Have you tried gum or those nicotine patches?
+Davide:Honestly, it’s just willpower at this point.
+Tom:You’ve got this, man.
+Narrator:Tom and Melissa went back inside to work while Davide is stopping outside
+Narrator:He is feeling an itch and is having difficulty controlling himself
+Narrator:He wants to smoke...
+Narrator:What is he going to do?
+<<jump Choice>>
+===
+
+title: Choice
+---
+
+<<if $sigarette > 0 >>
+    You have smoked {$sigarette} cigarettes
+<<endif>>
+Will you smoke?
+->Smoke a cigarette
+    Are you sure?
+        ->Yes
+             <<addSigaretta>>
+             <<minusMood>> //controlla se giusto
+             Takes out the cigarette and Lights it up
+             *FFSSSS... PFIUUUUUU*
+             Narrator:Davide didn't enjoy this one
+             Narrator:Especially after the conversations with his friends
+             Davide:...
+             Davide:Uffff
+             <<hideCharacter Character>>
+             Puts out the cigarette
+             <<loadScene Davide11RedCrossHQ>> 
+        ->No
+             <<jump Choice>>
+->Don't smoke a cigarette
+    Are you sure?
+        ->Yes
+             //play the game
+        ->No
+             <<jump Choice>>
+===

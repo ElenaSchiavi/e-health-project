@@ -30,7 +30,7 @@ title: Choice
 ->Smoke a cigarette
     Are you sure?
         ->Yes
-             //aggiungi ++sigaretta
+             <<addSigaretta>>
              Takes out the cigarette
              Lights it up
              *FFSSSS... PFIUUUUUU*
