@@ -15,7 +15,11 @@ C:/Users/matte/OneDrive - Politecnico di Milano/Documenti/POLIMI/LM - YEAR 2/SEM
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 50185
+=======
+24579
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 -job-worker-count
 3
 -background-job-worker-count
@@ -59,12 +63,21 @@ C:/Users/matte/OneDrive - Politecnico di Milano/Documenti/POLIMI/LM - YEAR 2/SEM
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [2456]  Target information:
 
 Player connection [2456]  * "[IP] 10.169.208.192 [Port] 0 [Flags] 2 [Guid] 4215426389 [EditorId] 4215426389 [Version] 1048832 [Id] WindowsEditor(7,MateBook-di-Teo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
 Player connection [2456] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [2456] Host joined alternative multi-casting on [225.0.0.222:34997]...
+=======
+Player connection [26576]  Target information:
+
+Player connection [26576]  * "[IP] 10.173.135.53 [Port] 0 [Flags] 2 [Guid] 3673594436 [EditorId] 3673594436 [Version] 1048832 [Id] WindowsEditor(7,MateBook-di-Teo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26576] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26576] Host joined alternative multi-casting on [225.0.0.222:34997]...
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +88,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 3.63 ms, found 4 plugins.
+=======
+Refreshing native plugins compatible for Editor in 5.12 ms, found 4 plugins.
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.25f1 (4859ab7b5a49)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/Resources/UnitySubsystems
@@ -91,6 +108,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -102,10 +120,24 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.775 seconds
 Domain Reload Profiling: 1568ms
 	BeginReloadAssembly (272ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003819 seconds.
+- Loaded All Assemblies, in  0.728 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.703 seconds
+Domain Reload Profiling: 1429ms
+	BeginReloadAssembly (241ms)
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (4ms)
 	RebuildCommonClasses (75ms)
 	RebuildNativeTypeToScriptingClass (26ms)
@@ -129,6 +161,31 @@ Domain Reload Profiling: 1568ms
 			ProcessInitializeOnLoadAttributes (454ms)
 			ProcessInitializeOnLoadMethodAttributes (153ms)
 			AfterProcessingInitializeOnLoad (6ms)
+=======
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (298ms)
+				TypeCache.ScanAssembly (273ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (704ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (616ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (12ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (4ms)
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -136,6 +193,7 @@ Domain Reload Profiling: 1568ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 - Loaded All Assemblies, in  4.101 seconds
 Refreshing native plugins compatible for Editor in 5.29 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
@@ -300,10 +358,57 @@ Received Import Request.
   artifactKey: Guid(fff873cb5309b6f4eaf0d6b0715bfd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8OutsideWorkplace.unity using Guid(fff873cb5309b6f4eaf0d6b0715bfd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1468ff38f9525aa36f2063bb6de8e593') in 0.0009674 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+=======
+- Loaded All Assemblies, in  2.369 seconds
+Refreshing native plugins compatible for Editor in 3.47 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.714 seconds
+Domain Reload Profiling: 4071ms
+	BeginReloadAssembly (757ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (1389ms)
+		LoadAssemblies (856ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (740ms)
+			TypeCache.Refresh (529ms)
+				TypeCache.ScanAssembly (494ms)
+			BuildScriptInfoCaches (184ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1715ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1300ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (947ms)
+			ProcessInitializeOnLoadMethodAttributes (172ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 219 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6671 unused Assets / (5.2 MB). Loaded Objects now: 7437.
+Memory consumption went from 204.2 MB to 198.9 MB.
+Total: 18.467200 ms (FindLiveObjects: 1.163000 ms CreateObjectMapping: 1.824400 ms MarkObjects: 10.746600 ms  DeleteObjects: 4.729400 ms)
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 - Loaded All Assemblies, in  2.655 seconds
 Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
@@ -311,10 +416,20 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  3.449 seconds
 Domain Reload Profiling: 6094ms
 	BeginReloadAssembly (440ms)
+=======
+- Loaded All Assemblies, in  1.771 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.157 seconds
+Domain Reload Profiling: 3921ms
+	BeginReloadAssembly (352ms)
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (24ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (121ms)
 	RebuildCommonClasses (78ms)
 	RebuildNativeTypeToScriptingClass (38ms)
@@ -443,27 +558,156 @@ Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6669 unused Assets / (4.1 MB). Loaded Objects now: 7462.
 Memory consumption went from 171.9 MB to 167.7 MB.
 Total: 31.238800 ms (FindLiveObjects: 1.935400 ms CreateObjectMapping: 2.751100 ms MarkObjects: 19.682600 ms  DeleteObjects: 6.867700 ms)
+=======
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (1254ms)
+		LoadAssemblies (722ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (695ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (654ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (2157ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1456ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (177ms)
+			ProcessInitializeOnLoadAttributes (1118ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6669 unused Assets / (4.9 MB). Loaded Objects now: 7440.
+Memory consumption went from 169.8 MB to 164.8 MB.
+Total: 22.509600 ms (FindLiveObjects: 2.270800 ms CreateObjectMapping: 1.804300 ms MarkObjects: 11.449200 ms  DeleteObjects: 6.983000 ms)
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 107.510309 seconds.
   path: Assets/MAIN/Minigames/FLAPPY BIRD/FlappyBirdManager.cs
   artifactKey: Guid(c669acee89ade5943a77f19e57397f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/MAIN/Minigames/FLAPPY BIRD/FlappyBirdManager.cs using Guid(c669acee89ade5943a77f19e57397f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6e4e60a60b4ff2b31838054e914b015') in 0.0385481 seconds
+=======
+  Time since last request: 91106.733778 seconds.
+  path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_1.png
+  artifactKey: Guid(b39f406e977f19742916a8dac9f3f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_1.png using Guid(b39f406e977f19742916a8dac9f3f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4d4b8a44a9e6d32e40f1bf36eaca064') in 0.1657488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.775493 seconds.
+  path: Assets/GifToUnity/Giovanna-unscreen/Giovanna-unscreen_1.png
+  artifactKey: Guid(490809e7da67bd24d81ed6634fccb491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Giovanna-unscreen/Giovanna-unscreen_1.png using Guid(490809e7da67bd24d81ed6634fccb491) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b53023ba73b9bb99bfa6733e50dd04b1') in 0.0299588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.864124 seconds.
+  path: Assets/GifToUnity/Sergio-unscreen/Sergio-unscreen_1.png
+  artifactKey: Guid(c3fd65a6d032cf74f982cd1f72dd7ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Sergio-unscreen/Sergio-unscreen_1.png using Guid(c3fd65a6d032cf74f982cd1f72dd7ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfd8b84aa972529e09b2cfff6b330e9a') in 0.025607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.863103 seconds.
+  path: Assets/GifToUnity/Valeria-unscreen/Valeria-unscreen_1.png
+  artifactKey: Guid(ee89e571abfc3e743bba46e183456551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Valeria-unscreen/Valeria-unscreen_1.png using Guid(ee89e571abfc3e743bba46e183456551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3eb4ecfcefd50b8e5f8192afb39e260') in 0.0348292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.355265 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65636432c56742a06922c04c04ec00a3') in 0.0015501 seconds
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.761012 seconds.
   path: Assets/MAIN/Minigames/MAZE/MAZE.unity
   artifactKey: Guid(d5049af0b57172c4fb8aabda6c0e0c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/MAIN/Minigames/MAZE/MAZE.unity using Guid(d5049af0b57172c4fb8aabda6c0e0c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '589e49265f3f5be828687ced6f67ec3e') in 0.0010587 seconds
+=======
+  Time since last request: 0.000017 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b2564eaa9f4e1c9db0aa8e3ea579112') in 0.0138981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.169061 seconds.
+  path: Assets/GifToUnity/Bryan-unscreen.asset
+  artifactKey: Guid(739cd6877bbfeb847bd38c175eb8f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Bryan-unscreen.asset using Guid(739cd6877bbfeb847bd38c175eb8f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f195264634f5651a653ca41c59b6fe04') in 0.0704105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/GifToUnity/Max-unscreen.asset
+  artifactKey: Guid(679698d01c5b5e24b8b584918e8403c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Max-unscreen.asset using Guid(679698d01c5b5e24b8b584918e8403c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a04a6821fb1746e01b8cc1b4a8336f5b') in 0.0649293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/GifToUnity/Tom-unscreen.gif
+  artifactKey: Guid(272ceb84e1eec8c4481c3d735c224c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Tom-unscreen.gif using Guid(272ceb84e1eec8c4481c3d735c224c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8849f663a6124f1501bd52ee95f1a9b5') in 0.0393695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GifToUnity/Melissa-unscreen.asset
+  artifactKey: Guid(38a6aa25409dc664091aed26682dbf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Melissa-unscreen.asset using Guid(38a6aa25409dc664091aed26682dbf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ebc327f49d785d5de2239c83594bbcd') in 0.0564045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GifToUnity/Tom-unscreen.asset
+  artifactKey: Guid(a19dd770455841842bf54c5b878031af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GifToUnity/Tom-unscreen.asset using Guid(a19dd770455841842bf54c5b878031af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b26347609016976266933a4b2de0fb0e') in 0.0551751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.615345 seconds.
+  path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5OutsideWorkplace.unity
+  artifactKey: Guid(8189bebbfac2f7940a86ee29113c7403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5OutsideWorkplace.unity using Guid(8189bebbfac2f7940a86ee29113c7403) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f6f5c9a1a6e65e52225ef85677058a3') in 0.0007095 seconds
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 - Loaded All Assemblies, in  7.297 seconds
 Refreshing native plugins compatible for Editor in 4.49 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
@@ -1041,5 +1285,50 @@ Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6669 unused Assets / (4.5 MB). Loaded Objects now: 7511.
 Memory consumption went from 174.5 MB to 170.0 MB.
 Total: 26.120500 ms (FindLiveObjects: 2.545400 ms CreateObjectMapping: 3.049700 ms MarkObjects: 14.425700 ms  DeleteObjects: 6.097200 ms)
+=======
+- Loaded All Assemblies, in  1.576 seconds
+Refreshing native plugins compatible for Editor in 2.83 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.032 seconds
+Domain Reload Profiling: 3605ms
+	BeginReloadAssembly (325ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (1113ms)
+		LoadAssemblies (675ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (584ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (544ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2033ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1449ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (1136ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 9.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6669 unused Assets / (3.8 MB). Loaded Objects now: 7451.
+Memory consumption went from 171.8 MB to 168.0 MB.
+Total: 36.458500 ms (FindLiveObjects: 2.831900 ms CreateObjectMapping: 2.911800 ms MarkObjects: 22.752700 ms  DeleteObjects: 7.960200 ms)
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 
 Prepare: number of updated asset objects reloaded= 0
