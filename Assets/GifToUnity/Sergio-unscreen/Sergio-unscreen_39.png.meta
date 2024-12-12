@@ -103,10 +103,10 @@ TextureImporter:
       name: Sergio-unscreen_39_0
       rect:
         serializedVersion: 2
-        x: 153
+        x: 226
         y: 0
-        width: 335
-        height: 357
+        width: 173
+        height: 278
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
