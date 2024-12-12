@@ -6,48 +6,53 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/MAIN/Minigames/DODGE/DODGE.unity
+    guid: 550e0b86047079a45adc8bd4b560b88c
+  - enabled: 1
     path: Assets/MAIN/Minigames/FLAPPY BIRD/FLAPPY BIRD.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Davide1Bedroom.unity
-    guid: a19fb6d78220c3e4ab76bde648d229d7
+    path: Assets/MAIN/Minigames/PLANE/PLANE.unity
+    guid: 9fcc8bed74b477b40a8044a3ae6ffa96
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - Kitchen/Graphics/Matteo - Kitchen.unity
-    guid: dbfebdff10f7fd342a636598840767e5
+    path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3HomeBalcony.unity
+    guid: 6e0b3d01c32f51e4ba6f50908de92e07
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - Home Balcony/Graphics/Matteo - Home
-      Balcony.unity
-    guid: 9d70f57b28d72874d96109c4af8be9e0
+    path: Assets/SCENES/DAY 1/Avid Smoker/2. AS - Kitchen/Davide2Kitchen.unity
+    guid: 03c4e3f8b8584f147b17ba7eb5523792
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/2-AS - Outside Workplace/Matteo - Outside
-      Work.unity
-    guid: 9871fb09499ddc946a893969253fc21c
+    path: Assets/MAIN/Minigames/MAZE/MAZE.unity
+    guid: d5049af0b57172c4fb8aabda6c0e0c8c
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - Workplace/Graphics/Matteo - Workplace.unity
-    guid: 70282fa484fcea14280bf0a77a0c9ccd
+    path: Assets/SCENES/DAY 1/Avid Smoker/5. AS - Workplace/Davide6Workplace.unity
+    guid: c5fb578a653bf6b449244e66ea9fa527
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - Coffee-machine @work/Graphics/Matteo
-      - Coffee-machine @work.unity
-    guid: 4bdc0a6150f0d3443ac6a66327d66d32
+    path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8OutsideWorkplace.unity
+    guid: fff873cb5309b6f4eaf0d6b0715bfd5f
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - RedCross HQ/Graphics/Matteo - RedCross
-      HQ.unity
-    guid: bbb44201dca201f4f9b2423d21fdbe8c
+    path: Assets/SCENES/DAY 1/Avid Smoker/7. AS - RedCross HQ/Davide7RedCrossHQ.unity
+    guid: 4d87ca1960882d240a21f9d792848fa8
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - Ambulance/Graphics/Matteo - Ambulance.unity
-    guid: a180ed248f942c84a95e78d9299da238
+    path: Assets/SCENES/DAY 1/Avid Smoker/6. AS - Coffee-machine @work/Davide7CoffeeMachine.unity
+    guid: 984ff99bed8364145a1aea6cb4db6b7e
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - RedCross inside/Graphics/Matteo -
-      RedCross Inside.unity
-    guid: 4a6afd16020f66c4fbd1457b848cb8a5
+    path: Assets/SCENES/DAY 1/Avid Smoker/13. AS - Car/Davide4Car.unity
+    guid: b16d51e65c2dc534fb127f22eaf5c9f6
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - RedCross HQ by night/Graphics/Matteo
-      - RedCross HQ byb night.unity
-    guid: 31ed30c1c80123d448a020b253373572
+    path: Assets/SCENES/DAY 1/Avid Smoker/9. AS - RedCross inside/Davide9RedCrossInside.unity
+    guid: 69e9bbdea7387604cb3cbbf6387498fd
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/AS - Home Balcony by night/Graphics/Matteo
-      - Home Balcolny by night.unity
-    guid: cf6e231b0906db64dbcc8d9571c37499
+    path: Assets/SCENES/DAY 1/Avid Smoker/8. AS - Ambulance/Davide8Ambulance.unity
+    guid: e249c997ba360204691b03f532d26d67
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/14. AS - Canteen/Davide9Canteen.unity
+    guid: 1299ff73e6d930d46949bd4865e39c43
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/11. AS - Home Balcony by night/Davide11HomeBalconyNight.unity
+    guid: 80a8d2477c9d0e34cacdcc552fa857ce
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide10RedCrossHQnight.unity
+    guid: aadfcc54d6904ae49b096fe7bdb7364f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
