@@ -116,10 +116,10 @@ TextureImporter:
       name: Resume_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 725
-        height: 344
+        x: 5
+        y: 2
+        width: 1090
+        height: 550
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6448d23e81fd12e45b9527eb4fa421b0
+guid: a1c234939d72b294fb6f016d8efd1dae
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Davide-1--unscreen_0: 924228041340361500
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/ExitGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/ExitGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/PauseGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/PauseGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/ResumeGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/ResumeGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Button.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Button.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Space.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Space.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/YarnLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/ExitGame.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/LBL_Text.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/PauseGame.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/ResumeGame.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Space.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2q1yQqyxm4G00QtXSqbgoAh6shX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="" />
+      <created>1733844364166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733844364166</updated>
+      <workItem from="1733844365404" duration="1000" />
+      <workItem from="1733844649822" duration="2000" />
+      <workItem from="1733844717026" duration="10000" />
+      <workItem from="1733844793389" duration="14000" />
+      <workItem from="1733856004200" duration="164000" />
+      <workItem from="1733859409953" duration="47000" />
+      <workItem from="1733859564832" duration="2000" />
+      <workItem from="1733859588029" duration="23000" />
+      <workItem from="1733860589062" duration="85000" />
+      <workItem from="1733860703553" duration="143000" />
+      <workItem from="1733860892984" duration="28000" />
+      <workItem from="1733861219965" duration="2000" />
+      <workItem from="1733862275064" duration="198000" />
+      <workItem from="1733862526350" duration="132000" />
+      <workItem from="1733862702387" duration="50000" />
+      <workItem from="1733863766514" duration="8000" />
+      <workItem from="1733863949289" duration="2000" />
+      <workItem from="1733866247150" duration="526000" />
+      <workItem from="1733866786028" duration="87000" />
+      <workItem from="1733866893734" duration="92000" />
+      <workItem from="1733867104381" duration="150000" />
+      <workItem from="1733867288990" duration="61000" />
+      <workItem from="1733867489434" duration="12000" />
+      <workItem from="1733867525615" duration="31000" />
+      <workItem from="1733867574806" duration="106000" />
+      <workItem from="1733867823022" duration="29000" />
+      <workItem from="1733868303892" duration="3000" />
+      <workItem from="1733918565041" duration="423000" />
+      <workItem from="1733919015764" duration="173000" />
+      <workItem from="1733919244349" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

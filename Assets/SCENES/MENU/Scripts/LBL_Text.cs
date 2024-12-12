@@ -4,13 +4,13 @@ using TMPro;
 
 public class LetterByLetterText : MonoBehaviour
 {
-    public TextMeshProUGUI textComponent;  // Il componente TextMeshPro
-    public string fullText;                // Il testo completo da mostrare
-    public float delay = 0.1f;             // Ritardo tra una lettera e l'altra
+    public TextMeshProUGUI textComponent;
+    public string fullText;
+    public float delay = 0.1f;
 
     private void Start()
     {
-        textComponent.text = "";  // Inizializza con testo vuoto
+        textComponent.text = "";
         StartCoroutine(ShowText());
     }
 

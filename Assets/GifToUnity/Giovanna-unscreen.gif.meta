@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0d16ef79e9904354d9f509ad18bb9e87
+guid: 2261c597418b4384d8dc8e7216ae9491
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Giovanna-unscreen_0: 5088262806141886352
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,19 @@
+﻿title: CAR
+tags:
+position: 1,10
+---
+*BIP BIP*
+Opens the door
+<<showCharacter Character>>
+Inserts the keys and starts the car
+*Driving noises*
+Davide:*wistles*
+*BEEEP BEEEEP*
+Davide:Yeahhh, there is a spot just in front of the office!
+<<addMood>>
+Narrator:Davide found a park close to his work place
+Narrator:This had a good impact on his mood!
+<<hideCharacter Character>>
+Narrator:He parks his car and goes to work
+<<loadScene Davide5OutsideWorkplace>>
+===
