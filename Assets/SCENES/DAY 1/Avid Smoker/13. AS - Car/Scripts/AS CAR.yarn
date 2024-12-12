@@ -10,10 +10,7 @@ Inserts the keys and starts the car
 Davide:*wistles*
 *BEEEP BEEEEP*
 Davide:Yeahhh, there is a spot just in front of the office!
-<<addMood>>
-Narrator:Davide found a park close to his work place
-Narrator:This had a good impact on his mood!
-<<hideCharacter Character>>
-Narrator:He parks his car and goes to work
+//aggiungi un mood++?
+Narrator:Davide parks his car and goes to work
 <<loadScene Davide5OutsideWorkplace>>
 ===

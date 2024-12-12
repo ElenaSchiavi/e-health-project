@@ -30,22 +30,21 @@ title: Choice
 ->Smoke a cigarette
     Are you sure?
         ->Yes
-             <<addSigaretta>>
+             //aggiungi ++sigaretta
              Takes out the cigarette
              Lights it up
              *FFSSSS... PFIUUUUUU*
              Davide:Maybe i shouldn't have smoked it...
              Davide:Anyway, I am late to work, got to get going
              <<hideCharacter Character>>
-             Narrator:Puts out the cigarette and goes to his car
+             Puts out the cigarette
              <<loadScene Davide4Car>>
         ->No
              <<jump Choice>>
 ->Don't smoke a cigarette
     Are you sure?
         ->Yes
-           Narrator:Good Luck!
-             <<loadScene FlappyBird>>
+             //play the game
              //aggiungi --mood ma da fare post gioco, se no condizioni la difficoltà del gioco
         ->No
              <<jump Choice>>

@@ -25,7 +25,7 @@ title: Choice
 ->Smoke a cigarette
     Are you sure?
         ->Yes
-             <<addSigaretta>>
+             //aggiungi ++sigaretta
              Davide Thought:"Uffffff"
              Takes out the cigarette and lights it up
              *FFSSSS... PFIUUUUUU*
