@@ -11,8 +11,19 @@ EditorUserSettings:
     RecentlyUsedSceneGuid-0:
       value: 52030d5f03535e080858087b43735b44404e4c732e2c72687b7c1860bbe3606b
       flags: 0
+<<<<<<< HEAD
     RecentlyUsedSceneGuid-1:
       value: 02000d0007030d0c555c5e7213705a4417154f7c2e2c236679711961b0b9306f
+=======
+    RecentlyUsedSceneGuid-4:
+      value: 02000d0007030d0c555c5e7213705a4417154f7c2e2c236679711961b0b9306f
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 5a090000030c5059080a547146770e444316492b292970332f7d1931b4e2633d
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 0557525e52060a59585d5c7b1275594413161e7a287e24607a784831e4e4613e
+>>>>>>> parent of 0c748f1 (prima metà gioco quasi finita)
       flags: 0
     RecentlyUsedSceneGuid-2:
       value: 5a090000030c5059080a547146770e444316492b292970332f7d1931b4e2633d
