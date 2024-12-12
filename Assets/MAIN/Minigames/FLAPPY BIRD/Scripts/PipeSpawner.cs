@@ -3,7 +3,7 @@ using UnityEngine;
 public class PipeSpawner : MonoBehaviour
 {
     public GameObject pipePrefab; // Prefab dei tubi
-    public static float spawnRate = 0.8f; // Frequenza di spawn (in secondi)
+    public float spawnRate = 2f; // Frequenza di spawn (in secondi)
     public float heightOffset = 2f; // Offset verticale dei tubi
 
     private void Start()

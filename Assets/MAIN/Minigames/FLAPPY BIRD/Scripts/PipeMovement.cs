@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PipeMovement : MonoBehaviour
 {
-    public static float speed = 10f; // Velocità del movimento
+    public float speed = 4f; // Velocità del movimento
 
     void Update()
     {
