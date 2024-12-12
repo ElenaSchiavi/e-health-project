@@ -1,0 +1,50 @@
+﻿title: AS_2OUTSIDEWORKPLACE
+tags:
+---
+Narrator:Davide joins Tom for the break
+<<showCharacter Character>>
+Narrator:Tom was allready smoking a cigarette
+Tom:Hey man, how is work going?
+Narrator:Davide notices it...
+Davide:I couldn't hold my eyes open anymore, thank god i got a coffee
+Davides Thought:"These coffee is really good"
+Davides Thought:"but I am just missing a cigarette at this point"
+Davides Thought:"Should I...?"
+<<jump Choice>>
+===
+title: Choice
+---
+<<declare $sigarette=0>>
+<<set $sigarette=getSigarette()>>
+<<declare $mood=0>>
+<<set $mood=getMood()>>
+<<if $sigarette > 0 >>
+    You have smoked {$sigarette} cigarettes
+<<endif>>
+
+->Smoke a cigarette
+    Are you sure?
+        ->Yes
+             //aggiungi ++sigaretta
+             Davide Thought:"Uffffff"
+             Takes out the cigarette and lights it up
+             *FFSSSS... PFIUUUUUU*
+             Tom:Yeah, I couldn't resist anymore either
+             Tom:*PFIUUUUUU*
+             Tom:Can't wait for the day to finish
+             Davide:Well, lets not exagerate
+             Davide:There is still a lot of time ahahahha
+             Tom:Hehehehe
+             <<hideCharacter Character>>
+             Narrator:Davide Puts out the cigarette and goes back to work
+             <<loadScene Davide9Canteen>>
+        ->No
+             <<jump Choice>>
+->Don't smoke a cigarette
+    Are you sure?
+        ->Yes
+             //play the game
+             //aggiungi --mood ma da fare post gioco, se no condizioni la difficoltà del gioco
+        ->No
+             <<jump Choice>>
+===
