@@ -1,5 +1,29 @@
 ﻿title: REDCROSSHQ
 tags:
 ---
+Narrator:After the lunch break, Davide went back to work
+Narrator:Once his shift ended, he headed to his volunteering job at the Red Cross
+Narrator:There, his team was getting ready for the evening service
 
+<<showCharacter Character>>
+
+Bryan:Alright, team. Let’s make sure we have everything packed
+Bryan:firstaid kits, water, and the comms are fully charged
+Bryan:Anything missing?
+
+Max:Looks like we’re good to go
+Max:I double-checked the kits earlier
+Davide: Great. So, where are we headed tonight?
+Bryan:Just the usual spots downtown
+Bryan:There’s a charity event near the park, so we might need to keep an eye out there
+Max: Oh, crowds. Always a fun time...
+Davide:Yeah, nothing like weaving through a sea of people while carrying a stretcher
+Bryan:Let’s hope it doesn’t come to that
+Dave:We’ll manage. Like always.
+Max: Alright
+Max:let’s hit the road before the event gets too busy.
+<<hideCharacter Character>>
+
+Narrator: With everything prepared, the team loaded their equipment into the van and headed out for another night of service.
+<<loadScene Davide12Ambulance>> 
 ===

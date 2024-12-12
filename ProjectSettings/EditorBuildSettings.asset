@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/7. AS - RedCross HQ/Davide11RedCrossHQ.unity
     guid: 4d87ca1960882d240a21f9d792848fa8
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/8. AS - Ambulance/Davide8Ambulance.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/8. AS - Ambulance/Davide12Ambulance.unity
     guid: e249c997ba360204691b03f532d26d67
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/9. AS - RedCross inside/Davide9RedCrossInside.unity
@@ -38,6 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide10RedCrossHQnight.unity
     guid: aadfcc54d6904ae49b096fe7bdb7364f
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10LunchBreake.unity
+    guid: bfe17ef5007c1e74bb70ce4b92d4dac7
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/14. AS - Canteen/Davide9Canteen.unity
     guid: 1299ff73e6d930d46949bd4865e39c43
