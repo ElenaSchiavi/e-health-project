@@ -13,7 +13,7 @@ public class BlockSpawner : MonoBehaviour
 
     void Start()
     {
-        gameManager = FindObjectOfType<GameManager>();
+        gameManager = Object.FindAnyObjectByType<GameManager>();
     }
 
     void Update()

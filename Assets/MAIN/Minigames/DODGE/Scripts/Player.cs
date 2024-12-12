@@ -27,7 +27,7 @@ public class Player : MonoBehaviour {
 
 	void OnCollisionEnter2D ()
 	{
-		FindObjectOfType<GameManager>().EndGame();
+		Object.FindAnyObjectByType<GameManager>().ShowGameOver();
 	}
 
 }
