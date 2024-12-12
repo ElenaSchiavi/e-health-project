@@ -7,7 +7,7 @@ public class Block : MonoBehaviour
 
     void Start()
     {
-        blockSpawner = FindObjectOfType<BlockSpawner>();
+        blockSpawner =  Object.FindAnyObjectByType<BlockSpawner>();
         GetComponent<Rigidbody2D>().gravityScale += Time.timeSinceLevelLoad / 20f;
     }
 
