@@ -1,0 +1,61 @@
+﻿title: Start
+tags:
+position: 1,10
+---
+"Birds are singin"
+"an allarm goes off"
+*STUK*
+Davide: Woahhhh mhh mhh mhh
+Davide:Another day, another long day... 
+Narrathor:"Davide gets up and gets dressed"
+Davide:I'm so happy that yesterday i did my laundry, today i don't have any time for it.
+Narrathor:"He mooves to the kitchen and starts to prepare breakfast"
+Davide:What should i eat this morning?
+
+-> /:Healthy option: Omelette 
+   Davide:I'll take my time this morning
+   "breaks 2 eggs"
+   "pours milk"
+   "pan starts cizeling"
+   -> Check the time
+   7.40
+   Davide:What? I'm going to be so late! I better eat fast.
+   "DEVOURS THE breakfast"
+   GNAM GNAM GNAM GNAM
+   Davide: The pan I'll leave it here and clean it when I get back.
+      <<jump CigaretteMorning>>
+-> /:Fast option: Biscuits and caffè latte
+   Davide: I don't have much time, let me prepare some coffè 
+   "puts the mocca on the stove"
+   FRRRSSHHHHHHHHH
+   "turns the heat of and pours milk in the coffee"
+   Davide:Which Biscuits should i eat?
+   ->Gocciole
+   ->Nascondini
+   ->Abbracci
+   "dips cookie in the caffè latte"
+   -> Check the time
+   7.40
+   Davide:What? I'm going to be so late! I better get going.
+   <<jump CigaretteMorning>>
+-> /:Unhealthy option : Nothing  
+   Davide:No time to eat, i'll just get going.
+   <<jump CigaretteMorning>>
+===
+
+title: CigaretteMorning
+tags:
+position: 192,178
+---
+Davide:I do have ambulance shift tonight. It's really going to be a long day.
+
+-> Go to work
+   I better get going.
+    <<jump OutsideWorkScene1>>
+-> Feed the dog.
+   How cute is Puddle when he eats.
+   -> Check the hour.
+    7.37 What? I'm going to be late! Today of all days the manager is going to be here too...I'll have to drive fast.
+   <<jump OutsideWorkScene2>> 
+<<fade_out 1.5>>
+===

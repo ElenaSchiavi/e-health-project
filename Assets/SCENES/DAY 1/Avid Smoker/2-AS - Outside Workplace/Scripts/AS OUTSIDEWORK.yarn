@@ -1,0 +1,20 @@
+﻿title: Start
+tags:
+position: 1,10
+---
+Davide:Right on time. Looks who's here Tom
+
+
+-> beckon him
+   Tom: Didn't expect you to show up so early. Didn't you have an ambulance shift yesterd?
+   -> Answer
+   Davide:No, it's tonight unfortunately
+-> wait for him
+   Tom:I expected you to sleep in today, didn't you have an ambulance shift?
+   -> Answer
+   Gosh, you're right, how could I have forgetten? I really need a cigarette now 
+    ->Smoke cigarette and offer one to Tom
+    Tom:Thanks, but weren't you quitting?
+    ->Sigh
+    Davide: Days like this call for it.
+===
