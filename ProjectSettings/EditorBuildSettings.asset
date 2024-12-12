@@ -72,7 +72,7 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Occasional Smoker/7. OS - RedCross inside/Sergio7RedCrossInside.unity
     guid: 9cf0bbf04e908754593d7a85962a0732
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Occasional Smoker/8. OS - RedCross HQ by night/Sergio8redCrossHQnight.unity
+    path: Assets/SCENES/DAY 1/Occasional Smoker/8. OS - RedCross HQ by night/Sergio8RedCrossHQnight.unity
     guid: 8920dc183fd6ab4409aab0ac26b43573
   - enabled: 1
     path: Assets/SCENES/DAY 1/Occasional Smoker/9. OS - Kitchen by night/Sergio9KitchenNight.unity
