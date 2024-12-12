@@ -20,9 +20,11 @@ public class PlayerMaze : MonoBehaviour
     public Text keyAmount;
     public GameObject door;
 
-    // Start is called before the first frame update
-    void Start()
+  
+    private void Start()
     {
+        Debug.Log("Game started!");
+        ShowAttemptText(); // Show the current attempt text
         victoryText.gameObject.SetActive(false);
     }
 

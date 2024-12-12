@@ -15,7 +15,7 @@ public class PlaneMovement : MonoBehaviour
     void Start()
     {
         // Trova il GameManager nella scena
-        gameManager = FindObjectOfType<PlaneGameManager>();
+        gameManager = Object.FindAnyObjectByType<PlaneGameManager>();
     }
 
     void Update()
@@ -51,7 +51,7 @@ public class PlaneMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstacle"))
         {
             // Termina il gioco
-            gameManager.EndGame();
+            gameManager.ShowGameOver();
         }
     }
 }

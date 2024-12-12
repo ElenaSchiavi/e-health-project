@@ -26,7 +26,12 @@ public class GameManager : MonoBehaviour
             WinGame();
         }
     }
-
+        private void Start()
+    {
+        Debug.Log("Game started!");
+        ShowAttemptText(); // Show the current attempt text
+        winText.gameObject.SetActive(false);
+    }
     public void ShowGameOver()
     {
         if (!gameEnded)
