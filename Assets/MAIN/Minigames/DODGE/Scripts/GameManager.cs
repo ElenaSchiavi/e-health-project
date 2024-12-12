@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-public class GameManager : MonoBehaviour
+public class DodgeGameManager : MonoBehaviour
 {
 
     public float slowness = 10f;
@@ -71,6 +71,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0f;
         winText.gameObject.SetActive(true); // Mostra la scritta preimpostata
+        SceneManager.LoadScene("Davide4Car");
     }
 
     private void ShowAttemptText()
