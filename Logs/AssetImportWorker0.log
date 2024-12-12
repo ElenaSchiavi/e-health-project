@@ -16,7 +16,11 @@ C:/Users/matte/OneDrive - Politecnico di Milano/Documenti/POLIMI/LM - YEAR 2/SEM
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< HEAD
+<<<<<<< HEAD
 50185
+=======
+24579
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 =======
 24579
 >>>>>>> parent of 8247aa4 (maze attempts mody)
@@ -64,12 +68,21 @@ C:/Users/matte/OneDrive - Politecnico di Milano/Documenti/POLIMI/LM - YEAR 2/SEM
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< HEAD
+<<<<<<< HEAD
 Player connection [2456]  Target information:
 
 Player connection [2456]  * "[IP] 10.169.208.192 [Port] 0 [Flags] 2 [Guid] 4215426389 [EditorId] 4215426389 [Version] 1048832 [Id] WindowsEditor(7,MateBook-di-Teo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
 Player connection [2456] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [2456] Host joined alternative multi-casting on [225.0.0.222:34997]...
+=======
+Player connection [26576]  Target information:
+
+Player connection [26576]  * "[IP] 10.173.135.53 [Port] 0 [Flags] 2 [Guid] 3673594436 [EditorId] 3673594436 [Version] 1048832 [Id] WindowsEditor(7,MateBook-di-Teo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26576] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26576] Host joined alternative multi-casting on [225.0.0.222:34997]...
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 =======
 Player connection [26576]  Target information:
 
@@ -89,7 +102,11 @@ Library Redirect Path: Library/
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
 <<<<<<< HEAD
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 3.63 ms, found 4 plugins.
+=======
+Refreshing native plugins compatible for Editor in 5.12 ms, found 4 plugins.
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 =======
 Refreshing native plugins compatible for Editor in 5.12 ms, found 4 plugins.
 >>>>>>> parent of 8247aa4 (maze attempts mody)
@@ -108,6 +125,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 <<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
 Begin MonoManager ReloadAssembly
@@ -133,10 +151,24 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling: 1429ms
 	BeginReloadAssembly (241ms)
 >>>>>>> parent of 8247aa4 (maze attempts mody)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003819 seconds.
+- Loaded All Assemblies, in  0.728 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.703 seconds
+Domain Reload Profiling: 1429ms
+	BeginReloadAssembly (241ms)
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 		CreateAndSetChildDomain (4ms)
 	RebuildCommonClasses (75ms)
@@ -179,6 +211,25 @@ Domain Reload Profiling: 1429ms
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (616ms)
 			LogAssemblyErrors (0ms)
+=======
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (298ms)
+				TypeCache.ScanAssembly (273ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (704ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (616ms)
+			LogAssemblyErrors (0ms)
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 			InitializePlatformSupportModulesInManaged (40ms)
 			SetLoadedEditorAssemblies (9ms)
 			BeforeProcessingInitializeOnLoad (12ms)
@@ -193,6 +244,7 @@ Domain Reload Profiling: 1429ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Loaded All Assemblies, in  4.101 seconds
 Refreshing native plugins compatible for Editor in 5.29 ms, found 4 plugins.
@@ -363,6 +415,12 @@ Number of updated asset objects reloaded before import = 0Number of asset object
 Refreshing native plugins compatible for Editor in 3.47 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
+=======
+- Loaded All Assemblies, in  2.369 seconds
+Refreshing native plugins compatible for Editor in 3.47 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 - Finished resetting the current domain, in  1.714 seconds
 Domain Reload Profiling: 4071ms
 	BeginReloadAssembly (757ms)
@@ -403,11 +461,15 @@ Unloading 219 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6671 unused Assets / (5.2 MB). Loaded Objects now: 7437.
 Memory consumption went from 204.2 MB to 198.9 MB.
 Total: 18.467200 ms (FindLiveObjects: 1.163000 ms CreateObjectMapping: 1.824400 ms MarkObjects: 10.746600 ms  DeleteObjects: 4.729400 ms)
+<<<<<<< HEAD
+>>>>>>> parent of 8247aa4 (maze attempts mody)
+=======
 >>>>>>> parent of 8247aa4 (maze attempts mody)
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Loaded All Assemblies, in  2.655 seconds
 Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
@@ -425,10 +487,20 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling: 3921ms
 	BeginReloadAssembly (352ms)
 >>>>>>> parent of 8247aa4 (maze attempts mody)
+=======
+- Loaded All Assemblies, in  1.771 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.157 seconds
+Domain Reload Profiling: 3921ms
+	BeginReloadAssembly (352ms)
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (24ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 		CreateAndSetChildDomain (121ms)
 	RebuildCommonClasses (78ms)
@@ -574,6 +646,23 @@ Total: 31.238800 ms (FindLiveObjects: 1.935400 ms CreateObjectMapping: 2.751100 
 	FinalizeReload (2157ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
+=======
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (1254ms)
+		LoadAssemblies (722ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (695ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (654ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (2157ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 		SetupLoadedEditorAssemblies (1456ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
@@ -591,17 +680,23 @@ Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6669 unused Assets / (4.9 MB). Loaded Objects now: 7440.
 Memory consumption went from 169.8 MB to 164.8 MB.
 Total: 22.509600 ms (FindLiveObjects: 2.270800 ms CreateObjectMapping: 1.804300 ms MarkObjects: 11.449200 ms  DeleteObjects: 6.983000 ms)
+<<<<<<< HEAD
+>>>>>>> parent of 8247aa4 (maze attempts mody)
+=======
 >>>>>>> parent of 8247aa4 (maze attempts mody)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
 <<<<<<< HEAD
+<<<<<<< HEAD
   Time since last request: 107.510309 seconds.
   path: Assets/MAIN/Minigames/FLAPPY BIRD/FlappyBirdManager.cs
   artifactKey: Guid(c669acee89ade5943a77f19e57397f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/MAIN/Minigames/FLAPPY BIRD/FlappyBirdManager.cs using Guid(c669acee89ade5943a77f19e57397f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6e4e60a60b4ff2b31838054e914b015') in 0.0385481 seconds
 =======
+=======
+>>>>>>> parent of 8247aa4 (maze attempts mody)
   Time since last request: 91106.733778 seconds.
   path: Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_1.png
   artifactKey: Guid(b39f406e977f19742916a8dac9f3f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -638,17 +733,23 @@ Received Import Request.
   path: Assets/DefaultVolumeProfile.asset
   artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65636432c56742a06922c04c04ec00a3') in 0.0015501 seconds
+<<<<<<< HEAD
+>>>>>>> parent of 8247aa4 (maze attempts mody)
+=======
 >>>>>>> parent of 8247aa4 (maze attempts mody)
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
 <<<<<<< HEAD
+<<<<<<< HEAD
   Time since last request: 0.761012 seconds.
   path: Assets/MAIN/Minigames/MAZE/MAZE.unity
   artifactKey: Guid(d5049af0b57172c4fb8aabda6c0e0c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/MAIN/Minigames/MAZE/MAZE.unity using Guid(d5049af0b57172c4fb8aabda6c0e0c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '589e49265f3f5be828687ced6f67ec3e') in 0.0010587 seconds
 =======
+=======
+>>>>>>> parent of 8247aa4 (maze attempts mody)
   Time since last request: 0.000017 seconds.
   path: Assets/InputSystem_Actions.inputactions
   artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -701,12 +802,16 @@ Received Import Request.
   path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5OutsideWorkplace.unity
   artifactKey: Guid(8189bebbfac2f7940a86ee29113c7403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5OutsideWorkplace.unity using Guid(8189bebbfac2f7940a86ee29113c7403) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f6f5c9a1a6e65e52225ef85677058a3') in 0.0007095 seconds
+<<<<<<< HEAD
+>>>>>>> parent of 8247aa4 (maze attempts mody)
+=======
 >>>>>>> parent of 8247aa4 (maze attempts mody)
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Loaded All Assemblies, in  7.297 seconds
 Refreshing native plugins compatible for Editor in 4.49 ms, found 4 plugins.
@@ -1285,6 +1390,51 @@ Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6669 unused Assets / (4.5 MB). Loaded Objects now: 7511.
 Memory consumption went from 174.5 MB to 170.0 MB.
 Total: 26.120500 ms (FindLiveObjects: 2.545400 ms CreateObjectMapping: 3.049700 ms MarkObjects: 14.425700 ms  DeleteObjects: 6.097200 ms)
+=======
+- Loaded All Assemblies, in  1.576 seconds
+Refreshing native plugins compatible for Editor in 2.83 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.032 seconds
+Domain Reload Profiling: 3605ms
+	BeginReloadAssembly (325ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (1113ms)
+		LoadAssemblies (675ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (584ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (544ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2033ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1449ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (1136ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 9.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6669 unused Assets / (3.8 MB). Loaded Objects now: 7451.
+Memory consumption went from 171.8 MB to 168.0 MB.
+Total: 36.458500 ms (FindLiveObjects: 2.831900 ms CreateObjectMapping: 2.911800 ms MarkObjects: 22.752700 ms  DeleteObjects: 7.960200 ms)
+>>>>>>> parent of 8247aa4 (maze attempts mody)
 =======
 - Loaded All Assemblies, in  1.576 seconds
 Refreshing native plugins compatible for Editor in 2.83 ms, found 4 plugins.
