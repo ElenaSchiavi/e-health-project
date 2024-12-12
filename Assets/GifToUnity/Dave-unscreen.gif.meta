@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dave-unscreen_0: -792180136266046447
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -15,7 +15,7 @@ C:/Users/matte/OneDrive - Politecnico di Milano/Documenti/POLIMI/LM - YEAR 2/SEM
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52014
+52596
 -job-worker-count
 3
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/matte/OneDrive - Politecnico di Milano/Documenti/POLIMI/LM - YEAR 2/SEM
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20808]  Target information:
+Player connection [7132]  Target information:
 
-Player connection [20808]  * "[IP] 10.169.208.192 [Port] 0 [Flags] 2 [Guid] 3953233673 [EditorId] 3953233673 [Version] 1048832 [Id] WindowsEditor(7,MateBook-di-Teo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [7132]  * "[IP] 10.169.208.192 [Port] 0 [Flags] 2 [Guid] 1359595853 [EditorId] 1359595853 [Version] 1048832 [Id] WindowsEditor(7,MateBook-di-Teo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [20808] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [20808] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7132] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7132] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.34 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.87 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.25f1 (4859ab7b5a49)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/Resources/UnitySubsystems
@@ -91,44 +91,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005262 seconds.
-- Loaded All Assemblies, in  1.026 seconds
+Registered in 0.005908 seconds.
+- Loaded All Assemblies, in  1.510 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.679 seconds
-Domain Reload Profiling: 2701ms
-	BeginReloadAssembly (306ms)
+- Finished resetting the current domain, in  1.389 seconds
+Domain Reload Profiling: 2891ms
+	BeginReloadAssembly (533ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (151ms)
-	RebuildNativeTypeToScriptingClass (38ms)
-	initialDomainReloadingComplete (121ms)
-	LoadAllAssembliesAndSetupDomain (405ms)
-		LoadAssemblies (300ms)
+	RebuildCommonClasses (135ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (147ms)
+	LoadAllAssembliesAndSetupDomain (638ms)
+		LoadAssemblies (523ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (400ms)
-			TypeCache.Refresh (397ms)
-				TypeCache.ScanAssembly (362ms)
+		AnalyzeDomain (632ms)
+			TypeCache.Refresh (628ms)
+				TypeCache.ScanAssembly (573ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1681ms)
+	FinalizeReload (1390ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1530ms)
+		SetupLoadedEditorAssemblies (1248ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (63ms)
-			SetLoadedEditorAssemblies (21ms)
-			BeforeProcessingInitializeOnLoad (31ms)
-			ProcessInitializeOnLoadAttributes (1039ms)
-			ProcessInitializeOnLoadMethodAttributes (359ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (18ms)
+			ProcessInitializeOnLoadAttributes (866ms)
+			ProcessInitializeOnLoadMethodAttributes (278ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -136,1157 +136,278 @@ Domain Reload Profiling: 2701ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.709 seconds
-Refreshing native plugins compatible for Editor in 3.68 ms, found 4 plugins.
+- Loaded All Assemblies, in  4.309 seconds
+Refreshing native plugins compatible for Editor in 7.29 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.780 seconds
-Domain Reload Profiling: 6476ms
-	BeginReloadAssembly (1132ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (76ms)
-	RebuildCommonClasses (131ms)
-	RebuildNativeTypeToScriptingClass (38ms)
-	initialDomainReloadingComplete (117ms)
-	LoadAllAssembliesAndSetupDomain (2276ms)
-		LoadAssemblies (1407ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1219ms)
-			TypeCache.Refresh (856ms)
-				TypeCache.ScanAssembly (812ms)
-			BuildScriptInfoCaches (319ms)
-			ResolveRequiredComponents (33ms)
-	FinalizeReload (2781ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2205ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (209ms)
-			ProcessInitializeOnLoadAttributes (1677ms)
-			ProcessInitializeOnLoadMethodAttributes (284ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 6.91 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6671 unused Assets / (4.3 MB). Loaded Objects now: 7438.
-Memory consumption went from 204.4 MB to 200.1 MB.
-Total: 29.124100 ms (FindLiveObjects: 2.397800 ms CreateObjectMapping: 2.476400 ms MarkObjects: 17.641600 ms  DeleteObjects: 6.603300 ms)
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.261 seconds
-Refreshing native plugins compatible for Editor in 6.01 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.134 seconds
-Domain Reload Profiling: 5391ms
-	BeginReloadAssembly (422ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (27ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (113ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (33ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (1665ms)
-		LoadAssemblies (979ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (885ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (828ms)
-			ResolveRequiredComponents (29ms)
-	FinalizeReload (3136ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2262ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (267ms)
-			ProcessInitializeOnLoadAttributes (1749ms)
-			ProcessInitializeOnLoadMethodAttributes (205ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (30ms)
-Refreshing native plugins compatible for Editor in 7.21 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6669 unused Assets / (4.5 MB). Loaded Objects now: 7441.
-Memory consumption went from 169.9 MB to 165.4 MB.
-Total: 27.069100 ms (FindLiveObjects: 1.396500 ms CreateObjectMapping: 2.693800 ms MarkObjects: 15.953400 ms  DeleteObjects: 7.022300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 4299.306878 seconds.
-  path: Assets/MAIN/Minigames/DODGE/DODGE.unity
-  artifactKey: Guid(550e0b86047079a45adc8bd4b560b88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/DODGE/DODGE.unity using Guid(550e0b86047079a45adc8bd4b560b88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ffd298a3d21cb767b9e7c4ccc1c3720') in 0.0231868 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.183318 seconds.
-  path: Assets/MAIN/Minigames/MAZE/MAZE.unity
-  artifactKey: Guid(d5049af0b57172c4fb8aabda6c0e0c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/MAZE/MAZE.unity using Guid(d5049af0b57172c4fb8aabda6c0e0c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b93e0fa7c81c5bdf8921aa5cd16cb7ee') in 0.000806 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.176 seconds
-Refreshing native plugins compatible for Editor in 4.79 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.919 seconds
-Domain Reload Profiling: 5088ms
-	BeginReloadAssembly (406ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (23ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (123ms)
-	RebuildCommonClasses (82ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (1584ms)
-		LoadAssemblies (841ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (925ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (862ms)
-			ResolveRequiredComponents (32ms)
-	FinalizeReload (2920ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2032ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (272ms)
-			ProcessInitializeOnLoadAttributes (1539ms)
-			ProcessInitializeOnLoadMethodAttributes (178ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
-Refreshing native plugins compatible for Editor in 10.41 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6669 unused Assets / (4.5 MB). Loaded Objects now: 7445.
-Memory consumption went from 170.4 MB to 165.9 MB.
-Total: 36.062100 ms (FindLiveObjects: 2.000900 ms CreateObjectMapping: 3.051600 ms MarkObjects: 20.306700 ms  DeleteObjects: 10.700900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 19.772167 seconds.
-  path: Assets/MAIN/Minigames/PLANE/PLANE.unity
-  artifactKey: Guid(9fcc8bed74b477b40a8044a3ae6ffa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/PLANE/PLANE.unity using Guid(9fcc8bed74b477b40a8044a3ae6ffa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c89044d17a2656fcf025f87bab2bb50') in 0.0065396 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.833 seconds
-Refreshing native plugins compatible for Editor in 4.90 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.773 seconds
-Domain Reload Profiling: 4603ms
-	BeginReloadAssembly (365ms)
+- Finished resetting the current domain, in  3.224 seconds
+Domain Reload Profiling: 7515ms
+	BeginReloadAssembly (1263ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (21ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (96ms)
-	RebuildCommonClasses (83ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (1295ms)
-		LoadAssemblies (786ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (112ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (169ms)
+	LoadAllAssembliesAndSetupDomain (2701ms)
+		LoadAssemblies (1587ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (685ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (639ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (2774ms)
+		AnalyzeDomain (1458ms)
+			TypeCache.Refresh (1013ms)
+				TypeCache.ScanAssembly (958ms)
+			BuildScriptInfoCaches (390ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (3225ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2013ms)
+		SetupLoadedEditorAssemblies (2432ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (13ms)
-			BeforeProcessingInitializeOnLoad (252ms)
-			ProcessInitializeOnLoadAttributes (1591ms)
-			ProcessInitializeOnLoadMethodAttributes (135ms)
-			AfterProcessingInitializeOnLoad (16ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
-Refreshing native plugins compatible for Editor in 3.79 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6669 unused Assets / (4.6 MB). Loaded Objects now: 7447.
-Memory consumption went from 170.4 MB to 165.8 MB.
-Total: 16.886600 ms (FindLiveObjects: 1.194200 ms CreateObjectMapping: 1.800500 ms MarkObjects: 9.603400 ms  DeleteObjects: 4.286700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.442789 seconds.
-  path: Assets/MAIN/Minigames/PLANE/Scripts
-  artifactKey: Guid(55ca43ce2574b44a6a6790ee50eada34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/PLANE/Scripts using Guid(55ca43ce2574b44a6a6790ee50eada34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb32b77f1ea14d74ec4a24714e2f2a4d') in 0.0057008 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.891981 seconds.
-  path: Assets/MAIN/Minigames/PLANE/Scripts/ObstacleMovement.cs
-  artifactKey: Guid(2618bdea456fba64f8470005dcac8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/PLANE/Scripts/ObstacleMovement.cs using Guid(2618bdea456fba64f8470005dcac8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de5e31fb0e9e5f7f05a53a1de8689e04') in 0.0006771 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.353443 seconds.
-  path: Assets/MAIN/Minigames/PLANE/Scripts/ObstacleSpawner.cs
-  artifactKey: Guid(e906377712279e7469c6500ee6630b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/PLANE/Scripts/ObstacleSpawner.cs using Guid(e906377712279e7469c6500ee6630b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c46fdad00940add6e0451010c291976') in 0.000684 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.177479 seconds.
-  path: Assets/MAIN/Minigames/PLANE/Scripts/PlaneGameManager.cs
-  artifactKey: Guid(ad5aa4444928c1c46b3b54b939819d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/PLANE/Scripts/PlaneGameManager.cs using Guid(ad5aa4444928c1c46b3b54b939819d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f05361b953a2a2403b7efa6c367ae1a5') in 0.0007585 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.06 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6658 unused Assets / (3.9 MB). Loaded Objects now: 7447.
-Memory consumption went from 170.6 MB to 166.7 MB.
-Total: 22.102500 ms (FindLiveObjects: 1.146900 ms CreateObjectMapping: 1.893100 ms MarkObjects: 13.331900 ms  DeleteObjects: 5.728100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 37.959226 seconds.
-  path: Assets/MAIN/Minigames/PLANE/Scripts/PlaneGameManager.cs
-  artifactKey: Guid(ad5aa4444928c1c46b3b54b939819d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/PLANE/Scripts/PlaneGameManager.cs using Guid(ad5aa4444928c1c46b3b54b939819d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd11887769164adc63f3a35bf2ffcb46') in 0.012485 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.451 seconds
-Refreshing native plugins compatible for Editor in 3.77 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.492 seconds
-Domain Reload Profiling: 5939ms
-	BeginReloadAssembly (586ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (35ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (142ms)
-	RebuildCommonClasses (111ms)
-	RebuildNativeTypeToScriptingClass (33ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (2628ms)
-		LoadAssemblies (1643ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1295ms)
-			TypeCache.Refresh (42ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (1190ms)
-			ResolveRequiredComponents (44ms)
-	FinalizeReload (2493ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1759ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (207ms)
-			ProcessInitializeOnLoadAttributes (1387ms)
-			ProcessInitializeOnLoadMethodAttributes (136ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
-Refreshing native plugins compatible for Editor in 6.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6669 unused Assets / (4.6 MB). Loaded Objects now: 7449.
-Memory consumption went from 170.4 MB to 165.8 MB.
-Total: 24.443000 ms (FindLiveObjects: 1.355500 ms CreateObjectMapping: 2.174000 ms MarkObjects: 14.646500 ms  DeleteObjects: 6.264900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 27.983643 seconds.
-  path: Assets/SCENES/MENU/Graphics/Background1.jpg
-  artifactKey: Guid(3a509ce5aa65245cea1d06293ca5f5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SCENES/MENU/Graphics/Background1.jpg using Guid(3a509ce5aa65245cea1d06293ca5f5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a35922abd76928174f089ea762c5a12') in 0.1823252 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/SCENES/MENU/Graphics/Giovanna.png
-  artifactKey: Guid(000ca935072044321a6bc3f2217e21ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SCENES/MENU/Graphics/Giovanna.png using Guid(000ca935072044321a6bc3f2217e21ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b8ab9d073d364b1783ecbedfdddceb5') in 0.0351613 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/SCENES/MENU/Graphics/Character.png
-  artifactKey: Guid(89bb88ce3ebbc46ebb991ef246a7ecaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SCENES/MENU/Graphics/Character.png using Guid(89bb88ce3ebbc46ebb991ef246a7ecaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8dcfc9e8822eeff4e85711759510e5ff') in 0.0438753 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/SCENES/MENU/Graphics/Resume.png
-  artifactKey: Guid(8305140d8511b4785a9eaa885a362d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SCENES/MENU/Graphics/Resume.png using Guid(8305140d8511b4785a9eaa885a362d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cadce84e9c85aeb8d5b4c8858eb27b1') in 0.0385324 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/SCENES/MENU/Graphics/Valeria.png
-  artifactKey: Guid(7b44eeac2a30f401b99a13893aacab26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SCENES/MENU/Graphics/Valeria.png using Guid(7b44eeac2a30f401b99a13893aacab26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e7412417aebc2207be595172a253b3d') in 0.0374127 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/SCENES/MENU/Graphics/Pause.png
-  artifactKey: Guid(939bdbd07c9c54ed28164a23ae68abc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SCENES/MENU/Graphics/Pause.png using Guid(939bdbd07c9c54ed28164a23ae68abc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e7cae244d901375ba47cdcd39e1d648') in 0.0419803 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SCENES/MENU/Graphics/Davide.png
-  artifactKey: Guid(bb494fe32ceff4d35886334da613e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SCENES/MENU/Graphics/Davide.png using Guid(bb494fe32ceff4d35886334da613e5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b00143d06fa68e54b6e0fb4eb3e0694') in 0.0428796 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 117.021830 seconds.
-  path: Assets/MAIN/Minigames/FLAPPY BIRD/FLAPPY BIRD.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FLAPPY BIRD/FLAPPY BIRD.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '956529eaba7ffb5c45d06a5b2a55a399') in 0.0010217 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.48 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6665 unused Assets / (4.3 MB). Loaded Objects now: 7471.
-Memory consumption went from 172.4 MB to 168.1 MB.
-Total: 30.341300 ms (FindLiveObjects: 1.433900 ms CreateObjectMapping: 1.859700 ms MarkObjects: 21.111500 ms  DeleteObjects: 5.933700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 231.359792 seconds.
-  path: Assets/MAIN/Minigames/FlappyBirdClone
-  artifactKey: Guid(6d829c2e8568fc54f92cf06b2a1ce1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FlappyBirdClone using Guid(6d829c2e8568fc54f92cf06b2a1ce1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c86cb53f3a2714bd1bb4556ef5f5233') in 0.0126819 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.612892 seconds.
-  path: Assets/MAIN/Minigames/FlappyBirdClone/Miguel's Flappy Bird Android.apk
-  artifactKey: Guid(c63ab922817f96b4fafbe937fa65ad2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FlappyBirdClone/Miguel's Flappy Bird Android.apk using Guid(c63ab922817f96b4fafbe937fa65ad2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e093478bbd3dc9d8785781a767649f0f') in 0.0025164 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.527361 seconds.
-  path: Assets/MAIN/Minigames/FlappyBirdClone/Assets
-  artifactKey: Guid(2f80e0c8c4a9c8843acbd1a3c29e5280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FlappyBirdClone/Assets using Guid(2f80e0c8c4a9c8843acbd1a3c29e5280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '481d515aa5903e1fe9fcfae7d77a42b7') in 0.0006639 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.446613 seconds.
-  path: Assets/MAIN/Minigames/FlappyBirdClone/Assets/Scripts
-  artifactKey: Guid(57c23e10073d8fe48a0db59402a21b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FlappyBirdClone/Assets/Scripts using Guid(57c23e10073d8fe48a0db59402a21b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffd339ce83946e028f4cdbbbf99c9ffd') in 0.0009353 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.090787 seconds.
-  path: Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs
-  artifactKey: Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs using Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bce9abf7255fb2d5748bc5e2c420a6d8') in 0.0007941 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 8.98 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6665 unused Assets / (4.0 MB). Loaded Objects now: 7471.
-Memory consumption went from 172.4 MB to 168.3 MB.
-Total: 48.183400 ms (FindLiveObjects: 1.565500 ms CreateObjectMapping: 2.379800 ms MarkObjects: 21.014600 ms  DeleteObjects: 23.221200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.459303 seconds.
-  path: Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs
-  artifactKey: Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs using Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c346f5dfc5484c1c001154708f4831a') in 0.0046409 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.18 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6665 unused Assets / (5.0 MB). Loaded Objects now: 7471.
-Memory consumption went from 172.4 MB to 167.4 MB.
-Total: 28.591100 ms (FindLiveObjects: 1.290700 ms CreateObjectMapping: 2.187400 ms MarkObjects: 18.351900 ms  DeleteObjects: 6.759400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 35.310216 seconds.
-  path: Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs
-  artifactKey: Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs using Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6913ebf3df78ef3bc508aaba92ac4fbf') in 0.018475 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.14 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6665 unused Assets / (4.1 MB). Loaded Objects now: 7471.
-Memory consumption went from 172.4 MB to 168.3 MB.
-Total: 29.110500 ms (FindLiveObjects: 1.995200 ms CreateObjectMapping: 2.688000 ms MarkObjects: 17.240600 ms  DeleteObjects: 7.184100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.414025 seconds.
-  path: Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs
-  artifactKey: Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs using Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bce9abf7255fb2d5748bc5e2c420a6d8') in 0.00947 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 8.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6665 unused Assets / (4.3 MB). Loaded Objects now: 7471.
-Memory consumption went from 172.4 MB to 168.1 MB.
-Total: 55.783600 ms (FindLiveObjects: 1.746200 ms CreateObjectMapping: 18.316000 ms MarkObjects: 29.112800 ms  DeleteObjects: 6.604900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.862502 seconds.
-  path: Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs
-  artifactKey: Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs using Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c346f5dfc5484c1c001154708f4831a') in 0.0095212 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.118840 seconds.
-  path: Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs
-  artifactKey: Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs using Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c346f5dfc5484c1c001154708f4831a') in 0.0059588 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.83 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6665 unused Assets / (4.5 MB). Loaded Objects now: 7471.
-Memory consumption went from 172.4 MB to 167.9 MB.
-Total: 25.884500 ms (FindLiveObjects: 1.647700 ms CreateObjectMapping: 2.483500 ms MarkObjects: 14.531600 ms  DeleteObjects: 7.219500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 13.51 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6665 unused Assets / (3.9 MB). Loaded Objects now: 7471.
-Memory consumption went from 172.4 MB to 168.5 MB.
-Total: 36.386400 ms (FindLiveObjects: 1.914900 ms CreateObjectMapping: 6.433400 ms MarkObjects: 19.652600 ms  DeleteObjects: 8.383300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 36.645636 seconds.
-  path: Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs
-  artifactKey: Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs using Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c346f5dfc5484c1c001154708f4831a') in 0.0155956 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 10.10 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6665 unused Assets / (4.5 MB). Loaded Objects now: 7471.
-Memory consumption went from 172.4 MB to 167.8 MB.
-Total: 35.747200 ms (FindLiveObjects: 2.278300 ms CreateObjectMapping: 4.652800 ms MarkObjects: 20.307400 ms  DeleteObjects: 8.506600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 24.484092 seconds.
-  path: Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs
-  artifactKey: Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs using Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c346f5dfc5484c1c001154708f4831a') in 0.0081564 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 28.54 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6665 unused Assets / (3.8 MB). Loaded Objects now: 7471.
-Memory consumption went from 172.4 MB to 168.6 MB.
-Total: 78.785400 ms (FindLiveObjects: 4.668600 ms CreateObjectMapping: 12.715500 ms MarkObjects: 54.917200 ms  DeleteObjects: 6.456700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 33.893533 seconds.
-  path: Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs
-  artifactKey: Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FlappyBirdClone/Assets/GameManager.cs using Guid(48e41dc471650e140b5fd3e49f2237d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c346f5dfc5484c1c001154708f4831a') in 0.0073935 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.337774 seconds.
-  path: Assets/MAIN/Minigames/FlappyBirdClone/Assets/Scripts/FlyBird.cs
-  artifactKey: Guid(284b730304be6d742817dc185ccd3b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FlappyBirdClone/Assets/Scripts/FlyBird.cs using Guid(284b730304be6d742817dc185ccd3b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e9f027296dd303f86c5f7c1971477e9') in 0.0014044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.74 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6658 unused Assets / (3.1 MB). Loaded Objects now: 7464.
-Memory consumption went from 171.0 MB to 167.9 MB.
-Total: 53.316000 ms (FindLiveObjects: 2.027600 ms CreateObjectMapping: 4.455100 ms MarkObjects: 28.396600 ms  DeleteObjects: 18.434800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.633 seconds
-Refreshing native plugins compatible for Editor in 4.08 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.606 seconds
-Domain Reload Profiling: 6223ms
-	BeginReloadAssembly (872ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (38ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (137ms)
-	RebuildCommonClasses (206ms)
-	RebuildNativeTypeToScriptingClass (66ms)
-	initialDomainReloadingComplete (133ms)
-	LoadAllAssembliesAndSetupDomain (2338ms)
-		LoadAssemblies (1965ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (955ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (898ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (2607ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1926ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (12ms)
-			BeforeProcessingInitializeOnLoad (251ms)
-			ProcessInitializeOnLoadAttributes (1490ms)
-			ProcessInitializeOnLoadMethodAttributes (146ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (282ms)
+			ProcessInitializeOnLoadAttributes (1851ms)
+			ProcessInitializeOnLoadMethodAttributes (256ms)
 			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 4.87 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 7.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6669 unused Assets / (4.2 MB). Loaded Objects now: 7465.
-Memory consumption went from 170.5 MB to 166.3 MB.
-Total: 22.110200 ms (FindLiveObjects: 1.749000 ms CreateObjectMapping: 1.968100 ms MarkObjects: 13.996700 ms  DeleteObjects: 4.394800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 157.734646 seconds.
-  path: Assets/GifToUnity/Bryan-unscreen.asset
-  artifactKey: Guid(739cd6877bbfeb847bd38c175eb8f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GifToUnity/Bryan-unscreen.asset using Guid(739cd6877bbfeb847bd38c175eb8f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc99fcdaa8dd762a99b439ad29bea927') in 0.1281695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
+Unloading 220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6672 unused Assets / (5.4 MB). Loaded Objects now: 7439.
+Memory consumption went from 204.4 MB to 199.0 MB.
+Total: 35.165200 ms (FindLiveObjects: 1.680500 ms CreateObjectMapping: 2.648000 ms MarkObjects: 16.714300 ms  DeleteObjects: 14.116600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.823591 seconds.
-  path: Assets/GifToUnity/Bryan-unscreen/Bryan-unscreen_1.png
-  artifactKey: Guid(a7e68df7f27ada449940c0870c275cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GifToUnity/Bryan-unscreen/Bryan-unscreen_1.png using Guid(a7e68df7f27ada449940c0870c275cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1064e1d53399ed6d23913322814316dd') in 0.0865357 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.707989 seconds.
-  path: Assets/GifToUnity/Tom-unscreen.asset
-  artifactKey: Guid(a19dd770455841842bf54c5b878031af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GifToUnity/Tom-unscreen.asset using Guid(a19dd770455841842bf54c5b878031af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6224140767a105595bd4e861e158066') in 0.0047436 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.806681 seconds.
-  path: Assets/MAIN/Minigames
-  artifactKey: Guid(80157d15a186b5944aafa14ee2450ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames using Guid(80157d15a186b5944aafa14ee2450ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3b02df1e6dcd2b631002da4f09c4204') in 0.0011996 seconds
+  Time since last request: 6223.704658 seconds.
+  path: Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/GameManagerFB.cs
+  artifactKey: Guid(d884943f01e392b448175d0c697f66cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/GameManagerFB.cs using Guid(d884943f01e392b448175d0c697f66cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6171471694c6e7464c3f9fc8be994da') in 0.0189626 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.889493 seconds.
-  path: Assets/MAIN/Minigames/FB
-  artifactKey: Guid(2a0c025a320dedf439d6eb15fbe876a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB using Guid(2a0c025a320dedf439d6eb15fbe876a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d20bd239d9aa1fcec1a579dc02f2947') in 0.0008662 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.786857 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts
-  artifactKey: Guid(22b1505baedb93a4bbe2d53e2ff86211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts using Guid(22b1505baedb93a4bbe2d53e2ff86211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '001a6938285d4a35157426d5e6a970c8') in 0.000688 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.737905 seconds.
-  path: Assets/MAIN/Minigames/FB/Obj
-  artifactKey: Guid(0bbcf2c50a027b540957a8c9468a5b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Obj using Guid(0bbcf2c50a027b540957a8c9468a5b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '996896aad4fd90a69fb9c9d8b6e53700') in 0.0007534 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.973042 seconds.
-  path: Assets/MAIN/Minigames/FB/Obj/Bird_01.png
-  artifactKey: Guid(f92c3877c14d00e428d1f10c81963c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Obj/Bird_01.png using Guid(f92c3877c14d00e428d1f10c81963c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bc0ed130214ea339c9f6008fae267e9') in 0.0393415 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 8.02 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 20.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6659 unused Assets / (4.7 MB). Loaded Objects now: 7470.
-Memory consumption went from 170.8 MB to 166.1 MB.
-Total: 26.851100 ms (FindLiveObjects: 2.322400 ms CreateObjectMapping: 2.353300 ms MarkObjects: 14.721700 ms  DeleteObjects: 7.451400 ms)
+Unloading 6659 unused Assets / (4.3 MB). Loaded Objects now: 7441.
+Memory consumption went from 167.3 MB to 163.0 MB.
+Total: 41.762500 ms (FindLiveObjects: 1.510100 ms CreateObjectMapping: 2.205100 ms MarkObjects: 32.322800 ms  DeleteObjects: 5.722200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6659 unused Assets / (2.5 MB). Loaded Objects now: 7441.
+Memory consumption went from 167.3 MB to 164.8 MB.
+Total: 26.312300 ms (FindLiveObjects: 1.785600 ms CreateObjectMapping: 2.725600 ms MarkObjects: 15.985200 ms  DeleteObjects: 5.813200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.192 seconds
-Refreshing native plugins compatible for Editor in 6.32 ms, found 4 plugins.
+- Loaded All Assemblies, in  2.448 seconds
+Refreshing native plugins compatible for Editor in 5.66 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.686 seconds
-Domain Reload Profiling: 5876ms
-	BeginReloadAssembly (352ms)
+- Finished resetting the current domain, in  3.014 seconds
+Domain Reload Profiling: 5450ms
+	BeginReloadAssembly (435ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (27ms)
+		DisableScriptedObjects (21ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (93ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (1700ms)
-		LoadAssemblies (773ms)
+		CreateAndSetChildDomain (109ms)
+	RebuildCommonClasses (102ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (1765ms)
+		LoadAssemblies (1033ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1077ms)
-			TypeCache.Refresh (19ms)
+		AnalyzeDomain (957ms)
+			TypeCache.Refresh (28ms)
 				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (998ms)
-			ResolveRequiredComponents (43ms)
-	FinalizeReload (3687ms)
+			BuildScriptInfoCaches (889ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (3015ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2603ms)
+		SetupLoadedEditorAssemblies (2133ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (235ms)
+			ProcessInitializeOnLoadAttributes (1656ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 7.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6670 unused Assets / (4.0 MB). Loaded Objects now: 7444.
+Memory consumption went from 170.4 MB to 166.4 MB.
+Total: 50.279100 ms (FindLiveObjects: 1.903000 ms CreateObjectMapping: 7.299800 ms MarkObjects: 26.574400 ms  DeleteObjects: 14.499300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.773 seconds
+Refreshing native plugins compatible for Editor in 5.16 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.625 seconds
+Domain Reload Profiling: 6390ms
+	BeginReloadAssembly (598ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (42ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (138ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (1944ms)
+		LoadAssemblies (1278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (981ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (913ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (3626ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2594ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (390ms)
+			ProcessInitializeOnLoadAttributes (1957ms)
+			ProcessInitializeOnLoadMethodAttributes (198ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Refreshing native plugins compatible for Editor in 7.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6670 unused Assets / (3.8 MB). Loaded Objects now: 7446.
+Memory consumption went from 170.4 MB to 166.6 MB.
+Total: 33.668700 ms (FindLiveObjects: 1.823400 ms CreateObjectMapping: 3.545800 ms MarkObjects: 19.861100 ms  DeleteObjects: 8.436600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6659 unused Assets / (4.8 MB). Loaded Objects now: 7446.
+Memory consumption went from 170.6 MB to 165.8 MB.
+Total: 54.678000 ms (FindLiveObjects: 1.747800 ms CreateObjectMapping: 2.608200 ms MarkObjects: 39.046900 ms  DeleteObjects: 11.272800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.440 seconds
+Refreshing native plugins compatible for Editor in 3.87 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.630 seconds
+Domain Reload Profiling: 5062ms
+	BeginReloadAssembly (472ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (37ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (124ms)
+	RebuildCommonClasses (94ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (1750ms)
+		LoadAssemblies (979ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (989ms)
+			TypeCache.Refresh (31ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (916ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (2631ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1864ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (15ms)
-			BeforeProcessingInitializeOnLoad (257ms)
-			ProcessInitializeOnLoadAttributes (1979ms)
-			ProcessInitializeOnLoadMethodAttributes (310ms)
-			AfterProcessingInitializeOnLoad (36ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (41ms)
-Refreshing native plugins compatible for Editor in 6.55 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6670 unused Assets / (4.6 MB). Loaded Objects now: 7471.
-Memory consumption went from 170.5 MB to 165.9 MB.
-Total: 25.416900 ms (FindLiveObjects: 1.749100 ms CreateObjectMapping: 2.373200 ms MarkObjects: 14.993400 ms  DeleteObjects: 6.298800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 31.929962 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/NewEmptyCSharpScript.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/NewEmptyCSharpScript.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6cbc6108313210d7cca1eb37cd9b8ec') in 0.0215364 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.234780 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43af496b59bd143dd8f5973e1ae9294f') in 0.0015158 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.442 seconds
-Refreshing native plugins compatible for Editor in 5.39 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.238 seconds
-Domain Reload Profiling: 6680ms
-	BeginReloadAssembly (479ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (41ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (133ms)
-	RebuildCommonClasses (103ms)
-	RebuildNativeTypeToScriptingClass (37ms)
-	initialDomainReloadingComplete (74ms)
-	LoadAllAssembliesAndSetupDomain (1746ms)
-		LoadAssemblies (967ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (980ms)
-			TypeCache.Refresh (26ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (895ms)
-			ResolveRequiredComponents (42ms)
-	FinalizeReload (4241ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2831ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (385ms)
-			ProcessInitializeOnLoadAttributes (1831ms)
-			ProcessInitializeOnLoadMethodAttributes (560ms)
-			AfterProcessingInitializeOnLoad (30ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (38ms)
-Refreshing native plugins compatible for Editor in 5.77 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6670 unused Assets / (4.0 MB). Loaded Objects now: 7473.
-Memory consumption went from 170.5 MB to 166.6 MB.
-Total: 31.740500 ms (FindLiveObjects: 2.387200 ms CreateObjectMapping: 3.132200 ms MarkObjects: 19.057100 ms  DeleteObjects: 7.162100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.57 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6659 unused Assets / (4.6 MB). Loaded Objects now: 7473.
-Memory consumption went from 170.7 MB to 166.1 MB.
-Total: 31.118100 ms (FindLiveObjects: 3.682900 ms CreateObjectMapping: 3.854400 ms MarkObjects: 14.892200 ms  DeleteObjects: 8.684400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 33.202452 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0231848 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-  ERROR: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009139 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-  ERROR: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0169867 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-  ERROR: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000929 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-  ERROR: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013141 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-  ERROR: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009707 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-  ERROR: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008301 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-  ERROR: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0015017 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-  ERROR: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009491 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-  ERROR: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0013114 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-  ERROR: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011459 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-  ERROR: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0017061 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-  ERROR: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0026075 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-  ERROR: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010365 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-  ERROR: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.003146 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-  ERROR: Build asset version error: assets/main/minigames/fb/scripts/birdcontroller.cs in SourceAssetDB has modification time of '2024-12-12T11:36:50.3129476Z' while content on disk has modification time of '2024-12-12T11:36:55.1404258Z'
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8366dc8904ee83977b891087409dff4c') in 0.0012235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.73 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6659 unused Assets / (4.5 MB). Loaded Objects now: 7473.
-Memory consumption went from 170.7 MB to 166.3 MB.
-Total: 27.269300 ms (FindLiveObjects: 1.590400 ms CreateObjectMapping: 2.791000 ms MarkObjects: 15.545200 ms  DeleteObjects: 7.340800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.012300 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/BirdController.cs
-  artifactKey: Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/BirdController.cs using Guid(bb2070ab825d2694ab0b0a3cc240e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be2e4424909bab8e21850eb3c36434ab') in 0.0082763 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.07 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6660 unused Assets / (5.5 MB). Loaded Objects now: 7474.
-Memory consumption went from 170.7 MB to 165.2 MB.
-Total: 33.328000 ms (FindLiveObjects: 1.479800 ms CreateObjectMapping: 2.697700 ms MarkObjects: 17.981400 ms  DeleteObjects: 11.167200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 35.113666 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/GameManager.cs
-  artifactKey: Guid(67efe6031ad278b4f9fce7b38d01941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/GameManager.cs using Guid(67efe6031ad278b4f9fce7b38d01941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0f0a2396b275dba46391890e498ab69') in 0.0432544 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 9.42 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6660 unused Assets / (3.4 MB). Loaded Objects now: 7474.
-Memory consumption went from 170.7 MB to 167.4 MB.
-Total: 35.619200 ms (FindLiveObjects: 1.561300 ms CreateObjectMapping: 2.721300 ms MarkObjects: 23.242100 ms  DeleteObjects: 8.091300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 9.82 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6661 unused Assets / (2.2 MB). Loaded Objects now: 7475.
-Memory consumption went from 170.7 MB to 168.5 MB.
-Total: 219.457800 ms (FindLiveObjects: 2.599400 ms CreateObjectMapping: 3.706600 ms MarkObjects: 204.403800 ms  DeleteObjects: 8.745900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 31.763006 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/VictoryZone.cs
-  artifactKey: Guid(56906e8482f1dfc43981229445719fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/VictoryZone.cs using Guid(56906e8482f1dfc43981229445719fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfbc3481e8a89ed81bf70f72e45005f7') in 0.0221602 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 16.26 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6661 unused Assets / (5.7 MB). Loaded Objects now: 7475.
-Memory consumption went from 170.7 MB to 165.1 MB.
-Total: 108.055100 ms (FindLiveObjects: 5.684300 ms CreateObjectMapping: 26.985400 ms MarkObjects: 44.891900 ms  DeleteObjects: 30.489700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 17.482688 seconds.
-  path: Assets/MAIN/Minigames/FB/Scripts/VictoryZone.cs
-  artifactKey: Guid(56906e8482f1dfc43981229445719fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN/Minigames/FB/Scripts/VictoryZone.cs using Guid(56906e8482f1dfc43981229445719fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1af1bd014e2905ad4caa27c12627dc9e') in 0.0105931 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.94 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6661 unused Assets / (4.2 MB). Loaded Objects now: 7475.
-Memory consumption went from 170.7 MB to 166.5 MB.
-Total: 26.507600 ms (FindLiveObjects: 1.615700 ms CreateObjectMapping: 2.557200 ms MarkObjects: 16.079700 ms  DeleteObjects: 6.253200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 7.01 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6658 unused Assets / (4.6 MB). Loaded Objects now: 7472.
-Memory consumption went from 170.7 MB to 166.1 MB.
-Total: 23.418700 ms (FindLiveObjects: 1.413300 ms CreateObjectMapping: 2.468000 ms MarkObjects: 13.187800 ms  DeleteObjects: 6.347700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.180 seconds
-Refreshing native plugins compatible for Editor in 3.69 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.150 seconds
-Domain Reload Profiling: 4330ms
-	BeginReloadAssembly (312ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (78ms)
-	RebuildCommonClasses (70ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (1720ms)
-		LoadAssemblies (801ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1062ms)
-			TypeCache.Refresh (26ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (973ms)
-			ResolveRequiredComponents (48ms)
-	FinalizeReload (2151ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1559ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (218ms)
-			ProcessInitializeOnLoadAttributes (1166ms)
-			ProcessInitializeOnLoadMethodAttributes (144ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (225ms)
+			ProcessInitializeOnLoadAttributes (1463ms)
+			ProcessInitializeOnLoadMethodAttributes (146ms)
 			AfterProcessingInitializeOnLoad (16ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 5.36 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 5.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6669 unused Assets / (4.1 MB). Loaded Objects now: 7474.
-Memory consumption went from 170.5 MB to 166.4 MB.
-Total: 18.121000 ms (FindLiveObjects: 1.315700 ms CreateObjectMapping: 2.051500 ms MarkObjects: 10.657900 ms  DeleteObjects: 4.094500 ms)
+Unloading 6670 unused Assets / (4.3 MB). Loaded Objects now: 7448.
+Memory consumption went from 170.4 MB to 166.1 MB.
+Total: 22.981300 ms (FindLiveObjects: 1.708200 ms CreateObjectMapping: 2.439100 ms MarkObjects: 13.355800 ms  DeleteObjects: 5.476000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.409 seconds
+Refreshing native plugins compatible for Editor in 4.93 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.282 seconds
+Domain Reload Profiling: 5681ms
+	BeginReloadAssembly (435ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (114ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (1750ms)
+		LoadAssemblies (1090ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (872ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (812ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (3283ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2413ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (266ms)
+			ProcessInitializeOnLoadAttributes (1908ms)
+			ProcessInitializeOnLoadMethodAttributes (196ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 6.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6670 unused Assets / (4.6 MB). Loaded Objects now: 7450.
+Memory consumption went from 170.4 MB to 165.8 MB.
+Total: 35.979400 ms (FindLiveObjects: 2.124100 ms CreateObjectMapping: 3.074900 ms MarkObjects: 18.776700 ms  DeleteObjects: 12.000800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
