@@ -11,18 +11,13 @@ public class BlockSpawner : MonoBehaviour
 
     private int activeBlocks = 0;
 
-    void Start()
-    {
-        gameManager = Object.FindAnyObjectByType<GameManager>();
-    }
-
     void Update()
     {
         if (activeBlocks == 0 && Time.time >= timeToSpawn)
         {
             SpawnBlocks();
             timeToSpawn = Time.time + timeBetweenWaves;
-            gameManager.IncrementWave(); // Incrementa solo quando i blocchi della precedente onda sono stati rimossi
+            Object.FindAnyObjectByType<DodgeGameManager>().IncrementWave(); // Incrementa solo quando i blocchi della precedente onda sono stati rimossi
         }
     }
 
