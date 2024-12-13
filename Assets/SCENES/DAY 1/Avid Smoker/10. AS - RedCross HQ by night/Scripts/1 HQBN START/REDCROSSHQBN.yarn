@@ -1,0 +1,48 @@
+﻿title: REDCROSSHQBN
+tags:
+---
+Narrator:When they came back they all changed and prepared to go back home
+Narrator:Before leaving they spent some time together outside
+
+<<showCharacter Character>>
+
+Bryan:Well guys, at the end Davide didn't really jinx it
+Bryan:It turned out that this was a chill night
+
+Max:Yeah, only one service and it was even an easy one
+
+Narrator:Max at that moment took out his packet of cigarets and lit one up
+Narrator:Davide noticed it and he fealt an itch
+
+Davide:"Should i ask him for one?"
+
+<<jump Choice>>
+===
+title: Choice
+---
+<<declare $sigarette=0>>
+<<set $sigarette=getSigarette()>>
+<<declare $mood=0>>
+<<set $mood=getMood()>>
+<<if $sigarette > 0 >>
+    You have smoked {$sigarette} cigarettes
+<<endif>>
+
+->Ask for a cigarette
+    Are you sure?
+        ->Yes
+             //aggiungi ++sigaretta
+             Davide:Hey Max, can I ask for a cigarette
+             Max:Sure man, here
+             Narrator:He takes the cigarette and lights it up
+             <<loadScene Davide14SmokeHQBN>>
+        ->No
+             <<jump Choice>>
+->Don't smoke a cigarette
+    Are you sure?
+        ->Yes
+             //play the game
+             //aggiungi --mood ma da fare post gioco, se no condizioni la difficoltà del gioco
+        ->No
+             <<jump Choice>>
+===

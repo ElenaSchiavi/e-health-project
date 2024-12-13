@@ -27,8 +27,14 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/6. AS - Coffee-machine @work/Davide7CoffeeMachine.unity
     guid: 984ff99bed8364145a1aea6cb4db6b7e
   - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14SmokeHQBN.unity
+    guid: 3ef4dd6b2e62f4a49bdaf21ab17bc243
+  - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/7. AS - RedCross HQ/Davide11RedCrossHQ.unity
     guid: 4d87ca1960882d240a21f9d792848fa8
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/16. AS - FINALE/Davide16FINALE.unity
+    guid: c37ed491ac00b4d4aa7d01f6a4caa2b3
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/15. AS - ParkService/Davide13ParkService.unity
     guid: 2c0cbfcd086fbcf4a922aab8f70391b9
@@ -39,6 +45,9 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/9. AS - RedCross inside/Davide9RedCrossInside.unity
     guid: 69e9bbdea7387604cb3cbbf6387498fd
   - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14NoSmokeHQBN.unity
+    guid: c3b38f64b0f42f540b19f2d0db90e86f
+  - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14RedCrossHQnight.unity
     guid: aadfcc54d6904ae49b096fe7bdb7364f
   - enabled: 1
@@ -48,7 +57,7 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/14. AS - Canteen/Davide9Canteen.unity
     guid: 1299ff73e6d930d46949bd4865e39c43
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/11. AS - Home Balcony by night/Davide11HomeBalconyNight.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/11. AS - Home Balcony by night/Davide15HomeBalconyNight.unity
     guid: 80a8d2477c9d0e34cacdcc552fa857ce
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8OutsideWorkplace.unity

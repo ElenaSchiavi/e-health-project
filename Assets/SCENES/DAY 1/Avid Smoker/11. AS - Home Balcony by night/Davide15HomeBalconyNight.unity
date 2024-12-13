@@ -404,7 +404,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3799648991802104327, guid: 82bedaa5c6cf93145b3e6676bf5aecfc, type: 3}
+  m_Sprite: {fileID: 3359079125451142025, guid: 316851b46aa708444bafa9e916c4b231, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -512,12 +512,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: startNode
-      value: REDCROSSHQBN
+      value: BNHomeBalcony
       objectReference: {fileID: 0}
     - target: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: yarnProject
       value: 
-      objectReference: {fileID: 7545569452688597077, guid: 801678c3b8be46e47ade725a399a24f7, type: 3}
+      objectReference: {fileID: 7545569452688597077, guid: ff805c9de19bf9d43b4edabaabefc424, type: 3}
     - target: {fileID: 3739197626111815070, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: m_SortingOrder
       value: 1
