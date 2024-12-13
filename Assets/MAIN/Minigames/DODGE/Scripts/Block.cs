@@ -21,7 +21,7 @@ public class Block : MonoBehaviour
 
     void DestroyBlock()
     {
-        blockSpawner.BlockDestroyed(); // Notifica al BlockSpawner
+        blockSpawner.BlockDestroyed();
         Destroy(gameObject);
     }
 }

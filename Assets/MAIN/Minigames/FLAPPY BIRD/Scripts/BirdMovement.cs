@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BirdMovement : MonoBehaviour
 {
-    public float jumpForce = 3f; // Forza del salto
+    public float jumpForce = 3f;
     private Rigidbody2D rb;
     private bool isGameOver = false;
 
@@ -15,7 +15,7 @@ public class BirdMovement : MonoBehaviour
     {
         if (!isGameOver && Input.GetKeyDown(KeyCode.Space))
         {
-            rb.linearVelocity = Vector2.up * jumpForce; // Applica una forza verso l'alto
+            rb.linearVelocity = Vector2.up * jumpForce;
         }
     }
 
@@ -25,18 +25,16 @@ public class BirdMovement : MonoBehaviour
         {
             isGameOver = true;
             Debug.Log("Game Over!");
-            // Blocca il movimento del Bird
             rb.linearVelocity = Vector2.zero;
             rb.isKinematic = true;
-
-            // Mostra la scritta Game Over
+            
             FindObjectOfType<GameManager1>().ShowGameOver();
-            Invoke("StopGame", 1f); // Ferma il gioco dopo 2 secondi
+            Invoke("StopGame", 1f); 
         }
     }
 
     void StopGame()
     {
-        Time.timeScale = 0; // Ferma il tempo di gioco
+        Time.timeScale = 0;
     }
 }

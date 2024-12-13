@@ -6,14 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Valeria1Bedroom 1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Valeria1Bedroom 1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/15. AS - ParkService/Graphic/Parco.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/15. AS - ParkService/Graphic/Parco.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/DODGE/Scripts/Block.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/DODGE/Scripts/Block.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/DODGE/Scripts/BlockSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/DODGE/Scripts/BlockSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/DODGE/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/DODGE/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/DODGE/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/DODGE/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/BirdMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/BirdMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/PipeMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/PipeMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/PipeSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/PipeSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleSpawnerTop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleSpawnerTop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/PlaneGameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/PlaneGameManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +30,20 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/Audio/BackgroundMusic.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/BRICKBREAKER/Assets/Scripts/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/BRICKBREAKER/Assets/Scripts/ScoreManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/DODGE/Scripts/Block.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/DODGE/Scripts/BlockSpawner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/DODGE/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/DODGE/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/BirdMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/PipeMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/PipeSpawner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleSpawner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleSpawnerTop.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/PlaneGameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/PlaneMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/YarnLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Scripts/CharacterMover.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/ExitGame.cs" root0="SKIP_HIGHLIGHTING" />
@@ -118,6 +136,8 @@
       <workItem from="1734088770527" duration="54000" />
       <workItem from="1734090060878" duration="190000" />
       <workItem from="1734090434273" duration="932000" />
+      <workItem from="1734095508455" duration="575000" />
+      <workItem from="1734096135365" duration="30000" />
     </task>
     <servers />
   </component>
