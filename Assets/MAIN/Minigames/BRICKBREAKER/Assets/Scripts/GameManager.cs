@@ -67,13 +67,13 @@ public class GameManager : MonoBehaviour
                     {
                         // Load the "Good job!" scene
                         winText.gameObject.SetActive(true); 
-                        SceneManager.LoadScene("Davide4Car");
+                        SceneManager.LoadScene("Davide8Win");
                     }
                     else
                     {
                         // Load the "Game over!" scene
                         gameOverText.SetActive(true);
-                        SceneManager.LoadScene("Davide4Car");
+                        SceneManager.LoadScene("Davide8Lost");
                     }
 
                     m_GameOverFinalScore.text = "Final Score : " + finalScore.ToString();

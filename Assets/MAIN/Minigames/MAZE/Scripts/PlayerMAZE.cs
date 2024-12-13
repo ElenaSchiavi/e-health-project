@@ -66,7 +66,7 @@ public class PlayerMaze : MonoBehaviour
         if (collision.gameObject.tag == "Princess")
         {
             victoryText.gameObject.SetActive(true);
-            SceneManager.LoadScene("Davide4Car");
+            SceneManager.LoadScene("Davide5Win");
         }
 
         if (collision.gameObject.tag == "Enemies")
@@ -93,7 +93,7 @@ public class PlayerMaze : MonoBehaviour
             if (attempts == maxAttempts)
             {
                 Debug.Log("You have reached the maximum number of games. Game over.");
-                SceneManager.LoadScene("Davide4Car");
+                SceneManager.LoadScene("Davide5Lost");
                 if (gameOverText != null)
                 {
                     gameOverText.SetActive(true);

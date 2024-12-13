@@ -31,7 +31,7 @@ title: Choice
 ->Ask for a cigarette
     Are you sure?
         ->Yes
-             //aggiungi ++sigaretta
+             <<addSigaretta>>
              Davide:Hey Max, can I ask for a cigarette
              Max:Sure man, here
              Narrator:He takes the cigarette and lights it up
@@ -41,7 +41,7 @@ title: Choice
 ->Don't smoke a cigarette
     Are you sure?
         ->Yes
-             //play the game
+             <<loadScene PLANEGAME>>
              //aggiungi --mood ma da fare post gioco, se no condizioni la difficoltà del gioco
         ->No
              <<jump Choice>>

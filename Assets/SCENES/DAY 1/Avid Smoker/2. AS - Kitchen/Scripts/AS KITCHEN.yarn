@@ -10,7 +10,7 @@ Davide walks into the kitchen.
 <<showCharacter Character>>
 Davide: I'm hungry... What should I eat?
 -> Choose something healthy
-    //aggiungi ++mood
+    <<addMood>>
     He prepares an omelette and starts eating
     Takes out eggs, a frying pan, and some vegetables
     *Sound of eggs cracking into a bowl*
@@ -39,7 +39,7 @@ Davide: I'm hungry... What should I eat?
         Finishes the coffee and leaves the appartment
         <<loadScene Davide3HomeBalcony>>    
 -> Skip eating
-    //aggiungi --mood
+    <<minusMood>>
     Davide: Maybe I’ll just skip this meal... I’m not that hungry anyway.
     <<hideCharacter Character>>
     Davide decides not to eat.

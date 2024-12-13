@@ -56,7 +56,7 @@ title: Choice
 ->Don't smoke a cigarette
     Are you sure?
         ->Yes
-             //play the game
+             <<loadScene MAZE>> //ricontrolla
         ->No
              <<jump Choice>>
 ===

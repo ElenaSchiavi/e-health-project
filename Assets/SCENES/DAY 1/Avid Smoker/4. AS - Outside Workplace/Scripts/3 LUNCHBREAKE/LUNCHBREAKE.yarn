@@ -78,7 +78,7 @@ Will you smoke?
 ->Don't smoke a cigarette
     Are you sure?
         ->Yes
-             //play the game
+             <<loadScene DODGE>>
         ->No
              <<jump Choice>>
 ===
