@@ -77,18 +77,10 @@ public class PlaneGameManager : MonoBehaviour
             if (victoryText != null)
             {
                 victoryText.SetActive(true);
+                SceneManager.LoadScene("Davide4Car");
             }
             Time.timeScale = 0;
             Debug.Log("Victory!");
-        }
-    }
-
-    private void CheckVictory()
-    {
-        if (!isGameOver)
-        {
-            ShowVictory();
-            SceneManager.LoadScene("Davide4Car");
         }
     }
     
