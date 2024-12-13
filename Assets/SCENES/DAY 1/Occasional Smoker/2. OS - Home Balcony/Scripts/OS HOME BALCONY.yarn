@@ -2,16 +2,55 @@
 tags:
 position:1,10
 ---
-Sergio:(slow long breath)
+Takes a slow deep breath
 Sergio:Still better than any medicine
-Sergio: ---- to add --- introduction to game 
-Sergio:Looks like rain. I better get the umbrella before going...
-Sergio:Where did I leave the umbrella?
- ->Search for the umbrella
- There it is. Let's get going.
- <<addMood>>
- <<loadScene Sergio3Bar>>
- ->Leave without
- Let's just go.
- <<loadScene Sergio3Bar>>
+Takes out a cigarette from the pack
+Sergio: Sigh...I really shouldn't
+Narrator:Smoking a cigarette will affect the way the story will continue
+Narrator:The relation with other people
+Narrator:And most importantly your mental status
+Narrator:Not smoking is the best choice if you are trying to stop
+Narrator:But this might have other effects on your short term well being
+Narrator:And on your relation with other people
+Narrator:Deciding not to smoke won't ensure that you won't smoke
+Narrator:To skip the cigarette you'll need to win the minigame
+Narrator:The difficulty of the minigame depends on the amount of cigarettes that you have smoked
+Narrator:And on the mental well being of your Character at the moment of the choice
+Narrator:So...
+Narrator:What will you choose?
+<<jump Choice>>
 ===
+title: Choice
+--- 
+<<declare $mood=0>>
+<<set $mood=getMood()>>
+
+->Smoke a cigarette
+    Are you sure?
+        ->Yes
+             <<addSigaretta>>
+             Takes out the cigarette
+             Lights it up
+             *FFSSSS... PFIUUUUUU*
+             Davide:Maybe i shouldn't have smoked it...
+             Davide:Anyway, I am late to work, got to get going
+             <<hideCharacter Character>>
+             Puts out the cigarette
+             <<loadScene Davide4Car>>
+        ->No
+             <<jump Choice>>
+->Don't smoke a cigarette
+    Are you sure?
+        ->Yes
+           Narrator:Good Luck!
+           <<if $mood<1 >>
+             //<<loadScene FlappyBird>> //diffcile
+             <<else>>
+             //<<loadScene FlappyBird>> //facile
+           <<endif>>
+        ->No
+             <<jump Choice>>
+
+<<loadScene Sergio3Bar>>
+===
+

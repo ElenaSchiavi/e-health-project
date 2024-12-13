@@ -3,18 +3,26 @@ tags:
 position:1,10
 ---
 Narrator:Another day... Sergio told myself he'd quit, but it's never as simple as it sounds. Maybe if he avoided seeing anyone today... but that's not realistic either. 
-<<fadeBackground>>
+
 
 Sergio:cough cough
 Sergio:cough cough
 Sergio:cough cough
+Checks the hour
+Sergio:6:10? Didn't sleep  wink yesterday.
+Gets up
 Sergio:What a way to start the day.
-//<<fade_in_out Background true 10f>>
+
+->Takes a half-empty pack of cigarettes
+This many already?
+->Stretches
+ Let's see how's the weather today.
+ <<loadScene Sergio2HomeBalcony>>
 ->Takes medicine
  I should get a refill
-  ->Checks wallet
+  ->Opens wallet
    Sigh...still a week before this month pension gets in. We'll have to make do
-    ->Heads to balcony for a breather
+    <<minusMood>>
     <<loadScene Sergio2HomeBalcony>>
   ->Checks agenda
     Oh, Luca is coming today, can't wait to see him.

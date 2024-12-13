@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 16ebfd0f7c7ffcf429368e379bab995a
+guid: 20d0d4e34bf1c644598fbddcb8033f88
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2096801974001719061
-    second: SS - Kitchen by night_0
+      213: 5245054599887024495
+    second: WhatsApp Image 2024-12-13 at 22.44.59_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SS - Kitchen by night_0
+      name: WhatsApp Image 2024-12-13 at 22.44.59_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 1024
-        height: 576
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 517d5b83946591d10800000000000000
-      internalID: 2096801974001719061
+      spriteID: f617bcd7e5d2ac840800000000000000
+      internalID: 5245054599887024495
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SS - Kitchen by night_0: 2096801974001719061
+      WhatsApp Image 2024-12-13 at 22.44.59_0: 5245054599887024495
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
