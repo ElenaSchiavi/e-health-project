@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Audio/BackgroundMusic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Audio/BackgroundMusic.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +107,7 @@
       <workItem from="1734087733497" duration="35000" />
       <workItem from="1734087837641" duration="2000" />
       <workItem from="1734088267322" duration="31000" />
+      <workItem from="1734088770527" duration="54000" />
     </task>
     <servers />
   </component>
