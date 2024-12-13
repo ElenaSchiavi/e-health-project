@@ -1,0 +1,85 @@
+﻿title: PARK
+tags:
+---
+Narrator:A man holding a small child waved frantically as the team stepped out.
+<<showCharacter>>
+
+Man:My daughter fell and hit her head She’s been crying non-stop, and I’m worried!
+
+Bryan:Alright, sir, stay calm. We’ll take a look
+Bryan:Max, grab the kit. Davide, check her vitals
+
+->Davide:Hey there, sweetheart. It’s okay, we’re here to help. Can you tell me your name?
+     Child:Lily...
+     Man:Thank you. Thank you so much!
+->Davide:Sir, step back, please 
+     Davide:What’s your name? Where does it hurt? We need to assess her condition.
+     Child:Lily...
+     Man:O-of course, just help her, please
+->Davide:What happened here? This shouldn’t have escalated like this
+     Davide:What’s your name, kiddo?
+     Child:L-Lily...
+     Man:I-I didn’t mean for this to happen. I’m sorry!
+     <<jump Sgridata>>
+Davide:Alright, Lily. I’m Davide. Let me just take a quick look, okay?
+
+Bryan:She’s in good hands, sir. Let’s just give them a moment
+
+Davide:She’s got a bump, but nothing serious
+Davide:Just keep an eye on her, and if she gets dizzy or feels sick later, take her to the hospital
+
+Man:Thank you so much. Really, thank you
+
+Max:No problem. Just doing our job
+
+Narrator:The team returned to the ambulance, the tension easing as they prepared to continue their patrol
+
+Davide:with a chuckle See? Calm night. Told you
+
+Max:You’re lucky that wasn’t worse
+
+Bryan:Alright, let’s keep moving. Who knows what’s next?
+
+Narrator:With that, the ambulance made its way back to the headquarters
+<<loadScene Davide14RedCrossHQnight>>
+===
+
+title: Sgridata
+tags:
+---
+Davide:Alright, Lily. I’m Davide. Let me just take a quick look, okay?
+
+Bryan:She’s in good hands, sir. Let’s just give them a moment
+
+Davide:She’s got a bump, but nothing serious
+Davide:Just keep an eye on her, and if she gets dizzy or feels sick later, take her to the hospital
+
+Man:Thank you so much. Really, thank you
+
+Max:No problem. Just doing our job
+
+Narrator:The team returned to the ambulance, but before Bryan took Davide to the side for a talk
+
+Bryan:Davide, can I have a word?
+->Davide:Sure, is everything ok?
+->Davide:ok
+->Davide:"silentli goes to Bryan"
+
+Bryan:Look, I understand that situations like this can be frustrating
+Bryan:But you’re addressing a child and a panicked parent
+Bryan:They’re already scared; we can’t add to that
+
+Davide:You’re right, Bryan
+Davide:I didn’t mean to sound harsh.
+
+Bryan:I know you didn’t, but perception matters
+Bryan:Kids pick up on tone, and we need to build trust, not fear
+Bryan:Next time, take a breath before speaking. Keep it calm, keep it steady
+
+Davide:Got it. I’ll do better
+
+Bryan:Good. Let’s get back to the ambulance
+
+Narrator:With that, the ambulance made its way back to the headquarters
+<<loadScene Davide14RedCrossHQnight>>
+===
