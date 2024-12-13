@@ -1,11 +1,11 @@
-﻿title: Start
+title: Start
 tags:
 position:1,10
 ---
 
 Sergio:Here we are
  ->Order
- Sergio:Giorgio, I'll have the usual. I'll sitted near the Christmas tree.
+ Sergio:Giorgio, I'll have the usual. I'll be sitted near the Christmas tree.
  <<jump sitDown>>
  ->Look for Stefano
  Nowhere to be seen. Was I too early? Well, let's find a seat first.
@@ -15,6 +15,8 @@ title: sitDown
 tags:
 position:1,10
 ---
+
+
 Stefano:Hi Sergio, didn't think I'd see the day you'd be up before me.
 Sergio:Don't even mention it. Just spent the night coughing. Didn't sleep a wink.
 Stefano:You've rarely looked worse for the wear. Here have one!
@@ -29,10 +31,13 @@ Stefano:You've rarely looked worse for the wear. Here have one!
  Sergio:Well, I have nephew I'd like to see grow up.
   <<jump friendArrive>>
 ===
+
 title: friendArrive
 tags:
-position:1,10
+position: 182,229
 ---
+
+
 <<declare $cig=0>>
 <<set $cig=getSigarette()>>
 Andrea:Well, goodmorning!

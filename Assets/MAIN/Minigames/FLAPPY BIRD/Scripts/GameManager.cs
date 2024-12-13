@@ -12,7 +12,7 @@ public class GameManager1 : MonoBehaviour
     private bool gameEnded = false;
     private static int attempts = 0;
     private const int maxAttempts = 3;
-
+   
     private void Start()
     {
         Debug.Log("Game started!");

@@ -7,9 +7,36 @@ using Yarn.Unity;
 public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
 {
 
+    public static YarnCSLoader Instance; // Singleton instance
+    private static RectTransform uiObject = null;
+    private static Graphic uiGraphic = null;
+    private static Graphic glowGraphic = null;
+    
+    private float speed = 700f; 
+    private static Vector2 offScreenLeft  = new Vector2(-733f, -125f);
+    private static Vector2 offScreenRight = new Vector2(280f, -125f);
+    private static Vector2 scenePosition  = new Vector2(0f, 0f); //placeholder value
+
+    private static bool isMovingToScene = false;
+    private static bool isExitingScene  = false;
+
+    private static bool isFadingIn  = false;
+    private static bool isFadingOut = false;
+
+    private static bool isGlowing = false;
+
+
     static int sigarette_fumate = 0;
     static int mood = 0;
 
+    public static float fadeDuration = 1.0f; // Duration of the fade in seconds
+
+    private static float targetAlpha;
+    private static float fadeSpeed;
+
+    public float glowSpeed = 1.0f; // Speed of the glow effect
+    public float minAlpha = 0.0f; // Minimum alpha value for glow effect
+    public float maxAlpha = 1.0f; // Maximum alpha value for glow effect
 
 
     // note: all Yarn Functions must be static
@@ -136,13 +163,7 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
 
         return null;
     }
-}
 
-// Singleton Management for ExitScene and CharacterMover
-public class YarnSceneManager : MonoBehaviour
-{
-    public static YarnSceneManager Instance; // Singleton instance
-    public static CharacterMover mover;
 
     void Awake()
     {
@@ -157,25 +178,257 @@ public class YarnSceneManager : MonoBehaviour
             Destroy(gameObject); // If another instance is found, destroy it
             return; // Prevent further execution if this instance is destroyed
         }
+    }
 
-        // Initialize mover
-        if (mover == null)
+
+
+    void Update()
+    {
+        if (isMovingToScene)
+            MoveToPosition(scenePosition, ref isMovingToScene);
+        
+        if (isExitingScene) 
+            MoveToPosition(offScreenLeft, ref isExitingScene);   
+
+        if (isFadingIn|| isFadingOut) {
+           if (uiGraphic != null && !Mathf.Approximately(uiGraphic.color.a, targetAlpha))
+           {
+                // Gradually change the alpha value
+                Color currentColor = uiGraphic.color;
+                currentColor.a = Mathf.MoveTowards(currentColor.a, targetAlpha, fadeSpeed * Time.deltaTime);
+                uiGraphic.color = currentColor;
+              }
+            else {
+                isFadingIn = false;
+                isFadingOut = false;
+            }
+           }
+        if (isGlowing)
         {
-            mover = FindObjectOfType<CharacterMover>();
+            // Calculate alpha based on a sine wave
+            float alpha = (Mathf.Sin(Time.time * glowSpeed) + 1) / 2; // Normalize to 0-1
+            alpha = Mathf.Lerp(minAlpha, maxAlpha, alpha); // Scale to minAlpha and maxAlpha
+
+            // Apply the alpha to the UI element
+            Color currentColor = glowGraphic.color;
+            currentColor.a = alpha;
+            glowGraphic.color = currentColor;
         }
     }
 
-    [YarnCommand("exit_scene")]
-    public void ExitScene()
+    private void MoveToPosition(Vector2 targetPosition, ref bool toggleFlag)
     {
-        if (mover != null)
+        uiObject.anchoredPosition = Vector2.MoveTowards(
+            uiObject.anchoredPosition,
+            targetPosition,
+            speed * Time.deltaTime
+        );
+
+        if (uiObject.anchoredPosition == targetPosition)
         {
-            mover.ExitScene();
-            Debug.Log("ExitScene command executed from Yarn.");
+            toggleFlag = false;
+        }
+    }
+
+    [YarnCommand("exitScene")]
+    public static void ExitScene(string elementName)
+    {
+
+        GameObject elementToMove = GameObject.Find(elementName);
+        if (elementToMove != null)
+        {
+            uiObject=elementToMove.GetComponent<RectTransform>();
+            Debug.Log($"RectTransform Assigned");
+            isExitingScene = true;
+            Debug.Log($"\"Is exiting scene\" triggered");
+
         }
         else
         {
-            Debug.LogError("CharacterMover not found. Ensure it is assigned.");
+            Debug.LogError($"Failed finding UI element");
+        }
+
+
+
+    }
+
+    [YarnCommand("enterScene")]
+    public static void EnterScene(string elementName, string dir = "left")
+    {
+
+        GameObject elementToMove = GameObject.Find(elementName);
+        if (elementToMove != null)
+        {
+            uiObject=elementToMove.GetComponent<RectTransform>();
+            Debug.Log($"RectTransform Assigned");
+            Debug.Log($"Setting destination position:");
+            scenePosition = uiObject.anchoredPosition;
+            Debug.Log($"UI Position: {scenePosition}");
+            if(dir=="left") uiObject.anchoredPosition = offScreenLeft;
+            else if (dir=="right") uiObject.anchoredPosition = offScreenRight;
+            else {
+                uiObject.anchoredPosition = offScreenRight;
+                Debug.LogError($"Direction invalid, falling back to default left");
+                }
+            
+
+            isMovingToScene = true;
+            Debug.Log($"\"Is moving to scene\" triggered");
+
+        }
+        else
+        {
+            Debug.LogError($"Failed finding UI element");
+        }
+
+
+    }
+
+
+
+    [YarnCommand("fadeIn")]
+    public static void FadeIn(string elementName)
+    {
+
+        GameObject elementToFade = GameObject.Find(elementName);
+        if (elementToFade != null)
+        {
+            uiGraphic=elementToFade.GetComponent<Graphic>();
+            Debug.Log($"UiGraphic Assigned");
+
+            isFadingIn = true;
+            StartFade(1f);
+
+            Debug.Log($"\"Is Fading In\" triggered");
+
+        }
+        else
+        {
+            Debug.LogError($"Failed finding UI element");
+        }
+
+
+    }
+    
+    [YarnCommand("fadeOut")]
+    public static void FadeOut(string elementName)
+    {
+
+        GameObject elementToFade = GameObject.Find(elementName);
+        if (elementToFade != null)
+        {
+            uiGraphic=elementToFade.GetComponent<Graphic>();
+            Debug.Log($"UiGraphic Assigned");
+
+            isFadingOut = true;
+            StartFade(0f);
+            Debug.Log($"\"Is Fading Out\" triggered");
+
+        }
+        else
+        {
+            Debug.LogError($"Failed finding UI element");
+        }
+
+
+    }
+    
+    public static void StartFade(float newAlpha)
+    {
+        if (uiGraphic != null)
+        {
+            targetAlpha = Mathf.Clamp01(newAlpha); // Clamp between 0 and 1
+            fadeSpeed = Mathf.Abs(uiGraphic.color.a - targetAlpha) / fadeDuration;
         }
     }
+
+
+
+    [YarnCommand("startGlow")]
+    public static void StartGlow(string elementName)
+    {
+        GameObject elementToGlow = GameObject.Find(elementName);
+        if (elementToGlow != null)
+        {
+            glowGraphic=elementToGlow.GetComponent<Graphic>();
+            Debug.Log($"glowGraphic Assigned");
+
+            isGlowing = true;
+            Debug.Log($"\"Is Glowing\" triggered");
+
+        }
+        else
+        {
+            Debug.LogError($"Failed finding UI element");
+        }
+
+
+    }
+    
+
+    [YarnCommand("stopGlow")]
+    public static void StopGlow(string elementName)
+    {
+        isGlowing = false;
+        FadeIn(elementName);
+    }
+    
+
 }
+
+
+
+/*
+
+
+using UnityEngine;
+
+public class CharacterMover : MonoBehaviour
+{
+    public RectTransform uiObject;
+    public float speed = 700f; 
+    public Vector2 offScreenLeft = new Vector2(-733f, -125f);
+    public Vector2 scenePosition = new Vector2(-450f, -125f);
+
+    private bool isMovingToScene = true;
+    private bool isExitingScene = false;
+
+    void Start()
+    {
+        uiObject.anchoredPosition = offScreenLeft;
+    }
+
+    void Update()
+    {
+        if (isMovingToScene)
+        {
+            MoveToPosition(scenePosition, ref isMovingToScene);
+        }
+
+        if (isExitingScene)
+        {
+            MoveToPosition(offScreenLeft, ref isExitingScene);
+        }
+    }
+
+    private void MoveToPosition(Vector2 targetPosition, ref bool toggleFlag)
+    {
+        uiObject.anchoredPosition = Vector2.MoveTowards(
+            uiObject.anchoredPosition,
+            targetPosition,
+            speed * Time.deltaTime
+        );
+
+        if (uiObject.anchoredPosition == targetPosition)
+        {
+            toggleFlag = false;
+        }
+    }
+
+    public void ExitScene()
+    {
+        isExitingScene = true;
+    }
+}
+
+*/
