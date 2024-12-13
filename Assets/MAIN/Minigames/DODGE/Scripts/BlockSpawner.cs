@@ -17,7 +17,7 @@ public class BlockSpawner : MonoBehaviour
         {
             SpawnBlocks();
             timeToSpawn = Time.time + timeBetweenWaves;
-            Object.FindAnyObjectByType<DodgeGameManager>().IncrementWave(); // Incrementa solo quando i blocchi della precedente onda sono stati rimossi
+            Object.FindAnyObjectByType<DodgeGameManager>().IncrementWave();
         }
     }
 

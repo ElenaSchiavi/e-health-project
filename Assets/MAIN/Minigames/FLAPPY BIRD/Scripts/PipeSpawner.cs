@@ -2,24 +2,22 @@ using UnityEngine;
 
 public class PipeSpawner : MonoBehaviour
 {
-    public GameObject pipePrefab; // Prefab dei tubi
-    public static float spawnRate = 0.8f; // Frequenza di spawn (in secondi)
-    public float heightOffset = 2f; // Offset verticale dei tubi
+    public GameObject pipePrefab;
+    public static float spawnRate = 0.8f;
+    public float heightOffset = 2f;
 
     private void Start()
     {
         
         if (pipePrefab == null)
         {
-            Debug.LogError("Pipe Prefab non è stato assegnato!");
+            Debug.LogError("Pipe Prefab non ï¿½ stato assegnato!");
         }
         else
         {
             Debug.Log("Pipe Prefab assegnato correttamente!");
         }
-
-
-    // Inizia a generare i tubi periodicamente
+        
     InvokeRepeating("SpawnPipe", 1f, spawnRate);
 
     }
@@ -28,11 +26,10 @@ public class PipeSpawner : MonoBehaviour
     {
         if(pipePrefab == null)
     {
-            Debug.LogError("pipePrefab non è stato assegnato!");
+            Debug.LogError("pipePrefab non ï¿½ stato assegnato!");
             return;
         }
-
-        // Genera un PipePair con un'altezza casuale
+        
         float randomY = Random.Range(-heightOffset, heightOffset);
         Vector3 spawnPosition = new Vector3(transform.position.x, randomY, 0);
         Instantiate(pipePrefab, spawnPosition, Quaternion.identity);

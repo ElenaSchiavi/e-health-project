@@ -8,16 +8,16 @@ public class GameManager1 : MonoBehaviour
     public GameObject Attempt1;
     public GameObject Attempt2;
     public GameObject Attempt3;
-    public GameObject victoryText; // Victory text
+    public GameObject victoryText;
     private bool gameEnded = false;
-    private static int attempts = 0; // Number of attempts made
-    private const int maxAttempts = 3; // Maximum number of allowed games
+    private static int attempts = 0;
+    private const int maxAttempts = 3;
 
     private void Start()
     {
         Debug.Log("Game started!");
-        Invoke("CheckVictory", 20f); // Check for victory after 20 seconds
-        ShowAttemptText(); // Show the current attempt text
+        Invoke("CheckVictory", 20f);
+        ShowAttemptText();
     }
 
     public void ShowGameOver()
@@ -26,21 +26,18 @@ public class GameManager1 : MonoBehaviour
         {
             if (gameOverText != null)
             {
-                gameOverText.SetActive(true); // Show Game Over text
+                gameOverText.SetActive(true);
             }
-
-            // Check if the player still has games available
+            
             if (attempts < maxAttempts)
             {
                 Debug.Log("Restarting game in 2 seconds...");
                 gameEnded = true;
                 attempts++;
                 Debug.Log($"Game over. Attempts: {attempts}/{maxAttempts}");
-
-                // Show the current attempt text
+                
                 ShowAttemptText();
-
-                // Reload the scene
+                
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
             if (attempts == maxAttempts)
@@ -62,27 +59,24 @@ public class GameManager1 : MonoBehaviour
             gameEnded = true;
             if (victoryText != null)
             {
-                victoryText.SetActive(true); // Show victory text
+                victoryText.SetActive(true);
             }
-            Time.timeScale = 0; // Stop the game time
+            Time.timeScale = 0;
             Debug.Log("Victory!");
         }
     }
 
     private void CheckVictory()
     {
-        // Example method: check victory conditions
         if (!gameEnded)
         {
             ShowVictory();
             SceneManager.LoadScene("Davide4Car");
         }
     }
-
-    // Method to show the correct attempt text
+    
     private void ShowAttemptText()
     {
-         // Enable the correct attempt text based on the number of attempts
         switch (attempts)
         {
             case 0:
@@ -95,9 +89,7 @@ public class GameManager1 : MonoBehaviour
                 Attempt3.SetActive(true);
                 break;
             default:
-                // If attempts >= 3, no more attempts are shown
                 break;
         }
     }
 }
-

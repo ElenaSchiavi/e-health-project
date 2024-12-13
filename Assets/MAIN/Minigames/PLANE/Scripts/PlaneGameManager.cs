@@ -9,22 +9,21 @@ public class PlaneGameManager : MonoBehaviour
     public GameObject Attempt1;
     public GameObject Attempt2;
     public GameObject Attempt3;
-    public GameObject victoryText; // Victory text
-    private static int attempts = 0; // Number of attempts made
-    private const int maxAttempts = 3; // Maximum number of allowed games
-    public float winTime = 30f; // Tempo per vincere (modificabile nell'Inspector)
+    public GameObject victoryText;
+    private static int attempts = 0;
+    private const int maxAttempts = 3;
+    public float winTime = 30f;
 
     private bool isGameOver = false;
     private bool isWin = false;
-    private float elapsedTime = 0f; // Tempo trascorso
+    private float elapsedTime = 0f;
 
     void Update()
     {
         if (!isGameOver && !isWin)
         {
             elapsedTime += Time.deltaTime;
-
-            // Controlla se è stato raggiunto il tempo per vincere
+            
             if (elapsedTime >= winTime)
             {
                 ShowVictory();
@@ -35,7 +34,7 @@ public class PlaneGameManager : MonoBehaviour
     private void Start()
     {
         Debug.Log("Game started!");
-        ShowAttemptText(); // Show the current attempt text
+        ShowAttemptText();
     }
 
     public void ShowGameOver()
@@ -44,21 +43,18 @@ public class PlaneGameManager : MonoBehaviour
         {
             if (gameOverText != null)
             {
-                gameOverText.SetActive(true); // Show Game Over text
+                gameOverText.SetActive(true);
             }
-
-            // Check if the player still has games available
+            
             if (attempts < maxAttempts)
             {
                 Debug.Log("Restarting game in 2 seconds...");
                 isGameOver = true;
                 attempts++;
                 Debug.Log($"Game over. Attempts: {attempts}/{maxAttempts}");
-
-                // Show the current attempt text
+                
                 ShowAttemptText();
-
-                // Reload the scene
+                
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
             if (attempts == maxAttempts)
@@ -80,27 +76,24 @@ public class PlaneGameManager : MonoBehaviour
             isGameOver = true;
             if (victoryText != null)
             {
-                victoryText.SetActive(true); // Show victory text
+                victoryText.SetActive(true);
             }
-            Time.timeScale = 0; // Stop the game time
+            Time.timeScale = 0;
             Debug.Log("Victory!");
         }
     }
 
     private void CheckVictory()
     {
-        // Example method: check victory conditions
         if (!isGameOver)
         {
             ShowVictory();
             SceneManager.LoadScene("Davide4Car");
         }
     }
-
-    // Method to show the correct attempt text
+    
     private void ShowAttemptText()
     {
-        // Enable the correct attempt text based on the number of attempts
         switch (attempts)
         {
             case 0:
@@ -113,7 +106,6 @@ public class PlaneGameManager : MonoBehaviour
                 Attempt3.SetActive(true);
                 break;
             default:
-                // If attempts >= 3, no more attempts are shown
                 break;
         }
     }
