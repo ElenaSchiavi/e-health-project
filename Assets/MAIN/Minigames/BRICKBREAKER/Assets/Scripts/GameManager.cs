@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    
+
     public GameObject m_MainMenuPanel;
     public GameObject m_GameMenuPanel;
     public GameObject m_GameOverPanel;
     public GameObject m_Scores;
+    public GameObject gameOverText; // Riferimento alla scritta Game Over
+    public GameObject winText;      // Riferimento alla scritta Win
     public Text m_GameOverFinalScore;
 
     public enum GameState { MainMenu, Playable, GameOver, }
@@ -20,7 +23,7 @@ public class GameManager : MonoBehaviour
         {
             m_State = value;
 
-            switch(value)
+            switch (value)
             {
                 case GameState.MainMenu:
                     m_MainMenuPanel.SetActive(true);
@@ -32,7 +35,7 @@ public class GameManager : MonoBehaviour
                     BrickSpawner.Instance.HideAllBricksRows();
                     break;
                 case GameState.Playable:
-                    if(Saver.Instance.HasSave())
+                    if (Saver.Instance.HasSave())
                     {
 
                     }
@@ -42,7 +45,7 @@ public class GameManager : MonoBehaviour
                         m_GameMenuPanel.SetActive(true);
                         m_GameOverPanel.SetActive(false);
                         m_Scores.SetActive(true);
-                    
+
                         BallLauncher.Instance.m_CanPlay = true;
                         BrickSpawner.Instance.m_LevelOfFinalBrick = 1;  // temporary (after save and load)
 
@@ -58,7 +61,22 @@ public class GameManager : MonoBehaviour
                     m_GameOverPanel.SetActive(true);
                     m_Scores.SetActive(false);
 
-                    m_GameOverFinalScore.text = "Final Score : " + (BrickSpawner.Instance.m_LevelOfFinalBrick - 1).ToString();
+                    int finalScore = BrickSpawner.Instance.m_LevelOfFinalBrick - 1;
+
+                    if (finalScore >= 20)
+                    {
+                        // Load the "Good job!" scene
+                        winText.gameObject.SetActive(true); 
+                        SceneManager.LoadScene("Davide4Car");
+                    }
+                    else
+                    {
+                        // Load the "Game over!" scene
+                        gameOverText.SetActive(true);
+                        SceneManager.LoadScene("Davide4Car");
+                    }
+
+                    m_GameOverFinalScore.text = "Final Score : " + finalScore.ToString();
                     BallLauncher.Instance.m_CanPlay = false;
                     BallLauncher.Instance.ResetPositions();
                     break;
@@ -69,6 +87,7 @@ public class GameManager : MonoBehaviour
             return m_State;
         }
     }
+
     private void Awake()
     {
         Instance = this;
