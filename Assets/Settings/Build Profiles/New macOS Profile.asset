@@ -31,9 +31,45 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Davide1Bedroom.unity
   - m_enabled: 1
-    m_path: Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Valeria1Bedroom.unity
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/2. AS - Kitchen/Davide2Kitchen.unity
   - m_enabled: 1
-    m_path: Assets/SCENES/DAY 1/Occasional Smoker/1. OS - Bedroom/Giovanna1Bedroom.unity
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3HomeBalcony.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Lost.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Win.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5OutsideWorkplace.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8OutsideWorkplace.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10LunchBreak.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/5. AS - Workplace/Davide6Workplace.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/6. AS - Coffee-machine @work/Davide7CoffeeMachine.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/7. AS - RedCross HQ/Davide11RedCrossHQ.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/8. AS - Ambulance/Davide12Ambulance.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/9. AS - RedCross inside/Davide9RedCrossInside.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14NoSmokeHQBN.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14RedCrossHQnight.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14SmokeHQBN.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/11. AS - Home Balcony by night/Davide15HomeBalconyNight.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/13. AS - Car/Davide4Car.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/14. AS - Canteen/Davide9Canteen.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/15. AS - ParkService/Davide13ParkService.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/16. AS - FINALE/Davide16FINALE.unity
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Occasional Smoker/1. OS - Bedroom/Sergio1Bedroom.unity
   m_ScriptingDefines: []
@@ -745,8 +781,6 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
     - rid: 886592406690201668
       type: {class: OSXStandaloneBuildProfile, ns: UnityEditor.OSXStandalone, asm: UnityEditor.OSXStandalone.Extensions}
       data:

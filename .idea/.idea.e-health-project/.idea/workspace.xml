@@ -6,12 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Davide1Bedroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Davide1Bedroom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Scripts/CharacterMover.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Scripts/CharacterMover.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/2. AS - Kitchen/Davide2Kitchen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/2. AS - Kitchen/Davide2Kitchen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14NoSmokeHQBN.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14NoSmokeHQBN.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14RedCrossHQnight.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14RedCrossHQnight.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14SmokeHQBN.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14SmokeHQBN.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/11. AS - Home Balcony by night/Davide15HomeBalconyNight.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/11. AS - Home Balcony by night/Davide15HomeBalconyNight.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/13. AS - Car/Davide4Car.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/13. AS - Car/Davide4Car.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/14. AS - Canteen/Davide9Canteen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/14. AS - Canteen/Davide9Canteen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/15. AS - ParkService/Davide13ParkService.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/15. AS - ParkService/Davide13ParkService.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/16. AS - FINALE/Davide16FINALE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/16. AS - FINALE/Davide16FINALE.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3HomeBalcony.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3HomeBalcony.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5OutsideWorkplace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5OutsideWorkplace.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8OutsideWorkplace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8OutsideWorkplace.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Lost.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Lost.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Win.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Win.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10LunchBreake.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10LunchBreake.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5. AS - Workplace/Davide6Workplace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5. AS - Workplace/Davide6Workplace.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/7. AS - RedCross HQ/Davide11RedCrossHQ.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/7. AS - RedCross HQ/Davide11RedCrossHQ.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/8. AS - Ambulance/Davide12Ambulance.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/8. AS - Ambulance/Davide12Ambulance.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - RedCross inside/Davide9RedCrossInside.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - RedCross inside/Davide9RedCrossInside.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +46,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/PipeMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/Scripts/PipeSpawner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/MAZE/Scripts/PlayerMAZE.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleSpawner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleSpawnerTop.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/PlaneGameManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/PlaneMovement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MAIN/YarnLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Scripts/CharacterMover.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/YarnLoader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/ExitGame.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/LBL_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/PauseGame.cs" root0="FORCE_HIGHLIGHTING" />
@@ -133,6 +146,10 @@
       <workItem from="1734095508455" duration="575000" />
       <workItem from="1734096135365" duration="30000" />
       <workItem from="1734097975855" duration="10000" />
+      <workItem from="1734187565974" duration="497000" />
+      <workItem from="1734192785609" duration="623000" />
+      <workItem from="1734195219542" duration="953000" />
+      <workItem from="1734202143045" duration="613000" />
     </task>
     <servers />
   </component>

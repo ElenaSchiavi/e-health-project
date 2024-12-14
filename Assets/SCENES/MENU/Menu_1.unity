@@ -398,13 +398,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The people of this special town are mostly avid or occasional smokers,
-    are you one of them? \nIn this game, you can choose your character and the kind
-    of smoker you are and be challenged to not smoke during the day. \nLittle games
-    are made for you to try to resist the dependency: the more tempting is the situation
-    the more difficult will be the game. If you loose, you'll smoke, while if you
-    succeed, you won't. \nDialogues and messages during the game will help or scare
-    you. \nAre you ready to play?"
+  m_text: "The people of this special town are avid or occasional smokers, are you
+    one of them? \nIn this game, you can choose the kind of smoker you are and be
+    challenged to not smoke during the day. You will have to choose between smoking
+    and not smoking. If you smoke, there will be consequences on your mental and
+    physical status; if you don't, a minigame will apear for you to try to resist
+    the dependency. The more tempting is the situation the more difficult will be
+    the game: if you loose, you'll smoke, while if you succeed, you won't. \nDialogues
+    and messages during the game will help or scare you. \nAre you ready to play?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
