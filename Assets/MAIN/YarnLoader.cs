@@ -13,12 +13,13 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
     private static Graphic glowGraphic = null;
     
     private float speed = 700f; 
-    private static Vector2 offScreenLeft  = new Vector2(-733f, -125f);
-    private static Vector2 offScreenRight = new Vector2(280f, -125f);
+    private static Vector2 offScreenLeft  = new Vector2(-750f, -125f);
+    private static Vector2 offScreenRight = new Vector2(285f, -125f);
     private static Vector2 scenePosition  = new Vector2(0f, 0f); //placeholder value
 
     private static bool isMovingToScene = false;
-    private static bool isExitingScene  = false;
+    private static bool isExitingSceneLeft  = false;
+    private static bool isExitingSceneRight  = false;
 
     private static bool isFadingIn  = false;
     private static bool isFadingOut = false;
@@ -187,8 +188,11 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
         if (isMovingToScene)
             MoveToPosition(scenePosition, ref isMovingToScene);
         
-        if (isExitingScene) 
-            MoveToPosition(offScreenLeft, ref isExitingScene);   
+        if (isExitingSceneLeft) 
+            MoveToPosition(offScreenLeft, ref isExitingSceneLeft);   
+
+        if (isExitingSceneRight) 
+            MoveToPosition(offScreenRight, ref isExitingSceneRight);   
 
         if (isFadingIn|| isFadingOut) {
            if (uiGraphic != null && !Mathf.Approximately(uiGraphic.color.a, targetAlpha))
@@ -231,7 +235,7 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
     }
 
     [YarnCommand("exitScene")]
-    public static void ExitScene(string elementName)
+    public static void ExitScene(string elementName, string dir = "left")
     {
 
         GameObject elementToMove = GameObject.Find(elementName);
@@ -239,7 +243,13 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
         {
             uiObject=elementToMove.GetComponent<RectTransform>();
             Debug.Log($"RectTransform Assigned");
-            isExitingScene = true;
+            
+            if (dir=="left") isExitingSceneLeft = true;
+            else if (dir=="right") isExitingSceneRight = true;
+            else {
+                Debug.Log($"Direzione non riconosciuta, defaulting to Left");
+                isExitingSceneLeft = true;
+            }
             Debug.Log($"\"Is exiting scene\" triggered");
 
         }
