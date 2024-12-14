@@ -6,6 +6,9 @@ Opens the balcony door
 Davide:I'm late but i really feel like smoking a cigarette...
 Davide:I shouldn't, especially because i promissed myself that i would have stopped from today...
 Narrator:At this point of the game the choice is yours
+<<addSigaretta>>
+<<addSigaretta>>
+<<addSigaretta>>
 Narrator:Smoking a cigarette will affect the way the story will continue
 Narrator:The relation with other people
 Narrator:And most importantly your mental status
