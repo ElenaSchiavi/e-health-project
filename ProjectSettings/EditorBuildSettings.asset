@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/6. AS - Coffee-machine @work/Davide7CoffeeMachine.unity
     guid: 984ff99bed8364145a1aea6cb4db6b7e
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14SmokeHQBN.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/Davide14Lost.unity
     guid: 3ef4dd6b2e62f4a49bdaf21ab17bc243
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/Davide5Win.unity
@@ -69,7 +69,7 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/9. AS - RedCross inside/Davide9RedCrossInside.unity
     guid: 69e9bbdea7387604cb3cbbf6387498fd
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14NoSmokeHQBN.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/Davide14Win.unity
     guid: c3b38f64b0f42f540b19f2d0db90e86f
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14RedCrossHQnight.unity
@@ -120,7 +120,7 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Occasional Smoker/9. OS - Kitchen by night/Sergio9KitchenNight.unity
     guid: a273d9d7668f8b544aaf0fbad1046e3e
   - enabled: 1
-    path: Assets/MAIN/Minigames/DODGE/Dodge.unity
+    path: Assets/MAIN/Minigames/DODGE/DODGE.unity
     guid: 550e0b86047079a45adc8bd4b560b88c
   - enabled: 1
     path: Assets/MAIN/Minigames/FLAPPY BIRD/FlappyBird.unity
@@ -129,7 +129,7 @@ EditorBuildSettings:
     path: Assets/MAIN/Minigames/PLANE/PLANE.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/MAIN/Minigames/MAZE/Maze.unity
+    path: Assets/MAIN/Minigames/MAZE/MAZE.unity
     guid: d5049af0b57172c4fb8aabda6c0e0c8c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

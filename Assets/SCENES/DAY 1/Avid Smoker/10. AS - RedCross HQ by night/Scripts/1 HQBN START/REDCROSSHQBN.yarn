@@ -35,7 +35,7 @@ title: Choice
              Davide:Hey Max, can I ask for a cigarette
              Max:Sure man, here
              Narrator:He takes the cigarette and lights it up
-             <<loadScene Davide14SmokeHQBN>>
+             <<loadScene Davide14Lost>>
         ->No
              <<jump Choice>>
 ->Don't smoke a cigarette

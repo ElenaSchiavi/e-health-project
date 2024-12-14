@@ -384,9 +384,13 @@ PrefabInstance:
       value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
+      propertyPath: startNode
+      value: REDCROSSHQBN
+      objectReference: {fileID: 0}
+    - target: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: yarnProject
       value: 
-      objectReference: {fileID: 7545569452688597077, guid: a57126850826aee489a12e1782d9a3e5, type: 3}
+      objectReference: {fileID: 7545569452688597077, guid: 801678c3b8be46e47ade725a399a24f7, type: 3}
     - target: {fileID: 3739197626111815070, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -615,10 +619,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bf4687b2952f480190b74043cf357e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiObject: {fileID: 1074750720}
-  speed: 700
-  offScreenLeft: {x: -733, y: -125}
-  scenePosition: {x: -450, y: -125}
 --- !u!114 &1074750722
 MonoBehaviour:
   m_ObjectHideFlags: 0

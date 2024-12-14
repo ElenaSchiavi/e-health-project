@@ -1,8 +1,9 @@
-﻿title: SmokeHQBN
+﻿title: HQBNLost
 tags:
 ---
+Narrator:Davide asked for a cigarette and lit it up
 Davide:Thanks
-
+<<addSigaretta>>
 ->Davide:See? I told you, I’m not that unlucky
      Max:Don’t get too confident, Davide.
      Max:Next shift, you might jinx us into a double trauma case
