@@ -4,10 +4,10 @@ position:1,10
 ---
 
 Sergio:Here we are
- ->Order
+->Order
  Sergio:Giorgio, I'll have the usual. I'll be sitted near the Christmas tree.
  <<jump sitDown>>
- ->Look for Stefano
+->Look for Stefano
  Nowhere to be seen. Was I too early? Well, let's find a seat first.
  <<jump sitDown>>
 ===
@@ -16,14 +16,14 @@ tags:
 position:1,10
 ---
 
-
+<<enterScene Stefano right>>
 Stefano:Hi Sergio, didn't think I'd see the day you'd be up before me.
 Sergio:Don't even mention it. Just spent the night coughing. Didn't sleep a wink.
 Stefano:You've rarely looked worse for the wear. Here have one!
 ->Accept cigarette
  <<addSigaretta>>
  Sergio:Thanks.
- Sergio:Here's my spruzzato. One for my friend here too!
+ Sergio:Here comes my spruzzato. One for my friend here too!
   <<jump friendArrive>>
 ->Decline
  Sergio:You know I'm trying to quit
