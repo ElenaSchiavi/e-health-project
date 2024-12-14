@@ -5,243 +5,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_10.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_11.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_12.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_13.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_14.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_15.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_16.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_17.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_18.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_19.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_20.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_21.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_22.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_23.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_24.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_25.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_26.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_27.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_28.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_29.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_30.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_31.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_32.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_33.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_34.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_35.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_36.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_37.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_38.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_39.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_40.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_41.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_42.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_43.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_44.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_45.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_46.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_47.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_48.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_49.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_50.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_51.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_52.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_53.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_54.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_55.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_56.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_57.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_58.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_59.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_60.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_61.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_62.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_63.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_63.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_64.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_65.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_66.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_66.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_67.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_68.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_69.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_69.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_70.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_71.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_72.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_73.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_74.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_75.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_76.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_77.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_77.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_78.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_78.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_79.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_79.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_8.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_80.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_81.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_82.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_82.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_83.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_83.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_84.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_85.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_85.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_86.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_87.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_88.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_89.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_89.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_9.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_90.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_91.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_92.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_92.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_93.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_93.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_94.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_94.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_95.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Davide-1--unscreen/Davide-1--unscreen_95.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Demo/Demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Demo/Demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Demo/lil_slime.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Demo/lil_slime.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Demo/lil_slime.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Demo/lil_slime.gif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GifToUnity/Demo/lil_slime.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Dog.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Dog/Dog1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Dog/Dog1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Dog/Dog2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Dog/Dog2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Dog/Dog3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Dog/Dog3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Dog/Dog4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Dog/Dog4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Dog/Dog5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Dog/Dog5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Side Characters/SC4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Side Characters/SC4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Side Characters/SC7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Side Characters/SC7.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Side Characters/SC8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Characters/Side Characters/SC8.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Template scene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Template scene/TS.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Template scene/TS.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Davide1Bedroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Davide1Bedroom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Scripts/AS BEDROOM.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Scripts/AS BEDROOM.yarn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/Davide14Lost.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/Davide14Lost.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/Davide14Win.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/Davide14Win.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/LostScript.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/LostScript/HQBNLost.yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/LostScript/HQBNLost.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/LostScript/Project.yarnproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/LostScript/Project.yarnproject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/WinScript.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/WinScript/HQBNWin.yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/WinScript/HQBNWin.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/WinScript/Project.yarnproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/WinScript/Project.yarnproject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14RedCrossHQnight.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14RedCrossHQnight.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/11. AS - Home Balcony by night/Davide15HomeBalconyNight.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/11. AS - Home Balcony by night/Davide15HomeBalconyNight.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/13. AS - Car/Davide4Car.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/13. AS - Car/Davide4Car.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/14. AS - Canteen/Davide9Canteen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/14. AS - Canteen/Davide9Canteen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/15. AS - ParkService/Davide13ParkService.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/15. AS - ParkService/Davide13ParkService.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/16. AS - FINALE/Davide16FINALE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/16. AS - FINALE/Davide16FINALE.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/2. AS - Kitchen/Davide2Kitchen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/2. AS - Kitchen/Davide2Kitchen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3HomeBalcony.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3HomeBalcony.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Davide3Lost.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Davide3Lost.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Davide3Win.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Davide3Win.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Lost Script.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Lost Script/BalconyLost.yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Lost Script/BalconyLost.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Lost Script/Project.yarnproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Lost Script/Project.yarnproject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Win Script.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Win Script/BalconyWin.yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Win Script/BalconyWin.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Win Script/Project.yarnproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Win Script/Project.yarnproject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/Davide10Lost.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/Davide10Lost.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/Davide10Win.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/Davide10Win.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/LostScript.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/LostScript/LunchLost.yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/LostScript/LunchLost.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/LostScript/Project.yarnproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/LostScript/Project.yarnproject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/WinScript.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/WinScript/LunchWin.yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/WinScript/LunchWin.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/WinScript/Project.yarnproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/WinScript/Project.yarnproject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10LunchBreak.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10LunchBreak.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/Davide5Lost.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/Davide5Lost.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/Davide5Win.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/Davide5Win.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/LostScript.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/LostScript/OW1Lost.yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/LostScript/OW1Lost.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/LostScript/Project.yarnproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/LostScript/Project.yarnproject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/WinScript.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/WinScript/OW1 Win.yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/WinScript/OW1 Win.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/WinScript/Project.yarnproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/WinScript/Project.yarnproject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5OutsideWorkplace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5OutsideWorkplace.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8Game/Davide8Lost.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8Game/Davide8Lost.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8Game/Davide8Win.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8Game/Davide8Win.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8Game/LostScript.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8Game/LostScript/CBLost.yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8Game/LostScript/CBLost.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8Game/LostScript/Project.yarnproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8Game/LostScript/Project.yarnproject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8Game/WinScript.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8Game/WinScript/CBWin.yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8Game/WinScript/CBWin.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8Game/WinScript/Project.yarnproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8Game/WinScript/Project.yarnproject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8OutsideWorkplace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8OutsideWorkplace.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5. AS - Workplace/Davide6Workplace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5. AS - Workplace/Davide6Workplace.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/6. AS - Coffee-machine @work/Davide7CoffeeMachine.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/6. AS - Coffee-machine @work/Davide7CoffeeMachine.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/7. AS - RedCross HQ/Davide11RedCrossHQ.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/7. AS - RedCross HQ/Davide11RedCrossHQ.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/8. AS - Ambulance/Davide12Ambulance.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/8. AS - Ambulance/Davide12Ambulance.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - RedCross inside/Davide9RedCrossInside.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - RedCross inside/Davide9RedCrossInside.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/1. OS - Bedroom/Sergio1Bedroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/1. OS - Bedroom/Sergio1Bedroom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/2. OS - Home Balcony/Sergio2HomeBalcony.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/2. OS - Home Balcony/Sergio2HomeBalcony.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/Sergio3Bar.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/Sergio3Bar.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/4. OS - Kitchen/Sergio4Kitchen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/4. OS - Kitchen/Sergio4Kitchen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/5. OS - RedCross HQ/Sergio5RedCrossHQ.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/5. OS - RedCross HQ/Sergio5RedCrossHQ.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/6. OS - Ambulance/Sergio6Ambulance.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/6. OS - Ambulance/Sergio6Ambulance.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/7. OS - RedCross inside/Sergio7RedCrossInside.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/7. OS - RedCross inside/Sergio7RedCrossInside.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/8. OS - RedCross HQ by night/Sergio8RedCrossHQnight.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/8. OS - RedCross HQ by night/Sergio8RedCrossHQnight.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/9. OS - Kitchen by night/Sergio9KitchenNight.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/9. OS - Kitchen by night/Sergio9KitchenNight.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Graphics/Character.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Graphics/Character.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TESTING.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TESTING/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TESTING/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TESTING/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TESTING/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TESTING/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TESTING/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TESTING/P1030693.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TESTING/P1030693.JPG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TESTING/Prova.yarnproject" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TESTING/Prova.yarnproject.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TESTING/ProvaScript.yarn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TESTING/ProvaScript.yarn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnSpinner.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnSpinner/Dialogue.yarnproject" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnSpinner/Dialogue.yarnproject.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnSpinner/Matteo.yarn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/YarnSpinner/Matteo.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TESTING/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,6 +236,12 @@
       <workItem from="1734195219542" duration="953000" />
       <workItem from="1734202143045" duration="613000" />
       <workItem from="1734203739452" duration="84000" />
+      <workItem from="1734215088306" duration="17000" />
+      <workItem from="1734215194475" duration="8000" />
+      <workItem from="1734215325308" duration="9000" />
+      <workItem from="1734215459605" duration="9000" />
+      <workItem from="1734215677426" duration="368000" />
+      <workItem from="1734218664662" duration="19000" />
     </task>
     <servers />
   </component>

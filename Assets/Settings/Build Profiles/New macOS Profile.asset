@@ -35,10 +35,6 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3HomeBalcony.unity
   - m_enabled: 1
-    m_path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Lost.unity
-  - m_enabled: 1
-    m_path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Win.unity
-  - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5OutsideWorkplace.unity
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8OutsideWorkplace.unity
@@ -55,11 +51,7 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/9. AS - RedCross inside/Davide9RedCrossInside.unity
   - m_enabled: 1
-    m_path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14NoSmokeHQBN.unity
-  - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14RedCrossHQnight.unity
-  - m_enabled: 1
-    m_path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14SmokeHQBN.unity
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/11. AS - Home Balcony by night/Davide15HomeBalconyNight.unity
   - m_enabled: 1

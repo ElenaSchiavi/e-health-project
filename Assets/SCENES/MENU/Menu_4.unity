@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 665355342}
   - component: {fileID: 665355341}
   m_Layer: 5
-  m_Name: Button_R
+  m_Name: Button_Resume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -387,7 +387,7 @@ GameObject:
   - component: {fileID: 707889975}
   - component: {fileID: 707889974}
   m_Layer: 5
-  m_Name: Button_E
+  m_Name: Button_Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -872,6 +872,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 1147866277}
   - {fileID: 1690975262}
-  - {fileID: 287477960}
   - {fileID: 2028920249}
+  - {fileID: 287477960}
   - {fileID: 397077778}

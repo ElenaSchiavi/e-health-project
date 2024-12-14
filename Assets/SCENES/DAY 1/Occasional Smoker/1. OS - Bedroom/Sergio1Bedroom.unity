@@ -184,6 +184,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5ec40bb00c655249a257b621dd7c46f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  glowSpeed: 1
+  minAlpha: 0
+  maxAlpha: 1
 --- !u!4 &92850145
 Transform:
   m_ObjectHideFlags: 0
@@ -1012,9 +1015,8 @@ GameObject:
   - component: {fileID: 1973651120}
   - component: {fileID: 1973651119}
   - component: {fileID: 1973651118}
-  - component: {fileID: 1973651117}
   m_Layer: 5
-  m_Name: Character
+  m_Name: Sergio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1029,7 +1031,7 @@ RectTransform:
   m_GameObject: {fileID: 1973651115}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.18, y: 1.18, z: 1.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1756084683}
@@ -1037,24 +1039,8 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -490, y: -125}
-  m_SizeDelta: {x: 480, y: 265}
+  m_SizeDelta: {x: 600, y: 310}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1973651117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973651115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bf4687b2952f480190b74043cf357e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uiObject: {fileID: 1973651116}
-  speed: 700
-  offScreenLeft: {x: -733, y: -125}
-  scenePosition: {x: -450, y: -125}
 --- !u!114 &1973651118
 MonoBehaviour:
   m_ObjectHideFlags: 0

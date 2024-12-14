@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/Davide14Lost.unity
     guid: 3ef4dd6b2e62f4a49bdaf21ab17bc243
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/Davide5Win.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/Davide5Won.unity
     guid: eb8d51fb00250c045bb394fed357331f
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/Davide10Lost.unity
@@ -45,13 +45,13 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/15. AS - ParkService/Davide13ParkService.unity
     guid: 2c0cbfcd086fbcf4a922aab8f70391b9
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/Davide10Win.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/Davide10Won.unity
     guid: 418fac2d806fcb742b19d1d2e8ea67ea
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Davide3Win.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Game/Davide3Won.unity
     guid: 7c6c17f4920554047876c4b71bb7257d
   - enabled: 1
-    path: Assets/MAIN/Minigames/BRICKBREAKER/BRICKBREAKER.unity
+    path: Assets/MAIN/Minigames/BRICKBREAKER/BrickBreaker.unity
     guid: 51d72ee3025063048a0b93b4bfa4c477
   - enabled: 1
     path: Assets/SCENES/MENU/Menu_4.unity
@@ -63,13 +63,13 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/8. AS - Ambulance/Davide12Ambulance.unity
     guid: e249c997ba360204691b03f532d26d67
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Davide3Lost.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Game/Davide3Lost.unity
     guid: 7ae3b0e433c6ed8429eb55e6c0a7330b
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/9. AS - RedCross inside/Davide9RedCrossInside.unity
     guid: 69e9bbdea7387604cb3cbbf6387498fd
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/Davide14Win.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14Game/Davide14Won.unity
     guid: c3b38f64b0f42f540b19f2d0db90e86f
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/10. AS - RedCross HQ by night/Davide14RedCrossHQnight.unity
@@ -120,7 +120,7 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Occasional Smoker/9. OS - Kitchen by night/Sergio9KitchenNight.unity
     guid: a273d9d7668f8b544aaf0fbad1046e3e
   - enabled: 1
-    path: Assets/MAIN/Minigames/DODGE/DODGE.unity
+    path: Assets/MAIN/Minigames/DODGE/Dodge.unity
     guid: 550e0b86047079a45adc8bd4b560b88c
   - enabled: 1
     path: Assets/MAIN/Minigames/FLAPPY BIRD/FlappyBird.unity
@@ -129,7 +129,7 @@ EditorBuildSettings:
     path: Assets/MAIN/Minigames/PLANE/PLANE.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/MAIN/Minigames/MAZE/MAZE.unity
+    path: Assets/MAIN/Minigames/MAZE/Maze.unity
     guid: d5049af0b57172c4fb8aabda6c0e0c8c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
