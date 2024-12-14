@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Davide1Bedroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Davide1Bedroom.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Scripts/CharacterMover.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Scripts/CharacterMover.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/2. AS - Kitchen/Davide2Kitchen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/2. AS - Kitchen/Davide2Kitchen.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3HomeBalcony.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3HomeBalcony.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5OutsideWorkplace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5OutsideWorkplace.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8OutsideWorkplace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide8OutsideWorkplace.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +32,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/ObstacleSpawnerTop.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/PlaneGameManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MAIN/Minigames/PLANE/Scripts/PlaneMovement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MAIN/YarnLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Scripts/CharacterMover.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MAIN/YarnLoader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/ExitGame.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/LBL_Text.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/PauseGame.cs" root0="FORCE_HIGHLIGHTING" />
@@ -133,6 +126,7 @@
       <workItem from="1734095508455" duration="575000" />
       <workItem from="1734096135365" duration="30000" />
       <workItem from="1734097975855" duration="10000" />
+      <workItem from="1734187565974" duration="497000" />
     </task>
     <servers />
   </component>
