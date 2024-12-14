@@ -9,6 +9,8 @@ TagManager:
   - Duvar1
   - Enemies
   - Keys
+  - Walls
+  - Flag
   layers:
   - Default
   - TransparentFX

@@ -63,7 +63,7 @@ public class PlayerMaze : MonoBehaviour
             Destroy(collision.gameObject);
         }
 
-        if (collision.gameObject.tag == "Princess")
+        if (collision.gameObject.tag == "Flag")
         {
             victoryText.gameObject.SetActive(true);
             SceneManager.LoadScene("Davide5Win");
