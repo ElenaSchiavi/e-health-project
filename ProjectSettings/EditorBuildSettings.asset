@@ -33,6 +33,9 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide5Game/Davide5Win.unity
     guid: eb8d51fb00250c045bb394fed357331f
   - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/Davide10Lost.unity
+    guid: cbd2fb55fa8f8464f8e515438aec9bcc
+  - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/7. AS - RedCross HQ/Davide11RedCrossHQ.unity
     guid: 4d87ca1960882d240a21f9d792848fa8
   - enabled: 1
@@ -42,7 +45,10 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/15. AS - ParkService/Davide13ParkService.unity
     guid: 2c0cbfcd086fbcf4a922aab8f70391b9
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Win.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Outside Workplace/Davide10Game/Davide10Win.unity
+    guid: 418fac2d806fcb742b19d1d2e8ea67ea
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Davide3Win.unity
     guid: 7c6c17f4920554047876c4b71bb7257d
   - enabled: 1
     path: Assets/MAIN/Minigames/BRICKBREAKER/BRICKBREAKER.unity
@@ -57,7 +63,7 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/8. AS - Ambulance/Davide12Ambulance.unity
     guid: e249c997ba360204691b03f532d26d67
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Lost.unity
+    path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/WL Management/Davide3Lost.unity
     guid: 7ae3b0e433c6ed8429eb55e6c0a7330b
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/9. AS - RedCross inside/Davide9RedCrossInside.unity

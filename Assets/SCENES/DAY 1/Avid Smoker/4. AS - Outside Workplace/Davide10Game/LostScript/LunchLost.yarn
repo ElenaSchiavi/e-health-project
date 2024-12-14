@@ -1,0 +1,15 @@
+﻿title: LunchLost
+tags:
+---
+<<addSigaretta>>
+<<minusMood>> //controlla se giusto
+Narrator:Davide takes out the cigarette and Lights it up
+Davide:*FFSSSS... PFIUUUUUU*
+Narrator:Davide didn't enjoy this one
+Narrator:Especially after the conversations with his friends
+Davide:...
+Davide:Uffff
+<<hideCharacter Character>>
+Narrator:Puts out the cigarette
+<<loadScene Davide11RedCrossHQ>> 
+===

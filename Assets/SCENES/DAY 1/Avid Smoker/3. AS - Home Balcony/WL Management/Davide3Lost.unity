@@ -279,7 +279,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &511173527
 RectTransform:
   m_ObjectHideFlags: 0
@@ -362,10 +362,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bf4687b2952f480190b74043cf357e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiObject: {fileID: 511173527}
-  speed: 700
-  offScreenLeft: {x: -733, y: -125}
-  scenePosition: {x: -450, y: -125}
 --- !u!1001 &939025084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -456,12 +452,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: startNode
-      value: AS_HOMEBALCONY
+      value: BalconyLost
       objectReference: {fileID: 0}
     - target: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: yarnProject
       value: 
-      objectReference: {fileID: 7545569452688597077, guid: 974a41c69bafe1b48b10908e4b1f4390, type: 3}
+      objectReference: {fileID: 7545569452688597077, guid: 5d6986dca0a77b04aba61d8e8712d64e, type: 3}
     - target: {fileID: 3739197626111815070, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: m_SortingOrder
       value: 1
