@@ -1,0 +1,10 @@
+﻿title: LunchWin
+tags:
+---
+Davide:"Remember what I promissed myself..."
+Davide:Anyway, I better get back to that project...
+<<hideCharacter Character>>
+Narrator:Even if the choice was hard, Davide is doing what he feels is right!
+Narrator:Now he is going bac to his project+
+<<loadScene Davide11RedCrossHQ>> 
+===

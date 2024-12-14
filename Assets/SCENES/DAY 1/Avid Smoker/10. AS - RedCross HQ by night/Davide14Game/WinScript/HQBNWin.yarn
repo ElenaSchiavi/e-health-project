@@ -1,0 +1,26 @@
+﻿title: HQBNWin
+tags:
+---
+Narrator:Davide passed on asking for the cigarette and continued with the conversation
+
+->Davide:See? I told you, I’m not that unlucky
+     Max:Don’t get too confident, Davide.
+     Max:Next shift, you might jinx us into a double trauma case
+->Davide:Hey, maybe I’m good luck. We should hope I’m always on shift
+     Max:Yeah, right. Let’s see how long your "luck" lasts
+->Davide:You guys always blame me. What about Max and his so-called "chill shift" predictions?
+     Max:Hey, don’t drag me into this
+     Max:You’re the one with the bad reputation
+
+Bryan:Alright, enough teasing. Let’s call it a night
+
+Davide:Sunds good. I could use some sleep
+
+Max:Same here. Good job tonight, team
+
+Bryan:Good work, everyone. See you all next time
+<<hideCharacter Character>>
+
+Narrator:Tired from the long day Davide took his car and went back home
+<<loadScene Davide15HomeBalconyNight>>
+===

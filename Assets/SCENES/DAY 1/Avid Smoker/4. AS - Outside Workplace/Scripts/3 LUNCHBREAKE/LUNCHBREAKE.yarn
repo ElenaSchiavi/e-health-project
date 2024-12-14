@@ -64,14 +64,14 @@ Will you smoke?
         ->Yes
              <<addSigaretta>>
              <<minusMood>> //controlla se giusto
-             Takes out the cigarette and Lights it up
-             *FFSSSS... PFIUUUUUU*
+             Narrator:Davide takes out the cigarette and Lights it up
+             Davide:*FFSSSS... PFIUUUUUU*
              Narrator:Davide didn't enjoy this one
              Narrator:Especially after the conversations with his friends
              Davide:...
              Davide:Uffff
              <<hideCharacter Character>>
-             Puts out the cigarette
+             Narrator:Puts out the cigarette
              <<loadScene Davide11RedCrossHQ>> 
         ->No
              <<jump Choice>>

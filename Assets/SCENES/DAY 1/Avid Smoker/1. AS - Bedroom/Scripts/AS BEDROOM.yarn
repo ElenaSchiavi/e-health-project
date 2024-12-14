@@ -4,7 +4,7 @@ position: 1,10
 ---
 Birds are singing
 An alarm goes off...
-*STUNK*
+STUNK
 <<showCharacter Character>>
 <<fadeIn Character>>
 <<enterScene Character left>>

@@ -79,6 +79,7 @@ Bryan:Next time, take a breath before speaking. Keep it calm, keep it steady
 Davide:Got it. I’ll do better
 
 Bryan:Good. Let’s get back to the ambulance
+<<minusMood>>
 
 Narrator:With that, the ambulance made its way back to the headquarters
 <<loadScene Davide14RedCrossHQnight>>
