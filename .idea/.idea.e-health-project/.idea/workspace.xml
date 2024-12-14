@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Audio/BackgroundMusic.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Audio/BackgroundMusic.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/MAZE/MAZE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/MAZE/MAZE.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/MAZE/Scripts/PlayerMAZE.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/MAZE/Scripts/PlayerMAZE.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +127,7 @@
       <workItem from="1734097975855" duration="10000" />
       <workItem from="1734187565974" duration="497000" />
       <workItem from="1734192785609" duration="623000" />
-      <workItem from="1734195219542" duration="885000" />
+      <workItem from="1734195219542" duration="953000" />
     </task>
     <servers />
   </component>
