@@ -12,11 +12,17 @@ public class GameManager1 : MonoBehaviour
     private bool gameEnded = false;
     private static int attempts = 0;
     private const int maxAttempts = 3;
-   
+    private float gameWinTime=90f;
     private void Start()
     {
+        Debug.Log("Loading Sigarette Number from YarnCSLoader");
+        int sigaretteFumate=YarnCSLoader.getSigarette();
+        Debug.Log($"Finora fumate {sigaretteFumate} sigarette");
+
+        if(sigaretteFumate>=1)gameWinTime=40f;
+        else gameWinTime=5f;
         Debug.Log("Game started!");
-        Invoke("CheckVictory", 20f);
+        Invoke("CheckVictory", gameWinTime);
         ShowAttemptText();
     }
 
