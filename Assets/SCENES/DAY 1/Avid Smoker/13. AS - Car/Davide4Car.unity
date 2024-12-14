@@ -1011,10 +1011,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bf4687b2952f480190b74043cf357e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiObject: {fileID: 1725197909}
-  speed: 700
-  offScreenLeft: {x: -733, y: -125}
-  scenePosition: {x: -450, y: -125}
 --- !u!114 &1725197911
 MonoBehaviour:
   m_ObjectHideFlags: 0

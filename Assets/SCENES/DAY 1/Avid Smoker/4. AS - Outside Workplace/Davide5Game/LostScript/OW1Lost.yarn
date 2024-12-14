@@ -1,0 +1,13 @@
+﻿title: OW1Lost
+tags:
+---
+<<addSigaretta>>
+Narrator:He takes out the cigarette
+Narrator:Lights it up
+Davide:*FFSSSS... PFIUUUUUU*
+Davide:Maybe i shouldn't have smoked it...
+Davide:Anyway, we better get going
+<<hideCharacter Character>>
+Narrator:Davide puts out the cigarette and the two friends enter the building
+<<loadScene Davide6Workplace>>
+===

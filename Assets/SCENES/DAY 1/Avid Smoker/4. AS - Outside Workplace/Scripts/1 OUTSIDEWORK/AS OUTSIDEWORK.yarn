@@ -1,4 +1,4 @@
-﻿title: ASOUTSIDEWORKPALCE
+title: ASOUTSIDEWORKPALCE
 tags:
 position: 1,10
 ---
@@ -43,9 +43,9 @@ title: Choice
     Are you sure?
         ->Yes
              <<addSigaretta>>
-             Takes out the cigarette
-             Lights it up
-             *FFSSSS... PFIUUUUUU*
+             Narrator:He takes out the cigarette
+             Narrator:Lights it up
+             Davide:*FFSSSS... PFIUUUUUU*
              Davide:Maybe i shouldn't have smoked it...
              Davide:Anyway, we better get going
              <<hideCharacter Character>>
@@ -56,7 +56,7 @@ title: Choice
 ->Don't smoke a cigarette
     Are you sure?
         ->Yes
-             <<loadScene MAZE>> //ricontrolla
+             <<loadScene MAZE>> 
         ->No
              <<jump Choice>>
 ===
