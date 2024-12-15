@@ -14,13 +14,24 @@ public class GameManager1 : MonoBehaviour
     private const int maxAttempts = 3;
     private float gameWinTime=90f;
     private int issergio=0;
+    private static int setmood = 0; //LEO MODIFICA SET MOOD CON IL VALORE SOGLIA DEL MOOD,M >= SETM0OOD VUOL DIRE CHE è FELICE 
+    private static int setsigarette = 1;
+
+
     private void Start()
     {
         Debug.Log("Loading Sigarette Number from YarnCSLoader");
         int sigaretteFumate=YarnCSLoader.getSigarette();
         Debug.Log($"Finora fumate {sigaretteFumate} sigarette");
-        if(sigaretteFumate>=1)gameWinTime=40f;
-        else gameWinTime=5f;
+        Debug.Log("Loading Mood from YarnCSLoader");
+        int mood = YarnCSLoader.getMood();
+        Debug.Log($"Mood attuale {mood}");
+
+        if (sigaretteFumate>=setsigarette && mood<setmood) gameWinTime = 60f;
+        if (sigaretteFumate >= setsigarette && mood >= setmood) gameWinTime = 40f;
+        if (sigaretteFumate < setsigarette && mood < setmood) gameWinTime = 40f;
+        if (sigaretteFumate < setsigarette && mood >= setmood) gameWinTime = 20f;
+
         Debug.Log("Game started!");
         Invoke("CheckVictory", gameWinTime);
         ShowAttemptText();

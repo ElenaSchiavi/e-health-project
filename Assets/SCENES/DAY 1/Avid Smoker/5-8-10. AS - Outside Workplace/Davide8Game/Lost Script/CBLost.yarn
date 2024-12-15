@@ -11,6 +11,7 @@ Tom:Can't wait for the day to finish
 Davide:Well, lets not exagerate
 Davide:There is still a lot of time ahahahha
 Tom:Hehehehe
+<<fadeIn BackGroundBlack>>
 <<hideCharacter Character>>
 Narrator:The two firends put out the cigarette and go back to work
 <<loadScene Davide9Canteen>>
