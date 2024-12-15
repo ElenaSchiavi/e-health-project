@@ -13,7 +13,7 @@ Bryan:It turned out that this was a chill night
 Max:Yeah, only one service and it was even an easy one
 
 Narrator:Max at that moment took out his packet of cigarets and lit one up
-Narrator:Davide noticed it and he fealt an itch
+Narrator:Davide noticed it and he felt an itch
 
 Davide:"Should i ask him for one?"
 
@@ -42,7 +42,7 @@ title: Choice
 ->Don't smoke a cigarette
     Are you sure?
         ->Yes
-             <<loadScene PLANEGAME>>
+             <<loadScene Plane>>
              //aggiungi --mood ma da fare post gioco, se no condizioni la difficoltà del gioco
         ->No
              <<jump Choice>>
