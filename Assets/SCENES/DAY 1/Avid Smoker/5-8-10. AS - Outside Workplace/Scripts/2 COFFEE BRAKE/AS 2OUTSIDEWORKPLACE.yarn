@@ -40,7 +40,7 @@ title: Choice
              Davide:Well, lets not exagerate
              Davide:There is still a lot of time ahahahha
              Tom:Hehehehe
-             <<fadeIn BackGroundBlack>>//da capire se togliere
+             //<<fadeIn BackGroundBlack>>//da capire se togliere
              <<exitScene Davide left>>
              <<fadeOut Davide>>
              <<exitScene Tom right>>

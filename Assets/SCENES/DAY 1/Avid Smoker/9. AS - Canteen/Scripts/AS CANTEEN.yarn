@@ -3,7 +3,7 @@ tags:
 ---
 Narrator:After the coffee break Davide went back to work
 Narrator:Until it was time for lunch
-<<fadeOut BackGroundBlack>> //capire se togliere
+//<<fadeOut BackGroundBlack>> //capire se togliere
 Narrator:Where he met with his other friends from work
 <<showCharacter Davide>>
 <<fadeIn Davide>>
@@ -34,40 +34,43 @@ Narrator: Tom's face was a mix of envy and disbelief.
 Tom:Do you even know how exclusive that event is? People wait years to get tickets!
 <<exitScene Tom right>>
 <<fadeOut Tom>>
+Melissa:It's not like Davide planned it
 <<enterScene Melissa right>>
 <<fadeIn Melissa>>
-Melissa:It's not like Davide planned it. He was just doing his Red Cross duties.
+Melissa:He was just doing his Red Cross duties
 <<exitScene Melissa right>>
 <<fadeOut Melissa>>
+Tom:But still! The Vienna Philharmonic! 
 <<enterScene Tom right>>
 <<fadeIn Tom>>
-Tom:But still! The Vienna Philharmonic! 
 Tom:Live! I’ve been dreaming of this since I was a kid!
 Tom:And you… you just stumble into it
+<<exitScene Tom right>>
+<<fadeOut Tom>>
 ->Davide: Well, I guess volunteering has its perks, huh? Maybe you should join next time
 ->Davide: Hey, I didn’t make the rules. They just told us where to be, and there we were
 ->Davide: I feel bad rubbing it in, but yeah, it was pretty amazing
-<<exitScene Tom right>>
-<<fadeOut Tom>>
 <<enterScene Melissa right>>
 <<fadeIn Melissa>>
 Melissa: Alright, enough. What about you, Tom? What amazing thing did you do yesterday?
 <<exitScene Melissa right>>
 <<fadeOut Melissa>>
+Tom:Oh, nothing as glamorous as attending a world-class concert, that's for sure
 <<enterScene Tom right>>
 <<fadeIn Tom>>
-Tom:Oh, nothing as glamorous as attending a world-class concert, that's for sure
 Tom:Just finished some boring project work
 <<exitScene Tom right>>
 <<fadeOut Tom>>
+Melissa: Boring, huh?
 <<enterScene Melissa right>>
 <<fadeIn Melissa>>
-Melissa: Boring, huh? You don’t usually downplay your achievements. Spill it
+Melissa:You don’t usually downplay your achievements. Spill it
 <<exitScene Melissa right>>
 <<fadeOut Melissa>>
+Tom:Okay, fine
 <<enterScene Tom right>>
 <<fadeIn Tom>>
-Tom:Okay, fine.
+
 Tom:I may have landed a freelance gig with one of the top graphic design firms in the city. But no big deal
 
 ->Davide:No big deal? That’s amazing, Tom!
@@ -79,6 +82,7 @@ Tom:I may have landed a freelance gig with one of the top graphic design firms i
 
 <<exitScene Davide left>>
 <<fadeOut Davide>>
+-
 <<exitScene Tom right>>
 <<fadeOut Tom>>
 Narrator:From there the three friends mooved to get a coffee before going back to work

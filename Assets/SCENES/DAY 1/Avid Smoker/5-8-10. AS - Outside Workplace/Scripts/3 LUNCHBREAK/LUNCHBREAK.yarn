@@ -70,7 +70,7 @@ Will you smoke?
              Narrator:Especially after the conversations with his friends
              Davide:...
              Davide:Uffff
-             <<fadeIn BackGroundBlack>>
+             //<<fadeIn BackGroundBlack>>
              <<exitScene Davide left>>
              <<fadeOut Davide>>
              Narrator:Puts out the cigarette

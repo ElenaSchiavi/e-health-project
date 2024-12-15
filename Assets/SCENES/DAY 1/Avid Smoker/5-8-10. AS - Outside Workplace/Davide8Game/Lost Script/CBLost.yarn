@@ -11,7 +11,7 @@ Tom:Can't wait for the day to finish
 Davide:Well, lets not exagerate
 Davide:There is still a lot of time ahahahha
 Tom:Hehehehe
-<<fadeIn BackGroundBlack>>
+//<<fadeIn BackGroundBlack>>
 <<exitScene Davide left>>
 <<fadeOut Davide>>
 <<exitScene Tom right>>

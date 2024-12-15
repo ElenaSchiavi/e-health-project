@@ -44,7 +44,7 @@ title: Choice
              <<exitScene Davide left>>
              <<fadeOut Davide>>
              Narrator:He Puts out the cigarette and goes to his car
-             <<fadeIn BackGroundBlack>>
+             //<<fadeIn BackGroundBlack>>
              <<loadScene Davide4Car>>
         ->No
              <<jump Choice>>
