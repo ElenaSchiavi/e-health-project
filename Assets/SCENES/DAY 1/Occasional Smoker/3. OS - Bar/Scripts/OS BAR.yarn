@@ -3,6 +3,9 @@ tags:
 position:1,10
 ---
 
+<<declare $issergio=0>>
+<<setSergio 1>>
+<<set $issergio=getSergio()>>
 Sergio:Here we are
 ->Order
  Sergio:Giorgio, I'll have the usual. I'll be sitted near the Christmas tree.

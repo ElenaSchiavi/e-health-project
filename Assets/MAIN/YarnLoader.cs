@@ -29,6 +29,7 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
 
     static int sigarette_fumate = 0;
     static int mood = 0;
+    static int issergio = 0;
 
     public static float fadeDuration = 1.0f; // Duration of the fade in seconds
 
@@ -89,6 +90,20 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
     {
         mood--;
         Debug.Log($"Yarn take one to mood in YarnCSLoader: {mood}");
+    }
+
+    [YarnFunction("getSergio")]
+    public static int getSergio()
+    {
+        Debug.Log($"Yarn read mood from YarnCSLoader: {issergio}");
+        return issergio;
+    }
+
+    [YarnCommand("setSergio")]
+    public static void setSergio(int newNumber)
+    {
+        Debug.Log($"Yarn set mood to YarnCSLoader: {newNumber}");
+        issergio = newNumber;
     }
 
     [YarnCommand("loadScene")]

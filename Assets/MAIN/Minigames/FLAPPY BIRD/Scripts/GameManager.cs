@@ -13,17 +13,24 @@ public class GameManager1 : MonoBehaviour
     private static int attempts = 0;
     private const int maxAttempts = 3;
     private float gameWinTime=90f;
+    private int issergio=0;
     private void Start()
     {
         Debug.Log("Loading Sigarette Number from YarnCSLoader");
         int sigaretteFumate=YarnCSLoader.getSigarette();
         Debug.Log($"Finora fumate {sigaretteFumate} sigarette");
-
         if(sigaretteFumate>=1)gameWinTime=40f;
         else gameWinTime=5f;
         Debug.Log("Game started!");
         Invoke("CheckVictory", gameWinTime);
         ShowAttemptText();
+    }
+
+    public void checkCharacter()
+    {
+        Debug.Log("Loading Personaggio from YarnCSLoader");
+        int issergio=YarnCSLoader.getSergio();
+        Debug.Log($"Il personaggio {issergio} è stato scelto");
     }
 
     public void ShowGameOver()
@@ -49,7 +56,15 @@ public class GameManager1 : MonoBehaviour
             if (attempts == maxAttempts)
             {
                 Debug.Log("You have reached the maximum number of games. Game over.");
-                SceneManager.LoadScene("Davide3Lost");
+                if(issergio==2)
+                {
+                    SceneManager.LoadScene("Sergio4Kitchen");
+                }
+                else
+                {
+                    SceneManager.LoadScene("Davide3Lost");
+                }
+                 
                 if (gameOverText != null)
                 {
                     gameOverText.SetActive(true);

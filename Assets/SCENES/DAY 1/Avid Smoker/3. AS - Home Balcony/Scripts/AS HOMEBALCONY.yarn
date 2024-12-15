@@ -2,6 +2,9 @@
 tags:
 ---
 Opens the balcony door
+<<declare $issergio=0>>
+<<setSergio 1>>
+<<set $issergio=getSergio()>>
 <<showCharacter Character>>
 Davide:I'm late but i really feel like smoking a cigarette...
 Davide:I shouldn't, especially because i promissed myself that i would have stopped from today...
