@@ -11,6 +11,7 @@ Tom:Hehehehe
 //<<fadeIn BackGroundBlack>> //da capire se togliere
 <<exitScene Davide left>>
 <<fadeOut Davide>>
+<<wait 1>>
 <<exitScene Tom right>>
 <<fadeOut Tom>>
 Narrator:Tom puts out the cigarette and the two go back to work

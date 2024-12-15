@@ -6,10 +6,19 @@ Narrator:The team is now in the ambulance
 <<showCharacter Davide>>
 <<fadeIn Davide>>
 <<enterScene Davide left>>
+<<wait  1>>
+<<showCharacter Bryan>>
+<<fadeIn Bryan>>
+<<enterScene Bryan right>>
 Bryan:Alright, we’ll loop around the park first
 Bryan:The event looks pretty packed already
 Bryan:Keep your eyes open for anyone who might need help.
-
+<<fadeOut Bryan>>
+<<exitScene Bryan right>>
+<<wait 1>>
+<<showCharacter Max>>
+<<fadeIn Max>>
+<<enterScene Max right>>
 Max:A lot of families. Good vibes, though
 Max:Let’s hope it stays that way!
 
@@ -20,12 +29,38 @@ Max:Let’s hope it stays that way!
 ->Davide:Come on, you know quiet nights are boring. Bring on the drama!
     Max:You’re gonna regret saying that when we’re running all night.
 
+<<exitScene Max right>>
+<<fadeOut Max>>
+<<wait  1>>
+<<showCharacter Bryan1>>
+<<fadeIn Bryan1>>
+<<enterScene Bryan1 right>>
 Bryan:If anything happens, it’s on you, Davide
+<<exitScene Bryan1 right>>
+<<fadeOut Bryan1>>
+<<wait  1>>
+<<showCharacter Max1>>
+<<fadeIn Max1>>
+<<enterScene Max1 right>>
 Max:Just has said...
+<<exitScene Max1 right>>
+<<fadeOut Max1>>
+<<wait  1>>
+<<showCharacter Dave>>
+<<fadeIn Dave>>
+<<enterScene Dave right>>
 Dave:Someone’s waving. Near the fountain
-
+<<exitScene Dave right>>
+<<fadeOut Dave>>
+<<wait  1>>
+<<showCharacter Bryan2>>
+<<fadeIn Bryan2>>
+<<enterScene Bryan2 right>>
 Bryan:Good catch!
 Bryan:Max, hit the lights. Let’s check it out!
+<<exitScene Bryan2 right>>
+<<fadeOut Bryan2>>
+<<wait  1>>
 <<exitScene Davide left>>
 <<fadeOut Davide>>
 Narrator:Max flicked on the ambulance lights, and Bryan pulled over near the fountain

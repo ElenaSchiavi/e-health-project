@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fd8b7981867398249b15043f616a756b
+guid: b6448f7459eb4434088cc30d5971bd3f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2637658011632816292
-    second: Melissa-unscreen_52_0
+      213: -7583102258129155867
+    second: Melissa-unscreen_94_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Melissa-unscreen_52_0
+      name: Melissa-unscreen_94_0
       rect:
         serializedVersion: 2
         x: 238
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5fa9a96308256bd0800000000000000
-      internalID: -2637658011632816292
+      spriteID: 5e8cfb85ca863c690800000000000000
+      internalID: -7583102258129155867
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Melissa-unscreen_52_0: -2637658011632816292
+      Melissa-unscreen_94_0: -7583102258129155867
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,21 +8,21 @@ Narrator:Where he met with his other friends from work
 <<showCharacter Davide>>
 <<fadeIn Davide>>
 <<enterScene Davide left>>
-Melissa:So Davide, how was your Redcross service yesterday?
+Melissa:So Davide, how was your RedCross service yesterday?
 <<showCharacter Melissa>>
 <<fadeIn Melissa>>
 <<enterScene Melissa right>>
 Melissa:So Davide, how was your Redcross service yesterday?
-Melissa:Did you get to enjoy the consert?
+Melissa:Did you get to enjoy the concert?
 Davide:It was actually really nice!
 Davide:We got lucky because nobody needed any help so we got to listen and enjoy the consert
-Davide:I would have never said that i like clasical music
+Davide:I would have never said that I like classical music
 <<exitScene Melissa right>>
 <<fadeOut Melissa>>
-.
-<<showCharacter Tom>>
-<<fadeIn Tom>>
-<<enterScene Tom right>>
+<<wait  1>>
+<<showCharacter Tom1>>
+<<fadeIn Tom1>>
+<<enterScene Tom1 right>>
 Tom:You don't understand how lucky you are!
 Tom:Do you even realise how important that event is?
 ->Davide:Well, I’m not really a classical music guy, hehehe.
@@ -32,15 +32,17 @@ Tom:Do you even realise how important that event is?
 Tom:I CAN'T BELIEVE YOU GOT TO GO TO THE SPRING SYMPHONY GALA!
 Narrator: Tom's face was a mix of envy and disbelief.
 Tom:Do you even know how exclusive that event is? People wait years to get tickets!
-<<exitScene Tom right>>
-<<fadeOut Tom>>
+<<exitScene Tom1 right>>
+<<fadeOut Tom1>>
 Melissa:It's not like Davide planned it
-<<fadeIn Melissa>>
-<<enterScene Melissa right>>
+<<showCharacter Melissa3>>
+<<fadeIn Melissa3>>
+<<enterScene Melissa3 right>>
 Melissa:He was just doing his Red Cross duties
-<<exitScene Melissa right>>
-<<fadeOut Melissa>>
+<<exitScene Melissa3 right>>
+<<fadeOut Melissa3>>
 Tom:But still! The Vienna Philharmonic! 
+<<showCharacter Tom>>
 <<fadeIn Tom>>
 <<enterScene Tom right>>
 Tom:Live! I’ve been dreaming of this since I was a kid!
@@ -50,26 +52,30 @@ Tom:And you… you just stumble into it
 ->Davide: Well, I guess volunteering has its perks, huh? Maybe you should join next time
 ->Davide: Hey, I didn’t make the rules. They just told us where to be, and there we were
 ->Davide: I feel bad rubbing it in, but yeah, it was pretty amazing
-<<fadeIn Melissa>>
-<<enterScene Melissa right>>
+<<showCharacter Melissa1>>
+<<fadeIn Melissa1>>
+<<enterScene Melissa1 right>>
 Melissa: Alright, enough. What about you, Tom? What amazing thing did you do yesterday?
-<<exitScene Melissa right>>
-<<fadeOut Melissa>>
+<<exitScene Melissa1 right>>
+<<fadeOut Melissa1>>
 Tom:Oh, nothing as glamorous as attending a world-class concert, that's for sure
-<<fadeIn Tom>>
-<<enterScene Tom right>>
+<<showCharacter Tom2>>
+<<fadeIn Tom2>>
+<<enterScene Tom2 right>>
 Tom:Just finished some boring project work
-<<exitScene Tom right>>
-<<fadeOut Tom>>
+<<exitScene Tom2 right>>
+<<fadeOut Tom2>>
 Melissa: Boring, huh?
-<<fadeIn Melissa>>
-<<enterScene Melissa right>>
+<<showCharacter Melissa2>>
+<<fadeIn Melissa2>>
+<<enterScene Melissa2 right>>
 Melissa:You don’t usually downplay your achievements. Spill it
-<<exitScene Melissa right>>
-<<fadeOut Melissa>>
+<<exitScene Melissa2 right>>
+<<fadeOut Melissa2>>
 Tom:Okay, fine
-<<fadeIn Tom>>
-<<enterScene Tom right>>
+<<showCharacter Tom3>>
+<<fadeIn Tom3>>
+<<enterScene Tom3 right>>
 
 Tom:I may have landed a freelance gig with one of the top graphic design firms in the city. But no big deal
 
@@ -83,8 +89,8 @@ Tom:I may have landed a freelance gig with one of the top graphic design firms i
 <<exitScene Davide left>>
 <<fadeOut Davide>>
 -
-<<exitScene Tom right>>
-<<fadeOut Tom>>
+<<exitScene Tom3 right>>
+<<fadeOut Tom3>>
 Narrator:From there the three friends mooved to get a coffee before going back to work
 <<loadScene Davide10LunchBreak>>
 ===

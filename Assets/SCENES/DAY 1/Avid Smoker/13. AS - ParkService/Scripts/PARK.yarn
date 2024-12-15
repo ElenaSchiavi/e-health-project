@@ -5,6 +5,10 @@ Narrator:A man holding a small child waved frantically as the team stepped out.
 <<showCharacter Davide>>
 <<fadeIn Davide>>
 <<enterScene Davide left>>
+<<wait  1>>
+<<showCharacter Bryan>>
+<<fadeIn Bryan>>
+<<enterScene Bryan right>>
 Man:My daughter fell and hit her head She’s been crying non-stop, and I’m worried!
 
 Bryan:Alright, sir, stay calm. We’ll take a look
@@ -23,22 +27,26 @@ Bryan:Max, grab the kit. Davide, check her vitals
      Man:I-I didn’t mean for this to happen. I’m sorry!
      <<jump Sgridata>>
 Davide:Alright, Lily. I’m Davide. Let me just take a quick look, okay?
-
 Bryan:She’s in good hands, sir. Let’s just give them a moment
-
 Davide:She’s got a bump, but nothing serious
 Davide:Just keep an eye on her, and if she gets dizzy or feels sick later, take her to the hospital
-
 Man:Thank you so much. Really, thank you
-
+<<fadeOut Bryan>>
+<<exitScene Bryan right>>
+<<wait 0.1>>
+<<showCharacter Max>>
+<<fadeIn Max>>
+<<enterScene Max right>>
 Max:No problem. Just doing our job
-
 Narrator:The team returned to the ambulance, the tension easing as they prepared to continue their patrol
-
 Davide:with a chuckle See? Calm night. Told you
-
 Max:You’re lucky that wasn’t worse
-
+<<exitScene Max right>>
+<<fadeOut Max>>
+<<wait 0.1>>
+<<showCharacter Bryan1>>
+<<fadeIn Bryan1>>
+<<enterScene Bryan1 right>>
 Bryan:Alright, let’s keep moving. Who knows what’s next?
 
 Narrator:With that, the ambulance made its way back to the headquarters
@@ -81,6 +89,9 @@ Davide:Got it. I’ll do better
 
 Bryan:Good. Let’s get back to the ambulance
 <<minusMood>>
+<<exitScene Bryan1 right>>
+<<fadeOut Bryan1>>
+<<wait  0.1>>
 <<exitScene Davide left>>
 <<fadeOut Davide>>
 Narrator:With that, the ambulance made its way back to the headquarters

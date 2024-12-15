@@ -53,11 +53,12 @@ title: Choice
              Davide:*FFSSSS... PFIUUUUUU*
              Davide:Maybe i shouldn't have smoked it...
              Davide:Anyway, we better get going
-             <<exitScene Davide left>>
              <<fadeOut Davide>>
-             <<exitScene Tom right>>
-             <<fadeOut Tom>>
+             <<exitScene Davide left>>
              Puts out the cigarette
+             <<fadeOut Tom>>
+             <<exitScene Tom right>>
+             They both enter be building
              <<loadScene Davide6Workplace>>
         ->No
              <<jump Choice>>

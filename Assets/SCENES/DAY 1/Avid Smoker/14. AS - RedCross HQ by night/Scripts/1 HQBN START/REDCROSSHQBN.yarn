@@ -7,9 +7,18 @@ Narrator:Before leaving they spent some time together outside
 <<showCharacter Davide>>
 <<fadeIn Davide>>
 <<enterScene Davide left>>
+<<wait 0.1>>
+<<showCharacter Bryan>>
+<<fadeIn Bryan>>
+<<enterScene Bryan right>>
 Bryan:Well guys, at the end Davide didn't really jinx it
 Bryan:It turned out that this was a chill night
-
+<<fadeOut Bryan>>
+<<exitScene Bryan right>>
+<<wait 0.1>>
+<<showCharacter Max>>
+<<fadeIn Max>>
+<<enterScene Max right>>
 Max:Yeah, only one service and it was even an easy one
 
 Narrator:Max at that moment took out his packet of cigarettes and lit one up
@@ -35,7 +44,12 @@ title: Choice
              //non c'è addSigaretta perché c'è dopo
              Davide:Hey Max, can I ask for a cigarette
              Max:Sure man, here
+             <<exitScene Max right>>
+               <<fadeOut Max>>
              Narrator:He takes the cigarette and lights it up
+             <<exitScene Davide right>>
+               <<fadeOut Davide>>
+               <<wait 0.1>>
              <<loadScene Davide14Lost>>
         ->No
              <<jump Choice>>

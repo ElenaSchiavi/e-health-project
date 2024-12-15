@@ -20,6 +20,8 @@ Davide:Sunds good. I could use some sleep
 Max:Same here. Good job tonight, team
 
 Bryan:Good work, everyone. See you all next time
+<<exitScene Bryan right>>
+<<fadeOut Bryan>>
 <<exitScene Davide left>>
 <<fadeOut Davide>>
 Narrator:Tired from the long day Davide took his car and went back home
