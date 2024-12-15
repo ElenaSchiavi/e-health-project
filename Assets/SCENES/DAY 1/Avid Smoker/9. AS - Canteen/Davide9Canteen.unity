@@ -919,7 +919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c3f106a78e1aa142b294d8d1a41114b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gif: {fileID: 11400000, guid: 5dcff822650d67b4799a4d09bd1d4866, type: 2}
+  Gif: {fileID: 11400000, guid: 78e19389725fa404ea889648343d330e, type: 2}
 --- !u!114 &1162016233
 MonoBehaviour:
   m_ObjectHideFlags: 0
