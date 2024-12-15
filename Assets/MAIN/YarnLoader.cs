@@ -4,10 +4,10 @@ using System.Collections;
 using UnityEngine.UI;
 using Yarn.Unity;
 
-public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
+public class YarnLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
 {
 
-    public static YarnCSLoader Instance; // Singleton instance
+    public static YarnLoader Instance; // Singleton instance
     private static RectTransform uiObject = null;
     private static Graphic uiGraphic = null;
     private static Graphic glowGraphic = null;
@@ -45,7 +45,7 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
     [YarnFunction("getSigarette")]
     public static int getSigarette()
     {
-        Debug.Log($"Yarn read sigarette_fumate from YarnCSLoader: {sigarette_fumate}");
+        Debug.Log($"Yarn read sigarette_fumate from YarnLoader: {sigarette_fumate}");
         return sigarette_fumate;
     }
 
@@ -53,7 +53,7 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
     [YarnCommand("setSigarette")]
     public static void setSigarette(int newNumber)
     {
-        Debug.Log($"Yarn set sigarette_fumate to YarnCSLoader: {newNumber}");
+        Debug.Log($"Yarn set sigarette_fumate to YarnLoader: {newNumber}");
         sigarette_fumate = newNumber;
     }
 
@@ -61,20 +61,20 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
     public static void addSigaretta()
     {
         sigarette_fumate++;
-        Debug.Log($"Yarn add one to sigarette_fumate in YarnCSLoader: {sigarette_fumate}");
+        Debug.Log($"Yarn add one to sigarette_fumate in YarnLoader: {sigarette_fumate}");
     }
 
     [YarnFunction("getMood")]
     public static int getMood()
     {
-        Debug.Log($"Yarn read mood from YarnCSLoader: {mood}");
+        Debug.Log($"Yarn read mood from YarnLoader: {mood}");
         return mood;
     }
 
     [YarnCommand("setMood")]
     public static void setMood(int newNumber)
     {
-        Debug.Log($"Yarn set mood to YarnCSLoader: {newNumber}");
+        Debug.Log($"Yarn set mood to YarnLoader: {newNumber}");
         mood = newNumber;
     }
 
@@ -82,27 +82,27 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
     public static void addMood()
     {
         mood++;
-        Debug.Log($"Yarn add one to mood in YarnCSLoader: {mood}");
+        Debug.Log($"Yarn add one to mood in YarnLoader: {mood}");
     }
 
     [YarnCommand("minusMood")]
     public static void minusMood()
     {
         mood--;
-        Debug.Log($"Yarn take one to mood in YarnCSLoader: {mood}");
+        Debug.Log($"Yarn take one to mood in YarnLoader: {mood}");
     }
 
     [YarnFunction("getSergio")]
     public static int getSergio()
     {
-        Debug.Log($"Yarn read mood from YarnCSLoader: {issergio}");
+        Debug.Log($"Yarn read mood from YarnLoader: {issergio}");
         return issergio;
     }
 
     [YarnCommand("setSergio")]
     public static void setSergio(int newNumber)
     {
-        Debug.Log($"Yarn set mood to YarnCSLoader: {newNumber}");
+        Debug.Log($"Yarn set mood to YarnLoader: {newNumber}");
         issergio = newNumber;
     }
 
@@ -179,8 +179,7 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
 
         return null;
     }
-
-
+    
     void Awake()
     {
         // Singleton pattern
@@ -195,9 +194,7 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
             return; // Prevent further execution if this instance is destroyed
         }
     }
-
-
-
+    
     void Update()
     {
         if (isMovingToScene)
@@ -272,9 +269,6 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
         {
             Debug.LogError($"Failed finding UI element");
         }
-
-
-
     }
 
     [YarnCommand("enterScene")]
@@ -296,7 +290,6 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
                 Debug.LogError($"Direction invalid, falling back to default left");
                 }
             
-
             isMovingToScene = true;
             Debug.Log($"\"Is moving to scene\" triggered");
 
@@ -305,16 +298,11 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
         {
             Debug.LogError($"Failed finding UI element");
         }
-
-
     }
-
-
-
+    
     [YarnCommand("fadeIn")]
     public static void FadeIn(string elementName)
     {
-
         GameObject elementToFade = GameObject.Find(elementName);
         if (elementToFade != null)
         {
@@ -331,8 +319,6 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
         {
             Debug.LogError($"Failed finding UI element");
         }
-
-
     }
     
     [YarnCommand("fadeOut")]
@@ -354,8 +340,6 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
         {
             Debug.LogError($"Failed finding UI element");
         }
-
-
     }
     
     public static void StartFade(float newAlpha)
@@ -366,9 +350,7 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
             fadeSpeed = Mathf.Abs(uiGraphic.color.a - targetAlpha) / fadeDuration;
         }
     }
-
-
-
+    
     [YarnCommand("startGlow")]
     public static void StartGlow(string elementName)
     {
@@ -386,74 +368,12 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
         {
             Debug.LogError($"Failed finding UI element");
         }
-
-
     }
     
-
     [YarnCommand("stopGlow")]
     public static void StopGlow(string elementName)
     {
         isGlowing = false;
         FadeIn(elementName);
     }
-    
-
 }
-
-
-
-/*
-
-
-using UnityEngine;
-
-public class CharacterMover : MonoBehaviour
-{
-    public RectTransform uiObject;
-    public float speed = 700f; 
-    public Vector2 offScreenLeft = new Vector2(-733f, -125f);
-    public Vector2 scenePosition = new Vector2(-450f, -125f);
-
-    private bool isMovingToScene = true;
-    private bool isExitingScene = false;
-
-    void Start()
-    {
-        uiObject.anchoredPosition = offScreenLeft;
-    }
-
-    void Update()
-    {
-        if (isMovingToScene)
-        {
-            MoveToPosition(scenePosition, ref isMovingToScene);
-        }
-
-        if (isExitingScene)
-        {
-            MoveToPosition(offScreenLeft, ref isExitingScene);
-        }
-    }
-
-    private void MoveToPosition(Vector2 targetPosition, ref bool toggleFlag)
-    {
-        uiObject.anchoredPosition = Vector2.MoveTowards(
-            uiObject.anchoredPosition,
-            targetPosition,
-            speed * Time.deltaTime
-        );
-
-        if (uiObject.anchoredPosition == targetPosition)
-        {
-            toggleFlag = false;
-        }
-    }
-
-    public void ExitScene()
-    {
-        isExitingScene = true;
-    }
-}
-
-*/
