@@ -1,0 +1,10 @@
+﻿title: OW1Won
+tags:
+---
+Narrator:Davide took his hand off the cigarettes
+Davides Thought:"Smoking is not the solution to stress"
+Davide:Anyway, we better get going
+<<hideCharacter Character>>
+Narrator:The two friends entered the building
+<<loadScene Davide6Workplace>>
+===

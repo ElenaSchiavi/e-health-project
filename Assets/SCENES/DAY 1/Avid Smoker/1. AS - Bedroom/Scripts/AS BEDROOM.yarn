@@ -5,16 +5,16 @@ position: 1,10
 Birds are singing
 An alarm goes off...
 STUNK
-<<showCharacter Character>>
-<<fadeIn Character>>
-<<enterScene Character left>>
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
 Davide:Another day, another long day...
 <<fadeIn BackGroundBlack>>
 Narrator:Davide gets up and prepares for the day
 Puts on his favorite clothes
 Davide:Good thing i did the laundry yesterday, today i have so much work to do!
-<<exitScene Character left>>
-<<fadeOut Character>>
+<<exitScene Davide left>>
+<<fadeOut Davide>>
 
 
 Narrator:Davide proceeds to the kitchen and...

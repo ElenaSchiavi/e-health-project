@@ -2,14 +2,14 @@
 tags:
 position:1,10
 ---
-Lucia:*Offers a cigarette
+Melissa:*Offers a cigarette
 Sergio: No, not you too
   -> Accept cigarette
     <<addSigaretta>>
     Sergio:Never seen such a thing in 20 years.
-   Lucia:Well that was certainly the first time.
+   Melissa:Well that was certainly the first time.
    Sergio:We had this overweight woman once. We had to break off the wall to get her out the door.
-   Lucia:That seems like a story to remember
+   Melissa:That seems like a story to remember
    Sergio:Next one is on me
     -> Offer one now and lit one for yourself
      Sergio:Here take it
@@ -18,7 +18,7 @@ Sergio: No, not you too
   -> Refuse cigarette
     Sergio: I'm trying to stop.
     Sergio: You know what? Have my pack of cigarettes.
-    Lucia: Oh, I can't take it. I'll develop an addiction!
+    Melissa: Oh, I can't take it. I'll develop an addiction!
     Sergio: Good kid,that was a test.
     <<addMood>>
 
