@@ -8,6 +8,8 @@ Narrator:Where he met with his other friends from work
 <<showCharacter Davide>>
 <<fadeIn Davide>>
 <<enterScene Davide left>>
+Melissa:So Davide, how was your Redcross service yesterday?
+<<showCharacter Melissa>>
 <<enterScene Melissa right>>
 <<fadeIn Melissa>>
 Melissa:So Davide, how was your Redcross service yesterday?
@@ -17,6 +19,8 @@ Davide:We got lucky because nobody needed any help so we got to listen and enjoy
 Davide:I would have never said that i like clasical music
 <<exitScene Melissa right>>
 <<fadeOut Melissa>>
+.
+<<showCharacter Tom>>
 <<enterScene Tom right>>
 <<fadeIn Tom>>
 Tom:You don't understand how lucky you are!

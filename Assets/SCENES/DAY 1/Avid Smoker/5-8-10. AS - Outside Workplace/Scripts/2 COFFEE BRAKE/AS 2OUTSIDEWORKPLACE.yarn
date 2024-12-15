@@ -6,6 +6,7 @@ Narrator:Davide joins Tom for the break
 <<fadeIn Davide>>
 <<enterScene Davide left>>
 Narrator:Tom was allready smoking a cigarette
+<<showCharacter Tom>>
 <<enterScene Tom right>>
 <<fadeIn Tom>>
 Tom:Hey man, how is work going?
