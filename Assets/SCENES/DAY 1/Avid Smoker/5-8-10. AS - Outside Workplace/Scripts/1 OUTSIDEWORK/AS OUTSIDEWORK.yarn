@@ -6,13 +6,18 @@ Narrator:With a bit of hurry Davide managed to arrive at work
 Narrator:Suprisingly he was even a bit early
 Narrator:Perfect, because right there there was his friend Tom
 
-<<showCharacter Character>>
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
 Davide:*Huff Puff*
 Davide:Here I am, let me see...
 ->Check the time
    :It's 8:15
 Davide:Woah, didn't notice that I was early.
 Davide:Looks who's here!
+<<showCharacter Tom>>
+<<fadeIn Tom>>
+<<enterScene Tom right>>
 Tom:Heeeeeeeeyyy!
 Tom:Didn't expect you to show up so early. Didn't you have an ambulance shift yesterd?
 Davide:Yeah but Larry covered me last week for my friend birthday 
@@ -48,7 +53,10 @@ title: Choice
              Davide:*FFSSSS... PFIUUUUUU*
              Davide:Maybe i shouldn't have smoked it...
              Davide:Anyway, we better get going
-             <<hideCharacter Character>>
+             <<exitScene Davide left>>
+             <<fadeOut Davide>>
+             <<exitScene Tom right>>
+             <<fadeOut Tom>>
              Puts out the cigarette
              <<loadScene Davide6Workplace>>
         ->No

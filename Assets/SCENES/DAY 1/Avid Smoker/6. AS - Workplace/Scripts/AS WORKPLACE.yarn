@@ -2,7 +2,9 @@
 tags:
 ---
 Narrator:Davide goes to his spot at the office
-<<showCharacter Character>>
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
 Sits on the chair
 Opens his laptop
 *TIC TIC TIC*
@@ -20,7 +22,8 @@ Davide:Ufff, I really need a coffee
 ->Check the time
    :It's 11:00
 Davide:Just in time!
-<<hideCharacter Character>>
+<<exitScene Davide left>>
+<<fadeOut Davide>>
 Narrator:Davide mooves to the breakroom for a coffee
 <<loadScene Davide7CoffeeMachine>>
 ===

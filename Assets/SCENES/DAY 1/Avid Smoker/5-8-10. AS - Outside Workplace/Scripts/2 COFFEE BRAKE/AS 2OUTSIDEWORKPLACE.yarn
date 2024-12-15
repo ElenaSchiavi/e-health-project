@@ -2,8 +2,12 @@
 tags:
 ---
 Narrator:Davide joins Tom for the break
-<<showCharacter Character>>
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
 Narrator:Tom was allready smoking a cigarette
+<<enterScene Tom right>>
+<<fadeIn Tom>>
 Tom:Hey man, how is work going?
 Narrator:Davide notices it...
 Davide:I couldn't hold my eyes open anymore, thank god i got a coffee
@@ -35,8 +39,11 @@ title: Choice
              Davide:Well, lets not exagerate
              Davide:There is still a lot of time ahahahha
              Tom:Hehehehe
-             <<fadeIn BackGroundBlack>>
-             <<hideCharacter Character>>
+             <<fadeIn BackGroundBlack>>//da capire se togliere
+             <<exitScene Davide left>>
+             <<fadeOut Davide>>
+             <<exitScene Tom right>>
+             <<fadeOut Tom>>
              Narrator:Davide Puts out the cigarette and goes back to work
              <<loadScene Davide9Canteen>>
         ->No

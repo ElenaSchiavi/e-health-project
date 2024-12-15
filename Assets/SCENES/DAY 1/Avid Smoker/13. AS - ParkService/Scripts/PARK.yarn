@@ -2,8 +2,9 @@
 tags:
 ---
 Narrator:A man holding a small child waved frantically as the team stepped out.
-<<showCharacter>>
-
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
 Man:My daughter fell and hit her head She’s been crying non-stop, and I’m worried!
 
 Bryan:Alright, sir, stay calm. We’ll take a look
@@ -80,7 +81,8 @@ Davide:Got it. I’ll do better
 
 Bryan:Good. Let’s get back to the ambulance
 <<minusMood>>
-
+<<exitScene Davide left>>
+<<fadeOut Davide>>
 Narrator:With that, the ambulance made its way back to the headquarters
 <<loadScene Davide14RedCrossHQnight>>
 ===

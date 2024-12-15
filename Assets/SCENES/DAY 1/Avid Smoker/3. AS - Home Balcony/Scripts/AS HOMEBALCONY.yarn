@@ -4,14 +4,13 @@ tags:
 Opens the balcony door
 <<declare $issergio=0>>
 <<setSergio 1>>
-<<set $issergio=getSergio()>>//???????????????????
-<<showCharacter Character>>
+<<set $issergio=getSergio()>>
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
 Davide:I'm late but i really feel like smoking a cigarette...
 Davide:I shouldn't, especially because i promissed myself that i would have stopped from today...
 Narrator:At this point of the game the choice is yours
-<<addSigaretta>>
-<<addSigaretta>>//??????????????????
-<<addSigaretta>>
 Narrator:Smoking a cigarette will affect the way the story will continue
 Narrator:The relation with other people
 Narrator:And most importantly your mental status
@@ -42,7 +41,8 @@ title: Choice
              *FFSSSS... PFIUUUUUU*
              Davide:Maybe i shouldn't have smoked it...
              Davide:Anyway, I am late to work, got to get going
-             <<hideCharacter Character>>
+             <<exitScene Davide left>>
+             <<fadeOut Davide>>
              Narrator:He Puts out the cigarette and goes to his car
              <<fadeIn BackGroundBlack>>
              <<loadScene Davide4Car>>

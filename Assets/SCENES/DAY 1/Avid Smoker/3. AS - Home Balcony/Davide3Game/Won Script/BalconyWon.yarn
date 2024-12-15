@@ -2,7 +2,9 @@
 tags:
 ---
 Davide:Come on, I've just started the day and I promissed myself that I will quit smoking!
-<<hideCharacter Character>>
+<<fadeIn BackGroundBlack>>
+<<exitScene Davide left>>
+<<fadeOut Davide>>
 Narrator:Davide exits his house and goes to his car
 <<loadScene Davide4Car>>
 ===

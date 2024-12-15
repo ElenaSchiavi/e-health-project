@@ -12,7 +12,10 @@ Davide:Well, lets not exagerate
 Davide:There is still a lot of time ahahahha
 Tom:Hehehehe
 <<fadeIn BackGroundBlack>>
-<<hideCharacter Character>>
+<<exitScene Davide left>>
+<<fadeOut Davide>>
+<<exitScene Tom right>>
+<<fadeOut Tom>>
 Narrator:The two firends put out the cigarette and go back to work
 <<loadScene Davide9Canteen>>
 ===

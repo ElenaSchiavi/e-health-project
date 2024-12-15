@@ -3,15 +3,19 @@ tags:
 position: 1,10
 ---
 *BIP BIP*
-<<fadeOut BackGroundBlack>>
+//<<fadeOut BackGroundBlack>>
 Opens the door
-<<showCharacter Character>>
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
 Inserts the keys and starts the car
 *Driving noises*
 Davide:*wistles*
 *BEEEP BEEEEP*
 Davide:Yeahhh, there is a spot just in front of the office!
 <<addMood>>
+<<exitScene Davide left>>
+<<fadeOut Davide>>
 Narrator:Davide parks his car and goes to work
 <<loadScene Davide5OutsideWorkplace>>
 ===

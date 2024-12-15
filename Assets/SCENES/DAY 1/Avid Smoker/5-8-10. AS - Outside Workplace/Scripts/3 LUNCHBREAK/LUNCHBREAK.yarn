@@ -6,10 +6,10 @@ tags:
 <<declare $mood=0>>
 <<set $mood=getMood()>>
 
-Narrator: From there the three friends moved to get a coffee before going back to work.//penso che è da cambiare
-
-<<showCharacter Character>>
-
+Narrator: From there the three friends moved to get a coffee before going back to work.//penso che è da cambiare 
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
 Melissa:So, have you two heard about the company retreat next month?
 Tom:Ugh, don’t remind me. Team-building exercises and trust falls. Can’t wait.
 
@@ -71,7 +71,8 @@ Will you smoke?
              Davide:...
              Davide:Uffff
              <<fadeIn BackGroundBlack>>
-             <<hideCharacter Character>>
+             <<exitScene Davide left>>
+             <<fadeOut Davide>>
              Narrator:Puts out the cigarette
              <<loadScene Davide11RedCrossHQ>> 
         ->No

@@ -10,7 +10,8 @@ Narrator:Especially after the conversations with his friends
 Davide:...
 Davide:Uffff
 <<fadeIn BackGroundBlack>>
-<<hideCharacter Character>>
+<<exitScene Davide left>>
+<<fadeOut Davide>>
 Narrator:Puts out the cigarette
 <<loadScene Davide11RedCrossHQ>> 
 ===

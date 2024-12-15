@@ -3,8 +3,9 @@ tags:
 ---
 Narrator:The team is now in the ambulance
 
-<<showCharacter>>
-
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
 Bryan:Alright, we’ll loop around the park first
 Bryan:The event looks pretty packed already
 Bryan:Keep your eyes open for anyone who might need help.
@@ -25,9 +26,8 @@ Dave:Someone’s waving. Near the fountain
 
 Bryan:Good catch!
 Bryan:Max, hit the lights. Let’s check it out!
-
-<<hideCharacter>>
-
+<<exitScene Davide left>>
+<<fadeOut Davide>>
 Narrator:Max flicked on the ambulance lights, and Bryan pulled over near the fountain
 
 <<loadScene Davide13ParkService>>

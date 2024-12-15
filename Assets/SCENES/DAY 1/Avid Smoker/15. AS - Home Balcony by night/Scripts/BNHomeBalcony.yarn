@@ -3,7 +3,9 @@ tags:
 ---
 Narrator:Arrived home Davide got ready to go to bed
 Narrator:But before he went to his balcony...
-<<showCharacter Character>>
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
 Davide:What a day...
 Davide:Luckily i won't have a service for a couple of weeks
 Narrator:Davide saw the packet of cigarets that he left on the balconys table
@@ -13,6 +15,8 @@ Narrator:Davide saw the packet of cigarets that he left on the balconys table
 <<set $mood=getMood()>>
 <<if $sigarette == 0 && $mood >= 0>> //guarda qual'è il miglior mood che può avere e metti quello come opzione
     Davide:I'll just go to sleep
+    <<exitScene Davide left>>
+    <<fadeOut Davide>>
     <<loadScene Davide16FINALE>>    
 <<elseif $sigarette == 0 && $mood < 0 >> //correggilo anche qua
     Davide:Well, today I did so well, maybe I deserve my selfe one cigarette...
@@ -39,7 +43,8 @@ Davide:What would one more cigarette do? <<if $sigarette>0>>
              Lights it up
              *FFSSSS... PFIUUUUUU*
              Davide:Time to go to sleep
-             <<hideCharacter Character>>
+             <<exitScene Davide left>>
+             <<fadeOut Davide>>
              Puts out the cigarette
              <<loadScene Davide16FINALE>>
         ->No

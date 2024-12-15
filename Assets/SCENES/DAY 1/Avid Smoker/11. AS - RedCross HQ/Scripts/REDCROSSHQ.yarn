@@ -6,7 +6,9 @@ Narrator:Once his shift ended, he headed to his volunteering job at the Red Cros
 <<fadeOut BackGroundBlack>>
 Narrator:There, his team was getting ready for the evening service
 
-<<showCharacter Character>>
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
 
 Bryan:Alright, team. Let’s make sure we have everything packed
 Bryan:firstaid kits, water, and the comms are fully charged
@@ -23,8 +25,8 @@ Bryan:Let’s hope it doesn’t come to that
 Dave:We’ll manage. Like always.
 Max: Alright
 Max:let’s hit the road before the event gets too busy.
-<<hideCharacter Character>>
-
+<<exitScene Davide left>>
+<<fadeOut Davide>>
 Narrator: With everything prepared, the team loaded their equipment into the van and headed out for another night of service.
 <<loadScene Davide12Ambulance>> 
 ===

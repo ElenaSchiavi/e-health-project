@@ -4,8 +4,9 @@ tags:
 Narrator:When they came back they all changed and prepared to go back home
 Narrator:Before leaving they spent some time together outside
 
-<<showCharacter Character>>
-
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
 Bryan:Well guys, at the end Davide didn't really jinx it
 Bryan:It turned out that this was a chill night
 
