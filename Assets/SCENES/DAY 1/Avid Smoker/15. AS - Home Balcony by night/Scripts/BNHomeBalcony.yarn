@@ -8,7 +8,7 @@ Narrator:But before he went to his balcony...
 <<enterScene Davide left>>
 Davide:What a day...
 Davide:Luckily i won't have a service for a couple of weeks
-Narrator:Davide saw the packet of cigarets that he left on the balconys table
+Narrator:Davide saw a packet of cigarets that he left on the balconys table
 <<declare $sigarette=0>>
 <<set $sigarette=getSigarette()>>
 <<declare $mood=0>>
@@ -19,7 +19,7 @@ Narrator:Davide saw the packet of cigarets that he left on the balconys table
     <<fadeOut Davide>>
     <<loadScene Davide16FINALE>>    
 <<elseif $sigarette == 0 && $mood < 0 >> //correggilo anche qua
-    Davide:Well, today I did so well, maybe I deserve my selfe one cigarette...
+    Davide:Well, today I did so well, maybe I deserve myself one cigarette...
     <<jump Choice>>
 <<elseif $sigarette>0 >>
     Davide:Should I...?

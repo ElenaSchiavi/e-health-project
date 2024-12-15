@@ -10,13 +10,13 @@ public class PlayerMaze : MonoBehaviour
     public GameObject Attempt1;
     public GameObject Attempt2;
     public GameObject Attempt3;
-    public GameObject victoryText; // Victory text
+    public GameObject victoryText; 
     private bool gameEnded = false;
-    private static int attempts = 0; // Number of attempts made
-    private const int maxAttempts = 3; // Maximum number of allowed games
+    private static int attempts = 0; 
+    private const int maxAttempts = 3; 
     public int keys = 0;
     public float speed = 5.0f;
-    private static int setmood = 0; //LEO MODIFICA SET MOOD CON IL VALORE SOGLIA DEL MOOD,M >= SETM0OOD VUOL DIRE CHE è FELICE 
+    private static int setmood = 0; 
     private static int setsigarette = 1;
 
     public Text keyAmount;
@@ -75,10 +75,9 @@ public class PlayerMaze : MonoBehaviour
         {
             if (gameOverText != null)
             {
-                gameOverText.SetActive(true); // Show Game Over text
+                gameOverText.SetActive(true); 
             }
 
-            // Check if the player still has games available
             if (attempts < maxAttempts)
             {
                 Debug.Log("Restarting game in 2 seconds...");
@@ -105,7 +104,6 @@ public class PlayerMaze : MonoBehaviour
     }
     private void ShowAttemptText()
     {
-        // Enable the correct attempt text based on the number of attempts
         switch (attempts)
         {
             case 0:

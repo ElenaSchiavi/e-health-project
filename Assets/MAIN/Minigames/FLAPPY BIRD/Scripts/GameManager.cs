@@ -14,7 +14,7 @@ public class GameManager1 : MonoBehaviour
     private const int maxAttempts = 3;
     private float gameWinTime=90f;
     private int issergio=0;
-    private static int setmood = 0; //LEO MODIFICA SET MOOD CON IL VALORE SOGLIA DEL MOOD,M >= SETM0OOD VUOL DIRE CHE è FELICE 
+    private static int setmood = 0; 
     private static int setsigarette = 1;
 
 
