@@ -35,11 +35,73 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3HomeBalcony.unity
   - m_enabled: 1
-    m_path: Assets/SCENES/DAY 1/Avid Smoker/9. AS - RedCross inside/Davide9RedCrossInside.unity
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Game/Davide3Lost.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Game/Davide3Won.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/4. AS - Car/Davide4Car.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide5OutsideWorkplace.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide5Game/Davide5Lost.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide5Game/Davide5Won.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/6. AS - Workplace/Davide6Workplace.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/7. AS - Coffee-machine @work/Davide7CoffeeMachine.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide8OutsideWorkplace.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide8Game/Davide8Lost.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide8Game/Davide8Won.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/Davide9Canteen.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide10LunchBreak.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide10Game/Davide10Lost.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide10Game/Davide10Won.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/11. AS - RedCross HQ/Davide11RedCrossHQ.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/12. AS - Ambulance/Davide12Ambulance.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/13. AS - ParkService/Davide13ParkService.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/14. AS - RedCross HQ by night/Davide14RedCrossHQnight.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/14. AS - RedCross HQ by night/Davide14Game/Davide14Lost.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/14. AS - RedCross HQ by night/Davide14Game/Davide14Won.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/15. AS - Home Balcony by night/Davide15HomeBalconyNight.unity
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/16. AS - FINALE/Davide16FINALE.unity
   - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Valeria1Bedroom.unity
+  - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Occasional Smoker/1. OS - Bedroom/Sergio1Bedroom.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Occasional Smoker/2. OS - Home Balcony/Sergio2HomeBalcony.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/Sergio3Bar.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Occasional Smoker/4. OS - Kitchen/Sergio4Kitchen.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Occasional Smoker/5. OS - RedCross HQ/Sergio5RedCrossHQ.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Occasional Smoker/6. OS - Ambulance/Sergio6Ambulance.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Occasional Smoker/7. OS - RedCross inside/Sergio7RedCrossInside.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Occasional Smoker/8. OS - RedCross HQ by night/Sergio8RedCrossHQnight.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Occasional Smoker/9. OS - Kitchen by night/Sergio9KitchenNight.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Occasional Smoker/1. OS - Bedroom/Giovanna1Bedroom.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings:
