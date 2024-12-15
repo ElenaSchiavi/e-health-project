@@ -73,7 +73,7 @@ public class GameManager5 : MonoBehaviour
                 }
                 else
                 {
-                    SceneManager.LoadScene("Davide3Lost");
+                    SceneManager.LoadScene("Davide15Lost");
                 }
                  
                 if (gameOverText != null)
@@ -103,7 +103,7 @@ public class GameManager5 : MonoBehaviour
         if (!gameEnded)
         {
             ShowVictory();
-            SceneManager.LoadScene("Davide3Win");
+            SceneManager.LoadScene("Davide15Won");
         }
     }
     

@@ -580,7 +580,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 604092592}
-  - component: {fileID: 604092591}
+  - component: {fileID: 604092593}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -588,23 +588,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &604092591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 604092590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c669acee89ade5943a77f19e57397f37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameOverText: {fileID: 1679696980}
-  Attempt1: {fileID: 1369798662}
-  Attempt2: {fileID: 2118356988}
-  Attempt3: {fileID: 409233551}
-  victoryText: {fileID: 1632018752}
 --- !u!4 &604092592
 Transform:
   m_ObjectHideFlags: 0
@@ -620,6 +603,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &604092593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604092590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06092bd9a23514944ac015898b80b64c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverText: {fileID: 1679696980}
+  Attempt1: {fileID: 1369798662}
+  Attempt2: {fileID: 2118356988}
+  Attempt3: {fileID: 409233551}
+  victoryText: {fileID: 1632018752}
 --- !u!1 &928250541
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,10 +767,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1141086104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bd06645dbbe1ee4f9e88681696a959b, type: 3}
+  m_Script: {fileID: 11500000, guid: a4adbe3bea267ef4ca2ffd0e6649e48e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pipePrefab: {fileID: 5548203179960252709, guid: 818011a09f0ffac4999e2fdf8c6db697, type: 3}
+  pipePrefab: {fileID: 5548203179960252709, guid: 7e28b887e438789469fea23203bde814, type: 3}
   heightOffset: 2
 --- !u!1 &1369798662
 GameObject:
