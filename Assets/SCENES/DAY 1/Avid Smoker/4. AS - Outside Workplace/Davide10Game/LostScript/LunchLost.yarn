@@ -9,6 +9,7 @@ Narrator:Davide didn't enjoy this one
 Narrator:Especially after the conversations with his friends
 Davide:...
 Davide:Uffff
+<<fadeIn BackGroundBlack>>
 <<hideCharacter Character>>
 Narrator:Puts out the cigarette
 <<loadScene Davide11RedCrossHQ>> 
