@@ -18,10 +18,10 @@ Narrator:Davide saw a packet of cigarets that he left on the balconys table
     <<exitScene Davide left>>
     <<fadeOut Davide>>
     <<loadScene Davide16FINALE>>    
-<<elseif $sigarette == 0 && $mood < 0 >> //correggilo anche qua
+<<elseif $sigarette < 3 && $mood < 0 >> //correggilo anche qua
     Davide:Well, today I did so well, maybe I deserve myself one cigarette...
     <<jump Choice>>
-<<elseif $sigarette>0 >>
+<<elseif $sigarette>2 >>
     Davide:Should I...?
     <<jump Choice>>
 <<endif>>
