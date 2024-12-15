@@ -1,44 +1,49 @@
-title: OSKITCHEN
+title: Start
 tags:
 position:1,10
 ---
-
+//<<showCharacter Character>>
+//<<enterScene Character>>
 Sergio:Hi Luca, how are you?
-<<enterScene Luca right>>
-Luca:Fine grandpa.
+//<<showCharacter Max>>
+//<<enterScene Max right>>
+Max:Fine grandpa.
 ->Offer a glass of wine
  Sergio:Here have a glass.
- Luca:But, I'm 16
+ Max:But, I'm 16
  Sergio:Wine makes you grow taller, especially if it's drunk behind one's parents back.
- Luca: Sure grandpa
+ Max: Sure grandpa
  giggles
   ->Ask about love life
    Luca:I'm texting with this girl, but I don't think it's going anywhere
   ->Offer cheese
   Sergio:Come on, grace of my friend Stefano
-  Luca:I don't like cheese.
+  Max:I don't like cheese.
   Sergio:Well this is news.Pity.
 ->Ask about school
  Sergio:How's school going? Still problems with the math teacher?
- Luca:Yeah, she's just obnoxious and she hates me.
+ Max:Yeah, she's just obnoxious and she hates me.
  Sergio:Every teacher hates their students.
   -> Praise football performance
    Sergio:You scored a great goal last week.
-   Luca: You saw that?
+   Max: You saw that?
    Sergio: Yes, you were great.
    Luca:I saved the match.
    Sergio:You really did.
    <<addMood>>
   ->Offer more pasta
    Sergio:Here, here we have seconds too
-   Luca:Granpa, I'm overfull as it is, I can't eat more
+   Max:Granpa, I'm overfull as it is, I can't eat more
    Sergio:You'll never grow otherwise
    Plates the remaining pasta
 
   
-Luca:Do you have ambulance shift tonight?
+Max:Do you have ambulance shift tonight?
 Sergio:That's right.
-Luca: I will join too when I'll be 18.
-Sergio:Maybe we'll even work together
+Max: I will join too when I'll be 18.
+//<<exitScene Max right>>
+//<<esitScene Character right>>
+Sergio:One day I'll take you to the HQ
+//<<exitSene Max right>>
 <<loadScene Sergio5RedCrossHQ>>
 ===

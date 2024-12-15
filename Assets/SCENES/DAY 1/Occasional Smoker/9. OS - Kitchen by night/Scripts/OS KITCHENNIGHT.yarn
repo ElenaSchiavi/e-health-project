@@ -3,7 +3,14 @@ tags:
 position:1,10
 ---
 
-
+Sergio: That was a good day wasn't it.
+ 
+->Takes out some whisky
+ I really needed that
+ <<minusMood>>
+ ->Goes to bed
+->Goes straight to bed
+I want to have a deep sleep tonight.I'm done
 <<declare $sig=0>>
 <<declare $mood=0>>
 <<addMood>>

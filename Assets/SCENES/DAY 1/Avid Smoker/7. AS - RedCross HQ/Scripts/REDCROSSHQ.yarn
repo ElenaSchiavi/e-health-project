@@ -1,4 +1,4 @@
-﻿title: REDCROSSHQ
+title: REDCROSSHQ
 tags:
 ---
 Narrator:After the lunch break, Davide went back to work
@@ -8,7 +8,6 @@ Narrator:There, his team was getting ready for the evening service
 <<showCharacter Character>>
 
 Bryan:Alright, team. Let’s make sure we have everything packed
-<<fadeOut Character>>
 Bryan:firstaid kits, water, and the comms are fully charged
 Bryan:Anything missing?
 
