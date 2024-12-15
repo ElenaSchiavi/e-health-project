@@ -10,8 +10,8 @@ Narrator:Where he met with his other friends from work
 <<enterScene Davide left>>
 Melissa:So Davide, how was your Redcross service yesterday?
 <<showCharacter Melissa>>
-<<enterScene Melissa right>>
 <<fadeIn Melissa>>
+<<enterScene Melissa right>>
 Melissa:So Davide, how was your Redcross service yesterday?
 Melissa:Did you get to enjoy the consert?
 Davide:It was actually really nice!
@@ -21,8 +21,8 @@ Davide:I would have never said that i like clasical music
 <<fadeOut Melissa>>
 .
 <<showCharacter Tom>>
-<<enterScene Tom right>>
 <<fadeIn Tom>>
+<<enterScene Tom right>>
 Tom:You don't understand how lucky you are!
 Tom:Do you even realise how important that event is?
 ->Davide:Well, I’m not really a classical music guy, hehehe.
@@ -35,14 +35,14 @@ Tom:Do you even know how exclusive that event is? People wait years to get ticke
 <<exitScene Tom right>>
 <<fadeOut Tom>>
 Melissa:It's not like Davide planned it
-<<enterScene Melissa right>>
 <<fadeIn Melissa>>
+<<enterScene Melissa right>>
 Melissa:He was just doing his Red Cross duties
 <<exitScene Melissa right>>
 <<fadeOut Melissa>>
 Tom:But still! The Vienna Philharmonic! 
-<<enterScene Tom right>>
 <<fadeIn Tom>>
+<<enterScene Tom right>>
 Tom:Live! I’ve been dreaming of this since I was a kid!
 Tom:And you… you just stumble into it
 <<exitScene Tom right>>
@@ -50,26 +50,26 @@ Tom:And you… you just stumble into it
 ->Davide: Well, I guess volunteering has its perks, huh? Maybe you should join next time
 ->Davide: Hey, I didn’t make the rules. They just told us where to be, and there we were
 ->Davide: I feel bad rubbing it in, but yeah, it was pretty amazing
-<<enterScene Melissa right>>
 <<fadeIn Melissa>>
+<<enterScene Melissa right>>
 Melissa: Alright, enough. What about you, Tom? What amazing thing did you do yesterday?
 <<exitScene Melissa right>>
 <<fadeOut Melissa>>
 Tom:Oh, nothing as glamorous as attending a world-class concert, that's for sure
-<<enterScene Tom right>>
 <<fadeIn Tom>>
+<<enterScene Tom right>>
 Tom:Just finished some boring project work
 <<exitScene Tom right>>
 <<fadeOut Tom>>
 Melissa: Boring, huh?
-<<enterScene Melissa right>>
 <<fadeIn Melissa>>
+<<enterScene Melissa right>>
 Melissa:You don’t usually downplay your achievements. Spill it
 <<exitScene Melissa right>>
 <<fadeOut Melissa>>
 Tom:Okay, fine
-<<enterScene Tom right>>
 <<fadeIn Tom>>
+<<enterScene Tom right>>
 
 Tom:I may have landed a freelance gig with one of the top graphic design firms in the city. But no big deal
 

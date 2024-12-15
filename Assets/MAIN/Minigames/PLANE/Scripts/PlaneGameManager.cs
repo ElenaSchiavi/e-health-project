@@ -91,7 +91,7 @@ public class PlaneGameManager : MonoBehaviour
             if (victoryText != null)
             {
                 victoryText.SetActive(true);
-                SceneManager.LoadScene("Davide14Win");
+                SceneManager.LoadScene("Davide14Won");
             }
             Time.timeScale = 0;
             Debug.Log("Victory!");

@@ -71,7 +71,7 @@ public class DodgeGameManager : MonoBehaviour
             if (attempts == maxAttempts)
             {
                 Debug.Log("You have reached the maximum number of games. Game over.");
-                SceneManager.LoadScene("Davide4Car");
+                SceneManager.LoadScene("Davide10Lost");
                 if (gameOverText != null)
                 {
                     gameOverText.SetActive(true);
@@ -84,7 +84,7 @@ public class DodgeGameManager : MonoBehaviour
     {
         Time.timeScale = 0f;
         winText.gameObject.SetActive(true);
-        SceneManager.LoadScene("Davide4Car");
+        SceneManager.LoadScene("Davide10Won");
     }
 
     private void ShowAttemptText()

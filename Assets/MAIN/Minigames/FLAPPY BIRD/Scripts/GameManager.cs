@@ -103,7 +103,7 @@ public class GameManager1 : MonoBehaviour
         if (!gameEnded)
         {
             ShowVictory();
-            SceneManager.LoadScene("Davide3Win");
+            SceneManager.LoadScene("Davide3Won");
         }
     }
     

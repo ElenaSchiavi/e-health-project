@@ -42,6 +42,18 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/16. AS - FINALE/Davide16FINALE.unity
     guid: c37ed491ac00b4d4aa7d01f6a4caa2b3
   - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide8Game/Davide8Lost.unity
+    guid: 6af24638a5923b24d90286d5c30049fd
+  - enabled: 1
+    path: Assets/SCENES/MENU/Menu_2.unity
+    guid: eb3f5965ba10d4077a05629bcd6a5fbe
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide8Game/Davide8Won.unity
+    guid: e067b9605fc213d46b8d19e6c97ef240
+  - enabled: 1
+    path: Assets/SCENES/MENU/Menu_3.unity
+    guid: f7f96abf3d1324c7781ff1a38a6a2691
+  - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/13. AS - ParkService/Davide13ParkService.unity
     guid: 2c0cbfcd086fbcf4a922aab8f70391b9
   - enabled: 1

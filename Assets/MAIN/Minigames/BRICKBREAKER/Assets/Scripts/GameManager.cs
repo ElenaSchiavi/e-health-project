@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
                     {
                         // Load the "Good job!" scene
                         winText.gameObject.SetActive(true); 
-                        SceneManager.LoadScene("Davide8Win");
+                        SceneManager.LoadScene("Davide8Won");
                     }
                     else
                     {
