@@ -45,6 +45,9 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/13. AS - ParkService/Davide13ParkService.unity
     guid: 2c0cbfcd086fbcf4a922aab8f70391b9
   - enabled: 1
+    path: Assets/MAIN/Minigames/FLAPPY BIRD 2/FlappyBird2.unity
+    guid: 44d14426638ba6240b8c0c6287129274
+  - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide10Game/Davide10Won.unity
     guid: 418fac2d806fcb742b19d1d2e8ea67ea
   - enabled: 1

@@ -1,59 +1,52 @@
 using UnityEngine;
-using UnityEngine.UI;
-using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class PlaneGameManager : MonoBehaviour
+public class GameManager5 : MonoBehaviour
 {
     public GameObject gameOverText;
     public GameObject Attempt1;
     public GameObject Attempt2;
     public GameObject Attempt3;
     public GameObject victoryText;
+    private bool gameEnded = false;
     private static int attempts = 0;
     private const int maxAttempts = 3;
-    public float winTime = 0f;
+    private float gameWinTime=90f;
+    private int issergio=0;
     private static int setmood = 0; 
     private static int setsigarette = 1;
 
-    private bool isGameOver = false;
-    private bool isWin = false;
-    private float elapsedTime = 0f;
-
-    void Update()
-    {
-        if (!isGameOver && !isWin)
-        {
-            elapsedTime += Time.deltaTime;
-            
-            if (elapsedTime >= winTime)
-            {
-                ShowVictory();
-            }
-        }
-    }
 
     private void Start()
     {
         Debug.Log("Loading Sigarette Number from YarnCSLoader");
-        int sigaretteFumate = YarnCSLoader.getSigarette();
+        int sigaretteFumate=YarnCSLoader.getSigarette();
         Debug.Log($"Finora fumate {sigaretteFumate} sigarette");
         Debug.Log("Loading Mood from YarnCSLoader");
         int mood = YarnCSLoader.getMood();
         Debug.Log($"Mood attuale {mood}");
 
-        if (sigaretteFumate >= setsigarette && mood < setmood) winTime = 60f;
-        if (sigaretteFumate >= setsigarette && mood >= setmood) winTime = 30f;
-        if (sigaretteFumate < setsigarette && mood < setmood) winTime = 30f;
-        if (sigaretteFumate < setsigarette && mood >= setmood) winTime = 15f;
+        if (sigaretteFumate>=setsigarette && mood<setmood) gameWinTime = 60f;
+        if (sigaretteFumate >= setsigarette && mood >= setmood) gameWinTime = 40f;
+        if (sigaretteFumate < setsigarette && mood < setmood) gameWinTime = 40f;
+        if (sigaretteFumate < setsigarette && mood >= setmood) gameWinTime = 20f;
 
         Debug.Log("Game started!");
+        Invoke("CheckVictory", gameWinTime);
         ShowAttemptText();
+    }
+
+    public void checkCharacter()
+    {
+        Debug.Log("Loading Personaggio from YarnCSLoader");
+        int issergio=YarnCSLoader.getSergio();
+        Debug.Log($"Il personaggio {issergio} è stato scelto");
     }
 
     public void ShowGameOver()
     {
-        if (!isGameOver && !isWin)
+        if (!gameEnded)
         {
             if (gameOverText != null)
             {
@@ -63,7 +56,7 @@ public class PlaneGameManager : MonoBehaviour
             if (attempts < maxAttempts)
             {
                 Debug.Log("Restarting game in 2 seconds...");
-                isGameOver = true;
+                gameEnded = true;
                 attempts++;
                 Debug.Log($"Game over. Attempts: {attempts}/{maxAttempts}");
                 
@@ -74,7 +67,15 @@ public class PlaneGameManager : MonoBehaviour
             if (attempts == maxAttempts)
             {
                 Debug.Log("You have reached the maximum number of games. Game over.");
-                SceneManager.LoadScene("Davide14Lost");
+                if(issergio==2)
+                {
+                    SceneManager.LoadScene("Sergio4Kitchen");
+                }
+                else
+                {
+                    SceneManager.LoadScene("Davide3Lost");
+                }
+                 
                 if (gameOverText != null)
                 {
                     gameOverText.SetActive(true);
@@ -85,16 +86,24 @@ public class PlaneGameManager : MonoBehaviour
 
     public void ShowVictory()
     {
-        if (!isGameOver)
+        if (!gameEnded)
         {
-            isGameOver = true;
+            gameEnded = true;
             if (victoryText != null)
             {
                 victoryText.SetActive(true);
-                SceneManager.LoadScene("Davide14Win");
             }
             Time.timeScale = 0;
             Debug.Log("Victory!");
+        }
+    }
+
+    private void CheckVictory()
+    {
+        if (!gameEnded)
+        {
+            ShowVictory();
+            SceneManager.LoadScene("Davide3Win");
         }
     }
     
