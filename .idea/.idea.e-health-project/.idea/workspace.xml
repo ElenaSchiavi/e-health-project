@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Scripts/AS BEDROOM.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Scripts/AS BEDROOM.yarn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/Scripts/AS CANTEEN.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/Scripts/AS CANTEEN.yarn" afterDir="false" />
-    </list>
+    <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,6 +142,7 @@
       <workItem from="1734266191252" duration="22000" />
       <workItem from="1734266253538" duration="36000" />
       <workItem from="1734267273689" duration="20000" />
+      <workItem from="1734272753063" duration="6000" />
     </task>
     <servers />
   </component>
