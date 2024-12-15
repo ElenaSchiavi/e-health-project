@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 167473099}
   - component: {fileID: 167473098}
   m_Layer: 5
-  m_Name: Character
+  m_Name: Sergio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -206,10 +206,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bf4687b2952f480190b74043cf357e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiObject: {fileID: 167473097}
-  speed: 700
-  offScreenLeft: {x: -733, y: -125}
-  scenePosition: {x: -450, y: -125}
 --- !u!114 &167473099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,7 +271,7 @@ GameObject:
   - component: {fileID: 236026659}
   - component: {fileID: 236026658}
   m_Layer: 5
-  m_Name: Melissa
+  m_Name: Valeria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -297,8 +293,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66, y: -123}
-  m_SizeDelta: {x: 370.313, y: 229.6171}
+  m_AnchoredPosition: {x: -49, y: -123}
+  m_SizeDelta: {x: 406.8753, y: 242.28}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &236026658
 MonoBehaviour:
@@ -324,7 +320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c3f106a78e1aa142b294d8d1a41114b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gif: {fileID: 11400000, guid: 5dcff822650d67b4799a4d09bd1d4866, type: 2}
+  Gif: {fileID: 11400000, guid: baf6711908da73a459b8a7d3bd4f8efa, type: 2}
 --- !u!114 &236026660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,7 +341,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6555252488347384246, guid: fc00ef8eb2a75477eaaa9e064de62e3d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ee89e571abfc3e743bba46e183456551, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

@@ -942,7 +942,7 @@ GameObject:
   - component: {fileID: 1705485822}
   - component: {fileID: 1705485821}
   m_Layer: 5
-  m_Name: Character
+  m_Name: Sergio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

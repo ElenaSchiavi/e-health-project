@@ -184,6 +184,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5ec40bb00c655249a257b621dd7c46f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  glowSpeed: 1
+  minAlpha: 0
+  maxAlpha: 1
 --- !u!4 &92850145
 Transform:
   m_ObjectHideFlags: 0
@@ -1014,7 +1017,7 @@ GameObject:
   - component: {fileID: 1973651118}
   - component: {fileID: 1973651117}
   m_Layer: 5
-  m_Name: Character
+  m_Name: Sergio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
