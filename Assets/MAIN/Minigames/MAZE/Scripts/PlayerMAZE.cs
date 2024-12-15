@@ -16,6 +16,8 @@ public class PlayerMaze : MonoBehaviour
     private const int maxAttempts = 3; // Maximum number of allowed games
     public int keys = 0;
     public float speed = 5.0f;
+    private static int setmood = 0; //LEO MODIFICA SET MOOD CON IL VALORE SOGLIA DEL MOOD,M >= SETM0OOD VUOL DIRE CHE è FELICE 
+    private static int setsigarette = 1;
 
     public Text keyAmount;
     public GameObject door;
