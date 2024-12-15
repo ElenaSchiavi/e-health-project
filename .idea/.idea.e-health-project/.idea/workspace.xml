@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/YarnLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/YarnLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Davide1Bedroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Davide1Bedroom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/Scripts/AS CANTEEN.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/Scripts/AS CANTEEN.yarn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Button.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Space.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -152,12 +152,15 @@
       <workItem from="1734280665986" duration="7000" />
       <workItem from="1734280783315" duration="40000" />
       <workItem from="1734280867219" duration="9000" />
+      <workItem from="1734283334793" duration="781000" />
+      <workItem from="1734284239723" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
     <option name="unityProject" value="true" />
