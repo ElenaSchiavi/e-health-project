@@ -4,10 +4,10 @@ using System.Collections;
 using UnityEngine.UI;
 using Yarn.Unity;
 
-public class YarnLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
+public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
 {
 
-    public static YarnLoader Instance; // Singleton instance
+    public static YarnCSLoader Instance; // Singleton instance
     private static RectTransform uiObject = null;
     private static Graphic uiGraphic = null;
     private static Graphic glowGraphic = null;
@@ -45,7 +45,7 @@ public class YarnLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
     [YarnFunction("getSigarette")]
     public static int getSigarette()
     {
-        Debug.Log($"Yarn read sigarette_fumate from YarnLoader: {sigarette_fumate}");
+        Debug.Log($"Yarn read sigarette_fumate from YarnCSLoader: {sigarette_fumate}");
         return sigarette_fumate;
     }
 
@@ -53,7 +53,7 @@ public class YarnLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
     [YarnCommand("setSigarette")]
     public static void setSigarette(int newNumber)
     {
-        Debug.Log($"Yarn set sigarette_fumate to YarnLoader: {newNumber}");
+        Debug.Log($"Yarn set sigarette_fumate to YarnCSLoader: {newNumber}");
         sigarette_fumate = newNumber;
     }
 
@@ -61,20 +61,20 @@ public class YarnLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
     public static void addSigaretta()
     {
         sigarette_fumate++;
-        Debug.Log($"Yarn add one to sigarette_fumate in YarnLoader: {sigarette_fumate}");
+        Debug.Log($"Yarn add one to sigarette_fumate in YarnCSLoader: {sigarette_fumate}");
     }
 
     [YarnFunction("getMood")]
     public static int getMood()
     {
-        Debug.Log($"Yarn read mood from YarnLoader: {mood}");
+        Debug.Log($"Yarn read mood from YarnCSLoader: {mood}");
         return mood;
     }
 
     [YarnCommand("setMood")]
     public static void setMood(int newNumber)
     {
-        Debug.Log($"Yarn set mood to YarnLoader: {newNumber}");
+        Debug.Log($"Yarn set mood to YarnCSLoader: {newNumber}");
         mood = newNumber;
     }
 
@@ -82,27 +82,27 @@ public class YarnLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
     public static void addMood()
     {
         mood++;
-        Debug.Log($"Yarn add one to mood in YarnLoader: {mood}");
+        Debug.Log($"Yarn add one to mood in YarnCSLoader: {mood}");
     }
 
     [YarnCommand("minusMood")]
     public static void minusMood()
     {
         mood--;
-        Debug.Log($"Yarn take one to mood in YarnLoader: {mood}");
+        Debug.Log($"Yarn take one to mood in YarnCSLoader: {mood}");
     }
 
     [YarnFunction("getSergio")]
     public static int getSergio()
     {
-        Debug.Log($"Yarn read mood from YarnLoader: {issergio}");
+        Debug.Log($"Yarn read mood from YarnCSLoader: {issergio}");
         return issergio;
     }
 
     [YarnCommand("setSergio")]
     public static void setSergio(int newNumber)
     {
-        Debug.Log($"Yarn set mood to YarnLoader: {newNumber}");
+        Debug.Log($"Yarn set mood to YarnCSLoader: {newNumber}");
         issergio = newNumber;
     }
 
