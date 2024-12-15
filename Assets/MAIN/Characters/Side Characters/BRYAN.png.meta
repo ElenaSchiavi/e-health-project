@@ -3,8 +3,8 @@ guid: 8c8829263cd24405cacad8ad16af73ef
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8472407145866032278
-    second: SC6_0
+      213: -8094467068114833677
+    second: Bryan_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SC6_0
+      name: Bryan_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6b8c2ee696fb6a80800000000000000
-      internalID: -8472407145866032278
+      spriteID: 3feeaee761daaaf80800000000000000
+      internalID: -8094467068114833677
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      SC6_0: -8472407145866032278
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

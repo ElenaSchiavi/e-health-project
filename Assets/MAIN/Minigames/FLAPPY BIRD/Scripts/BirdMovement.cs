@@ -28,7 +28,7 @@ public class BirdMovement : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
             rb.isKinematic = true;
             
-            FindObjectOfType<GameManager1>().ShowGameOver();
+            FindAnyObjectByType<GameManager1>().ShowGameOver();
             Invoke("StopGame", 1f); 
         }
     }
