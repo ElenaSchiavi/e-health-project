@@ -31,7 +31,7 @@ title: Choice
 ->Ask for a cigarette
     Are you sure?
         ->Yes
-             <<addSigaretta>>
+             //non c'è addSigaretta perché c'è dopo
              Davide:Hey Max, can I ask for a cigarette
              Max:Sure man, here
              Narrator:He takes the cigarette and lights it up

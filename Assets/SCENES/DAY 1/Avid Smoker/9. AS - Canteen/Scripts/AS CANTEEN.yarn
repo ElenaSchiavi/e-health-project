@@ -3,6 +3,7 @@ tags:
 ---
 Narrator:After the coffee break Davide went back to work
 Narrator:Until it was time for lunch
+<<fadeOut BackGroundBlack>>
 Narrator:Where he met with his other friends from work
 <<showCharacter Character>>
 
@@ -43,6 +44,6 @@ Tom:I may have landed a freelance gig with one of the top graphic design firms i
 
 <<hideCharacter Character>>
 Narrator:From there the three friends mooved to get a coffee before going back to work
-<<loadScene Davide10LunchBreake>>
+<<loadScene Davide10LunchBreak>>
 ===
 

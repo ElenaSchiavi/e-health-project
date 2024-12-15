@@ -3,6 +3,7 @@ tags:
 position: 1,10
 ---
 *BIP BIP*
+<<fadeOut BackGroundBlack>>
 Opens the door
 <<showCharacter Character>>
 Inserts the keys and starts the car

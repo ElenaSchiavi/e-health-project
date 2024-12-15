@@ -35,6 +35,7 @@ title: Choice
              Davide:Well, lets not exagerate
              Davide:There is still a lot of time ahahahha
              Tom:Hehehehe
+             <<fadeIn BackGroundBlack>>
              <<hideCharacter Character>>
              Narrator:Davide Puts out the cigarette and goes back to work
              <<loadScene Davide9Canteen>>
