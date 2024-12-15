@@ -11,13 +11,34 @@ public class DodgeGameManager : MonoBehaviour
     public GameObject Attempt1;
     public GameObject Attempt2;
     public GameObject Attempt3;
-    public int wavesToWin = 5;
+    public int wavesToWin = 0;
     private bool gameEnded = false;
     private static int attempts = 0;
     private const int maxAttempts = 3;
+    private static int setmood = 0; //LEO MODIFICA SET MOOD CON IL VALORE SOGLIA DEL MOOD,M >= SETM0OOD VUOL DIRE CHE è FELICE 
+    private static int setsigarette = 1;
 
     private int currentWave = 0;
 
+
+    private void Start()
+    {
+        Debug.Log("Loading Sigarette Number from YarnCSLoader");
+        int sigaretteFumate = YarnCSLoader.getSigarette();
+        Debug.Log($"Finora fumate {sigaretteFumate} sigarette");
+        Debug.Log("Loading Mood from YarnCSLoader");
+        int mood = YarnCSLoader.getMood();
+        Debug.Log($"Mood attuale {mood}");
+
+        if (sigaretteFumate >= setsigarette && mood < setmood) wavesToWin = 20;
+        if (sigaretteFumate >= setsigarette && mood >= setmood) wavesToWin = 12;
+        if (sigaretteFumate < setsigarette && mood < setmood) wavesToWin = 12;
+        if (sigaretteFumate < setsigarette && mood >= setmood) wavesToWin = 5;
+
+        Debug.Log("Game started!");
+        ShowAttemptText();
+        winText.gameObject.SetActive(false);
+    }
     public void IncrementWave()
     {
         currentWave++;
@@ -26,12 +47,7 @@ public class DodgeGameManager : MonoBehaviour
             WinGame();
         }
     }
-        private void Start()
-    {
-        Debug.Log("Game started!");
-        ShowAttemptText();
-        winText.gameObject.SetActive(false);
-    }
+ 
     public void ShowGameOver()
     {
         if (!gameEnded)

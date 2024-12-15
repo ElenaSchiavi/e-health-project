@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverText; // Riferimento alla scritta Game Over
     public GameObject winText;      // Riferimento alla scritta Win
     public Text m_GameOverFinalScore;
+    private static int neededscore = 0;
+    private static int setmood = 0; //LEO MODIFICA SET MOOD CON IL VALORE SOGLIA DEL MOOD,M >= SETM0OOD VUOL DIRE CHE è FELICE 
+    private static int setsigarette = 1;
 
     public enum GameState { MainMenu, Playable, GameOver, }
     private GameState m_State = GameState.MainMenu;
@@ -63,7 +66,7 @@ public class GameManager : MonoBehaviour
 
                     int finalScore = BrickSpawner.Instance.m_LevelOfFinalBrick - 1;
 
-                    if (finalScore >= 20)
+                    if (finalScore >= neededscore)
                     {
                         // Load the "Good job!" scene
                         winText.gameObject.SetActive(true); 
@@ -96,5 +99,17 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         m_GameState = GameState.MainMenu;
+
+        Debug.Log("Loading Sigarette Number from YarnCSLoader");
+        int sigaretteFumate = YarnCSLoader.getSigarette();
+        Debug.Log($"Finora fumate {sigaretteFumate} sigarette");
+        Debug.Log("Loading Mood from YarnCSLoader");
+        int mood = YarnCSLoader.getMood();
+        Debug.Log($"Mood attuale {mood}");
+
+        if (sigaretteFumate >= setsigarette && mood < setmood) neededscore = 30;
+        if (sigaretteFumate >= setsigarette && mood >= setmood) neededscore = 20;
+        if (sigaretteFumate < setsigarette && mood < setmood) neededscore = 20;
+        if (sigaretteFumate < setsigarette && mood >= setmood) neededscore = 10;
     }
 }

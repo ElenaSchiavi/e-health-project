@@ -12,7 +12,9 @@ public class PlaneGameManager : MonoBehaviour
     public GameObject victoryText;
     private static int attempts = 0;
     private const int maxAttempts = 3;
-    public float winTime = 30f;
+    public float winTime = 0f;
+    private static int setmood = 0; //LEO MODIFICA SET MOOD CON IL VALORE SOGLIA DEL MOOD,M >= SETM0OOD VUOL DIRE CHE è FELICE 
+    private static int setsigarette = 1;
 
     private bool isGameOver = false;
     private bool isWin = false;
@@ -33,6 +35,18 @@ public class PlaneGameManager : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log("Loading Sigarette Number from YarnCSLoader");
+        int sigaretteFumate = YarnCSLoader.getSigarette();
+        Debug.Log($"Finora fumate {sigaretteFumate} sigarette");
+        Debug.Log("Loading Mood from YarnCSLoader");
+        int mood = YarnCSLoader.getMood();
+        Debug.Log($"Mood attuale {mood}");
+
+        if (sigaretteFumate >= setsigarette && mood < setmood) winTime = 60f;
+        if (sigaretteFumate >= setsigarette && mood >= setmood) winTime = 30f;
+        if (sigaretteFumate < setsigarette && mood < setmood) winTime = 30f;
+        if (sigaretteFumate < setsigarette && mood >= setmood) winTime = 15f;
+
         Debug.Log("Game started!");
         ShowAttemptText();
     }
