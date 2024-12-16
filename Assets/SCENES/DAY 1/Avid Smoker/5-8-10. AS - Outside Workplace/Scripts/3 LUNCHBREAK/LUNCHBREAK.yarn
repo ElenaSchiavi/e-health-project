@@ -1,4 +1,4 @@
-﻿title: LUNCHBREAK
+title: LUNCHBREAK
 tags:
 ---
 <<declare $sigarette=0>>
@@ -55,7 +55,7 @@ Narrator:The conversation shifted as Melissa changed the topic.
 Melissa: You know, Davide, I’m proud of you for trying to quit smoking. How’s it going?
 
 <<if $sigarette > 0 >>
-    Davide:Not realy well... today i smoked {$sigarette} cigarettes    
+    Davide:Not realy well... today I smoked {$sigarette} cigarettes    
 <<endif>>
 
 Davide:It’s rough. Especially with Tom here waving his cigarette around.
@@ -118,7 +118,7 @@ Will you smoke?
         ->Yes
              <<addSigaretta>>
              <<minusMood>>
-             Narrator:Davide takes out the cigarette and Lights it up
+             Narrator:Davide takes out the cigarette and lights it up
              Davide:*FFSSSS... PFIUUUUUU*
              Narrator:Davide didn't enjoy this one
              Narrator:Especially after the conversations with his friends

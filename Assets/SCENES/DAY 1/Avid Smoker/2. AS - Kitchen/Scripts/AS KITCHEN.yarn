@@ -29,7 +29,7 @@ Davide: I'm hungry... What should I eat?
         <<loadScene Davide3HomeBalcony>>
 -> Grab something quick
     Starts to prepare some coffee
-    Davide: What biscuits should i eat?
+    Davide: What biscuits should I eat?
     ->Gocciole
     ->Pan di Stelle
     ->Macine
@@ -40,7 +40,7 @@ Davide: I'm hungry... What should I eat?
         Davide: Woahhh! I'm going to be so late!
         <<exitScene Davide left>>
         <<fadeOut Davide>>
-        Finishes the coffee and leaves the appartment
+        Finishes the coffee and leaves the apartment
         <<loadScene Davide3HomeBalcony>>    
 -> Skip eating
     <<minusMood>>

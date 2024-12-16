@@ -13,6 +13,6 @@ Puts coins in the machine
 <<addMood>>
 <<exitScene Davide left>>
 <<fadeOut Davide>>
-Narrator:Davide takes his coffee and has allways goes outside 
+Narrator:Davide takes his coffee and as always goes outside 
 <<loadScene Davide8OutsideWorkplace>>
 ===

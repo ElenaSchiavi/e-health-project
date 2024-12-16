@@ -1,14 +1,14 @@
 ﻿title: BNHomeBalcony
 tags:
 ---
-Narrator:Arrived home Davide got ready to go to bed
+Narrator:As soon as he arrived home Davide got ready to go to bed
 Narrator:But before he went to his balcony...
 <<showCharacter Davide>>
 <<fadeIn Davide>>
 <<enterScene Davide left>>
 Davide:What a day...
-Davide:Luckily i won't have a service for a couple of weeks
-Narrator:Davide saw a packet of cigarets that he left on the balconys table
+Davide:Luckily I won't have a service for a couple of weeks
+Narrator:Davide saw a packet of cigarettes that he left on the balcony table
 <<declare $sigarette=0>>
 <<set $sigarette=getSigarette()>>
 <<declare $mood=0>>

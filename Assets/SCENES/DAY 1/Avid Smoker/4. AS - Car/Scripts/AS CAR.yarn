@@ -10,7 +10,7 @@ Opens the door
 <<enterScene Davide left>>
 Inserts the keys and starts the car
 *Driving noises*
-Davide:*wistles*
+Davide:*whistles*
 *BEEEP BEEEEP*
 Davide:Yeahhh, there is a spot just in front of the office!
 <<addMood>>
