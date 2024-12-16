@@ -1,13 +1,15 @@
-﻿title: REDCROSSHQBN
+title: REDCROSSHQBN
 tags:
 ---
+
+
 Narrator:When they came back they all changed and prepared to go back home
 Narrator:Before leaving they spent some time together outside
 
 <<showCharacter Davide>>
 <<fadeIn Davide>>
-<<enterScene Davide left>>
-<<wait 0.1>>
+<<enterScene Davide>>
+<<wait 1>>
 <<showCharacter Bryan>>
 <<fadeIn Bryan>>
 <<enterScene Bryan right>>
@@ -15,7 +17,7 @@ Bryan:Well guys, at the end Davide didn't really jinx it
 Bryan:It turned out that this was a chill night
 <<fadeOut Bryan>>
 <<exitScene Bryan right>>
-<<wait 0.1>>
+<<wait 1>> 
 <<showCharacter Max>>
 <<fadeIn Max>>
 <<enterScene Max right>>
@@ -24,7 +26,7 @@ Max:Yeah, only one service and it was even an easy one
 Narrator:Max at that moment took out his packet of cigarettes and lit one up
 Narrator:Davide noticed it and he felt an itch
 
-Davide:"Should i ask him for one?"
+Davide:"Should I ask him for one?"
 
 <<jump Choice>>
 ===
@@ -46,10 +48,11 @@ title: Choice
              Max:Sure man, here
              <<exitScene Max right>>
                <<fadeOut Max>>
+                <<wait 1>>
              Narrator:He takes the cigarette and lights it up
-             <<exitScene Davide right>>
+             <<exitScene Davide left>> 
                <<fadeOut Davide>>
-               <<wait 0.1>>
+               <<wait 1>> 
              <<loadScene Davide14Lost>>
         ->No
              <<jump Choice>>

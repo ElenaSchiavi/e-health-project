@@ -33,7 +33,7 @@ Davide:Just keep an eye on her, and if she gets dizzy or feels sick later, take 
 Man:Thank you so much. Really, thank you
 <<fadeOut Bryan>>
 <<exitScene Bryan right>>
-<<wait 0.1>>
+<<wait 1>>
 <<showCharacter Max>>
 <<fadeIn Max>>
 <<enterScene Max right>>
@@ -43,7 +43,7 @@ Davide:with a chuckle See? Calm night. Told you
 Max:You’re lucky that wasn’t worse
 <<exitScene Max right>>
 <<fadeOut Max>>
-<<wait 0.1>>
+<<wait 1>>
 <<showCharacter Bryan1>>
 <<fadeIn Bryan1>>
 <<enterScene Bryan1 right>>
@@ -91,7 +91,7 @@ Bryan:Good. Let’s get back to the ambulance
 <<minusMood>>
 <<exitScene Bryan1 right>>
 <<fadeOut Bryan1>>
-<<wait  0.1>>
+<<wait  1>>
 <<exitScene Davide left>>
 <<fadeOut Davide>>
 Narrator:With that, the ambulance made its way back to the headquarters
