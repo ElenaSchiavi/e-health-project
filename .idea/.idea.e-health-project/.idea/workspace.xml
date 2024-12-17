@@ -6,15 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD 2/FlappyBird2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD 2/FlappyBird2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/FlappyBird.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/Minigames/FLAPPY BIRD/FlappyBird.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MAIN/YarnLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MAIN/YarnLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Scripts/AS_HOMEBALCONY.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Scripts/AS_HOMEBALCONY.yarn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/1. OS - Bedroom/Scripts/OS_BEDROOM.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/1. OS - Bedroom/Scripts/OS_BEDROOM.yarn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/2. OS - Home Balcony/Scripts/OS_HOMEBALCONY.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/2. OS - Home Balcony/Scripts/OS_HOMEBALCONY.yarn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/4. OS - Kitchen/Scripts/OS_KITCHEN.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/4. OS - Kitchen/Scripts/OS_KITCHEN.yarn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Menu_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/LBL_Text.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/LBL_Text.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,6 +167,11 @@
       <workItem from="1734461794758" duration="9000" />
       <workItem from="1734471880006" duration="166000" />
       <workItem from="1734473273446" duration="578000" />
+      <workItem from="1734474932011" duration="46000" />
+      <workItem from="1734476818116" duration="29000" />
+      <workItem from="1734476936870" duration="39000" />
+      <workItem from="1734476995638" duration="246000" />
+      <workItem from="1734477493614" duration="49000" />
     </task>
     <servers />
   </component>

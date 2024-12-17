@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 
-public class LetterByLetterText : MonoBehaviour
+public class LBL_Text : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string fullText;
