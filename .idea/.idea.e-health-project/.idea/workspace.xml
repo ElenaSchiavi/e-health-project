@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="" />
+    <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/16. AS - FINALE/Scripts/PARK.yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/16. AS - FINALE/Scripts/PARK.yarn.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Button.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SCENES/MENU/Scripts/SceneSwitcher_Space.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -143,12 +148,23 @@
       <workItem from="1734266253538" duration="36000" />
       <workItem from="1734267273689" duration="20000" />
       <workItem from="1734272753063" duration="6000" />
+      <workItem from="1734279275371" duration="5000" />
+      <workItem from="1734280464622" duration="168000" />
+      <workItem from="1734280665986" duration="7000" />
+      <workItem from="1734280783315" duration="40000" />
+      <workItem from="1734280867219" duration="9000" />
+      <workItem from="1734283334793" duration="781000" />
+      <workItem from="1734284239723" duration="4000" />
+      <workItem from="1734284561214" duration="472000" />
+      <workItem from="1734287207397" duration="176000" />
+      <workItem from="1734287408029" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
     <option name="unityProject" value="true" />
