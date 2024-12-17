@@ -79,8 +79,6 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/16. AS - FINALE/Davide16FINALE.unity
   - m_enabled: 1
-    m_path: Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Valeria1Bedroom.unity
-  - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Occasional Smoker/1. OS - Bedroom/Sergio1Bedroom.unity
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Occasional Smoker/2. OS - Home Balcony/Sergio2HomeBalcony.unity

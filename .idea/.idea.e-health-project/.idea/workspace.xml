@@ -6,8 +6,75 @@
   <component name="ChangeListManager">
     <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/16. AS - FINALE/Scripts/PARK.yarn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/16. AS - FINALE/Scripts/PARK.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Valeria1Bedroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Valeria1Bedroom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Valeria1Bedroom.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Valeria1Bedroom.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/11. AS - RedCross HQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/11. AS - RedCross HQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/11. AS - RedCross HQ/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/11. AS - RedCross HQ/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/11. AS - RedCross HQ/Scripts/REDCROSSHQ.yarn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/11. AS - RedCross HQ/Scripts/REDCROSSHQ.yarn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/11. AS - RedCross HQ/Scripts/REDCROSSHQ.yarn.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/11. AS - RedCross HQ/Scripts/REDCROSSHQ.yarn.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/12. AS - Ambulance/Valeria8Ambulance.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/12. AS - Ambulance/Valeria8Ambulance.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/14. AS - RedCross HQ by night/Valeria10RedCrossHQnight.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/14. AS - RedCross HQ by night/Valeria10RedCrossHQnight.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/15. AS - Home Balcony by night/Valeria11HomeBalconyNight.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/15. AS - Home Balcony by night/Valeria11HomeBalconyNight.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/2. AS - Kitchen/Valeria2Kitchen.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/2. AS - Kitchen/Valeria2Kitchen.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Valeria3HomeBalcony.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Valeria3HomeBalcony.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Car/Valeria4OutsideWorkplace.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Car/Valeria4OutsideWorkplace.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Valeria4OutsideWorkplace.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Valeria4OutsideWorkplace.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/6. AS - Workplace/Valeria5Workplace.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/6. AS - Workplace/Valeria5Workplace.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/7. AS - Coffee-machine @work/Valeria6CoffeeMachine.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/7. AS - Coffee-machine @work/Valeria6CoffeeMachine.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/11. AS - RedCross HQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/11. AS - RedCross HQ/Davide11RedCrossHQ.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/11. AS - RedCross HQ/Davide11RedCrossHQ.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/11. AS - RedCross HQ/Graphics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/11. AS - RedCross HQ/Graphics/AS - RedCross HQ 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/11. AS - RedCross HQ/Graphics/AS - RedCross HQ 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/11. AS - RedCross HQ/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/11. AS - RedCross HQ/Scripts/Project.yarnproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/11. AS - RedCross HQ/Scripts/Project.yarnproject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/11. AS - RedCross HQ/Scripts/REDCROSSHQ.yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/11. AS - RedCross HQ/Scripts/REDCROSSHQ.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/11. AS - RedCross HQ/Valeria7RedCrossHQ.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/11. AS - RedCross HQ/Valeria7RedCrossHQ.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/1. OS - Bedroom/Giovanna1Bedroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/1. OS - Bedroom/Giovanna1Bedroom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/2. OS - Home Balcony/Giovanna2HomeBalcony.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/2. OS - Home Balcony/Giovanna2HomeBalcony.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/Giovanna3Bar.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/Giovanna3Bar.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/LOSS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/LOSS/LOSS.yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/LOSS/LOSS.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/LOSS/Project.yarnproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/LOSS/Project.yarnproject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/LOSS/SergioLoss.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/LOSS/SergioLoss.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/WON.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/WON/Project.yarnproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/WON/Project.yarnproject.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/WON/SergioWon.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/WON/SergioWon.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/WON/WON.yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/3. OS - Bar/WON/WON.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/4. OS - Kitchen/Giovanna4Kitchen.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/4. OS - Kitchen/Giovanna4Kitchen.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/5. OS - RedCross HQ/Giovanna5RedCrossHQ.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/5. OS - RedCross HQ/Giovanna5RedCrossHQ.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/6. OS - Ambulance/Giovanna6Ambulance.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/6. OS - Ambulance/Giovanna6Ambulance.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/7. OS - RedCross inside/Giovanna7RedCrossInside.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/7. OS - RedCross inside/Giovanna7RedCrossInside.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/8. OS - RedCross HQ by night/Giovanna8RedCrossHQnight.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/8. OS - RedCross HQ by night/Giovanna8RedCrossHQnight.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/9. OS - Kitchen by night/Giovanna9KitchenNight.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Occasional Smoker/9. OS - Kitchen by night/Giovanna9KitchenNight.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Build Profiles/New macOS Profile.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +225,8 @@
       <workItem from="1734284561214" duration="472000" />
       <workItem from="1734287207397" duration="176000" />
       <workItem from="1734287408029" duration="18000" />
+      <workItem from="1734449487108" duration="13000" />
+      <workItem from="1734449559527" duration="7000" />
     </task>
     <servers />
   </component>
