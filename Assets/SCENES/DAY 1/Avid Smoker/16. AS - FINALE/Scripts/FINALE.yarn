@@ -1,0 +1,23 @@
+﻿title: FINALE
+tags:
+---
+<<declare $sigarette=0>>
+<<set $sigarette=getSigarette()>>
+<<declare $mood=0>>
+<<set $mood=getMood()>>
+
+Narrator:Today Davide smoked {$sigarette}
+Narrator:and his mood is {$mood} on a scale from -2 to +2
+<<if $sigarette >= 3>>
+     Narrator:You could have done better...
+     Narrator:But it's normal to fail in the beginning! 
+<<else>>
+     Narrator:You have done well, keep it up!
+<<endif>>
+Narrator:Quitting smoking is tough due to nicotine's addictive grip
+Narrator:and withdrawal symptoms like cravings and irritability
+Narrator:Daily routines and social triggers make breaking the habit even harder
+Narrator:but with support and determination, freedom from addiction is achievable.
+
+
+===

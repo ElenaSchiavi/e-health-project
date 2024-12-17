@@ -8,8 +8,12 @@ Tom:Can't wait for the day to finish
 Davide:Well, lets not exagerate
 Davide:There is still a lot of time ahahahha
 Tom:Hehehehe
-<<fadeIn BackGroundBlack>>
-<<hideCharacter Character>>
+//<<fadeIn BackGroundBlack>> //da capire se togliere
+<<exitScene Davide left>>
+<<fadeOut Davide>>
+<<wait 1>>
+<<exitScene Tom right>>
+<<fadeOut Tom>>
 Narrator:Tom puts out the cigarette and the two go back to work
 <<loadScene Davide9Canteen>>
 ===

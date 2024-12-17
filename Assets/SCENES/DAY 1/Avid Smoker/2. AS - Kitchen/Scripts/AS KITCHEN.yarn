@@ -7,7 +7,9 @@ position:
 <<set $mood=getMood()>>
 
 Davide walks into the kitchen.
-<<showCharacter Character>>
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
 Davide: I'm hungry... What should I eat?
 -> Choose something healthy
     <<addMood>>
@@ -21,12 +23,13 @@ Davide: I'm hungry... What should I eat?
     Starts to eat
     -> Check the time
         Davide: Woahhh! I'm going to be so late!
-        <<hideCharacter Character>>
+        <<exitScene Davide left>>
+        <<fadeOut Davide>>
         Finishes the dish and leaves the appartment
         <<loadScene Davide3HomeBalcony>>
 -> Grab something quick
     Starts to prepare some coffee
-    Davide: What biscuits should i eat?
+    Davide: What biscuits should I eat?
     ->Gocciole
     ->Pan di Stelle
     ->Macine
@@ -35,13 +38,15 @@ Davide: I'm hungry... What should I eat?
     Davide: Gnammm 
     -> Check the time
         Davide: Woahhh! I'm going to be so late!
-        <<hideCharacter Character>>
-        Finishes the coffee and leaves the appartment
+        <<exitScene Davide left>>
+        <<fadeOut Davide>>
+        Finishes the coffee and leaves the apartment
         <<loadScene Davide3HomeBalcony>>    
 -> Skip eating
     <<minusMood>>
     Davide: Maybe I’ll just skip this meal... I’m not that hungry anyway.
-    <<hideCharacter Character>>
+    <<exitScene Davide left>>
+    <<fadeOut Davide>>
     Davide decides not to eat.
     <<loadScene Davide3HomeBalcony>>
 ===

@@ -4,14 +4,13 @@ tags:
 Opens the balcony door
 <<declare $issergio=0>>
 <<setSergio 1>>
-<<set $issergio=getSergio()>>//???????????????????
-<<showCharacter Character>>
-Davide:I'm late but i really feel like smoking a cigarette...
-Davide:I shouldn't, especially because i promissed myself that i would have stopped from today...
+<<set $issergio=getSergio()>>
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
+Davide:I'm late but I really feel like smoking a cigarette...
+Davide:I shouldn't, especially because I promissed myself that I would have stopped, starting from today...
 Narrator:At this point of the game the choice is yours
-<<addSigaretta>>
-<<addSigaretta>>//??????????????????
-<<addSigaretta>>
 Narrator:Smoking a cigarette will affect the way the story will continue
 Narrator:The relation with other people
 Narrator:And most importantly your mental status
@@ -21,7 +20,7 @@ Narrator:And on your relation with other people
 Narrator:Deciding not to smoke won't ensure that you won't smoke
 Narrator:To skip the cigarette you'll need to win the minigame
 Narrator:The difficulty of the minigame depends on the amount of cigarettes that you have smoked
-Narrator:And on the mental well being of your Character at the moment of the choice
+Narrator:And on the mental well being of your character at the moment of the choice
 Narrator:So...
 Narrator:What will you choose?
 <<jump Choice>>
@@ -40,11 +39,12 @@ title: Choice
              Takes out the cigarette
              Lights it up
              *FFSSSS... PFIUUUUUU*
-             Davide:Maybe i shouldn't have smoked it...
+             Davide:Maybe I shouldn't have smoked it...
              Davide:Anyway, I am late to work, got to get going
-             <<hideCharacter Character>>
-             Narrator:He Puts out the cigarette and goes to his car
-             <<fadeIn BackGroundBlack>>
+             <<exitScene Davide left>>
+             <<fadeOut Davide>>
+             Narrator:He puts out the cigarette and goes to his car
+             //<<fadeIn BackGroundBlack>>
              <<loadScene Davide4Car>>
         ->No
              <<jump Choice>>

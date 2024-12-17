@@ -20,8 +20,11 @@ Davide:Sunds good. I could use some sleep
 Max:Same here. Good job tonight, team
 
 Bryan:Good work, everyone. See you all next time
-<<hideCharacter Character>>
-
+<<exitScene Bryan right>>
+<<fadeOut Bryan>>
+<<wait  1>>
+<<exitScene Davide>> 
+<<fadeOut Davide>>
 Narrator:Tired from the long day Davide took his car and went back home
-<<loadScene Davide15HomeBalconyNight>>
+<<loadScene Davide15HomeBalconyNight>> 
 ===

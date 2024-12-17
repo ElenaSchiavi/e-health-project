@@ -1,7 +1,9 @@
 ﻿title: COFFEEMACHINE
 tags:
 ---
-<<showCharacter Character>>
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
 Takes out his wallet
 Puts coins in the machine
 *TINK TINK*
@@ -9,7 +11,8 @@ Puts coins in the machine
 *FRSHSHRSHSHRSHRSHRS*
 *BLIN*
 <<addMood>>
-<<hideCharacter Character>>
-Narrator:Davide takes his coffee and has allways goes outside 
+<<exitScene Davide left>>
+<<fadeOut Davide>>
+Narrator:Davide takes his coffee and as always goes outside 
 <<loadScene Davide8OutsideWorkplace>>
 ===

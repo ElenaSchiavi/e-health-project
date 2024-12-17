@@ -8,7 +8,9 @@ Narrator:Lights it up
 Davide:*FFSSSS... PFIUUUUUU*
 Davide:Maybe i shouldn't have smoked it...
 Davide:Anyway, I am late to work, got to get going
-<<hideCharacter Character>>
-Narrator:He Puts out the cigarette and goes to his car
+//<<fadeIn BackGroundBlack>>
+<<exitScene Davide left>>
+<<fadeOut Davide>>
+Narrator:He puts out the cigarette and goes to his car
 <<loadScene Davide4Car>>
 ===

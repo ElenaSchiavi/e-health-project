@@ -14,7 +14,7 @@ public class GameManager1 : MonoBehaviour
     private const int maxAttempts = 3;
     private float gameWinTime=90f;
     private int issergio=0;
-    private static int setmood = 0; //LEO MODIFICA SET MOOD CON IL VALORE SOGLIA DEL MOOD,M >= SETM0OOD VUOL DIRE CHE è FELICE 
+    private static int setmood = 0; 
     private static int setsigarette = 1;
 
 
@@ -40,9 +40,11 @@ public class GameManager1 : MonoBehaviour
     public void checkCharacter()
     {
         Debug.Log("Loading Personaggio from YarnCSLoader");
-        int issergio=YarnCSLoader.getSergio();
+        issergio=YarnCSLoader.getSergio();
         Debug.Log($"Il personaggio {issergio} è stato scelto");
     }
+
+    
 
     public void ShowGameOver()
     {
@@ -67,9 +69,10 @@ public class GameManager1 : MonoBehaviour
             if (attempts == maxAttempts)
             {
                 Debug.Log("You have reached the maximum number of games. Game over.");
+                checkCharacter();
                 if(issergio==2)
                 {
-                    SceneManager.LoadScene("Sergio4Kitchen");
+                    SceneManager.LoadScene("SergioLoss");
                 }
                 else
                 {
@@ -103,7 +106,15 @@ public class GameManager1 : MonoBehaviour
         if (!gameEnded)
         {
             ShowVictory();
-            SceneManager.LoadScene("Davide3Win");
+            checkCharacter();
+            if(issergio==2)
+            {
+             SceneManager.LoadScene("SergioWon");
+            }
+            else
+            {
+            SceneManager.LoadScene("Davide3Won");
+            }
         }
     }
     

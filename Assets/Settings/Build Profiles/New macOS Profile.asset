@@ -65,8 +65,6 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide10Game/Davide10Won.unity
   - m_enabled: 1
-    m_path: Assets/SCENES/DAY 1/Avid Smoker/11. AS - RedCross HQ/Davide11RedCrossHQ.unity
-  - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/12. AS - Ambulance/Davide12Ambulance.unity
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/13. AS - ParkService/Davide13ParkService.unity
@@ -811,6 +809,8 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
     - rid: 886592406690201668
       type: {class: OSXStandaloneBuildProfile, ns: UnityEditor.OSXStandalone, asm: UnityEditor.OSXStandalone.Extensions}
       data:

@@ -3,9 +3,10 @@ tags:
 ---
 Davide:"Remember what I promissed myself..."
 Davide:Anyway, I better get back to that project...
-<<hideCharacter Character>>
+<<exitScene Davide left>>
+<<fadeOut Davide>>
 Narrator:Even if the choice was hard, Davide is doing what he feels is right!
-<<fadeIn BackGroundBlack>>
-Narrator:Now he is going bac to his project
+//<<fadeIn BackGroundBlack>>
+Narrator:Now he is going back to his project
 <<loadScene Davide11RedCrossHQ>> 
 ===

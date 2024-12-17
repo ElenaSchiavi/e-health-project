@@ -1,0 +1,13 @@
+﻿title: BBNLost
+tags:
+---
+<<addSigaretta>>
+Takes out the cigarette
+Lights it up
+*FFSSSS... PFIUUUUUU*
+Davide:Time to go to sleep
+<<exitScene Davide left>>
+<<fadeOut Davide>>
+Narrator: Davide puts out the cigarette and goes to sleep
+<<loadScene Davide16FINALE>>
+===

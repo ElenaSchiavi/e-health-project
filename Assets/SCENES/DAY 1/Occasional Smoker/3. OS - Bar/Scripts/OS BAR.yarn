@@ -4,7 +4,7 @@ position:1,10
 ---
 
 <<declare $issergio=0>>
-<<setSergio 1>>
+<<setSergio 2>>
 <<set $issergio=getSergio()>>
 Sergio:Here we are
 ->Order
@@ -19,7 +19,7 @@ tags:
 position:1,10
 ---
 
-<<enterScene Stefano right>>
+<<showCharacter Bryan>>
 Stefano:Hi Sergio, didn't think I'd see the day you'd be up before me.
 Sergio:Don't even mention it. Just spent the night coughing. Didn't sleep a wink.
 Stefano:You've rarely looked worse for the wear. Here have one!
@@ -29,10 +29,7 @@ Stefano:You've rarely looked worse for the wear. Here have one!
  Sergio:Here comes my spruzzato. One for my friend here too!
   <<jump friendArrive>>
 ->Decline
- Sergio:You know I'm trying to quit
- Stefano:(Chuckle)At our age what difference does it make? We're goners anyways. You don't even have a wife to nag you about it! Just enjoy what life has still to offer
- Sergio:Well, I have nephew I'd like to see grow up.
-  <<jump friendArrive>>
+  <<loadScene FlappyBird>>
 ===
 
 title: friendArrive
@@ -43,15 +40,21 @@ position: 182,229
 
 <<declare $cig=0>>
 <<set $cig=getSigarette()>>
+<<hideCharacter Bryan>>
+<<showCharacter Dave>>
 Andrea:Well, goodmorning!
  <<if $cig==1>>
  Andrea:Stefano, do you have one for me too? I left mine at home
+ <<hideCharacter Dave>>
+ <<showCharacter Bryan>>
  Stefano:Sorry that was my last one.
   ->Offer your cigarette
   Sergio:Here, have one of mine, it's a Pistrait
  <<else>>
  Stefano:Andrea hear this, our Giorgio is trying to quit smoking. You should really get a good night sleep.
  Sergio:What did you get Andrea? I got my usual spruzzato.
+ <<hideCharacter Bryan>>
+ 
  Andrea: Come one the spruzzato is on me. Have one
   ->Accept cigarette
    Sergio:Thanks.

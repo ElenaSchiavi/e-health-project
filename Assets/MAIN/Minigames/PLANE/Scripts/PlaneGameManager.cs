@@ -13,7 +13,7 @@ public class PlaneGameManager : MonoBehaviour
     private static int attempts = 0;
     private const int maxAttempts = 3;
     public float winTime = 0f;
-    private static int setmood = 0; //LEO MODIFICA SET MOOD CON IL VALORE SOGLIA DEL MOOD,M >= SETM0OOD VUOL DIRE CHE è FELICE 
+    private static int setmood = 0; 
     private static int setsigarette = 1;
 
     private bool isGameOver = false;
@@ -74,7 +74,7 @@ public class PlaneGameManager : MonoBehaviour
             if (attempts == maxAttempts)
             {
                 Debug.Log("You have reached the maximum number of games. Game over.");
-                SceneManager.LoadScene("Davide4Car");
+                SceneManager.LoadScene("Davide14Lost");
                 if (gameOverText != null)
                 {
                     gameOverText.SetActive(true);
@@ -91,7 +91,7 @@ public class PlaneGameManager : MonoBehaviour
             if (victoryText != null)
             {
                 victoryText.SetActive(true);
-                SceneManager.LoadScene("Davide4Car");
+                SceneManager.LoadScene("Davide14Won");
             }
             Time.timeScale = 0;
             Debug.Log("Victory!");

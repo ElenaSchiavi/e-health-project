@@ -2,12 +2,17 @@
 tags:
 ---
 Narrator:Davide joins Tom for the break
-<<showCharacter Character>>
-Narrator:Tom was allready smoking a cigarette
+<<showCharacter Davide>>
+<<fadeIn Davide>>
+<<enterScene Davide left>>
+Narrator:Tom was already smoking a cigarette
+<<showCharacter Tom>>
+<<enterScene Tom right>>
+<<fadeIn Tom>>
 Tom:Hey man, how is work going?
 Narrator:Davide notices it...
-Davide:I couldn't hold my eyes open anymore, thank god i got a coffee
-Davides Thought:"These coffee is really good"
+Davide:I couldn't hold my eyes open anymore, thank god I got a coffee
+Davides Thought:"This coffee is really good"
 Davides Thought:"but I am just missing a cigarette at this point"
 Davides Thought:"Should I...?"
 <<jump Choice>>
@@ -35,9 +40,12 @@ title: Choice
              Davide:Well, lets not exagerate
              Davide:There is still a lot of time ahahahha
              Tom:Hehehehe
-             <<fadeIn BackGroundBlack>>
-             <<hideCharacter Character>>
-             Narrator:Davide Puts out the cigarette and goes back to work
+             //<<fadeIn BackGroundBlack>>//
+             <<exitScene Davide left>>
+             <<fadeOut Davide>>
+             <<exitScene Tom right>>
+             <<fadeOut Tom>>
+             Narrator:Davide puts out the cigarette and goes back to work
              <<loadScene Davide9Canteen>>
         ->No
              <<jump Choice>>

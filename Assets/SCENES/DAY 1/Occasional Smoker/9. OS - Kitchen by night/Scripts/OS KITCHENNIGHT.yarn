@@ -13,13 +13,9 @@ Sergio: That was a good day wasn't it.
 I want to have a deep sleep tonight.I'm done
 <<declare $sig=0>>
 <<declare $mood=0>>
-<<addMood>>
-<<addMood>>
-<<addMood>>
 <<set $sig=getSigarette()>>
 <<set $mood=getMood()>>
 Narrator: Today you've smoked {$sig} cigarettes
-<<fadeOutImage "Background" 2.0>>
 <<if $mood<2 >>
  Narrator: But your aren't feeling so great. Tomorrow will be better
  <<else>>

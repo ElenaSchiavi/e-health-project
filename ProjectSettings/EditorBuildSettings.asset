@@ -36,11 +36,20 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide10Game/Davide10Lost.unity
     guid: cbd2fb55fa8f8464f8e515438aec9bcc
   - enabled: 1
-    path: Assets/SCENES/DAY 1/Avid Smoker/11. AS - RedCross HQ/Davide11RedCrossHQ.unity
+    path: Assets/MAIN/Minigames/FLAPPY BIRD 2/FlappyBird2.unity
+    guid: 44d14426638ba6240b8c0c6287129274
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/9. AS - Canteen/11. AS - RedCross HQ/Davide11RedCrossHQ.unity
     guid: 4d87ca1960882d240a21f9d792848fa8
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/15. AS - Home Balcony by night/Davide 15Game/Davide15Won.unity
+    guid: 5901386c735675e4699b42f4ff927628
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/16. AS - FINALE/Davide16FINALE.unity
     guid: c37ed491ac00b4d4aa7d01f6a4caa2b3
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Avid Smoker/15. AS - Home Balcony by night/Davide 15Game/Davide15Lost.unity
+    guid: 78ce7bb9f5597b449a2a4961b0189d7d
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/13. AS - ParkService/Davide13ParkService.unity
     guid: 2c0cbfcd086fbcf4a922aab8f70391b9
@@ -51,7 +60,7 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Game/Davide3Won.unity
     guid: 7c6c17f4920554047876c4b71bb7257d
   - enabled: 1
-    path: Assets/MAIN/Minigames/BRICKBREAKER/BRICKBREAKER.unity
+    path: Assets/MAIN/Minigames/BRICKBREAKER/BrickBreaker.unity
     guid: 51d72ee3025063048a0b93b4bfa4c477
   - enabled: 1
     path: Assets/SCENES/MENU/Menu_4.unity
@@ -66,7 +75,7 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/3. AS - Home Balcony/Davide3Game/Davide3Lost.unity
     guid: 7ae3b0e433c6ed8429eb55e6c0a7330b
   - enabled: 1
-    path: Assets/DA ELIMINARE/9. AS - RedCross inside/Davide9RedCrossInside.unity
+    path: Assets/Trash/9. AS - RedCross inside/Davide9RedCrossInside.unity
     guid: 69e9bbdea7387604cb3cbbf6387498fd
   - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/14. AS - RedCross HQ by night/Davide14Game/Davide14Won.unity

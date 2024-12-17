@@ -10,11 +10,11 @@ public class GameManager : MonoBehaviour
     public GameObject m_GameMenuPanel;
     public GameObject m_GameOverPanel;
     public GameObject m_Scores;
-    public GameObject gameOverText; // Riferimento alla scritta Game Over
-    public GameObject winText;      // Riferimento alla scritta Win
+    public GameObject gameOverText; 
+    public GameObject winText;      
     public Text m_GameOverFinalScore;
     private static int neededscore = 0;
-    private static int setmood = 0; //LEO MODIFICA SET MOOD CON IL VALORE SOGLIA DEL MOOD,M >= SETM0OOD VUOL DIRE CHE è FELICE 
+    private static int setmood = 0; 
     private static int setsigarette = 1;
 
     public enum GameState { MainMenu, Playable, GameOver, }
@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
                     {
                         // Load the "Good job!" scene
                         winText.gameObject.SetActive(true); 
-                        SceneManager.LoadScene("Davide8Win");
+                        SceneManager.LoadScene("Davide8Won");
                     }
                     else
                     {
