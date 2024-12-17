@@ -4,7 +4,7 @@ position: 1,10
 ---
 Narrator:With a bit of hurry Davide managed to arrive at work
 Narrator:Suprisingly he was even a bit early
-Narrator:Perfect, because right there there was his friend Tom
+Narrator:Perfect, because right there was his friend Tom
 
 <<showCharacter Davide>>
 <<fadeIn Davide>>
@@ -19,7 +19,7 @@ Davide:Looks who's here!
 <<fadeIn Tom>>
 <<enterScene Tom right>>
 Tom:Heeeeeeeeyyy!
-Tom:Didn't expect you to show up so early. Didn't you have an ambulance shift yesterd?
+Tom:Didn't expect you to show up so early. Didn't you have an ambulance shift yesterday?
 Davide:Yeah but Larry covered me last week for my friend birthday 
 Davide:So he asked me if I could help him out for todays shift
 Tom:Right, I heard his sister is getting married.
@@ -28,7 +28,7 @@ Tom:Ups, sorry, I forgot about that.
 Tom:Still didn't get over her?
 Davide gets frustrated
 Davide:Well Tom, you are not helping...
-Tom:Upsi, did it again...
+Tom:OOpsie, did it again...
 <<minusMood>>
 Narrator:Davide bring his hand on his pocket and reaches for the cigarette pack
 <<jump Choice>>
@@ -51,7 +51,7 @@ title: Choice
              Narrator:He takes out the cigarette
              Narrator:Lights it up
              Davide:*FFSSSS... PFIUUUUUU*
-             Davide:Maybe i shouldn't have smoked it...
+             Davide:Maybe I shouldn't have smoked it...
              Davide:Anyway, we better get going
              <<fadeOut Davide>>
              <<exitScene Davide left>>

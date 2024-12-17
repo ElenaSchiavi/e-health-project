@@ -29,10 +29,7 @@ Stefano:You've rarely looked worse for the wear. Here have one!
  Sergio:Here comes my spruzzato. One for my friend here too!
   <<jump friendArrive>>
 ->Decline
- Sergio:You know I'm trying to quit
- Stefano:(Chuckle)At our age what difference does it make? We're goners anyways. You don't even have a wife to nag you about it! Just enjoy what life has still to offer
- Sergio:Well, I have nephew I'd like to see grow up.
-  <<jump friendArrive>>
+  <<loadScene FlappyBird>>
 ===
 
 title: friendArrive
@@ -44,11 +41,11 @@ position: 182,229
 <<declare $cig=0>>
 <<set $cig=getSigarette()>>
 <<hideCharacter Bryan>>
-<<showCharacter Max>>
+<<showCharacter Dave>>
 Andrea:Well, goodmorning!
  <<if $cig==1>>
  Andrea:Stefano, do you have one for me too? I left mine at home
- <<hideCharacter Max>>
+ <<hideCharacter Dave>>
  <<showCharacter Bryan>>
  Stefano:Sorry that was my last one.
   ->Offer your cigarette

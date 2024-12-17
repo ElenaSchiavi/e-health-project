@@ -8,11 +8,11 @@ Narrator:Where he met with his other friends from work
 <<showCharacter Davide>>
 <<fadeIn Davide>>
 <<enterScene Davide left>>
-Melissa:So Davide, how was your RedCross service yesterday?
+<<wait 1>>
 <<showCharacter Melissa>>
 <<fadeIn Melissa>>
 <<enterScene Melissa right>>
-Melissa:So Davide, how was your Redcross service yesterday?
+Melissa:So Davide, how was your Red Cross service yesterday?
 Melissa:Did you get to enjoy the concert?
 Davide:It was actually really nice!
 Davide:We got lucky because nobody needed any help so we got to listen and enjoy the consert

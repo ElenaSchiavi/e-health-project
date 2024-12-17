@@ -14,11 +14,11 @@ Narrator:There, his team was getting ready for the evening service
 <<fadeIn Bryan>>
 <<enterScene Bryan right>>
 Bryan:Alright, team. Let’s make sure we have everything packed
-Bryan:firstaid kits, water, and the comms are fully charged
+Bryan:Firstaid kits, water, and the comms are fully charged
 Bryan:Anything missing?
-<<fadeOut Bryan>>
 <<exitScene Bryan right>>
-<<wait 1>>
+<<fadeOut Bryan>>
+<<wait  1>>
 <<showCharacter Max>>
 <<fadeIn Max>>
 <<enterScene Max right>>
@@ -61,8 +61,8 @@ Dave:We’ll manage. Like always.
 <<showCharacter Max2>>
 <<fadeIn Max2>>
 <<enterScene Max2 right>>
-Max: Alright
-Max:let’s hit the road before the event gets too busy.
+Max:Alright
+Max:Let’s hit the road before the event gets too busy.
 <<exitScene Davide left>>
 <<fadeOut Davide>>
 <<wait  1>>

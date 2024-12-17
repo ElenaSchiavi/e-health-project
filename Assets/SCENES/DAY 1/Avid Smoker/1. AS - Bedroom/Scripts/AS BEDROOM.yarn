@@ -10,7 +10,7 @@ An alarm goes off...
 <<fadeIn Davide>>
 Davide:Another day, another long day...
 Narrator:Davide gets up and prepares for the day and puts on his favorite clothes
-Davide:Good thing i did the laundry yesterday, today i have so much work to do!
+Davide:Good thing I did the laundry yesterday, today I have so much work to do!
 <<exitScene Davide left>>
 <<fadeOut Davide>>
 

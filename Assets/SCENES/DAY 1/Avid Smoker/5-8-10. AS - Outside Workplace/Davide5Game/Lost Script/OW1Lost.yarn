@@ -5,7 +5,7 @@ tags:
 Narrator:He takes out the cigarette
 Narrator:Lights it up
 Davide:*FFSSSS... PFIUUUUUU*
-Davide:Maybe i shouldn't have smoked it...
+Davide:Maybe I shouldn't have smoked it...
 Davide:Anyway, we better get going
 <<exitScene Davide left>>
 <<fadeOut Davide>>

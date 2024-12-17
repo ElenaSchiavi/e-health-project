@@ -40,9 +40,11 @@ public class GameManager1 : MonoBehaviour
     public void checkCharacter()
     {
         Debug.Log("Loading Personaggio from YarnCSLoader");
-        int issergio=YarnCSLoader.getSergio();
+        issergio=YarnCSLoader.getSergio();
         Debug.Log($"Il personaggio {issergio} è stato scelto");
     }
+
+    
 
     public void ShowGameOver()
     {
@@ -67,9 +69,10 @@ public class GameManager1 : MonoBehaviour
             if (attempts == maxAttempts)
             {
                 Debug.Log("You have reached the maximum number of games. Game over.");
+                checkCharacter();
                 if(issergio==2)
                 {
-                    SceneManager.LoadScene("Sergio4Kitchen");
+                    SceneManager.LoadScene("SergioLoss");
                 }
                 else
                 {
@@ -103,7 +106,15 @@ public class GameManager1 : MonoBehaviour
         if (!gameEnded)
         {
             ShowVictory();
+            checkCharacter();
+            if(issergio==2)
+            {
+             SceneManager.LoadScene("SergioWon");
+            }
+            else
+            {
             SceneManager.LoadScene("Davide3Won");
+            }
         }
     }
     

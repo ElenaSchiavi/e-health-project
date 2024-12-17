@@ -35,11 +35,11 @@ Man:Thank you so much. Really, thank you
 <<exitScene Bryan right>>
 <<wait 1>>
 <<showCharacter Max>>
-<<fadeIn Max>>
 <<enterScene Max right>>
+<<fadeIn Max>>
 Max:No problem. Just doing our job
 Narrator:The team returned to the ambulance, the tension easing as they prepared to continue their patrol
-Davide:with a chuckle See? Calm night. Told you
+Davide:With a chuckle See? Calm night. Told you
 Max:You’re lucky that wasn’t worse
 <<exitScene Max right>>
 <<fadeOut Max>>

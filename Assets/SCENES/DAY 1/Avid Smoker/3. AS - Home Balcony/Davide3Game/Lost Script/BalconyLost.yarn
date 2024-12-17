@@ -11,6 +11,6 @@ Davide:Anyway, I am late to work, got to get going
 //<<fadeIn BackGroundBlack>>
 <<exitScene Davide left>>
 <<fadeOut Davide>>
-Narrator:He Puts out the cigarette and goes to his car
+Narrator:He puts out the cigarette and goes to his car
 <<loadScene Davide4Car>>
 ===
