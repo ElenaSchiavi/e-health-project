@@ -1,4 +1,4 @@
-﻿title: WORKPLACE
+﻿title: AS_WORKPLACE
 tags:
 ---
 Narrator:Davide goes to his spot at the office
@@ -10,20 +10,20 @@ Opens his laptop
 *TIC TIC TIC*
 *TAC TAC TAC*
 WRONG PASSWORD
-Davide:Uffffff
+Davide: Uffffff
 Narrator:He tries again
 ACCESS GRANTED
 Davide:Olè!
 Narrator:Davide proceeds to check is work for the day and starts to complete his tasks
-Narrator:He doesn't really enjoy his job, but he needs it to pays his mortage bills
+Narrator:He doesn't really enjoy his job, but he needs it to pays his mortgage bills
 Time passes
 ...
-Davide:Ufff, I really need a coffee
+Davide: Ufff, I really need a coffee
 ->Check the time
    :It's 11:00
 Davide:Just in time!
 <<exitScene Davide left>>
 <<fadeOut Davide>>
-Narrator:Davide mooves to the breakroom for a coffee
+Narrator: Davide moves to the break-room for a coffee
 <<loadScene Davide7CoffeeMachine>>
 ===

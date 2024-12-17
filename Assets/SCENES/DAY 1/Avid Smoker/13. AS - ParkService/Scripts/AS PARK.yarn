@@ -1,4 +1,4 @@
-﻿title: PARK
+﻿title: AS_PARK
 tags:
 ---
 Narrator:A man holding a small child waved frantically as the team stepped out.
@@ -25,7 +25,7 @@ Bryan:Max, grab the kit. Davide, check her vitals
      Davide:What’s your name, kiddo?
      Child:L-Lily...
      Man:I-I didn’t mean for this to happen. I’m sorry!
-     <<jump Sgridata>>
+     <<jump Scolding>>
 Davide:Alright, Lily. I’m Davide. Let me just take a quick look, okay?
 Bryan:She’s in good hands, sir. Let’s just give them a moment
 Davide:She’s got a bump, but nothing serious
@@ -53,7 +53,7 @@ Narrator:With that, the ambulance made its way back to the headquarters
 <<loadScene Davide14RedCrossHQnight>>
 ===
 
-title: Sgridata
+title: Scolding
 tags:
 ---
 Davide:Alright, Lily. I’m Davide. Let me just take a quick look, okay?
@@ -72,7 +72,7 @@ Narrator:The team returned to the ambulance, but before Bryan took Davide to the
 Bryan:Davide, can I have a word?
 ->Davide:Sure, is everything ok?
 ->Davide:ok
-->Davide:"silentli goes to Bryan"
+->Davide:"silently goes to Bryan"
 
 Bryan:Look, I understand that situations like this can be frustrating
 Bryan:But you’re addressing a child and a panicked parent

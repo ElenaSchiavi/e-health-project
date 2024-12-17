@@ -1,4 +1,4 @@
-﻿title: CAR
+﻿title: AS_CAR
 tags:
 position: 1,10
 ---
@@ -8,14 +8,16 @@ Opens the door
 <<showCharacter Davide>>
 <<fadeIn Davide>>
 <<enterScene Davide left>>
+
 Inserts the keys and starts the car
 *Driving noises*
 Davide:*whistles*
 *BEEEP BEEEEP*
-Davide:Yeahhh, there is a spot just in front of the office!
+Davide: Yeahhh, there is a spot just in front of the office!
 <<addMood>>
+
 <<exitScene Davide left>>
 <<fadeOut Davide>>
-Narrator:Davide parks his car and goes to work
+Narrator: Davide parks his car and goes to work
 <<loadScene Davide5OutsideWorkplace>>
 ===

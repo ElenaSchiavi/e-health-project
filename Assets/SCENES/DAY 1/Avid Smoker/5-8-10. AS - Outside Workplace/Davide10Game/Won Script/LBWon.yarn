@@ -1,7 +1,7 @@
-﻿title: LunchWon
+﻿title: LBWon
 tags:
 ---
-Davide:"Remember what I promissed myself..."
+Davide:"Remember what I promised myself..."
 Davide:Anyway, I better get back to that project...
 <<exitScene Davide left>>
 <<fadeOut Davide>>

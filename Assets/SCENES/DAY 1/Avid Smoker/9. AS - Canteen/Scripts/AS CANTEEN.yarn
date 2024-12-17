@@ -15,7 +15,7 @@ Narrator:Where he met with his other friends from work
 Melissa:So Davide, how was your Red Cross service yesterday?
 Melissa:Did you get to enjoy the concert?
 Davide:It was actually really nice!
-Davide:We got lucky because nobody needed any help so we got to listen and enjoy the consert
+Davide:We got lucky because nobody needed any help so we got to listen and enjoy the concert
 Davide:I would have never said that I like classical music
 <<exitScene Melissa right>>
 <<fadeOut Melissa>>
@@ -91,7 +91,6 @@ Tom:I may have landed a freelance gig with one of the top graphic design firms i
 -
 <<exitScene Tom3 right>>
 <<fadeOut Tom3>>
-Narrator:From there the three friends mooved to get a coffee before going back to work
+Narrator:From there the three friends moved to get a coffee before going back to work
 <<loadScene Davide10LunchBreak>>
 ===
-

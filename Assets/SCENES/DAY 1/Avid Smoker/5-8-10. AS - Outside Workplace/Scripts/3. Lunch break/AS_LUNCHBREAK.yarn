@@ -1,4 +1,4 @@
-title: LUNCHBREAK
+title: AS_LUNCHBREAK
 tags:
 ---
 <<declare $sigarette=0>>
@@ -55,7 +55,7 @@ Narrator:The conversation shifted as Melissa changed the topic.
 Melissa: You know, Davide, I’m proud of you for trying to quit smoking. How’s it going?
 
 <<if $sigarette > 0 >>
-    Davide:Not realy well... today I smoked {$sigarette} cigarettes    
+    Davide:Not really well... today I smoked {$sigarette} cigarettes    
 <<endif>>
 
 Davide:It’s rough. Especially with Tom here waving his cigarette around.

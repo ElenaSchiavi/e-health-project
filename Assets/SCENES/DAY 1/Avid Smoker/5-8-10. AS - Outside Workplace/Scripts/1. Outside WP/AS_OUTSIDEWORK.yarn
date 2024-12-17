@@ -1,10 +1,10 @@
-title: ASOUTSIDEWORKPALCE
+title: AS_OUTSIDEWORK
 tags:
 position: 1,10
 ---
-Narrator:With a bit of hurry Davide managed to arrive at work
-Narrator:Suprisingly he was even a bit early
-Narrator:Perfect, because right there was his friend Tom
+Narrator: With a bit of hurry Davide managed to arrive at work
+Narrator: Surprisingly he was even a bit early
+Narrator: Perfect, because right there was his friend Tom
 
 <<showCharacter Davide>>
 <<fadeIn Davide>>
@@ -21,7 +21,7 @@ Davide:Looks who's here!
 Tom:Heeeeeeeeyyy!
 Tom:Didn't expect you to show up so early. Didn't you have an ambulance shift yesterday?
 Davide:Yeah but Larry covered me last week for my friend birthday 
-Davide:So he asked me if I could help him out for todays shift
+Davide:So he asked me if I could help him out for today's shift
 Tom:Right, I heard his sister is getting married.
 Davide:Yeah, don't remind me...
 Tom:Ups, sorry, I forgot about that.

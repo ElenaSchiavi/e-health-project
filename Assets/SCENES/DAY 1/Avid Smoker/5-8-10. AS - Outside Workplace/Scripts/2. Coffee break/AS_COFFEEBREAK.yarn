@@ -1,4 +1,4 @@
-﻿title: AS_2OUTSIDEWORKPLACE
+﻿title: AS_COFFEEBREAK
 tags:
 ---
 Narrator:Davide joins Tom for the break
@@ -12,9 +12,9 @@ Narrator:Tom was already smoking a cigarette
 Tom:Hey man, how is work going?
 Narrator:Davide notices it...
 Davide:I couldn't hold my eyes open anymore, thank god I got a coffee
-Davides Thought:"This coffee is really good"
-Davides Thought:"but I am just missing a cigarette at this point"
-Davides Thought:"Should I...?"
+Davide's Thought:"This coffee is really good"
+Davide's Thought:"but I am just missing a cigarette at this point"
+Davide's Thought:"Should I...?"
 <<jump Choice>>
 ===
 title: Choice
@@ -37,7 +37,7 @@ title: Choice
              Tom:Yeah, I couldn't resist anymore either
              Tom:*PFIUUUUUU*
              Tom:Can't wait for the day to finish
-             Davide:Well, lets not exagerate
+             Davide:Well, let's not exaggerate
              Davide:There is still a lot of time ahahahha
              Tom:Hehehehe
              //<<fadeIn BackGroundBlack>>//

@@ -1,8 +1,8 @@
-﻿title: OW1Won
+﻿title: OWPWon
 tags:
 ---
 Narrator:Davide took his hand off the cigarettes
-Davides Thought:"Smoking is not the solution to stress"
+Davide's Thought:"Smoking is not the solution to stress"
 Davide:Anyway, we better get going
 <<exitScene Davide left>>
 <<fadeOut Davide>>

@@ -8,21 +8,22 @@ Opens the balcony door
 <<showCharacter Davide>>
 <<fadeIn Davide>>
 <<enterScene Davide left>>
-Davide:I'm late but I really feel like smoking a cigarette...
-Davide:I shouldn't, especially because I promissed myself that I would have stopped, starting from today...
-Narrator:At this point of the game the choice is yours
-Narrator:Smoking a cigarette will affect the way the story will continue
-Narrator:The relation with other people
-Narrator:And most importantly your mental status
-Narrator:Not smoking is the best choice if you are trying to stop
-Narrator:But this might have other effects on your short term well being
-Narrator:And on your relation with other people
-Narrator:Deciding not to smoke won't ensure that you won't smoke
-Narrator:To skip the cigarette you'll need to win the minigame
-Narrator:The difficulty of the minigame depends on the amount of cigarettes that you have smoked
-Narrator:And on the mental well being of your character at the moment of the choice
-Narrator:So...
-Narrator:What will you choose?
+
+Davide: I'm late but I really feel like smoking a cigarette...
+Davide: I shouldn't, especially because I promised myself that I would have stopped, starting from today...
+Narrator: At this point of the game the choice is yours
+Narrator: Smoking a cigarette will affect the way the story will continue
+Narrator: The relation with other people
+Narrator: And most importantly your mental status
+Narrator: Not smoking is the best choice if you are trying to stop
+Narrator: But this might have other effects on your short term well being
+Narrator: And on your relation with other people
+Narrator: Deciding not to smoke won't ensure that you won't smoke
+Narrator: To skip the cigarette you'll need to win the minigame
+Narrator: The difficulty of the minigame depends on the amount of cigarettes that you have smoked
+Narrator: And on the mental well being of your character at the moment of the choice
+Narrator: So...
+Narrator: What will you choose?
 <<jump Choice>>
 ===
 title: Choice
@@ -34,7 +35,7 @@ title: Choice
 
 ->Smoke a cigarette
     Are you sure?
-        ->Yes
+        -> Yes
              <<addSigaretta>>
              Takes out the cigarette
              Lights it up
@@ -46,14 +47,14 @@ title: Choice
              Narrator:He puts out the cigarette and goes to his car
              //<<fadeIn BackGroundBlack>>
              <<loadScene Davide4Car>>
-        ->No
+        -> No
              <<jump Choice>>
 ->Don't smoke a cigarette
     Are you sure?
-        ->Yes
+        -> Yes
            Narrator:Good Luck!
              <<loadScene FlappyBird>>
              //aggiungi --mood ma da fare post gioco, se no condizioni la difficoltà del gioco
-        ->No
+        -> No
              <<jump Choice>>
 ===
