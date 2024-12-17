@@ -1,5 +1,6 @@
 title: AS_LUNCHBREAK
 tags:
+
 ---
 <<declare $sigarette=0>>
 <<set $sigarette=getSigarette()>>

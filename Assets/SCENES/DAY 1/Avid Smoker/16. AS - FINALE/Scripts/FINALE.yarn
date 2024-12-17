@@ -1,5 +1,6 @@
 ﻿title: FINALE
 tags:
+
 ---
 <<declare $sigarette=0>>
 <<set $sigarette=getSigarette()>>

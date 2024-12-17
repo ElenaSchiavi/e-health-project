@@ -3,7 +3,7 @@ tags:
 ---
 
 Sergio:Thanks.
- Sergio:Here comes my spruzzato. One for my friend here too!
+ Sergio:Here comes my Spritz. One for my friend here too!
 <<jump friendArrive2>>
 
 ===
@@ -17,24 +17,22 @@ position: 182,229
 <<set $ciga=getSigarette()>>
 <<hideCharacter Bryan>>
 <<showCharacter Dave>>
-Andrea:Well, goodmorning!
+Andrea:Well, good morning!
  <<if $ciga==1>>
  Andrea:Stefano, do you have one for me too? I left mine at home
  <<hideCharacter Dave>>
  <<showCharacter Bryan>>
  Stefano:Sorry that was my last one.
   ->Offer your cigarette
-  Sergio:Here, have one of mine, it's a Pistrait
+  Sergio:Here, have one of mine, it's a Marlboro
  <<else>>
 Stefano:Andrea hear this, our Giorgio is trying to quit smoking. You should really get a good night sleep.
-Sergio:What did you get Andrea? I got my usual spruzzato.
+Sergio:What did you get Andrea? I got my usual Spritz.
  <<hideCharacter Bryan>>
- Andrea: Come one the spruzzato is on me. Have one
+ Andrea: Come one the Spritz is on me. Have one
    Sergio:Thanks.
  <<endif>>
 Sergio:I really should get going. Luca is coming for lunch today. Bye! Stefano, see you at Red Cross.
 <<loadScene Sergio4Kitchen>>
 
 ===
- 
-

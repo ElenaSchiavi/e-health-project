@@ -14,11 +14,10 @@ Narrator:Not smoking is the best choice if you are trying to stop
 Narrator:But this might have other effects on your short term well being
 Narrator:And on your relation with other people
 Narrator:Deciding not to smoke won't ensure that you won't smoke
-Narrator:To skip the cigarette you'll need to win the minigame
-Narrator:The difficulty of the minigame depends on the amount of cigarettes that you have smoked
+Narrator:To skip the cigarette you'll need to win the mini-game
+Narrator:The difficulty of the mini-game depends on the amount of cigarettes that you have smoked
 Narrator:And on the mental well being of your Character at the moment of the choice
 Narrator:So...
 Narrator:What will you choose for Sergio?
 <<loadScene Sergio3Bar>>
 ===
-

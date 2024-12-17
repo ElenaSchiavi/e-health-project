@@ -33,7 +33,7 @@ Max:Fine grandpa.
    <<addMood>>
   ->Offer more pasta
    Sergio:Here, here we have seconds too
-   Max:Granpa, I'm overfull as it is, I can't eat more
+   Max:Grandpa, I'm overfull as it is, I can't eat more
    Sergio:You'll never grow otherwise
    Plates the remaining pasta
 
@@ -42,8 +42,8 @@ Max:Do you have ambulance shift tonight?
 Sergio:That's right.
 Max: I will join too when I'll be 18.
 //<<exitScene Max right>>
-//<<esitScene Character right>>
+//<<exitScene Character right>>
 Sergio:One day I'll take you to the HQ
-//<<exitSene Max right>>
+//<<exitScene Max right>>
 <<loadScene Sergio5RedCrossHQ>>
 ===

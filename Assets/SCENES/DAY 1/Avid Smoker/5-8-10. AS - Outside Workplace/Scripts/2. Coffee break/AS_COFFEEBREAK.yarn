@@ -1,5 +1,6 @@
 ﻿title: AS_COFFEEBREAK
 tags:
+
 ---
 Narrator:Davide joins Tom for the break
 <<showCharacter Davide>>
@@ -52,8 +53,7 @@ title: Choice
 ->Don't smoke a cigarette
     Are you sure?
         ->Yes
-             <<loadScene BRICKBREAKER>>
-             //aggiungi --mood ma da fare post gioco, se no condizioni la difficoltà del gioco
+             <<loadScene BrickBreaker>>
         ->No
              <<jump Choice>>
 ===

@@ -49,7 +49,7 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/6. AS - Workplace/Davide6Workplace.unity
   - m_enabled: 1
-    m_path: Assets/SCENES/DAY 1/Avid Smoker/7. AS - Coffee-machine @work/Davide7CoffeeMachine.unity
+    m_path: Assets/SCENES/DAY 1/Avid Smoker/7. AS - Coffee-machine/Davide7CoffeeMachine.unity
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide8OutsideWorkplace.unity
   - m_enabled: 1
@@ -93,9 +93,7 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Occasional Smoker/7. OS - RedCross inside/Sergio7RedCrossInside.unity
   - m_enabled: 1
-    m_path: Assets/SCENES/DAY 1/Occasional Smoker/8. OS - RedCross HQ by night/Sergio8RedCrossHQnight.unity
-  - m_enabled: 1
-    m_path: Assets/SCENES/DAY 1/Occasional Smoker/9. OS - Kitchen by night/Sergio9KitchenNight.unity
+    m_path: Assets/SCENES/DAY 1/Occasional Smoker/8. OS - Kitchen by night/Sergio8KitchenNight.unity
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Occasional Smoker/1. OS - Bedroom/Giovanna1Bedroom.unity
   m_ScriptingDefines: []

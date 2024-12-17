@@ -1,5 +1,6 @@
-﻿title: AS_HOMEBALCONY
+﻿title: AS_HOMEBALCONYBN
 tags:
+
 ---
 Narrator:As soon as he arrived home Davide got ready to go to bed
 Narrator:But before he went to his balcony...
@@ -13,12 +14,12 @@ Narrator:Davide saw a packet of cigarettes that he left on the balcony table
 <<set $sigarette=getSigarette()>>
 <<declare $mood=0>>
 <<set $mood=getMood()>>
-<<if $sigarette == 0 && $mood >= 0>> //guarda qual'è il miglior mood che può avere e metti quello come opzione
+<<if $sigarette == 0 && $mood >= 0>>
     Davide:I'll just go to sleep
     <<exitScene Davide left>>
     <<fadeOut Davide>>
     <<loadScene Davide16FINALE>>    
-<<elseif $sigarette < 3 && $mood <= 0 >> //correggilo anche qua
+<<elseif $sigarette < 3 && $mood <= 0 >>
     Davide:Well, today I did so well, maybe I deserve myself one cigarette...
     <<jump Choice>>
 <<elseif $sigarette>=3 >>
@@ -54,7 +55,6 @@ Davide:What would one more cigarette do? <<if $sigarette>0>>
         ->Yes
            Narrator:Good Luck!
              <<loadScene FlappyBird2>>
-             //aggiungi --mood ma da fare post gioco, se no condizioni la difficoltà del gioco
         ->No
              <<jump Choice>>
 ===

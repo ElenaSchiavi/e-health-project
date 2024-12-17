@@ -1,6 +1,7 @@
 ﻿title: AS_KITCHEN
 tags:
 position:
+
 ---
 <<declare $mood=0>>
 <<set $mood=getMood()>>

@@ -1,8 +1,7 @@
 title: AS_REDCROSSHQBN
 tags:
+
 ---
-
-
 Narrator:When they came back they all changed and prepared to go back home
 Narrator:Before leaving they spent some time together outside
 
@@ -43,7 +42,6 @@ title: Choice
 ->Ask for a cigarette
     Are you sure?
         ->Yes
-             //non c'è addSigaretta perché c'è dopo
              Davide:Hey Max, can I ask for a cigarette
              Max:Sure man, here
              <<exitScene Max right>>
@@ -60,7 +58,6 @@ title: Choice
     Are you sure?
         ->Yes
              <<loadScene Plane>>
-             //aggiungi --mood ma da fare post gioco, se no condizioni la difficoltà del gioco
         ->No
              <<jump Choice>>
 ===

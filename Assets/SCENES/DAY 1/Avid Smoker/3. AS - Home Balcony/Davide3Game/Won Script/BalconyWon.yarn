@@ -1,8 +1,7 @@
 title: BalconyWon
 tags:
+
 ---
-
-
 Davide:Come on, I've just started the day and I promised myself I would quit smoking!
 //<<fadeIn BackGroundBlack>>
 <<exitScene Davide left>>
