@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="" />
+    <list default="true" id="60945c43-d2a8-4087-ac88-2a04e2b355b9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.e-health-project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Car/Davide4Car.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/4. AS - Car/Davide4Car.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide10Game/Davide10Lost.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide10Game/Davide10Lost.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide10Game/Davide10Won.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide10Game/Davide10Won.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide10LunchBreak.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide10LunchBreak.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide5Game/Davide5Lost.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide5Game/Davide5Lost.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide5Game/Davide5Won.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide5Game/Davide5Won.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide5OutsideWorkplace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide5OutsideWorkplace.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide8OutsideWorkplace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide8OutsideWorkplace.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Scripts/1. Outside WP/AS_OUTSIDEWORK.yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Scripts/1. Outside WP/AS_OUTSIDEWORK.yarn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/6. AS - Workplace/Davide6Workplace.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SCENES/DAY 1/Avid Smoker/6. AS - Workplace/Davide6Workplace.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,6 +173,7 @@
       <workItem from="1734452056200" duration="2470000" />
       <workItem from="1734455670576" duration="2675000" />
       <workItem from="1734458396368" duration="1467000" />
+      <workItem from="1734461794758" duration="9000" />
     </task>
     <servers />
   </component>
