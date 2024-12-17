@@ -3,8 +3,8 @@ tags:
 position: 1,10
 
 ---
+<<fadeOut BackGroundBlack>>
 *BIP BIP*
-//<<fadeOut BackGroundBlack>>
 Opens the door
 <<showCharacter Davide>>
 <<fadeIn Davide>>

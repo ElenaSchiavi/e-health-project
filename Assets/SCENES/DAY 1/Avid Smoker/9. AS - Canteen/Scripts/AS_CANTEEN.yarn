@@ -88,7 +88,7 @@ Tom:I may have landed a freelance gig with one of the top graphic design firms i
 
 <<exitScene Davide left>>
 <<fadeOut Davide>>
--
+<<wait 1>>
 <<exitScene Tom3 right>>
 <<fadeOut Tom3>>
 Narrator:From there the three friends moved to get a coffee before going back to work

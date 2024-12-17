@@ -72,7 +72,7 @@ public class GameManager1 : MonoBehaviour
                 checkCharacter();
                 if(issergio==2)
                 {
-                    SceneManager.LoadScene("SergioLoss");
+                    SceneManager.LoadScene("Sergio3Lost");
                 }
                 else
                 {
@@ -109,7 +109,7 @@ public class GameManager1 : MonoBehaviour
             checkCharacter();
             if(issergio==2)
             {
-             SceneManager.LoadScene("SergioWon");
+             SceneManager.LoadScene("Sergio3Won");
             }
             else
             {

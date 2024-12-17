@@ -2,16 +2,18 @@
 tags:
 
 ---
-<<addSigaretta>>//minusmood?
+<<addSigaretta>>
+<<minusMood>>
 Davide:Bah, I'll just smoke one...
 Narrator:He takes out the cigarette
 Narrator:Lights it up
 Davide:*FFSSSS... PFIUUUUUU*
 Davide:Maybe i shouldn't have smoked it...
 Davide:Anyway, I am late to work, got to get going
-//<<fadeIn BackGroundBlack>>
 <<exitScene Davide left>>
 <<fadeOut Davide>>
+<<wait 1>>
+<<fadeIn BackGroundBlack>>
 Narrator:He puts out the cigarette and goes to his car
 <<loadScene Davide4Car>>
 ===

@@ -4,7 +4,7 @@ tags:
 ---
 Narrator:After the lunch break, Davide went back to work
 Narrator:Once his shift ended, he headed to his volunteering job at the Red Cross
-//<<fadeOut BackGroundBlack>>
+<<fadeOut BackGroundBlack>>
 Narrator:There, his team was getting ready for the evening service
 
 <<showCharacter Davide>>

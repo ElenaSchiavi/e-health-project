@@ -351,6 +351,15 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
         }
     }
     
+    [YarnCommand("exitGame")]
+    public static void Exit()
+	{
+		#if UNITY_EDITOR
+			UnityEditor.EditorApplication.isPlaying = false;
+		#else
+			Application.Quit();
+		#endif
+	}
     [YarnCommand("startGlow")]
     public static void StartGlow(string elementName)
     {
@@ -377,3 +386,4 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
         FadeIn(elementName);
     }
 }
+
