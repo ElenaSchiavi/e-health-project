@@ -386,4 +386,3 @@ public class YarnCSLoader : MonoBehaviour //YARN CUSTOM SCRIPT LOADER
         FadeIn(elementName);
     }
 }
-

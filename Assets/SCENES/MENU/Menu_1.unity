@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &94458531
 AudioSource:
   m_ObjectHideFlags: 0
@@ -376,7 +376,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 610, y: 200}
+  m_SizeDelta: {x: 630, y: 230}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &700510115
 MonoBehaviour:
@@ -399,14 +399,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "The people of this special town are mostly avid or occasional smokers,
-    are you one of them? \r\nIn this game, you can choose the kind of smoker you
-    are and be challenged to not smoke during the day. You will have to face different
-    choices during the day, like smoking or not smoking. If you smoke, a narrator
-    will present you the downsides of your choice; if you don't, a minigame will
-    appear for you to try to resist the dependency. The more tempting is the situation
-    the more difficult will be the game: if you lose, you'll smoke, while if you
-    succeed, you won't. \r\nDialogues with friends and messages from the narrator
-    will help or scare you. \r\nAre you ready to play?\r"
+    are you one of them? \nIn this game, you can choose the kind of smoker you are
+    and be challenged to not smoke during the day. You will have to choose between
+    smoking and not smoking. If you smoke, messages from the narrator will appear
+    to warn or advise you; if you don't, a minigame will appear for you to try to
+    resist the dependency. Depending on the number of cigarettes smoked and your
+    mood, the game will be more difficult: if you loose, you'll smoke, while if you
+    succeed, you won't. \nDialogues and messages during the game will help or scare
+    you. \nAre you ready to play?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
