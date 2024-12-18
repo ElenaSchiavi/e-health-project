@@ -111,6 +111,6 @@ public class GameManager : MonoBehaviour
         if (sigaretteFumate >= setsigarette && mood < setmood) neededscore = 30;
         if (sigaretteFumate >= setsigarette && mood >= setmood) neededscore = 20;
         if (sigaretteFumate < setsigarette && mood < setmood) neededscore = 20;
-        if (sigaretteFumate < setsigarette && mood >= setmood) neededscore = 15;
+        if (sigaretteFumate < setsigarette && mood >= setmood) neededscore = 10;
     }
 }

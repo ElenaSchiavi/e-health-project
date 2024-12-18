@@ -105,6 +105,10 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Occasional Smoker/7. OS - RedCross inside/Sergio7RedCrossInside.unity
   - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Occasional Smoker/7. OS - RedCross inside/Sergio7Game/Sergio7Lost.unity
+  - m_enabled: 1
+    m_path: Assets/SCENES/DAY 1/Occasional Smoker/7. OS - RedCross inside/Sergio7Game/Sergio7Won.unity
+  - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Occasional Smoker/8. OS - Kitchen by night/Sergio8KitchenNight.unity
   - m_enabled: 1
     m_path: Assets/SCENES/DAY 1/Avid Smoker/1. AS - Bedroom/Valeria1Bedroom.unity
@@ -831,8 +835,6 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
     - rid: 886592406690201668
       type: {class: OSXStandaloneBuildProfile, ns: UnityEditor.OSXStandalone, asm: UnityEditor.OSXStandalone.Extensions}
       data:
