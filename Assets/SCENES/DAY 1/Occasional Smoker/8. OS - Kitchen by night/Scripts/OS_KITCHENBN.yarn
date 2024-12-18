@@ -3,14 +3,16 @@ tags:
 position:1,10
 ---
 
-Sergio: That was a good day wasn't it.
+Sergio: That was a good day, wasn't it?
  
 ->Takes out some whisky
  I really needed that
  <<minusMood>>
  ->Goes to bed
+ <<exitScene Sergio>>
 ->Goes straight to bed
 I want to have a deep sleep tonight.I'm done
+<<exitScene Sergio>>
 <<declare $sig=0>>
 <<declare $mood=0>>
 <<set $sig=getSigarette()>>

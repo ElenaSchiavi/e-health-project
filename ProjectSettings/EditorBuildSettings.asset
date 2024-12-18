@@ -42,6 +42,12 @@ EditorBuildSettings:
     path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide8Game/Davide8Won.unity
     guid: e067b9605fc213d46b8d19e6c97ef240
   - enabled: 1
+    path: Assets/SCENES/DAY 1/Occasional Smoker/7. OS - RedCross inside/Sergio7Game/Sergio7Won.unity
+    guid: 4924324bfb477b249ace204d9cf8de5b
+  - enabled: 1
+    path: Assets/SCENES/DAY 1/Occasional Smoker/7. OS - RedCross inside/Sergio7Game/Sergio7Lost.unity
+    guid: 803adaf0fdf6b884880385d0bd8c4ea2
+  - enabled: 1
     path: Assets/SCENES/DAY 1/Avid Smoker/5-8-10. AS - Outside Workplace/Davide8Game/Davide8Lost.unity
     guid: 6af24638a5923b24d90286d5c30049fd
   - enabled: 1

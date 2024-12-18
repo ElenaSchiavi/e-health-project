@@ -3,6 +3,7 @@ tags:
 position: 1,10
 
 ---
+<<wait  1>>
 <<fadeOut BackGroundBlack>>
 *BIP BIP*
 Opens the door

@@ -15,6 +15,7 @@ public class PlaneGameManager : MonoBehaviour
     public float winTime = 0f;
     private static int setmood = 0; 
     private static int setsigarette = 1;
+    private int issergio=0;
 
     private bool isGameOver = false;
     private bool isWin = false;
@@ -51,6 +52,13 @@ public class PlaneGameManager : MonoBehaviour
         ShowAttemptText();
     }
 
+     public void checkCharacter()
+    {
+        Debug.Log("Loading Personaggio from YarnCSLoader");
+        issergio=YarnCSLoader.getSergio();
+        Debug.Log($"Il personaggio {issergio} è stato scelto");
+    }
+
     public void ShowGameOver()
     {
         if (!isGameOver && !isWin)
@@ -74,7 +82,11 @@ public class PlaneGameManager : MonoBehaviour
             if (attempts == maxAttempts)
             {
                 Debug.Log("You have reached the maximum number of games. Game over.");
-                SceneManager.LoadScene("Davide14Lost");
+                checkCharacter();
+                if(issergio==2)
+                {SceneManager.LoadScene("Sergio7Lost");}
+                else
+                {SceneManager.LoadScene("Davide14Lost");}
                 if (gameOverText != null)
                 {
                     gameOverText.SetActive(true);
@@ -92,9 +104,13 @@ public class PlaneGameManager : MonoBehaviour
             {
                 victoryText.SetActive(true);
                 Time.timeScale = 3;
-                SceneManager.LoadScene("Davide14Won");
+                checkCharacter();
+                if(issergio==2)
+                {SceneManager.LoadScene("Sergio7Won");}
+                else
+                {SceneManager.LoadScene("Davide14Won");}
             }
-            Time.timeScale = 3;
+            
             Debug.Log("Victory!");
         }
     }

@@ -8,5 +8,6 @@ Lucia:*put on gloves*
 Head Service: Today we are dealing with 58 year old woman with arrhythmia....
 ------(data was deleted for privacy reason)------
 <<fadeIn BackGroundBlack>>
+<<wait  2>>
 <<loadScene Sergio7RedCrossInside>>
 ===

@@ -2,27 +2,25 @@
 tags:
 position:1,10
 ---
+<<wait  1>>
+<<fadeOut BackGroundBlack>>
 Melissa:*Offers a cigarette
 Sergio: No, not you too
-  -> Accept cigarette
-    <<addSigaretta>>
-    Sergio:Never seen such a thing in 20 years.
-   Melissa:Well that was certainly the first time.
-   Sergio:We had this overweight woman once. We had to break off the wall to get her out the door.
-   Melissa:That seems like a story to remember
-   Sergio:Next one is on me
-    -> Offer one now and lit one for yourself
-     Sergio:Here take it
-    -> Just offer one without smoking one yourself
-    Sergio:Never let debts go unpaid
-  -> Refuse cigarette
-    Sergio: I'm trying to stop.
-    Sergio: You know what? Have my pack of cigarettes.
-    Melissa: Oh, I can't take it. I'll develop an addiction!
-    Sergio: Good kid,that was a test.
-    <<addMood>>
+<<declare $issergio=0>>
+<<setSergio 2>>
+<<set $issergio=getSergio()>>
+-> Accept cigarette
+ <<addSigaretta>>
+  Sergio:Never seen such a thing in 20 years.
+  Melissa:Well that was certainly the first time.
+  Sergio:We had this overweight woman once. We had to break off the wall to get her out the door.
+  Melissa:That seems like a story to remember
+  Sergio:Next cigarette is on me. I never let debts go unpaid
+  Melissa:Don't even mention it
+-> Refuse cigarette
+  <<loadScene Plane>>
 
 Sergio:*finishes eating
 Sergio:I guess I'll get going.
-<<loadScene Sergio9KitchenNight>>
+<<loadScene Sergio8KitchenNight>>
 ===

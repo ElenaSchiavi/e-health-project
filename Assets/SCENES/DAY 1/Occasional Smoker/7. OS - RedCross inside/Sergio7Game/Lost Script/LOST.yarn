@@ -1,0 +1,15 @@
+﻿title: Start
+tags:
+---
+
+<<addSigaretta>>   
+Sergio:Never seen such a thing in 20 years.
+Melissa:Well that was certainly the first time.
+Sergio:We had this overweight woman once. We had to break off the wall to get her out the door.
+Melissa:That seems like a story to remember
+Sergio:Next cigarette is on me. I never let debts go unpaid
+Melissa:Don't even mention it
+Sergio:*finishes eating
+Sergio:I guess I'll get going.
+<<loadScene Sergio8KitchenNight>>
+===

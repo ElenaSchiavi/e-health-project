@@ -1,0 +1,13 @@
+﻿title: Start
+tags:
+---
+Sergio: I'm trying to stop.
+Sergio: You know what? Have my pack of cigarettes.
+Melissa: Oh, I can't take it. I'll develop an addiction!
+Sergio: Good kid,that was a test.
+<<addMood>>
+Sergio:*finishes eating
+Sergio:I guess I'll get going.
+<<loadScene Sergio8KitchenNight>>
+
+===
