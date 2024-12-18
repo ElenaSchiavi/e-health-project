@@ -2,7 +2,8 @@ title: BalconyWon
 tags:
 
 ---
-Davide:Come on, I've just started the day and I promised myself I would quit smoking!
+Narrator: Good job! That's a great way to start the day!
+Davide:Come on, I promised myself I would quit smoking and I'll try to continue this way!
 <<exitScene Davide left>>
 <<fadeOut Davide>>
 <<wait 1>>

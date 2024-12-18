@@ -14,7 +14,7 @@ Davide:*Huff Puff*
 Davide:Here I am, let me see...
 ->Check the time
    :It's 8:15
-Davide:Woah, didn't notice that I was early.
+Davide:Woah, didn't notice that I was early
 Davide:Looks who's here!
 <<showCharacter Tom>>
 <<fadeIn Tom>>
@@ -23,9 +23,9 @@ Tom:Heeeeeeeeyyy!
 Tom:Didn't expect you to show up so early. Didn't you have an ambulance shift yesterday?
 Davide:Yeah but Larry covered me last week for my friend birthday 
 Davide:So he asked me if I could help him out for today's shift
-Tom:Right, I heard his sister is getting married.
+Tom:Right, I heard his sister is getting married
 Davide:Yeah, don't remind me...
-Tom:Ups, sorry, I forgot about that.
+Tom:Ups, sorry, I forgot about that
 Tom:Still didn't get over her?
 Davide gets frustrated
 Davide:Well Tom, you are not helping...
@@ -49,6 +49,8 @@ title: Choice
     Are you sure?
         ->Yes
              <<addSigaretta>>
+             Narrator: I understand fighting your dependency is difficult...
+             Narrator: Try to think at what is best for you!
              Narrator:He takes out the cigarette
              Narrator:Lights it up
              Davide:*FFSSSS... PFIUUUUUU*

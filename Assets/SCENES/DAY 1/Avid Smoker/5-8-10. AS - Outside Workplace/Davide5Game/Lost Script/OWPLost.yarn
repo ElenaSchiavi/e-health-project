@@ -3,11 +3,13 @@ tags:
 
 ---
 <<addSigaretta>>
+Narrator: You tried! Next time it will be better
 Narrator:He takes out the cigarette
 Narrator:Lights it up
 Davide:*FFSSSS... PFIUUUUUU*
 Davide:Maybe I shouldn't have smoked it...
 Davide:Anyway, we better get going
+Narrator: Davide's health status has been compromised, try to take better care!
 <<exitScene Davide left>>
 <<fadeOut Davide>>
 Narrator:Davide puts out the cigarette and the two friends enter the building

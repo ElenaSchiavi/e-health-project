@@ -38,8 +38,10 @@ title: Choice
     Are you sure?
         -> Yes
              <<addSigaretta>>
-             Takes out the cigarette
-             Lights it up
+             Narrator: I understand fighting your dependency is difficult...
+             Narrator: Try to think at what is best for you!
+             Narrator: He takes out the cigarette
+             Narrator: Lights it up
              *FFSSSS... PFIUUUUUU*
              Davide:Maybe I shouldn't have smoked it...
              Davide:Anyway, I am late to work, got to get going

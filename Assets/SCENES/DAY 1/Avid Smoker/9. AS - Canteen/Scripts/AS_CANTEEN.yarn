@@ -25,12 +25,12 @@ Davide:I would have never said that I like classical music
 <<enterScene Tom1 right>>
 Tom:You don't understand how lucky you are!
 Tom:Do you even realise how important that event is?
-->Davide:Well, I’m not really a classical music guy, hehehe.
-->Davide: Honestly, I didn’t know it was such a big deal until people started telling me after the concert.
-->Davide: Lucky, huh? I guess it’s one of those things where being in the right place at the right time works out.
+->Davide:Well, I’m not really a classical music guy, hehehe
+->Davide: Honestly, I didn’t know it was such a big deal until people started telling me after the concert
+->Davide: Lucky, huh? I guess it’s one of those things where being in the right place at the right time works out
 
 Tom:I CAN'T BELIEVE YOU GOT TO GO TO THE SPRING SYMPHONY GALA!
-Narrator: Tom's face was a mix of envy and disbelief.
+Narrator: Tom's face was a mix of envy and disbelief
 Tom:Do you even know how exclusive that event is? People wait years to get tickets!
 <<exitScene Tom1 right>>
 <<fadeOut Tom1>>

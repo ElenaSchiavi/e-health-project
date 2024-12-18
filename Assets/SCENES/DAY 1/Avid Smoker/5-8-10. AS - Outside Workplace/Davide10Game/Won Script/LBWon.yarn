@@ -2,11 +2,12 @@
 tags:
 
 ---
-Davide:"Remember what I promised myself..."
+Narrator: Good job!
+Davide's Thought:"Remember what you promised yourself..."
 Davide:Anyway, I better get back to that project...
 <<exitScene Davide left>>
 <<fadeOut Davide>>
-Narrator:Even if the choice was hard, Davide is doing what he feels is right!
+Narrator:Even if the choice was hard, Davide is doing his best!
 //<<fadeIn BackGroundBlack>>
 Narrator:Now he is going back to his project
 <<loadScene Davide11RedCrossHQ>> 

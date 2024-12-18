@@ -40,8 +40,10 @@ Davide:What would one more cigarette do?
     Are you sure?
         ->Yes
              <<addSigaretta>>
-             Takes out the cigarette
-             Lights it up
+             Narrator: I understand fighting your dependency is difficult...
+             Narrator: Try to think at what is best for you!
+             Narrator: He takes out the cigarette
+             Narrator: Lights it up
              *FFSSSS... PFIUUUUUU*
              Davide:Time to go to sleep
              <<exitScene Davide left>>

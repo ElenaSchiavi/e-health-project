@@ -47,7 +47,10 @@ title: Choice
              <<exitScene Max right>>
                <<fadeOut Max>>
                 <<wait 1>>
-             Narrator:He takes the cigarette and lights it up
+             Narrator: I understand fighting your dependency is difficult...
+             Narrator: Try to think at what is best for you!
+             Narrator:He takes out the cigarette
+             Narrator: Lights it up
              <<exitScene Davide left>> 
                <<fadeOut Davide>>
                <<wait 1>> 

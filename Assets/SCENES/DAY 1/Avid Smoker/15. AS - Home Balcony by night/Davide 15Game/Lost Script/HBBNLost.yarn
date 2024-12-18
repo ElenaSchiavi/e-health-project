@@ -1,10 +1,11 @@
 ﻿title: HBBNLost
 tags:
-
 ---
+
 <<addSigaretta>>
-Takes out the cigarette
-Lights it up
+Narrator: You tried! Next day will be better!
+Narrator: He takes out the cigarette
+Narrator: Lights it up
 *FFSSSS... PFIUUUUUU*
 Davide:Time to go to sleep
 <<exitScene Davide left>>

@@ -3,11 +3,11 @@ tags:
 
 ---
 <<addSigaretta>>
+Narrator: You tried! Next time it will be better
 Narrator:Davide takes out the cigarette and lights it up
 Davide:*FFSSSS... PFIUUUUUU*
-Narrator:Davide didn't enjoy this one
+Narrator:Davide's mood got worse...
 Narrator:Especially after the conversations with his friends
-Davide:...
 Davide:Uffff
 //<<fadeIn BackGroundBlack>>
 <<exitScene Davide left>>

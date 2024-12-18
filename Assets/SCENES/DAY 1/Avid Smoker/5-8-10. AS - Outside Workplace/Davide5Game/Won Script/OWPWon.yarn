@@ -2,11 +2,13 @@
 tags:
 
 ---
-Narrator:Davide took his hand off the cigarettes
+Narrator: Good job!
+Narrator:Davide takes his hand off the cigarettes
 Davide's Thought:"Smoking is not the solution to stress"
+Narrator: Davide managed to resist another cigarette
 Davide:Anyway, we better get going
 <<exitScene Davide left>>
 <<fadeOut Davide>>
-Narrator:The two friends entered the building
+Narrator:The two friends enter the building
 <<loadScene Davide6Workplace>>
 ===

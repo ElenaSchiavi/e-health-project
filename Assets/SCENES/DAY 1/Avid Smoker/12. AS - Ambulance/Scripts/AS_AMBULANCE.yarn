@@ -13,7 +13,7 @@ Narrator:The team is now in the ambulance
 <<enterScene Bryan right>>
 Bryan:Alright, we’ll loop around the park first
 Bryan:The event looks pretty packed already
-Bryan:Keep your eyes open for anyone who might need help.
+Bryan:Keep your eyes open for anyone who might need help
 <<fadeOut Bryan>>
 <<exitScene Bryan right>>
 <<wait 1>>
@@ -25,10 +25,10 @@ Max:Let’s hope it stays that way!
 
 ->Davide:You know, this might actually be a quiet night for once. Famous last words, right?
     Max:Oh, you just cursed us, man. Get ready for chaos.
-->Davide:Quiet? Nah, this is just the calm before the storm. I give it 10 minutes before something happens.
+->Davide:Quiet? Nah, this is just the calm before the storm. I give it 10 minutes before something happens
     Max:Don’t jinx it, man!
 ->Davide:Come on, you know quiet nights are boring. Bring on the drama!
-    Max:You’re gonna regret saying that when we’re running all night.
+    Max:You’re gonna regret saying that when we’re running all night
 
 <<exitScene Max right>>
 <<fadeOut Max>>

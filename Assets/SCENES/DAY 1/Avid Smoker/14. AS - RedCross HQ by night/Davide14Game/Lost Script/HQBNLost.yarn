@@ -2,11 +2,13 @@
 tags:
 
 ---
+Narrator: You tried! Next time it will be better
 Narrator:Davide asked for a cigarette and lit it up
 Davide:Thanks
+Narrator: Davide is hurting himself, he needs to be stronger
 <<addSigaretta>>
 ->Davide:See? I told you, I’m not that unlucky
-     Max:Don’t get too confident, Davide.
+     Max:Don’t get too confident, Davide
      Max:Next shift, you might jinx us into a double trauma case
 ->Davide:Hey, maybe I’m good luck. We should hope I’m always on shift
      Max:Yeah, right. Let’s see how long your "luck" lasts

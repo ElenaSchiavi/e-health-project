@@ -6,7 +6,7 @@ position:
 <<declare $mood=0>>
 <<set $mood=getMood()>>
 
-Davide walks into the kitchen.
+Davide walks into the kitchen
 
 <<showCharacter Davide>>
 <<fadeIn Davide>>
@@ -46,9 +46,9 @@ Davide: I'm hungry... What should I eat?
         <<loadScene Davide3HomeBalcony>>    
 -> Skip eating
     <<minusMood>>
-    Davide: Maybe I’ll just skip this meal... I’m not that hungry anyway.
+    Davide: Maybe I’ll just skip this meal... I’m not that hungry anyway
     <<exitScene Davide left>>
     <<fadeOut Davide>>
-    Davide decides not to eat.
+    Davide decides not to eat
     <<loadScene Davide3HomeBalcony>>
 ===

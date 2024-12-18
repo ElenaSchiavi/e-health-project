@@ -19,7 +19,7 @@ Bryan:Max, grab the kit. Davide, check her vitals
      Child:Lily...
      Man:Thank you. Thank you so much!
 ->Davide:Sir, step back, please 
-     Davide:What’s your name? Where does it hurt? We need to assess her condition.
+     Davide:What’s your name? Where does it hurt? We need to assess her condition
      Child:Lily...
      Man:O-of course, just help her, please
 ->Davide:What happened here? This shouldn’t have escalated like this
@@ -80,7 +80,7 @@ Bryan:But you’re addressing a child and a panicked parent
 Bryan:They’re already scared; we can’t add to that
 
 Davide:You’re right, Bryan
-Davide:I didn’t mean to sound harsh.
+Davide:I didn’t mean to sound harsh
 
 Bryan:I know you didn’t, but perception matters
 Bryan:Kids pick up on tone, and we need to build trust, not fear

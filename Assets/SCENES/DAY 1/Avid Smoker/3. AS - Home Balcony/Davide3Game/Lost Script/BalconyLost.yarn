@@ -4,12 +4,14 @@ tags:
 ---
 <<addSigaretta>>
 <<minusMood>>
+Narrator: You tried! Next time it will be better
 Davide:Bah, I'll just smoke one...
 Narrator:He takes out the cigarette
 Narrator:Lights it up
 Davide:*FFSSSS... PFIUUUUUU*
 Davide:Maybe i shouldn't have smoked it...
 Davide:Anyway, I am late to work, got to get going
+Narrator: Davide's health status has been compromised, try to take better care!
 <<exitScene Davide left>>
 <<fadeOut Davide>>
 <<wait 1>>
