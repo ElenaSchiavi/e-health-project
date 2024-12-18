@@ -30,7 +30,7 @@ public class GameManager5 : MonoBehaviour
         if (sigaretteFumate>=setsigarette && mood<setmood) gameWinTime = 60f;
         if (sigaretteFumate >= setsigarette && mood >= setmood) gameWinTime = 40f;
         if (sigaretteFumate < setsigarette && mood < setmood) gameWinTime = 40f;
-        if (sigaretteFumate < setsigarette && mood >= setmood) gameWinTime = 20f;
+        if (sigaretteFumate < setsigarette && mood >= setmood) gameWinTime = 15f;
 
         Debug.Log("Game started!");
         Invoke("CheckVictory", gameWinTime);
@@ -93,7 +93,7 @@ public class GameManager5 : MonoBehaviour
             {
                 victoryText.SetActive(true);
             }
-            Time.timeScale = 0;
+            Time.timeScale = 3;
             Debug.Log("Victory!");
         }
     }

@@ -106,6 +106,7 @@ public class GameManager1 : MonoBehaviour
         if (!gameEnded)
         {
             ShowVictory();
+            Time.timeScale = 3;
             checkCharacter();
             if(issergio==2)
             {

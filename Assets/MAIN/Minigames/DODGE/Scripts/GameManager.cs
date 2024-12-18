@@ -82,7 +82,7 @@ public class DodgeGameManager : MonoBehaviour
 
     public void WinGame()
     {
-        Time.timeScale = 0f;
+        Time.timeScale = 3;
         winText.gameObject.SetActive(true);
         SceneManager.LoadScene("Davide10Won");
     }

@@ -70,6 +70,7 @@ public class GameManager : MonoBehaviour
                     {
                         // Load the "Good job!" scene
                         winText.gameObject.SetActive(true); 
+                        Time.timeScale = 3;
                         SceneManager.LoadScene("Davide8Won");
                     }
                     else
@@ -110,6 +111,6 @@ public class GameManager : MonoBehaviour
         if (sigaretteFumate >= setsigarette && mood < setmood) neededscore = 30;
         if (sigaretteFumate >= setsigarette && mood >= setmood) neededscore = 20;
         if (sigaretteFumate < setsigarette && mood < setmood) neededscore = 20;
-        if (sigaretteFumate < setsigarette && mood >= setmood) neededscore = 10;
+        if (sigaretteFumate < setsigarette && mood >= setmood) neededscore = 15;
     }
 }

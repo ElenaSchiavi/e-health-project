@@ -34,7 +34,7 @@ title: Choice
     You have smoked {$sigarette} cigarettes
 <<endif>>
 
-Davide:What would one more cigarette do? <<if $sigarette>0>>
+Davide:What would one more cigarette do? 
 
 ->Smoke a cigarette
     Are you sure?

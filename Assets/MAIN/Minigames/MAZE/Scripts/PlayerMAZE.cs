@@ -68,6 +68,7 @@ public class PlayerMaze : MonoBehaviour
         if (collision.gameObject.tag == "Flag")
         {
             victoryText.gameObject.SetActive(true);
+            Time.timeScale = 3;
             SceneManager.LoadScene("Davide5Won");
         }
 

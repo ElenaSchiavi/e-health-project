@@ -430,7 +430,7 @@ PrefabInstance:
     - target: {fileID: 3579681405068720530, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: yarnProject
       value: 
-      objectReference: {fileID: 7545569452688597077, guid: c8a3c7f269442b94b8c8e9fff6bb1a4b, type: 3}
+      objectReference: {fileID: 7545569452688597077, guid: 32ff76a94f20d654cbb52dbb53193da5, type: 3}
     - target: {fileID: 3739197626111815070, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
       propertyPath: m_SortingOrder
       value: 1

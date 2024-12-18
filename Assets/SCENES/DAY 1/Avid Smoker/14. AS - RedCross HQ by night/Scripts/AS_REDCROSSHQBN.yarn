@@ -51,7 +51,7 @@ title: Choice
              <<exitScene Davide left>> 
                <<fadeOut Davide>>
                <<wait 1>> 
-             <<loadScene Davide14Lost>>
+               <<loadScene Davide14Lost>>
         ->No
              <<jump Choice>>
 ->Don't smoke a cigarette
