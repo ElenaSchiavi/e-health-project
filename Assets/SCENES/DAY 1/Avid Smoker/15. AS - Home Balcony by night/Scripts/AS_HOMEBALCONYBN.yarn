@@ -16,8 +16,9 @@ Narrator:Davide saw a packet of cigarettes that he left on the balcony table
 <<set $mood=getMood()>>
 <<if $sigarette == 0 && $mood >= 0>>
     Davide:I'll just go to sleep
-    <<exitScene Davide left>>
     <<fadeOut Davide>>
+    <<exitScene Davide left>>
+    <<wait 1>>
     <<loadScene Davide16FINALE>>    
 <<elseif $sigarette < 3 && $mood <= 0 >>
     Davide:Well, today I did so well, maybe I deserve myself one cigarette...
