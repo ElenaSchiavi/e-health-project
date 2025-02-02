@@ -7,7 +7,7 @@ tags:
 <<declare $mood=0>>
 <<set $mood=getMood()>>
 
-Narrator:Today Davide smoked {$sigarette}
+Narrator:Today Davide smoked {$sigarette} cigarettes
 Narrator:and his mood is {$mood} on a scale from -2 to +2
 <<if $sigarette >= 3>>
      Narrator:You could have done better...
