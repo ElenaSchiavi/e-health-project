@@ -47,6 +47,7 @@ title: Choice
              //<<fadeIn BackGroundBlack>>//
              <<exitScene Davide left>>
              <<fadeOut Davide>>
+             wait 1
              <<exitScene Tom right>>
              <<fadeOut Tom>>
              Narrator:Davide puts out the cigarette and goes back to work

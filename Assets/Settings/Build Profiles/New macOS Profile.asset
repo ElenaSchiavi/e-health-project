@@ -117,13 +117,13 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/MAIN/Minigames/BRICKBREAKER/BrickBreaker.unity
   - m_enabled: 1
-    m_path: Assets/MAIN/Minigames/DODGE/Dodge.unity
+    m_path: Assets/MAIN/Minigames/DODGE/DODGE.unity
   - m_enabled: 1
     m_path: Assets/MAIN/Minigames/FLAPPY BIRD/FlappyBird.unity
   - m_enabled: 1
     m_path: Assets/MAIN/Minigames/FLAPPY BIRD 2/FlappyBird2.unity
   - m_enabled: 1
-    m_path: Assets/MAIN/Minigames/MAZE/Maze.unity
+    m_path: Assets/MAIN/Minigames/MAZE/MAZE.unity
   - m_enabled: 1
     m_path: Assets/MAIN/Minigames/PLANE/Plane.unity
   m_ScriptingDefines: []
@@ -835,6 +835,8 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
     - rid: 886592406690201668
       type: {class: OSXStandaloneBuildProfile, ns: UnityEditor.OSXStandalone, asm: UnityEditor.OSXStandalone.Extensions}
       data:
